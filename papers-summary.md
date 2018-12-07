@@ -6,8 +6,8 @@
 
 ## An Efficient Approach for Assessing Hyperparameter Importance
 #### Summary
-- The 
+- The paper tried to find the impact of each hyperparameter on the overall performance of the given model. It uses the perfromance data and fits random forest machine learning model to make a continous  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc1NzQzNTk0XX0=
+eyJoaXN0b3J5IjpbLTIyMTU2NjI4Ml19
 -->

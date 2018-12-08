@@ -7,9 +7,9 @@
 
 # ANOVA
 - Anova is statistical concept used to gather the relationships between multiple groups. 
-- It uses F ratio to either accept or reject the 
+- It uses F ratio to either accept or reject the hypothesis that 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDYxMzg4NTgsODgyNzU4NTUyXX0=
+eyJoaXN0b3J5IjpbNTQ4NTk5MzI5LDg4Mjc1ODU1Ml19
 -->

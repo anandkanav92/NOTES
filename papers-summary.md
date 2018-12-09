@@ -13,12 +13,12 @@
 
 ## Identifying Key Algorithm Parameters and Instance Features using Forward Selection
 
-- This paper uses forward selection -  adding the 
+- This paper uses forward selection -  adding the hyperparameters one by one in the input set and observing the performance of the model. 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MTI3OTM2MiwtMTk2NTE1NzM2NiwtMT
-gxMzQ2MDE3NiwtNTAwMTE1NDY1LC0yMjE1NjYyODJdfQ==
+eyJoaXN0b3J5IjpbNjI0Njc5NzkzLC0xOTY1MTU3MzY2LC0xOD
+EzNDYwMTc2LC01MDAxMTU0NjUsLTIyMTU2NjI4Ml19
 -->

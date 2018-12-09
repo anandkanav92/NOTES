@@ -19,10 +19,10 @@
 
 ## Efficient Parameter Importance Analysis via Ablation with Surrogates
 
-- 
+- The ablation analysis takes the source (default) configuration and the target configuration obtained eith
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU1OTQ4NDc4LC0xNzQ4OTk2ODc5LDU4NT
-k2Mjg5MCw2MjQ2Nzk3OTMsLTE5NjUxNTczNjYsLTE4MTM0NjAx
-NzYsLTUwMDExNTQ2NSwtMjIxNTY2MjgyXX0=
+eyJoaXN0b3J5IjpbOTk5NTE4OTQ0LDM1NTk0ODQ3OCwtMTc0OD
+k5Njg3OSw1ODU5NjI4OTAsNjI0Njc5NzkzLC0xOTY1MTU3MzY2
+LC0xODEzNDYwMTc2LC01MDAxMTU0NjUsLTIyMTU2NjI4Ml19
 -->

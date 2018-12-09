@@ -20,11 +20,11 @@
 ## Efficient Parameter Importance Analysis via Ablation with Surrogates
 
 - The ablation analysis takes the source (default) configuration and the target configuration obtained either by automated or manual methods. It find the difference between these two configuration and records the performance changes for each configuration.
-- We now describe ablation analysis on a high level.
-Given a parameterised algorithm A with n configurable pa- rameters defining a configuration space Θ, along with a source configuration θsource and target configuration θtarget (e.g., a user-defined default configuration and one obtained using automated configuration), and a performance met- ric m (e.g., running time or solution quality), ablation analysis first computes the parameter setting differences Δ(θsource,θtarget) between the source and target configura- tions. Next, given a set Π of benchmark instances, an abla- tion path θsource,θ1,θ2,...,θtarget is iteratively constructed. In each iteration i with previous ablation path configura- tion θi−1, we consider all remaining parameter changes δ ∈ Δ(θi−1,θtarget) and apply the change to the previous ablation path configuration θi−1 [δ]. Each parameter change δ is a modification of one parameter from its value in θi−1 to its value in θtarget, along with any other parameter modifica- tions that may be necessary due to conditionality constraints in Θ. The next configuration on the ablation path θi is the candidate θi−1 [δ] with the best performance m on the set Π. This performance may be directly measured by performing runs ofA, or approximated for efficiency reasons. 
+- Given a parameterised algorithm A with n configurable pa- rameters defining a configuration space Θ, along with a source configuration $θ_{source}$ and target configuration $θ_{target}$ (e.g., a user-defined default configuration and one obtained using automated configuration), and a performance metric m (e.g., running time or solution quality), ablation analysis first computes the parameter setting differences Δ($θ_{source},θ_{target}$) between the source and target configura- tions. Next, given a set Π of benchmark instances, an abla- tion path θsource,θ1,θ2,...,θtarget is iteratively constructed. In each iteration i with previous ablation path configura- tion θi−1, we consider all remaining parameter changes δ ∈ Δ(θi−1,θtarget) and apply the change to the previous ablation path configuration θi−1 [δ]. Each parameter change δ is a modification of one parameter from its value in θi−1 to its value in θtarget, along with any other parameter modifica- tions that may be necessary due to conditionality constraints in Θ. The next configuration on the ablation path θi is the candidate θi−1 [δ] with the best performance m on the set Π. This performance may be directly measured by performing runs ofA, or approximated for efficiency reasons. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0NDQ5MjM4LDM1NTk0ODQ3OCwtMTc0OD
-k5Njg3OSw1ODU5NjI4OTAsNjI0Njc5NzkzLC0xOTY1MTU3MzY2
-LC0xODEzNDYwMTc2LC01MDAxMTU0NjUsLTIyMTU2NjI4Ml19
+eyJoaXN0b3J5IjpbMTQzODI1NTIzMiwzNTU5NDg0NzgsLTE3ND
+g5OTY4NzksNTg1OTYyODkwLDYyNDY3OTc5MywtMTk2NTE1NzM2
+NiwtMTgxMzQ2MDE3NiwtNTAwMTE1NDY1LC0yMjE1NjYyODJdfQ
+==
 -->

@@ -15,13 +15,13 @@
 
 - This paper uses forward selection -  adding the hyperparameters one by one in the input set and observing the performance of the model. 
 - It creates a ML model using performance data and predicts the performance using this model.
-- Given a model f that takes k parameters and m instance features as input and predicts a performance value, we identify the best values for the k parameters by optimizing predictive performance according to the model. Specifically, we predict the performance of the partial parameter configuration x (instantiating k parameter values) on a problem instance with m selected instance features z as $$ f([x T , z T ] T ) $$  Likewise, we predict its P average performance across n instances with selected instance features z1, . . . , zn as $$ n_j=1 1 n · f([x T , z T j ] T ) $$
+- Given a model f that takes k parameters and m instance features as input and predicts a performance value, we identify the best values for the k parameters by optimizing predictive performance according to the model. Specifically, we predict the performance of the partial parameter configuration x (instantiating k parameter values) on a problem instance with m selected instance features z as $$ f([x T , z T ] T ) $$  Likewise, we predict its P average performance across n instances with selected instance features z1, . . . , zn as $$ \sum_{i=0}^n  n_j=1 n · f([x T , z T j ] T ) $$
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY5OTkxNjczLDYyNDY3OTc5MywtMTk2NT
-E1NzM2NiwtMTgxMzQ2MDE3NiwtNTAwMTE1NDY1LC0yMjE1NjYy
-ODJdfQ==
+eyJoaXN0b3J5IjpbLTIwODQwOTQ0NDgsNjI0Njc5NzkzLC0xOT
+Y1MTU3MzY2LC0xODEzNDYwMTc2LC01MDAxMTU0NjUsLTIyMTU2
+NjI4Ml19
 -->

@@ -4,7 +4,8 @@
 ## Introduction
 ## Metric
 - Inception score 
-	- j
+	- j 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzIzMDEyMjcsLTI3MTUzNjUxNl19
+eyJoaXN0b3J5IjpbOTMyMjQ1MTE5LC0xNTcyMzAxMjI3LC0yNz
+E1MzY1MTZdfQ==
 -->

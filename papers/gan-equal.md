@@ -10,8 +10,9 @@
 	- Kullback-Leibler distance(KL distance)
 		- Given two distributions, KL distance find the better fit. 
 		- One is observed while other is the approximated version of the distribution. It is not the distance metric because it isn't symmetric.
-		- Expressed as, $D_{KL} (Observ
+		- Expressed as, $D_{KL} (Observed || Approximated) = E[log p(x) - log q(x)]$
+		- Dependent on the parameter p used for probabiliy and hence can be optimised us
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2ODE0NTUwMywtNTA5OTI4NzgzLDkzMj
-I0NTExOSwtMTU3MjMwMTIyNywtMjcxNTM2NTE2XX0=
+eyJoaXN0b3J5IjpbLTE5NzY1NTA5MTAsLTUwOTkyODc4Myw5Mz
+IyNDUxMTksLTE1NzIzMDEyMjcsLTI3MTUzNjUxNl19
 -->

@@ -13,8 +13,10 @@
 		- Expressed as, $D_{KL} (Observed || Approximated) = E[log p(x) - log q(x)]$
 - Fréchet Inception Distance(FID)
 	- Features are extracted from an intermediate layer of Inception Net. The data is fit on multivariate gaussian distribution and FDI is calculated b/w generated data and real data using $$ FID(x,g) = ||mean_x - mean_g||^2 + Tr(\sum_x + \sum_g - 2(\sum_x \sum_g)^\frac{1}{2})$$
+	- results show robust nature of FDI, can detect intra class mode dropping i.e model that generates only one image per class can score high IS but not FID.
+	- Inability to detect over
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNTk2NDM1NywtMTgyODQ4Mjc3NywtMT
+eyJoaXN0b3J5IjpbMjA0MTM1OTEzMSwtMTgyODQ4Mjc3NywtMT
 I3MTE3Nzg2LC0zNzkxNTU5MTEsLTUwOTkyODc4Myw5MzIyNDUx
 MTksLTE1NzIzMDEyMjcsLTI3MTUzNjUxNl19
 -->

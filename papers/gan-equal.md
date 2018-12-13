@@ -12,9 +12,9 @@
 		- One is observed while other is the approximated version of the distribution. It is not the distance metric because it isn't symmetric.
 		- Expressed as, $D_{KL} (Observed || Approximated) = E[log p(x) - log q(x)]$
 - Fréchet Inception Distance(FID)
-	- Features are extracted from an intermediate layer of Inception Net. The data is fit on multivariate gaussian distribution and FDI is calculated b/w generated data and real data using $$ FID(x,g) = ||muh
+	- Features are extracted from an intermediate layer of Inception Net. The data is fit on multivariate gaussian distribution and FDI is calculated b/w generated data and real data using $$ FID(x,g) = ||mean_x - mean_g||^2 + Tr(\sum_x + \sum_g - 2(\sum_x \sum_g)^\frac{1}{2})$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjg0ODI3NzcsLTEyNzExNzc4NiwtMz
-c5MTU1OTExLC01MDk5Mjg3ODMsOTMyMjQ1MTE5LC0xNTcyMzAx
-MjI3LC0yNzE1MzY1MTZdfQ==
+eyJoaXN0b3J5IjpbMTAyNTk2NDM1NywtMTgyODQ4Mjc3NywtMT
+I3MTE3Nzg2LC0zNzkxNTU5MTEsLTUwOTkyODc4Myw5MzIyNDUx
+MTksLTE1NzIzMDEyMjcsLTI3MTUzNjUxNl19
 -->

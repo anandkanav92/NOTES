@@ -11,8 +11,10 @@
 		- Given two distributions, KL distance find the better fit. 
 		- One is observed while other is the approximated version of the distribution. It is not the distance metric because it isn't symmetric.
 		- Expressed as, $D_{KL} (Observed || Approximated) = E[log p(x) - log q(x)]$
+- Fréchet Inception Distance(FID)
+	- Features are extracted from an intermediate layer of Inception Net. The data is fit on multi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzExNzc4NiwtMzc5MTU1OTExLC01MD
-k5Mjg3ODMsOTMyMjQ1MTE5LC0xNTcyMzAxMjI3LC0yNzE1MzY1
-MTZdfQ==
+eyJoaXN0b3J5IjpbODgzNzA0MDc0LC0xMjcxMTc3ODYsLTM3OT
+E1NTkxMSwtNTA5OTI4NzgzLDkzMjI0NTExOSwtMTU3MjMwMTIy
+NywtMjcxNTM2NTE2XX0=
 -->

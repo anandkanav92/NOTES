@@ -5,8 +5,8 @@
 ## Metric
 - Inception score 
 	- It offers a way to quantiatively evaluate the quality of samples generated using GAN. 
-	- I t has two criterias, saliency and diversity, tht the distribution obtained has low entropy i.e it 
+	- It has two criterias, saliency and diversity, that the distribution obtained has low entropy i.e samples contain meaningful objects and the samples vary enough to cover all majority of the classes. Saliency is 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MTI0NjY3MywtNTA5OTI4NzgzLDkzMj
-I0NTExOSwtMTU3MjMwMTIyNywtMjcxNTM2NTE2XX0=
+eyJoaXN0b3J5IjpbMjAyNzY0ODcsLTUwOTkyODc4Myw5MzIyND
+UxMTksLTE1NzIzMDEyMjcsLTI3MTUzNjUxNl19
 -->

@@ -15,11 +15,12 @@
 	- Features are extracted from an intermediate layer of Inception Net. The data is fit on multivariate gaussian distribution and FDI is calculated b/w generated data and real data using $$ FID(x,g) = ||mean_x - mean_g||^2 + Tr(\sum_x + \sum_g - 2(\sum_x \sum_g)^\frac{1}{2})$$
 	- results show robust nature of FDI, can detect intra class mode dropping i.e model that generates only one image per class can score high IS but not FID.
 	- Inability to detect overfitting
-- Precision and Recall
+- Precision, Recall and F1
 	- If the generated images look very similar to real images on avg, high precision. $$ P_{recision} = \frac{tp}{tp+fp}$$
 	- If the model can generate any sample found in the training set, high recall. $$ R_{ecall} = \frac{tp}{tp+fn}$$
+	- Harmonic mean of precision and recall = F1 score. $$ F1 = 2 \frac{P R}{P+R}$$ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwOTIxNDg3NCwxNDgxMzI1MDU3LC05OT
+eyJoaXN0b3J5IjpbMTIzODg3NjUwMiwxNDgxMzI1MDU3LC05OT
 AyMzUzMzIsLTE4Mjg0ODI3NzcsLTEyNzExNzc4NiwtMzc5MTU1
 OTExLC01MDk5Mjg3ODMsOTMyMjQ1MTE5LC0xNTcyMzAxMjI3LC
 0yNzE1MzY1MTZdfQ==

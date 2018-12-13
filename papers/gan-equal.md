@@ -4,8 +4,8 @@
 ## Introduction
 ## Metric
 - Inception score 
-	- 
+	- It offers a way to quantiatively evaluate the quality of samples generated using GAN. I
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyODgzMzQxOSw5MzIyNDUxMTksLTE1Nz
+eyJoaXN0b3J5IjpbLTUwOTkyODc4Myw5MzIyNDUxMTksLTE1Nz
 IzMDEyMjcsLTI3MTUzNjUxNl19
 -->

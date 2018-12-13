@@ -16,11 +16,11 @@
 	- results show robust nature of FDI, can detect intra class mode dropping i.e model that generates only one image per class can score high IS but not FID.
 	- Inability to detect overfitting
 - Precision and Recall
-	- If the generated images look very similar to real images on avg, high precision.
-	- If the model can generate any sample found in the training set, high recall. 
+	- If the generated images look very similar to real images on avg, high precision. $$ P_{recision} = \frac{tp}{tp+fp}$$
+	- If the model can generate any sample found in the training set, high recall. $$ R_{ecall} = \frac{tp}{tp+fn}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MTMyNTA1NywtOTkwMjM1MzMyLC0xOD
-I4NDgyNzc3LC0xMjcxMTc3ODYsLTM3OTE1NTkxMSwtNTA5OTI4
-NzgzLDkzMjI0NTExOSwtMTU3MjMwMTIyNywtMjcxNTM2NTE2XX
-0=
+eyJoaXN0b3J5IjpbMTgwOTIxNDg3NCwxNDgxMzI1MDU3LC05OT
+AyMzUzMzIsLTE4Mjg0ODI3NzcsLTEyNzExNzc4NiwtMzc5MTU1
+OTExLC01MDk5Mjg3ODMsOTMyMjQ1MTE5LC0xNTcyMzAxMjI3LC
+0yNzE1MzY1MTZdfQ==
 -->

@@ -7,9 +7,9 @@
 - Semi supervised learning to predict missing data
 - Mutli modal outputs - for applications with multiple possible outputs.
 - realistic generation †asks, generating images or audio waveforms.
-- 
+![gan-architechture](images/gan.png)
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDQxNzI0NCwtMTQ5Njk4NDczNSwyMT
+eyJoaXN0b3J5IjpbMTk2Mjk0MDg1MSwtMTQ5Njk4NDczNSwyMT
 M2NzM4NTVdfQ==
 -->

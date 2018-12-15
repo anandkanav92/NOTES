@@ -28,12 +28,16 @@ $$ = E_x~p_r(x)[logD(x)] + E_{x~p_g(x)}[log(1-D(x))]$$
 ### Disjoint in lower dimensions
 - All the dimensions are found to be artificially high as they tend to concentrate in a lower dimension manifold. 
 - $p_r$ and $p_g$ are disjont in low dimensions that means discriminator can achieve 100% results.
-- W
+### Vanishing gradient
+- If the discriminator behaves badly, the generator does not have accurate feedback and the loss function cannot represent the reality.
+- If the discriminator does a great job, the gradient of the loss function drops down to close to zero and the learning becomes super slow or even jammed.
+### Mode collapse
+- 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDIyODk2MDUsMjc2MzI0Njk4LDIyNT
-A5Njg0LC0xODYxOTMzMzk4LDg5MzM4NTkwNywtMTE4MzUzODc4
-NSwtMjAzNjM0MjUxMSwxOTQwMTk5MDYyLDEwMTIwNjUyNzIsLT
-EzNjI2MDU5MTksMjEyMjIwOTMyMiwtMTQ5Njk4NDczNSwyMTM2
-NzM4NTVdfQ==
+eyJoaXN0b3J5IjpbMTk4MjM5MTA4LDI3NjMyNDY5OCwyMjUwOT
+Y4NCwtMTg2MTkzMzM5OCw4OTMzODU5MDcsLTExODM1Mzg3ODUs
+LTIwMzYzNDI1MTEsMTk0MDE5OTA2MiwxMDEyMDY1MjcyLC0xMz
+YyNjA1OTE5LDIxMjIyMDkzMjIsLTE0OTY5ODQ3MzUsMjEzNjcz
+ODU1XX0=
 -->

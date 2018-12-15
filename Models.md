@@ -24,10 +24,12 @@ $$ = E_x~p_r(x)[logD(x)] + E_{x~p_g(x)}[log(1-D(x))]$$
 #### Nash problem
 -	It's difficult to find a nash equilibrium point using a gradient based training procedure in a non cooperative game.
 -	Because of the opposite signs of loss functions for each Neural network, it causes oscillations.
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkzMzg1OTA3LC0xMTgzNTM4Nzg1LC0yMD
-M2MzQyNTExLDE5NDAxOTkwNjIsMTAxMjA2NTI3MiwtMTM2MjYw
-NTkxOSwyMTIyMjA5MzIyLC0xNDk2OTg0NzM1LDIxMzY3Mzg1NV
-19
+eyJoaXN0b3J5IjpbLTE0MTc0NzE4NSw4OTMzODU5MDcsLTExOD
+M1Mzg3ODUsLTIwMzYzNDI1MTEsMTk0MDE5OTA2MiwxMDEyMDY1
+MjcyLC0xMzYyNjA1OTE5LDIxMjIyMDkzMjIsLTE0OTY5ODQ3Mz
+UsMjEzNjczODU1XX0=
 -->

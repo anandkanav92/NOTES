@@ -27,11 +27,11 @@ $$ = E_x~p_r(x)[logD(x)] + E_{x~p_g(x)}[log(1-D(x))]$$
 
 ### Disjoint in lower dimensions
 - All the dimensions are found to be artificially high as they tend to concentrate in a lower dimension manifold. 
-- $p_r$ and $p_g$ 
+- $p_r$ and $p_g$ are di
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1MDk2ODQsLTE4NjE5MzMzOTgsODkzMz
-g1OTA3LC0xMTgzNTM4Nzg1LC0yMDM2MzQyNTExLDE5NDAxOTkw
-NjIsMTAxMjA2NTI3MiwtMTM2MjYwNTkxOSwyMTIyMjA5MzIyLC
-0xNDk2OTg0NzM1LDIxMzY3Mzg1NV19
+eyJoaXN0b3J5IjpbLTE5NzUxNzEyNjEsMjI1MDk2ODQsLTE4Nj
+E5MzMzOTgsODkzMzg1OTA3LC0xMTgzNTM4Nzg1LC0yMDM2MzQy
+NTExLDE5NDAxOTkwNjIsMTAxMjA2NTI3MiwtMTM2MjYwNTkxOS
+wyMTIyMjA5MzIyLC0xNDk2OTg0NzM1LDIxMzY3Mzg1NV19
 -->

@@ -15,9 +15,10 @@
 - A discriminator  DD  estimates the probability of a given sample coming from the real dataset. It works as a critic and is optimized to tell the fake samples from the real ones. 
 - A generator  GG  outputs synthetic samples given a noise variable input  z(z  brings in potential output diversity). It is trained to capture the real data distribution so that its generative samples can be as real as possible, or in other words, can trick the discriminator to offer a high probability.
 - Basically we try to maximise D's decisions over real data by maximizing $E_{x~p_r(x)}[logD(x)]$ and over fake data, $E_{z~p_z(z)}[log(1-D(z))]$
+- Final loss function, $$ min_G max_D L(D,G) = E_x~p_r(x)[logD(x)] + E_{z~p_z(z)}[log(1-D(z))]
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzYzNDI1MTEsMTk0MDE5OTA2MiwxMD
-EyMDY1MjcyLC0xMzYyNjA1OTE5LDIxMjIyMDkzMjIsLTE0OTY5
-ODQ3MzUsMjEzNjczODU1XX0=
+eyJoaXN0b3J5IjpbLTk5MjQyMjExMSwtMjAzNjM0MjUxMSwxOT
+QwMTk5MDYyLDEwMTIwNjUyNzIsLTEzNjI2MDU5MTksMjEyMjIw
+OTMyMiwtMTQ5Njk4NDczNSwyMTM2NzM4NTVdfQ==
 -->

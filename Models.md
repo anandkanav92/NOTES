@@ -22,11 +22,11 @@ $$ = E_x~p_r(x)[logD(x)] + E_{x~p_g(x)}[log(1-D(x))]$$
 ### Training problems
 
 #### Nash problem
--	
+-	It's difficult to find a nash equilibrium point using a gradient based training procedure in a non cooperative game.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NDQyMDQxNSwtMTE4MzUzODc4NSwtMj
-AzNjM0MjUxMSwxOTQwMTk5MDYyLDEwMTIwNjUyNzIsLTEzNjI2
-MDU5MTksMjEyMjIwOTMyMiwtMTQ5Njk4NDczNSwyMTM2NzM4NT
-VdfQ==
+eyJoaXN0b3J5IjpbLTEzMjE2NDUwNzYsLTExODM1Mzg3ODUsLT
+IwMzYzNDI1MTEsMTk0MDE5OTA2MiwxMDEyMDY1MjcyLC0xMzYy
+NjA1OTE5LDIxMjIyMDkzMjIsLTE0OTY5ODQ3MzUsMjEzNjczOD
+U1XX0=
 -->

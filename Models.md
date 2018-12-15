@@ -32,12 +32,14 @@ $$ = E_x~p_r(x)[logD(x)] + E_{x~p_g(x)}[log(1-D(x))]$$
 - If the discriminator behaves badly, the generator does not have accurate feedback and the loss function cannot represent the reality.
 - If the discriminator does a great job, the gradient of the loss function drops down to close to zero and the learning becomes super slow or even jammed.
 ### Mode collapse
-- 
+- the generator may collapse to a setting where it always produces same outputs
+### Mode collapse
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MjM5MTA4LDI3NjMyNDY5OCwyMjUwOT
-Y4NCwtMTg2MTkzMzM5OCw4OTMzODU5MDcsLTExODM1Mzg3ODUs
-LTIwMzYzNDI1MTEsMTk0MDE5OTA2MiwxMDEyMDY1MjcyLC0xMz
-YyNjA1OTE5LDIxMjIyMDkzMjIsLTE0OTY5ODQ3MzUsMjEzNjcz
-ODU1XX0=
+eyJoaXN0b3J5IjpbLTY5MzkyNTY4MSwyNzYzMjQ2OTgsMjI1MD
+k2ODQsLTE4NjE5MzMzOTgsODkzMzg1OTA3LC0xMTgzNTM4Nzg1
+LC0yMDM2MzQyNTExLDE5NDAxOTkwNjIsMTAxMjA2NTI3MiwtMT
+M2MjYwNTkxOSwyMTIyMjA5MzIyLC0xNDk2OTg0NzM1LDIxMzY3
+Mzg1NV19
 -->

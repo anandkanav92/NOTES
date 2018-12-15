@@ -26,11 +26,11 @@ $$ = E_x~p_r(x)[logD(x)] + E_{x~p_g(x)}[log(1-D(x))]$$
 -	Because of the opposite signs of loss functions for each Neural network, it causes oscillations.
 
 ### Disjoint in lower dimensions
-- 
+- All the dimensions are found to be artificially high
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjE5MzMzOTgsODkzMzg1OTA3LC0xMT
-gzNTM4Nzg1LC0yMDM2MzQyNTExLDE5NDAxOTkwNjIsMTAxMjA2
-NTI3MiwtMTM2MjYwNTkxOSwyMTIyMjA5MzIyLC0xNDk2OTg0Nz
-M1LDIxMzY3Mzg1NV19
+eyJoaXN0b3J5IjpbMjg2NjQ5Njg2LC0xODYxOTMzMzk4LDg5Mz
+M4NTkwNywtMTE4MzUzODc4NSwtMjAzNjM0MjUxMSwxOTQwMTk5
+MDYyLDEwMTIwNjUyNzIsLTEzNjI2MDU5MTksMjEyMjIwOTMyMi
+wtMTQ5Njk4NDczNSwyMTM2NzM4NTVdfQ==
 -->

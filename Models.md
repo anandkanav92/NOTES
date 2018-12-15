@@ -14,10 +14,10 @@
 - It is inspired by game theory: two models, a generator and a critic, are competing with each other while making each other stronger at the same time.
 - A discriminator  DD  estimates the probability of a given sample coming from the real dataset. It works as a critic and is optimized to tell the fake samples from the real ones. 
 - A generator  GG  outputs synthetic samples given a noise variable input  z(z  brings in potential output diversity). It is trained to capture the real data distribution so that its generative samples can be as real as possible, or in other words, can trick the discriminator to offer a high probability.
-- 
+- Basically we try to maximise D's de
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MDE5OTA2MiwxMDEyMDY1MjcyLC0xMz
-YyNjA1OTE5LDIxMjIyMDkzMjIsLTE0OTY5ODQ3MzUsMjEzNjcz
-ODU1XX0=
+eyJoaXN0b3J5IjpbMTkyMzc2NDcwNCwxOTQwMTk5MDYyLDEwMT
+IwNjUyNzIsLTEzNjI2MDU5MTksMjEyMjIwOTMyMiwtMTQ5Njk4
+NDczNSwyMTM2NzM4NTVdfQ==
 -->

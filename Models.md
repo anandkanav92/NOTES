@@ -18,10 +18,15 @@
 - Final loss function, $$ min_G max_D L(D,G) = E_x~p_r(x)[logD(x)] + E_{z~p_z(z)}[log(1-D(z))]$$
 $$ = E_x~p_r(x)[logD(x)] + E_{x~p_g(x)}[log(1-D(x))]$$
 - Taking derivative of this loss function and equation to 0, we get the optimal value where this loss function is minimum i.e D*(x) is optimal when $x = \frac{p_r(x)}{p_r(x)+p_g(x)}$ which is equal to $\frac{1}{2}$.
-- 
+
+### Training problems
+
+#### Nash problem
+-	
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODM1Mzg3ODUsLTIwMzYzNDI1MTEsMT
-k0MDE5OTA2MiwxMDEyMDY1MjcyLC0xMzYyNjA1OTE5LDIxMjIy
-MDkzMjIsLTE0OTY5ODQ3MzUsMjEzNjczODU1XX0=
+eyJoaXN0b3J5IjpbMTI0NDQyMDQxNSwtMTE4MzUzODc4NSwtMj
+AzNjM0MjUxMSwxOTQwMTk5MDYyLDEwMTIwNjUyNzIsLTEzNjI2
+MDU5MTksMjEyMjIwOTMyMiwtMTQ5Njk4NDczNSwyMTM2NzM4NT
+VdfQ==
 -->

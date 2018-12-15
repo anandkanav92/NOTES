@@ -1,6 +1,6 @@
+# Models 
 
-
-# GAN
+## GAN
 
 ### Why generative modelling?
 - To predict future i.e all the scenarios and could be used in reinforcement learning.
@@ -17,6 +17,7 @@
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMjA2NTI3MiwtMTM2MjYwNTkxOSwyMT
-IyMjA5MzIyLC0xNDk2OTg0NzM1LDIxMzY3Mzg1NV19
+eyJoaXN0b3J5IjpbMTk0MDE5OTA2MiwxMDEyMDY1MjcyLC0xMz
+YyNjA1OTE5LDIxMjIyMDkzMjIsLTE0OTY5ODQ3MzUsMjEzNjcz
+ODU1XX0=
 -->

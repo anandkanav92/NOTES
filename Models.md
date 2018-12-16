@@ -60,17 +60,17 @@ Each data sample is normalized based on a fixed batch (_“reference batch”_) 
 
 #### Adding Noises
 
-Based on the discussion in the  [previous section](https://lilianweng.github.io/lil-log/2017/08/20/from-GAN-to-WGAN.html#low-dimensional-supports), we now know  prpr  and  pgpg  are disjoint in a high dimensional space and it causes the problem of vanishing gradient. To artificially “spread out” the distribution and to create higher chances for two probability distributions to have overlaps, one solution is to add continuous noises onto the inputs of the discriminator  DD.
+We now know  pr  and  pg  are disjoint in a high dimensional space and it causes the problem of vanishing gradient. To artificially “spread out” the distribution and to create higher chances for two probability distributions to have overlaps, one solution is to add continuous noises onto the inputs of the discriminator  DD.
 
 #### Use Better Metric of Distribution Similarity
 
-The loss function of the vanilla GAN measures the JS divergence between the distributions of  prpr  and  pgpg. This metric fails to provide a meaningful value when two distributions are disjoint
+The loss function of the vanilla GAN measures the JS divergence between the distributions of  pr  and  pg. This metric fails to provide a meaningful value when two distributions are disjoint
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNTU1NjUwMSwyNzYzMjQ2OTgsMjI1MD
-k2ODQsLTE4NjE5MzMzOTgsODkzMzg1OTA3LC0xMTgzNTM4Nzg1
-LC0yMDM2MzQyNTExLDE5NDAxOTkwNjIsMTAxMjA2NTI3MiwtMT
-M2MjYwNTkxOSwyMTIyMjA5MzIyLC0xNDk2OTg0NzM1LDIxMzY3
-Mzg1NV19
+eyJoaXN0b3J5IjpbLTEzOTAyNDAzMTIsMTIwNTU1NjUwMSwyNz
+YzMjQ2OTgsMjI1MDk2ODQsLTE4NjE5MzMzOTgsODkzMzg1OTA3
+LC0xMTgzNTM4Nzg1LC0yMDM2MzQyNTExLDE5NDAxOTkwNjIsMT
+AxMjA2NTI3MiwtMTM2MjYwNTkxOSwyMTIyMjA5MzIyLC0xNDk2
+OTg0NzM1LDIxMzY3Mzg1NV19
 -->

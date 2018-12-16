@@ -22,8 +22,10 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 
 - Since stepwise regression tends toward over-fitting, it is usually good to have strict criteria for adding in any variables. (Overfitting happens when we put in more variables than is actually good for the model; it typically shows a very close, neat fit of the data used in regression, but the model will be far off from additional data points and not good for interpolation).
 
+# Spearmans correlation
+- Less strict than pearsons
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDUxNzk0MDQsLTM4MTM3NTYyNSw1ND
-g1OTkzMjksODgyNzU4NTUyXX0=
+eyJoaXN0b3J5IjpbLTQxNzU5OTYwLC0zODEzNzU2MjUsNTQ4NT
+k5MzI5LDg4Mjc1ODU1Ml19
 -->

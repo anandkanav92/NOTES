@@ -24,11 +24,12 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 
 # Spearmans correlation
 - Less strict than pearsons correlation. 
-- Pearsons only for linear but spearsons check monotonic rlationship b/w two varia
+- Pearsons only for linear but spearsons check monotonic rlationship b/w two variables.
+- need to rank the data before calculating.
 ![images/gan-architechture](gan.png)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMzkzNTIxLC00MTc1OTk2MCwtMzgxMz
+eyJoaXN0b3J5IjpbMjUzOTQxMzI0LC00MTc1OTk2MCwtMzgxMz
 c1NjI1LDU0ODU5OTMyOSw4ODI3NTg1NTJdfQ==
 -->

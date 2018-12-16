@@ -7,7 +7,7 @@
 - Semi supervised learning to predict missing data
 - Mutli modal outputs - for applications with multiple possible outputs.
 - realistic generation tasks, generating images or audio waveforms.
-![gan-architechture](gan.png)
+![images/gan-architechture](gan.png)
 
 ### What is GAN?
 - (GAN) has shown great results in many generative tasks to replicate the real-world rich content such as images, human language, and music.
@@ -68,9 +68,9 @@ The loss function of the vanilla GAN measures the JS divergence between the dist
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTAyNDAzMTIsMTIwNTU1NjUwMSwyNz
-YzMjQ2OTgsMjI1MDk2ODQsLTE4NjE5MzMzOTgsODkzMzg1OTA3
-LC0xMTgzNTM4Nzg1LC0yMDM2MzQyNTExLDE5NDAxOTkwNjIsMT
-AxMjA2NTI3MiwtMTM2MjYwNTkxOSwyMTIyMjA5MzIyLC0xNDk2
-OTg0NzM1LDIxMzY3Mzg1NV19
+eyJoaXN0b3J5IjpbNjk4MjU5OSwtMTM5MDI0MDMxMiwxMjA1NT
+U2NTAxLDI3NjMyNDY5OCwyMjUwOTY4NCwtMTg2MTkzMzM5OCw4
+OTMzODU5MDcsLTExODM1Mzg3ODUsLTIwMzYzNDI1MTEsMTk0MD
+E5OTA2MiwxMDEyMDY1MjcyLC0xMzYyNjA1OTE5LDIxMjIyMDkz
+MjIsLTE0OTY5ODQ3MzUsMjEzNjczODU1XX0=
 -->

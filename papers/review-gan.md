@@ -30,13 +30,13 @@ The main goal of this study to provide a rich comparison of major GAN algorithms
 # Hypothesis
 There is no mention of direct hypothesis in this study. It focus more on seeking answers to implicit questions rather than having  preconcieved notions about it.
 # Design
-Since this study focus on comparing the overall performance of different GAN algorithms, it becomes challenging to keep the comparison fair without exploring every possibility in each dimension. Thus, the researchers make design choices to limit the dimensions while trying to keep the comparision fair and neutral. First, only one architecture - INFO GAN was used for all models.
+Since this study focus on comparing the overall performance of different GAN algorithms, it becomes challenging to keep the comparison fair without exploring every possibility in each dimension. Thus, the researchers make design choices to limit the dimensions while trying to keep the comparision fair and neutral. First, only one architecture - INFO GAN was used for all models. The reason  
         > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA1NzkzOTIwLDExNzIyMDkzMjEsMTU5Nz
-E5NDYzNCwxNzk4ODIyODIzLDk4MTc2OTgyNyw4NzE5MzgyMTks
-NzkyNTAxNjEyLDIxMTc3MjkwNTQsLTE2OTY3MTU3MzIsMTc2OD
-k4MjI0MiwyMDA5MjExNjgyLDE0Mjk4NjYyNjQsMTEyNDU1NzQz
-LC0xNjAxMzAwNzM3LC02NjcwODc1MSwtNDYyODAxMDM2LDgyNT
-kyODAyMCw2ODc4MDgzOV19
+eyJoaXN0b3J5IjpbMjA2MjI4Nzc5MSwxMTcyMjA5MzIxLDE1OT
+cxOTQ2MzQsMTc5ODgyMjgyMyw5ODE3Njk4MjcsODcxOTM4MjE5
+LDc5MjUwMTYxMiwyMTE3NzI5MDU0LC0xNjk2NzE1NzMyLDE3Nj
+g5ODIyNDIsMjAwOTIxMTY4MiwxNDI5ODY2MjY0LDExMjQ1NTc0
+MywtMTYwMTMwMDczNywtNjY3MDg3NTEsLTQ2MjgwMTAzNiw4Mj
+U5MjgwMjAsNjg3ODA4MzldfQ==
 -->

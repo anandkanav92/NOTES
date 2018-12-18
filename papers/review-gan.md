@@ -32,12 +32,12 @@ There is no mention of direct hypothesis in this study. It focus more on seeking
 # Design
 Since this study focus on comparing the overall performance of different GAN algorithms, it becomes challenging to keep the comparison fair without exploring every possibility in each dimension. Thus, the researchers make design choices to limit the dimensions while trying to keep the comparision fair and neutral.
 - only one architecture - INFO GAN was used for all models. 
-- Hyper-parameters is evaluated by
+- Choice of hyper-parameters is limited by usi
  
  using hyperparameter optimisation (using random search)
         > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4Mjg3MTI4MCwxNDUxNDE5OTk5LDExNz
+eyJoaXN0b3J5IjpbLTUwNDYyMzYwNiwxNDUxNDE5OTk5LDExNz
 IyMDkzMjEsMTU5NzE5NDYzNCwxNzk4ODIyODIzLDk4MTc2OTgy
 Nyw4NzE5MzgyMTksNzkyNTAxNjEyLDIxMTc3MjkwNTQsLTE2OT
 Y3MTU3MzIsMTc2ODk4MjI0MiwyMDA5MjExNjgyLDE0Mjk4NjYy

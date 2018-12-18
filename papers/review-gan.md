@@ -31,7 +31,7 @@ The main goal of this study to provide a rich comparison of major GAN algorithms
 There is no mention of direct hypothesis in this study. It focus more on seeking answers to implicit questions rather than having  preconcieved notions about it.
 # Design
 This study evaluate each model using two experimental setups. The major difference lies in the choice of hyper-parameters. First, referred as wide one-shot setup, identifies 100 samples of hyper-parameters using random search where as the other setup, termed as narrow two shot setups, uses 50 samples of hyperparameter selected manually using the results of wide one shot setup over single Dataset(FASHION-MNIST).
-Other experiment was done to evaluate the senstivity of the metric, FID, to mode dropping, encoding network used over four given datasets. The authors divide the dataset into two sets, train and test part
+Other experiment was done to evaluate the senstivity of the metric, FID, to mode dropping, encoding network used over four given datasets. The authors divide the dataset into two sets, train and test partitions, and calculate FID score between  test set and sampled train set.
 Since this study focus on comparing the overall performance of different GAN algorithms, it becomes challenging to keep the comparison fair without exploring every possibility in each dimension. Thus, the researchers make design choices to limit the dimensions while trying to keep the comparision fair and neutral.
 - only one architecture - INFO GAN was used for all models. 
 - Choice of hyper-parameters is limited by usi
@@ -39,7 +39,7 @@ Since this study focus on comparing the overall performance of different GAN alg
  using hyperparameter optimisation (using random search)
         > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA2NzA1MzU3LDE0NTE0MTk5OTksMTE3Mj
+eyJoaXN0b3J5IjpbMTc1ODA0NjM4LDE0NTE0MTk5OTksMTE3Mj
 IwOTMyMSwxNTk3MTk0NjM0LDE3OTg4MjI4MjMsOTgxNzY5ODI3
 LDg3MTkzODIxOSw3OTI1MDE2MTIsMjExNzcyOTA1NCwtMTY5Nj
 cxNTczMiwxNzY4OTgyMjQyLDIwMDkyMTE2ODIsMTQyOTg2NjI2

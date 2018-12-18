@@ -17,12 +17,11 @@ What affect does an 8-week instructional period have on the sight-reading skills
 
 # Goals
 
-The main goal of this study to provide a rich comparison of major GAN algorithms and identify which algorithms performs better(or worse)  than others. 
+The main goal of this study to provide a rich comparison of major GAN algorithms and identify which algorithms performs better(or worse)  than others. 
 
 # Specific Research Questions
 
-There are several questions that this research study addresses.
-1. What are the sight-reading skill levels of beginning choir singers?
+1. Which of the many GAN algorith?
 2. If beginning choir singers engage in an 8-week sight reading instructional period using technology, is there a significant increase in their sight-reading skill?
 3. If beginning choir singers engage in an 8-week sight reading instructional period using no technology, is there a significant increase in their sight-reading skill?
 4. Is there a significant difference in the sight-reading skills gained by beginning choir students in a technology instructional period versus a no technology instructional period?
@@ -36,7 +35,7 @@ There doesn’t appear to be any hypothesis mentioned for this research study.  
 
         > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NTc4NDc0MiwxNzk4ODIyODIzLDk4MT
+eyJoaXN0b3J5IjpbLTU1MTU3MjU0OSwxNzk4ODIyODIzLDk4MT
 c2OTgyNyw4NzE5MzgyMTksNzkyNTAxNjEyLDIxMTc3MjkwNTQs
 LTE2OTY3MTU3MzIsMTc2ODk4MjI0MiwyMDA5MjExNjgyLDE0Mj
 k4NjYyNjQsMTEyNDU1NzQzLC0xNjAxMzAwNzM3LC02NjcwODc1

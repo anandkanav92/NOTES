@@ -10,11 +10,35 @@
    # write about limitations 
    # write about future work 
         
+Article Summary
+Problem
+
+What affect does an 8-week instructional period have on the sight-reading skills on a beginning choir singer, and how does technology as well as previous experience affect the skills obtained during the instruction?
+
+# Goals
+
+
+
+# Specific Research Questions
+
+There are several questions that this research study addresses.
+1. What are the sight-reading skill levels of beginning choir singers?
+2. If beginning choir singers engage in an 8-week sight reading instructional period using technology, is there a significant increase in their sight-reading skill?
+3. If beginning choir singers engage in an 8-week sight reading instructional period using no technology, is there a significant increase in their sight-reading skill?
+4. Is there a significant difference in the sight-reading skills gained by beginning choir students in a technology instructional period versus a no technology instructional period?
+5. Is there a significant difference in the sight-reading skills gained by students with previous choral experience or applied music instruction during an instructional period versus students without a prior background in music?
+
+# Hypothesis
+
+There doesn’t appear to be any hypothesis mentioned for this research study.  The study appears to be seeking answers to the question above and doesn’t seem to have any preconceived notions about what the results will be.
+
+# Design
+
         > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgxNzY5ODI3LDg3MTkzODIxOSw3OTI1MD
-E2MTIsMjExNzcyOTA1NCwtMTY5NjcxNTczMiwxNzY4OTgyMjQy
-LDIwMDkyMTE2ODIsMTQyOTg2NjI2NCwxMTI0NTU3NDMsLTE2MD
-EzMDA3MzcsLTY2NzA4NzUxLC00NjI4MDEwMzYsODI1OTI4MDIw
-LDY4NzgwODM5XX0=
+eyJoaXN0b3J5IjpbMTc5ODgyMjgyMyw5ODE3Njk4MjcsODcxOT
+M4MjE5LDc5MjUwMTYxMiwyMTE3NzI5MDU0LC0xNjk2NzE1NzMy
+LDE3Njg5ODIyNDIsMjAwOTIxMTY4MiwxNDI5ODY2MjY0LDExMj
+Q1NTc0MywtMTYwMTMwMDczNywtNjY3MDg3NTEsLTQ2MjgwMTAz
+Niw4MjU5MjgwMjAsNjg3ODA4MzldfQ==
 -->

@@ -17,7 +17,7 @@ What affect does an 8-week instructional period have on the sight-reading skills
 
 # Goals
 
-
+The main goal o
 
 # Specific Research Questions
 
@@ -36,9 +36,9 @@ There doesn’t appear to be any hypothesis mentioned for this research study.  
 
         > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5ODgyMjgyMyw5ODE3Njk4MjcsODcxOT
-M4MjE5LDc5MjUwMTYxMiwyMTE3NzI5MDU0LC0xNjk2NzE1NzMy
-LDE3Njg5ODIyNDIsMjAwOTIxMTY4MiwxNDI5ODY2MjY0LDExMj
-Q1NTc0MywtMTYwMTMwMDczNywtNjY3MDg3NTEsLTQ2MjgwMTAz
-Niw4MjU5MjgwMjAsNjg3ODA4MzldfQ==
+eyJoaXN0b3J5IjpbLTIwMjYzODc5ODUsMTc5ODgyMjgyMyw5OD
+E3Njk4MjcsODcxOTM4MjE5LDc5MjUwMTYxMiwyMTE3NzI5MDU0
+LC0xNjk2NzE1NzMyLDE3Njg5ODIyNDIsMjAwOTIxMTY4MiwxND
+I5ODY2MjY0LDExMjQ1NTc0MywtMTYwMTMwMDczNywtNjY3MDg3
+NTEsLTQ2MjgwMTAzNiw4MjU5MjgwMjAsNjg3ODA4MzldfQ==
 -->

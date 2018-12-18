@@ -28,14 +28,14 @@ The main goal of this study to provide a rich comparison of major GAN algorithms
 5. Are models robust to initial weights?
 
 # Hypothesis
-There is no mention of direct hypothesis in this study. It focus more on seeking answers to implicit questions rather than having any pre concieve
+There is no mention of direct hypothesis in this study. It focus more on seeking answers to implicit questions rather than having any pre concieved notions about it.
 # Design
 
         > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTAxNzYyMjIsMTc5ODgyMjgyMyw5OD
-E3Njk4MjcsODcxOTM4MjE5LDc5MjUwMTYxMiwyMTE3NzI5MDU0
-LC0xNjk2NzE1NzMyLDE3Njg5ODIyNDIsMjAwOTIxMTY4MiwxND
-I5ODY2MjY0LDExMjQ1NTc0MywtMTYwMTMwMDczNywtNjY3MDg3
-NTEsLTQ2MjgwMTAzNiw4MjU5MjgwMjAsNjg3ODA4MzldfQ==
+eyJoaXN0b3J5IjpbMTU5NzE5NDYzNCwxNzk4ODIyODIzLDk4MT
+c2OTgyNyw4NzE5MzgyMTksNzkyNTAxNjEyLDIxMTc3MjkwNTQs
+LTE2OTY3MTU3MzIsMTc2ODk4MjI0MiwyMDA5MjExNjgyLDE0Mj
+k4NjYyNjQsMTEyNDU1NzQzLC0xNjAxMzAwNzM3LC02NjcwODc1
+MSwtNDYyODAxMDM2LDgyNTkyODAyMCw2ODc4MDgzOV19
 -->

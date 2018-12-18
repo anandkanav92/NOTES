@@ -23,9 +23,9 @@ The main goal of this study to provide a rich comparison of major GAN algorithms
 
 1. Which of the many GAN algorithm outperform others(If any)?
 2. Is FID robust  to be used as  a metric to evaluate different   GAN algorithms?
-3. Does the performance of a model vary with chnage in computational budget?
+3. Does the performance of a model vary with change in computational budget?
 4. Is there is a significant difference in the performance of model when extensive hyperparameter tuning is performed?
-5. 
+5. Is there any impact on the fina
 
 # Hypothesis
 
@@ -35,7 +35,7 @@ There doesn’t appear to be any hypothesis mentioned for this research study.  
 
         > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM5MzEwNzE4LDE3OTg4MjI4MjMsOTgxNz
+eyJoaXN0b3J5IjpbOTkzNTIyMjU2LDE3OTg4MjI4MjMsOTgxNz
 Y5ODI3LDg3MTkzODIxOSw3OTI1MDE2MTIsMjExNzcyOTA1NCwt
 MTY5NjcxNTczMiwxNzY4OTgyMjQyLDIwMDkyMTE2ODIsMTQyOT
 g2NjI2NCwxMTI0NTU3NDMsLTE2MDEzMDA3MzcsLTY2NzA4NzUx

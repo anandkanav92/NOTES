@@ -32,7 +32,7 @@ There is no mention of direct hypothesis in this study. It focus more on seeking
 # Design
 This study evaluate each model using two experimental setups. The major difference lies in the choice of hyper-parameters. First, referred as wide one-shot setup, identifies 100 samples of hyper-parameters using random search where as the other setup, termed as narrow two shot setups, uses 50 samples of hyperparameter selected manually using the results of wide one shot setup over single Dataset(FASHION-MNIST).
 Other experiment was done to evaluate the senstivity of the metric, FID, to mode dropping, encoding network used over four given datasets. The authors divide the dataset into two sets, train and test partitions, and calculate FID score between  test set and sampled train set. The sensitivity to mode dropping is estimated by gradually increasing the number of classes in the test set ranging from 1 to 10.
-The paper approximates the values
+The paper approximates the values of precision, recall and F1 score for each model using data manifolds. The study uses an intuitive way to calculate these metric effecient
 Since this study focus on comparing the overall performance of different GAN algorithms, it becomes challenging to keep the comparison fair without exploring every possibility in each dimension. Thus, the researchers make design choices to limit the dimensions while trying to keep the comparision fair and neutral.
 - only one architecture - INFO GAN was used for all models. 
 - Choice of hyper-parameters is limited by usi
@@ -40,7 +40,7 @@ Since this study focus on comparing the overall performance of different GAN alg
  using hyperparameter optimisation (using random search)
         > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTYxOTY3ODMsMTQ1MTQxOTk5OSwxMT
+eyJoaXN0b3J5IjpbLTEyOTU0NTIyMDksMTQ1MTQxOTk5OSwxMT
 cyMjA5MzIxLDE1OTcxOTQ2MzQsMTc5ODgyMjgyMyw5ODE3Njk4
 MjcsODcxOTM4MjE5LDc5MjUwMTYxMiwyMTE3NzI5MDU0LC0xNj
 k2NzE1NzMyLDE3Njg5ODIyNDIsMjAwOTIxMTY4MiwxNDI5ODY2

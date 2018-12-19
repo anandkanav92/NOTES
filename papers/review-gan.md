@@ -38,6 +38,7 @@ Other design decisions  explained in the study includes the choice of  datasets(
 # Results
 
 For wide range setup, high variance in FID metric was found for each model. There was no single model which was found to be significantly stable than others. While for narrow range setup, the results shown are quite mixed. There are some models which are found to be more sensitive to hyperparameters than others. Overall, FID values were reported much lower for wide range hyperparameter search.
+The study computes precision, recall and F1 score over the toy dataset. It was found that many
 The study shows the impact of increasing computational budget. With the increase in budget, the minimum FID of the model decreases while  precision and recall increases for majority of the models except BEGAN. 
 Except for LSGAN, all other models were found to be robust to random initialization of weights. 
 
@@ -55,11 +56,11 @@ Since this study focus on comparing the overall performance of different GAN alg
  using hyperparameter optimisation (using random search)
         > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyOTk0OTY3MCwyMTE3MDM2ODg4LC02Mj
-k4MTQzMTcsMTQzMTE3NjAzMCwxNjcxMzEzMjI3LC01OTY5Njg4
-NiwtODQ1NzY3MDA5LC01Nzg0NzQ1NTgsMTkyMjE5NzczNywtOD
-M0NTA1MjYzLDY3MzE3NzU1MSwtMTAzMjQ3NDMwMSw1ODI1MjE2
-MjUsMzc4ODkwNjI5LDQwODczMzk2NCwxNDUxNDE5OTk5LDExNz
-IyMDkzMjEsMTU5NzE5NDYzNCwxNzk4ODIyODIzLDk4MTc2OTgy
-N119
+eyJoaXN0b3J5IjpbLTU0NTMwNzMzNCwxNDI5OTQ5NjcwLDIxMT
+cwMzY4ODgsLTYyOTgxNDMxNywxNDMxMTc2MDMwLDE2NzEzMTMy
+MjcsLTU5Njk2ODg2LC04NDU3NjcwMDksLTU3ODQ3NDU1OCwxOT
+IyMTk3NzM3LC04MzQ1MDUyNjMsNjczMTc3NTUxLC0xMDMyNDc0
+MzAxLDU4MjUyMTYyNSwzNzg4OTA2MjksNDA4NzMzOTY0LDE0NT
+E0MTk5OTksMTE3MjIwOTMyMSwxNTk3MTk0NjM0LDE3OTg4MjI4
+MjNdfQ==
 -->

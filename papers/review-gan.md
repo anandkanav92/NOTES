@@ -30,7 +30,7 @@ The main goal of this study to provide a rich comparison of major GAN algorithms
 # Hypothesis
 There is no mention of direct hypothesis in this study. It focus more on seeking answers to implicit questions rather than having  preconcieved notions about it.
 # Design
-This paper uses FID (Fréchet Inception Distance), precision, recl
+This paper uses FID (Fréchet Inception Distance), precision, recall and F1 score to evaluate the models. The paper claims
 This study evaluate each model using two experimental setups. The major difference lies in the choice of hyper-parameters. First, referred as wide one-shot setup, identifies 100 samples of hyper-parameters using random search where as the other setup, termed as narrow two shot setups, uses 50 samples of hyperparameter selected manually using the results of wide one shot setup over single Dataset(FASHION-MNIST).
 The study tests the senstivity of the metric, FID, to mode dropping and encoding network used by the model,over four given datasets. The authors divide the dataset into two sets, train and test partitions, and calculate FID score between  test set and sampled train set. The sensitivity to mode dropping is estimated by gradually increasing the number of classes in the test set ranging from 1 to 10.
 The paper approximates the values of precision, recall and F1 score for each model using data manifolds. The study uses an intuitive way to calculate these metric efficiently. A new dataset is created(Toy dataset) with known probability distribution and squared euclidean distance is used to find the resemblance between generated and true samples. If all different types of images are generated, the recall is high. And precision is high when distance between generated images and training images is low.
@@ -45,11 +45,11 @@ Since this study focus on comparing the overall performance of different GAN alg
  using hyperparameter optimisation (using random search)
         > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDk3Nzg5NTAsNTgyNTIxNjI1LDM3OD
-g5MDYyOSw0MDg3MzM5NjQsMTQ1MTQxOTk5OSwxMTcyMjA5MzIx
-LDE1OTcxOTQ2MzQsMTc5ODgyMjgyMyw5ODE3Njk4MjcsODcxOT
-M4MjE5LDc5MjUwMTYxMiwyMTE3NzI5MDU0LC0xNjk2NzE1NzMy
-LDE3Njg5ODIyNDIsMjAwOTIxMTY4MiwxNDI5ODY2MjY0LDExMj
-Q1NTc0MywtMTYwMTMwMDczNywtNjY3MDg3NTEsLTQ2MjgwMTAz
-Nl19
+eyJoaXN0b3J5IjpbLTc3MTQxMjA4MCw1ODI1MjE2MjUsMzc4OD
+kwNjI5LDQwODczMzk2NCwxNDUxNDE5OTk5LDExNzIyMDkzMjEs
+MTU5NzE5NDYzNCwxNzk4ODIyODIzLDk4MTc2OTgyNyw4NzE5Mz
+gyMTksNzkyNTAxNjEyLDIxMTc3MjkwNTQsLTE2OTY3MTU3MzIs
+MTc2ODk4MjI0MiwyMDA5MjExNjgyLDE0Mjk4NjYyNjQsMTEyND
+U1NzQzLC0xNjAxMzAwNzM3LC02NjcwODc1MSwtNDYyODAxMDM2
+XX0=
 -->

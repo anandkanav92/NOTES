@@ -1,9 +1,9 @@
  # Introduction 
-  The purpose of the study was to evaluate different GAN algorithms and determine the possible differences in the overall performance among these algorithms. Various GAN algorithms have been introduced recently \footnote{https://github.com/hindupuravinash/the-gan-zoo}, and a majority of them have managed to achieve notable results. The paper designed the experiments and common metrics to test prominent GAN algorithms on neutral grounds. The results showed that if trained for long enough, all these algorithms achieve similar performance level and no modified GAN algorithms consistently outperform the non-saturating GAN(Vanilla GAN). 
+  The purpose of the study was to evaluate different GAN algorithms and determine the possible differences in the overall performance among these algorithms. Various GAN algorithms have been introduced recently \footnote{https://github.com/hindupuravinash/the-gan-zoo}, and a majority of them have managed to achieve notable results. The paper designed the experiments and  metrics to test prominent GAN algorithms on neutral grounds. The results showed that if trained for long enough, all these algorithms achieve similar performance level and no modified GAN algorithms consistently outperform the original GAN 
   
 # Goals
 
-The main goal of this study to provide a rich comparison of major GAN algorithms and identify which algorithms performs better(or worse)  than others. 
+The main goal of this study to provide a rich comparison of major GAN algorithms and identify which algorithms performs better(or worse)  than others. In the process
 
 # Specific Research Questions
 
@@ -33,7 +33,7 @@ This study started with the goal of comparing different GAN algorithms on neutra
 Further, the claims of some models outperforming the Original GAN model are not supported by the found empirical evidence. The study concludes that future research in GAN comparison should be done on neutral grounds.
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NDcwOTE0MSwtMTA2MTYyNjY0OSwxNz
+eyJoaXN0b3J5IjpbMTU5NDkyODczNCwtMTA2MTYyNjY0OSwxNz
 U4NTg3MCwxNDI5OTQ5NjcwLDIxMTcwMzY4ODgsLTYyOTgxNDMx
 NywxNDMxMTc2MDMwLDE2NzEzMTMyMjcsLTU5Njk2ODg2LC04ND
 U3NjcwMDksLTU3ODQ3NDU1OCwxOTIyMTk3NzM3LC04MzQ1MDUy

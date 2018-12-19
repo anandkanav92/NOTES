@@ -34,17 +34,17 @@ The study shows the impact of increasing computational budget. With the increase
 Except for LSGAN, all other models were found to be robust to random initialization of weights. 
 
 <b><u>Opinion</u></b>
-The 
+The results clearly depicts the importance of hyperparameter tuning in training a model. 
 # Conclusions
 This study started with the goal of comparing different GAN algorithms on neutral grounds. The paper first introduced the evaluation metric and emperical evidence supporting the choice. In order to make the research feasible, researchers makes pragmatic choices about experimental design and results were obtained. The results shows that there is no model that dominates other models. It was found that by increasing the computation budget(or performing more hyperparameter optimisation) can improve the performance of the model. Conversely, with the low budget it is difficult to make any significant inference of the model's performance.
 Further, the claims of some models outperforming the Original GAN model are not supported by the found empirical evidence. The study concludes that future research in GAN comparison should be done on neutral grounds.
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTc0ODYyOTAsMjEzMDIwMzQ1NSw2OT
-AxMDE4MzgsMTE0ODU5NjQyOSwtNjQ0NzExNzU5LDU3NjQwMzU5
-NCwtMjEzNzMxNTY2NywtNTg5NzkxNjY2LC01ODk3OTE2NjYsNT
-MwMDc0Njk5LC0xOTk5NzUwODQ1LDE5NzQwMjAxMywtMTEzNTE4
-MTA3NiwxNTk0OTI4NzM0LC0xMDYxNjI2NjQ5LDE3NTg1ODcwLD
-E0Mjk5NDk2NzAsMjExNzAzNjg4OCwtNjI5ODE0MzE3LDE0MzEx
-NzYwMzBdfQ==
+eyJoaXN0b3J5IjpbOTg3ODc2MTcsMjEzMDIwMzQ1NSw2OTAxMD
+E4MzgsMTE0ODU5NjQyOSwtNjQ0NzExNzU5LDU3NjQwMzU5NCwt
+MjEzNzMxNTY2NywtNTg5NzkxNjY2LC01ODk3OTE2NjYsNTMwMD
+c0Njk5LC0xOTk5NzUwODQ1LDE5NzQwMjAxMywtMTEzNTE4MTA3
+NiwxNTk0OTI4NzM0LC0xMDYxNjI2NjQ5LDE3NTg1ODcwLDE0Mj
+k5NDk2NzAsMjExNzAzNjg4OCwtNjI5ODE0MzE3LDE0MzExNzYw
+MzBdfQ==
 -->

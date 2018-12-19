@@ -1,20 +1,6 @@
- # Paper review - GAN 
+ # Introduction 
   The purpose of the study was to evaluate different GAN algorithms and determine the possible differences in the overall performance among these algorithms. Various GAN algorithms have been introduced recently \footnote{https://github.com/hindupuravinash/the-gan-zoo}, and a majority of them have managed to achieve notable results. The paper designed the experiments and common metrics to test prominent GAN algorithms on neutral grounds. The results showed that if trained for long enough, all these algorithms achieve similar performance level and no modified GAN algorithms consistently outperform the non-saturating GAN(Vanilla GAN). 
-  # write about metrics used 
-
-   # write about experiments 
-   The researchers thoroughly explain the experiment design choices. The architecture, taken from INFO GAN, is used for all algorithms since none of these algorithms were designed to specifically work with this architecture. As it is infeasible to explore complete domains of each hyperparameter, authors limit it by following two approaches. First, hyperparameters are optimized for each data set (using random search) and other 
-   
-   # write about results 
-   # write about conclusions 
-   # write about limitations 
-   # write about future work 
-        
-Article Summary
-Problem
-
-What affect does an 8-week instructional period have on the sight-reading skills on a beginning choir singer, and how does technology as well as previous experience affect the skills obtained during the instruction?
-
+  
 # Goals
 
 The main goal of this study to provide a rich comparison of major GAN algorithms and identify which algorithms performs better(or worse)  than others. 
@@ -42,25 +28,16 @@ The study computes precision, recall and F1 score over the toy dataset. It was f
 The study shows the impact of increasing computational budget. With the increase in budget, the minimum FID of the model decreases while  precision and recall increases for majority of the models except BEGAN. 
 Except for LSGAN, all other models were found to be robust to random initialization of weights. 
 
-
-The study tests the senstivity of the metric, FID, to mode dropping and encoding network used by the model,over four given datasets. The authors divide the dataset into two sets, train and test partitions, and calculate FID score between  test set and sampled train set. The sensitivity to mode dropping is estimated by gradually increasing the number of classes in the test set ranging from 1 to 10.
-
-A number of other experiments were done to evaluate the importance of initial weights in generator and discriminator neural network
-
-
-
-Since this study focus on comparing the overall performance of different GAN algorithms, it becomes challenging to keep the comparison fair without exploring every possibility in each dimension. Thus, the researchers make design choices to limit the dimensions while trying to keep the comparision fair and neutral.
-- only one architecture - INFO GAN was used for all models. 
-- Choice of hyper-parameters is limited by usi
- 
- using hyperparameter optimisation (using random search)
-        > Written with [StackEdit](https://stackedit.io/). 
+# Conclusions
+This study started with the goal of comparing different GAN algorithms on neutral grounds. The paper first introduced the evaluation metric and emperical evidence supporting the choice. In order to make the research feasible, researchers makes pragmatic choices about experimental design and results were obtained. The results shows that there is no model that dominates other models. It was found that by increasing the computation budget(or performing more hyperparameter optimisation) can improve the performance of the model. Conversely, with the low budget it is difficult to make any significant inference of the model's performance.
+Further, the claims of some models outperforming the Original GAN model are not supported by the found empirical evidence. The study concludes that future research in GAN comparison should be done on neutral grounds.
+        
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjE2MjY2NDksMTc1ODU4NzAsMTQyOT
-k0OTY3MCwyMTE3MDM2ODg4LC02Mjk4MTQzMTcsMTQzMTE3NjAz
-MCwxNjcxMzEzMjI3LC01OTY5Njg4NiwtODQ1NzY3MDA5LC01Nz
-g0NzQ1NTgsMTkyMjE5NzczNywtODM0NTA1MjYzLDY3MzE3NzU1
-MSwtMTAzMjQ3NDMwMSw1ODI1MjE2MjUsMzc4ODkwNjI5LDQwOD
-czMzk2NCwxNDUxNDE5OTk5LDExNzIyMDkzMjEsMTU5NzE5NDYz
-NF19
+eyJoaXN0b3J5IjpbMTY2NDcwOTE0MSwtMTA2MTYyNjY0OSwxNz
+U4NTg3MCwxNDI5OTQ5NjcwLDIxMTcwMzY4ODgsLTYyOTgxNDMx
+NywxNDMxMTc2MDMwLDE2NzEzMTMyMjcsLTU5Njk2ODg2LC04ND
+U3NjcwMDksLTU3ODQ3NDU1OCwxOTIyMTk3NzM3LC04MzQ1MDUy
+NjMsNjczMTc3NTUxLC0xMDMyNDc0MzAxLDU4MjUyMTYyNSwzNz
+g4OTA2MjksNDA4NzMzOTY0LDE0NTE0MTk5OTksMTE3MjIwOTMy
+MV19
 -->

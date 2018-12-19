@@ -38,7 +38,7 @@ Other design decisions  explained in the study includes the choice of  datasets(
 # Results
 
 For wide range setup, high variance in FID metric was found for each model. There was no single model which was found to be significantly stable than others. While for narrow range setup, the results shown are quite mixed. There are some models which are found to be more sensitive to hyperparameters than others. Overall, FID values were reported much lower for wide range hyperparameter search.
-The study shows the impact of increasing computational budget. With the limited budget, 
+The study shows the impact of increasing computational budget. With the
 The study tests the senstivity of the metric, FID, to mode dropping and encoding network used by the model,over four given datasets. The authors divide the dataset into two sets, train and test partitions, and calculate FID score between  test set and sampled train set. The sensitivity to mode dropping is estimated by gradually increasing the number of classes in the test set ranging from 1 to 10.
 
 A number of other experiments were done to evaluate the importance of initial weights in generator and discriminator neural network
@@ -52,11 +52,11 @@ Since this study focus on comparing the overall performance of different GAN alg
  using hyperparameter optimisation (using random search)
         > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyOTgxNDMxNywxNDMxMTc2MDMwLDE2Nz
-EzMTMyMjcsLTU5Njk2ODg2LC04NDU3NjcwMDksLTU3ODQ3NDU1
-OCwxOTIyMTk3NzM3LC04MzQ1MDUyNjMsNjczMTc3NTUxLC0xMD
-MyNDc0MzAxLDU4MjUyMTYyNSwzNzg4OTA2MjksNDA4NzMzOTY0
-LDE0NTE0MTk5OTksMTE3MjIwOTMyMSwxNTk3MTk0NjM0LDE3OT
-g4MjI4MjMsOTgxNzY5ODI3LDg3MTkzODIxOSw3OTI1MDE2MTJd
-fQ==
+eyJoaXN0b3J5IjpbLTg3ODA2NjY0MiwtNjI5ODE0MzE3LDE0Mz
+ExNzYwMzAsMTY3MTMxMzIyNywtNTk2OTY4ODYsLTg0NTc2NzAw
+OSwtNTc4NDc0NTU4LDE5MjIxOTc3MzcsLTgzNDUwNTI2Myw2Nz
+MxNzc1NTEsLTEwMzI0NzQzMDEsNTgyNTIxNjI1LDM3ODg5MDYy
+OSw0MDg3MzM5NjQsMTQ1MTQxOTk5OSwxMTcyMjA5MzIxLDE1OT
+cxOTQ2MzQsMTc5ODgyMjgyMyw5ODE3Njk4MjcsODcxOTM4MjE5
+XX0=
 -->

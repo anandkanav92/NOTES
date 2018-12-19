@@ -22,6 +22,7 @@ Further, this study evaluate each model using two major experimental setups. The
 Other design decisions  explained in the study includes the choice of  datasets(4 datasets from simple to medium complexity), choice of the architecture( INFO-GAN same for each model), random seed to make the initial weights in architecture random and computational budget. The budget is represented in terms of number of hyperparameters samples available  for the model.
 
 <b><u>Opinion</u></b>
+In this study, a good deal of consideration was given to metrics.
 The main issue with comparing different gan algorithm is the lack of robust metrics. The paper did identify and solve this issue by introducing FID and empirically validating its robustness. The 
 # Results
 
@@ -35,11 +36,11 @@ This study started with the goal of comparing different GAN algorithms on neutra
 Further, the claims of some models outperforming the Original GAN model are not supported by the found empirical evidence. The study concludes that future research in GAN comparison should be done on neutral grounds.
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU5NTM5MDM2LDE5NzQwMjAxMywtMTEzNT
-E4MTA3NiwxNTk0OTI4NzM0LC0xMDYxNjI2NjQ5LDE3NTg1ODcw
-LDE0Mjk5NDk2NzAsMjExNzAzNjg4OCwtNjI5ODE0MzE3LDE0Mz
-ExNzYwMzAsMTY3MTMxMzIyNywtNTk2OTY4ODYsLTg0NTc2NzAw
-OSwtNTc4NDc0NTU4LDE5MjIxOTc3MzcsLTgzNDUwNTI2Myw2Nz
-MxNzc1NTEsLTEwMzI0NzQzMDEsNTgyNTIxNjI1LDM3ODg5MDYy
-OV19
+eyJoaXN0b3J5IjpbLTE3Mjk3MzA2ODcsMTk3NDAyMDEzLC0xMT
+M1MTgxMDc2LDE1OTQ5Mjg3MzQsLTEwNjE2MjY2NDksMTc1ODU4
+NzAsMTQyOTk0OTY3MCwyMTE3MDM2ODg4LC02Mjk4MTQzMTcsMT
+QzMTE3NjAzMCwxNjcxMzEzMjI3LC01OTY5Njg4NiwtODQ1NzY3
+MDA5LC01Nzg0NzQ1NTgsMTkyMjE5NzczNywtODM0NTA1MjYzLD
+Y3MzE3NzU1MSwtMTAzMjQ3NDMwMSw1ODI1MjE2MjUsMzc4ODkw
+NjI5XX0=
 -->

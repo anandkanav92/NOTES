@@ -40,13 +40,13 @@ This study started with the goal of comparing different GAN algorithms on neutra
 Further, the claims of some models outperforming the Original GAN model are not supported by the found empirical evidence. The study concludes that future research in GAN comparison should be done on neutral grounds.
 
 <b><u>Opinion</u></b>
-This study concludes that majority of recently introduced GAN algorithms are no better than original GAN. It questions the experimental techniques used by some of these papers and show that there is a need to compare GAN algorithms on neutral grounds. These conclusions are bold, however, it is validated empirically   
+This study concludes that majority of recently introduced GAN algorithms are no better than original GAN. It questions the experimental techniques used by some of these papers and show that there is a need to compare GAN algorithms on neutral grounds. These conclusions are bold, however, it is validated empirically by different sets of experiments. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3NjQ2NTQ3LDgzODU1NjIyMSwxMTkyMT
-U0MzU1LC0xNzk2NzczODkyLC0xNTI0MTcxODMyLDk4Nzg3NjE3
-LDIxMzAyMDM0NTUsNjkwMTAxODM4LDExNDg1OTY0MjksLTY0ND
-cxMTc1OSw1NzY0MDM1OTQsLTIxMzczMTU2NjcsLTU4OTc5MTY2
-NiwtNTg5NzkxNjY2LDUzMDA3NDY5OSwtMTk5OTc1MDg0NSwxOT
-c0MDIwMTMsLTExMzUxODEwNzYsMTU5NDkyODczNCwtMTA2MTYy
-NjY0OV19
+eyJoaXN0b3J5IjpbLTg3NzY2Mjg5MSw4Mzg1NTYyMjEsMTE5Mj
+E1NDM1NSwtMTc5Njc3Mzg5MiwtMTUyNDE3MTgzMiw5ODc4NzYx
+NywyMTMwMjAzNDU1LDY5MDEwMTgzOCwxMTQ4NTk2NDI5LC02ND
+Q3MTE3NTksNTc2NDAzNTk0LC0yMTM3MzE1NjY3LC01ODk3OTE2
+NjYsLTU4OTc5MTY2Niw1MzAwNzQ2OTksLTE5OTk3NTA4NDUsMT
+k3NDAyMDEzLC0xMTM1MTgxMDc2LDE1OTQ5Mjg3MzQsLTEwNjE2
+MjY2NDldfQ==
 -->

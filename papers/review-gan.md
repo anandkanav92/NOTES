@@ -3,7 +3,7 @@
   
 # Goals
 
-The main goal of this study to provide a rich comparison of major GAN algorithms and identify which algorithms performs better(or worse)  than others. Also, it 
+The main goal of this study to provide a rich comparison of major GAN algorithms and identify which algorithms performs better(or worse)  than others. This study also focuses on presenting a methodology to compare different GAN algorithms fairly a.
 
 # Specific Research Questions
 
@@ -33,7 +33,7 @@ This study started with the goal of comparing different GAN algorithms on neutra
 Further, the claims of some models outperforming the Original GAN model are not supported by the found empirical evidence. The study concludes that future research in GAN comparison should be done on neutral grounds.
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODk5MzAzNzEsMTU5NDkyODczNCwtMT
+eyJoaXN0b3J5IjpbLTE4MzA0NjQ3MTgsMTU5NDkyODczNCwtMT
 A2MTYyNjY0OSwxNzU4NTg3MCwxNDI5OTQ5NjcwLDIxMTcwMzY4
 ODgsLTYyOTgxNDMxNywxNDMxMTc2MDMwLDE2NzEzMTMyMjcsLT
 U5Njk2ODg2LC04NDU3NjcwMDksLTU3ODQ3NDU1OCwxOTIyMTk3

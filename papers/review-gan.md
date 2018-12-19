@@ -34,17 +34,17 @@ The study shows the impact of increasing computational budget. With the increase
 Except for LSGAN, all other models were found to be robust to random initialization of weights. 
 
 <b><u>Opinion</u></b>
-The results are clearly explained and well formulated. It depicts the importance of hyperparameter tuning in training a model. 
+The results are clearly explained and well formulated. It depicts the importance of hyperparameter tuning in training a model. The paper evaluated each dimension thoroughly 
 # Conclusions
 This study started with the goal of comparing different GAN algorithms on neutral grounds. The paper first introduced the evaluation metric and emperical evidence supporting the choice. In order to make the research feasible, researchers makes pragmatic choices about experimental design and results were obtained. The results shows that there is no model that dominates other models. It was found that by increasing the computation budget(or performing more hyperparameter optimisation) can improve the performance of the model. Conversely, with the low budget it is difficult to make any significant inference of the model's performance.
 Further, the claims of some models outperforming the Original GAN model are not supported by the found empirical evidence. The study concludes that future research in GAN comparison should be done on neutral grounds.
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNDU1OTYyMCw5ODc4NzYxNywyMTMwMj
-AzNDU1LDY5MDEwMTgzOCwxMTQ4NTk2NDI5LC02NDQ3MTE3NTks
-NTc2NDAzNTk0LC0yMTM3MzE1NjY3LC01ODk3OTE2NjYsLTU4OT
-c5MTY2Niw1MzAwNzQ2OTksLTE5OTk3NTA4NDUsMTk3NDAyMDEz
-LC0xMTM1MTgxMDc2LDE1OTQ5Mjg3MzQsLTEwNjE2MjY2NDksMT
-c1ODU4NzAsMTQyOTk0OTY3MCwyMTE3MDM2ODg4LC02Mjk4MTQz
-MTddfQ==
+eyJoaXN0b3J5IjpbLTEyNjY5NzE3MjgsOTg3ODc2MTcsMjEzMD
+IwMzQ1NSw2OTAxMDE4MzgsMTE0ODU5NjQyOSwtNjQ0NzExNzU5
+LDU3NjQwMzU5NCwtMjEzNzMxNTY2NywtNTg5NzkxNjY2LC01OD
+k3OTE2NjYsNTMwMDc0Njk5LC0xOTk5NzUwODQ1LDE5NzQwMjAx
+MywtMTEzNTE4MTA3NiwxNTk0OTI4NzM0LC0xMDYxNjI2NjQ5LD
+E3NTg1ODcwLDE0Mjk5NDk2NzAsMjExNzAzNjg4OCwtNjI5ODE0
+MzE3XX0=
 -->

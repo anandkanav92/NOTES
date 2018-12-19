@@ -24,7 +24,7 @@ Other design decisions  explained in the study includes the choice of  datasets(
 <b><u>Opinion</u></b>
 The main issue with comparing different gan algorithm is the lack of robust metrics. In this study, a good deal of consideration is given to metrics. The use of these common metrics for each model provided the neutral grounds required for the comparison. 
 The architecture was limited to only INFO GAN for all experiments. However, the choice of architecture does play an important role in deciding the final performance value of the model. \footnote{http://papers.nips.cc/paper/7159-improved-training-of-wasserstein-gans.pdf} 
-The experiments varying computational budget is one of the most important and often most ignored experimental section of any model
+The experiments varying computational budget is one of the most important and often most ignored experimental section of any model. As it is implicit knowledge that any stable model trained long enough will provide "good" results. But it was never validated before.
 
 # Results
 
@@ -32,17 +32,17 @@ For wide range setup, high variance in FID metric was found for each model. Ther
 The study computes precision, recall and F1 score over the toy dataset. It was found that NSGAN outperforms other models in terms of F1 scores.
 The study shows the impact of increasing computational budget. With the increase in budget, the minimum FID of the model decreases while  precision and recall increases for majority of the models except BEGAN. 
 Except for LSGAN, all other models were found to be robust to random initialization of weights. 
-
+<b><u>Opinion<
 # Conclusions
 This study started with the goal of comparing different GAN algorithms on neutral grounds. The paper first introduced the evaluation metric and emperical evidence supporting the choice. In order to make the research feasible, researchers makes pragmatic choices about experimental design and results were obtained. The results shows that there is no model that dominates other models. It was found that by increasing the computation budget(or performing more hyperparameter optimisation) can improve the performance of the model. Conversely, with the low budget it is difficult to make any significant inference of the model's performance.
 Further, the claims of some models outperforming the Original GAN model are not supported by the found empirical evidence. The study concludes that future research in GAN comparison should be done on neutral grounds.
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzQ0NzcwMzAsMTE0ODU5NjQyOSwtNj
-Q0NzExNzU5LDU3NjQwMzU5NCwtMjEzNzMxNTY2NywtNTg5Nzkx
-NjY2LC01ODk3OTE2NjYsNTMwMDc0Njk5LC0xOTk5NzUwODQ1LD
-E5NzQwMjAxMywtMTEzNTE4MTA3NiwxNTk0OTI4NzM0LC0xMDYx
-NjI2NjQ5LDE3NTg1ODcwLDE0Mjk5NDk2NzAsMjExNzAzNjg4OC
-wtNjI5ODE0MzE3LDE0MzExNzYwMzAsMTY3MTMxMzIyNywtNTk2
-OTY4ODZdfQ==
+eyJoaXN0b3J5IjpbMzA3NjQwMzk5LDExNDg1OTY0MjksLTY0ND
+cxMTc1OSw1NzY0MDM1OTQsLTIxMzczMTU2NjcsLTU4OTc5MTY2
+NiwtNTg5NzkxNjY2LDUzMDA3NDY5OSwtMTk5OTc1MDg0NSwxOT
+c0MDIwMTMsLTExMzUxODEwNzYsMTU5NDkyODczNCwtMTA2MTYy
+NjY0OSwxNzU4NTg3MCwxNDI5OTQ5NjcwLDIxMTcwMzY4ODgsLT
+YyOTgxNDMxNywxNDMxMTc2MDMwLDE2NzEzMTMyMjcsLTU5Njk2
+ODg2XX0=
 -->

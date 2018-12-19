@@ -22,7 +22,7 @@ Further, this study evaluate each model using two major experimental setups. The
 Other design decisions  explained in the study includes the choice of  datasets(4 datasets from simple to medium complexity), choice of the architecture( INFO-GAN same for each model), random seed to make the initial weights in architecture random and computational budget. The budget is represented in terms of number of hyperparameters samples available  for the model.
 
 <b><u>Opinion</u></b>
-The main issue with comparing different gan algorithm is the lack of robust metrics. In this study, a good deal of consideration was given to metrics.
+The main issue with comparing different gan algorithm is the lack of robust metrics. In this study, a good deal of consideration is given to metrics.
 
 # Results
 
@@ -36,7 +36,7 @@ This study started with the goal of comparing different GAN algorithms on neutra
 Further, the claims of some models outperforming the Original GAN model are not supported by the found empirical evidence. The study concludes that future research in GAN comparison should be done on neutral grounds.
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjMzMTEyNDYsLTE5OTk3NTA4NDUsMT
+eyJoaXN0b3J5IjpbLTEwNDE1NzkzMzcsLTE5OTk3NTA4NDUsMT
 k3NDAyMDEzLC0xMTM1MTgxMDc2LDE1OTQ5Mjg3MzQsLTEwNjE2
 MjY2NDksMTc1ODU4NzAsMTQyOTk0OTY3MCwyMTE3MDM2ODg4LC
 02Mjk4MTQzMTcsMTQzMTE3NjAzMCwxNjcxMzEzMjI3LC01OTY5

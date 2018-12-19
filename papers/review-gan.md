@@ -22,8 +22,8 @@ Further, this study evaluate each model using two major experimental setups. The
 Other design decisions  explained in the study includes the choice of  datasets(4 datasets from simple to medium complexity), choice of the architecture( INFO-GAN same for each model), random seed to make the initial weights in architecture random and computational budget. The budget is represented in terms of number of hyperparameters samples available  for the model.
 
 <b><u>Opinion</u></b>
-In this study, a good deal of consideration was given to metrics. First, FDI was formulated and empirically validated for its robustness. 
-The main issue with comparing different gan algorithm is the lack of robust metrics. The paper did identify and solve this issue by introducing FID and empirically validating its robustness. The 
+The main issue with comparing different gan algorithm is the lack of robust metrics. In this study, a good deal of consideration was given to metrics.
+
 # Results
 
 For wide range setup, high variance in FID metric was found for each model. There was no single model which was found to be significantly stable than others. While for narrow range setup, the results shown are quite mixed. There are some models which are found to be more sensitive to hyperparameters than others. Overall, FID values were reported much lower for wide range hyperparameter search.
@@ -36,11 +36,11 @@ This study started with the goal of comparing different GAN algorithms on neutra
 Further, the claims of some models outperforming the Original GAN model are not supported by the found empirical evidence. The study concludes that future research in GAN comparison should be done on neutral grounds.
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTk3NTA4NDUsMTk3NDAyMDEzLC0xMT
-M1MTgxMDc2LDE1OTQ5Mjg3MzQsLTEwNjE2MjY2NDksMTc1ODU4
-NzAsMTQyOTk0OTY3MCwyMTE3MDM2ODg4LC02Mjk4MTQzMTcsMT
-QzMTE3NjAzMCwxNjcxMzEzMjI3LC01OTY5Njg4NiwtODQ1NzY3
-MDA5LC01Nzg0NzQ1NTgsMTkyMjE5NzczNywtODM0NTA1MjYzLD
-Y3MzE3NzU1MSwtMTAzMjQ3NDMwMSw1ODI1MjE2MjUsMzc4ODkw
-NjI5XX0=
+eyJoaXN0b3J5IjpbLTE0MjMzMTEyNDYsLTE5OTk3NTA4NDUsMT
+k3NDAyMDEzLC0xMTM1MTgxMDc2LDE1OTQ5Mjg3MzQsLTEwNjE2
+MjY2NDksMTc1ODU4NzAsMTQyOTk0OTY3MCwyMTE3MDM2ODg4LC
+02Mjk4MTQzMTcsMTQzMTE3NjAzMCwxNjcxMzEzMjI3LC01OTY5
+Njg4NiwtODQ1NzY3MDA5LC01Nzg0NzQ1NTgsMTkyMjE5NzczNy
+wtODM0NTA1MjYzLDY3MzE3NzU1MSwtMTAzMjQ3NDMwMSw1ODI1
+MjE2MjVdfQ==
 -->

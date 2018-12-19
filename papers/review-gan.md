@@ -30,10 +30,10 @@ The main goal of this study to provide a rich comparison of major GAN algorithms
 # Hypothesis
 There is no mention of direct hypothesis in this study. It focus more on seeking answers to implicit questions rather than having  preconcieved notions about it.
 # Design
-The research uses FID (Fréchet Inception Distance), precision, recall and F1 score to evaluate the models. Metrics like log-likelihood, inception score are discussed but the research claims FID is the best fit and robust to handle the task in hand, supported by empirical evidence.
+The authors use FID (Fréchet Inception Distance), precision, recall and F1 score to evaluate the models. Metrics like log-likelihood, inception score are discussed but the research claims FID is the best fit and robust to handle the task in hand, supported by empirical evidence.
 The paper approximates the values of precision, recall and F1 score for each model using data manifolds. The study uses an intuitive way to calculate these metric efficiently. A new dataset is created(Toy dataset) with known probability distribution and squared euclidean distance is used to find the resemblance between generated and true samples. If all different types of images are generated, the recall is high. And precision is high when distance between generated images and training images is low. 
 Further, this study evaluate each model using two major experimental setups. The  difference lies in the choice of hyper-parameters. First, referred as wide one-shot setup, identifies 100 samples of hyper-parameters using random search where as the other setup, termed as narrow two shot setups, uses 50 samples of hyperparameter selected manually using the results of wide one shot setup over single Dataset(FASHION-MNIST).    
-A number of other experiments were done to evaluate the importance of initial weights in generator and discriminator neural network and to evaluate the role of computation budget. 
+A number of other experiments were done to evaluate the importance of initial weights in generator and discriminator neural network and to evaluate the role of computation budget. 
 
 
 
@@ -51,11 +51,11 @@ Since this study focus on comparing the overall performance of different GAN alg
  using hyperparameter optimisation (using random search)
         > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjczMTc3NTUxLC0xMDMyNDc0MzAxLDU4Mj
-UyMTYyNSwzNzg4OTA2MjksNDA4NzMzOTY0LDE0NTE0MTk5OTks
-MTE3MjIwOTMyMSwxNTk3MTk0NjM0LDE3OTg4MjI4MjMsOTgxNz
-Y5ODI3LDg3MTkzODIxOSw3OTI1MDE2MTIsMjExNzcyOTA1NCwt
-MTY5NjcxNTczMiwxNzY4OTgyMjQyLDIwMDkyMTE2ODIsMTQyOT
-g2NjI2NCwxMTI0NTU3NDMsLTE2MDEzMDA3MzcsLTY2NzA4NzUx
-XX0=
+eyJoaXN0b3J5IjpbLTgzNDUwNTI2Myw2NzMxNzc1NTEsLTEwMz
+I0NzQzMDEsNTgyNTIxNjI1LDM3ODg5MDYyOSw0MDg3MzM5NjQs
+MTQ1MTQxOTk5OSwxMTcyMjA5MzIxLDE1OTcxOTQ2MzQsMTc5OD
+gyMjgyMyw5ODE3Njk4MjcsODcxOTM4MjE5LDc5MjUwMTYxMiwy
+MTE3NzI5MDU0LC0xNjk2NzE1NzMyLDE3Njg5ODIyNDIsMjAwOT
+IxMTY4MiwxNDI5ODY2MjY0LDExMjQ1NTc0MywtMTYwMTMwMDcz
+N119
 -->

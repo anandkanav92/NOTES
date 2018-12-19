@@ -24,7 +24,7 @@ Other design decisions  explained in the study includes the choice of  datasets(
 <b><u>Opinion</u></b>
 The main issue with comparing different gan algorithm is the lack of robust metrics. In this study, a good deal of consideration is given to metrics. The use of these common metrics for each model provided the neutral grounds required for the comparison. 
 The architecture was limited to only INFO GAN for all experiments. However, the choice of architecture does play an important role in deciding the final performance value of the model. \footnote{http://papers.nips.cc/paper/7159-improved-training-of-wasserstein-gans.pdf} 
-The experiments varying computational budget is one of the most important and often most ignored experimental section of any model. As it is implicit knowledge that any stable model trained long enough will provide "good" results. But it was never thoroughly validated.
+The experiments varying computational budget is one of the most important contribution of this study. As it is implicit knowledge that any stable model trained long enough will provide "good" results. But it was never thoroughly validated.
 
 # Results
 
@@ -40,11 +40,11 @@ This study started with the goal of comparing different GAN algorithms on neutra
 Further, the claims of some models outperforming the Original GAN model are not supported by the found empirical evidence. The study concludes that future research in GAN comparison should be done on neutral grounds.
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MzkzOTc4NSwyMTMwMjAzNDU1LDY5MD
-EwMTgzOCwxMTQ4NTk2NDI5LC02NDQ3MTE3NTksNTc2NDAzNTk0
-LC0yMTM3MzE1NjY3LC01ODk3OTE2NjYsLTU4OTc5MTY2Niw1Mz
-AwNzQ2OTksLTE5OTk3NTA4NDUsMTk3NDAyMDEzLC0xMTM1MTgx
-MDc2LDE1OTQ5Mjg3MzQsLTEwNjE2MjY2NDksMTc1ODU4NzAsMT
-QyOTk0OTY3MCwyMTE3MDM2ODg4LC02Mjk4MTQzMTcsMTQzMTE3
-NjAzMF19
+eyJoaXN0b3J5IjpbLTE5MTc0ODYyOTAsMjEzMDIwMzQ1NSw2OT
+AxMDE4MzgsMTE0ODU5NjQyOSwtNjQ0NzExNzU5LDU3NjQwMzU5
+NCwtMjEzNzMxNTY2NywtNTg5NzkxNjY2LC01ODk3OTE2NjYsNT
+MwMDc0Njk5LC0xOTk5NzUwODQ1LDE5NzQwMjAxMywtMTEzNTE4
+MTA3NiwxNTk0OTI4NzM0LC0xMDYxNjI2NjQ5LDE3NTg1ODcwLD
+E0Mjk5NDk2NzAsMjExNzAzNjg4OCwtNjI5ODE0MzE3LDE0MzEx
+NzYwMzBdfQ==
 -->

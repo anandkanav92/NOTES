@@ -38,7 +38,7 @@ Other design decisions  explained in the study includes the choice of  datasets(
 # Results
 
 For wide range setup, high variance in FID metric was found for each model. There was no single model which was found to be significantly stable than others. While for narrow range setup, the results shown are quite mixed. There are some models which are found to be more sensitive to hyperparameters than others. Overall, FID values were reported much lower for wide range hyperparameter search.
-The study computes precision, recall and F1 score over the toy dataset. It was found that NSGAN outperforms other models
+The study computes precision, recall and F1 score over the toy dataset. It was found that NSGAN outperforms other models in terms of F1 scores.
 The study shows the impact of increasing computational budget. With the increase in budget, the minimum FID of the model decreases while  precision and recall increases for majority of the models except BEGAN. 
 Except for LSGAN, all other models were found to be robust to random initialization of weights. 
 
@@ -56,11 +56,11 @@ Since this study focus on comparing the overall performance of different GAN alg
  using hyperparameter optimisation (using random search)
         > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1ODU4NzAsMTQyOTk0OTY3MCwyMTE3MD
-M2ODg4LC02Mjk4MTQzMTcsMTQzMTE3NjAzMCwxNjcxMzEzMjI3
-LC01OTY5Njg4NiwtODQ1NzY3MDA5LC01Nzg0NzQ1NTgsMTkyMj
-E5NzczNywtODM0NTA1MjYzLDY3MzE3NzU1MSwtMTAzMjQ3NDMw
-MSw1ODI1MjE2MjUsMzc4ODkwNjI5LDQwODczMzk2NCwxNDUxND
-E5OTk5LDExNzIyMDkzMjEsMTU5NzE5NDYzNCwxNzk4ODIyODIz
-XX0=
+eyJoaXN0b3J5IjpbLTEwNjE2MjY2NDksMTc1ODU4NzAsMTQyOT
+k0OTY3MCwyMTE3MDM2ODg4LC02Mjk4MTQzMTcsMTQzMTE3NjAz
+MCwxNjcxMzEzMjI3LC01OTY5Njg4NiwtODQ1NzY3MDA5LC01Nz
+g0NzQ1NTgsMTkyMjE5NzczNywtODM0NTA1MjYzLDY3MzE3NzU1
+MSwtMTAzMjQ3NDMwMSw1ODI1MjE2MjUsMzc4ODkwNjI5LDQwOD
+czMzk2NCwxNDUxNDE5OTk5LDExNzIyMDkzMjEsMTU5NzE5NDYz
+NF19
 -->

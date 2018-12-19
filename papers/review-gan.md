@@ -23,7 +23,7 @@ Other design decisions  explained in the study includes the choice of  datasets(
 
 <b><u>Opinion</u></b>
 The main issue with comparing different gan algorithm is the lack of robust metrics. In this study, a good deal of consideration is given to metrics. The use of these common metrics for each model provided the neutral grounds required for the comparison. 
-The architecture was limited to only INFO GAN for all experiements. However, depending on the type of
+The architecture was limited to only INFO GAN for all experiements. However, 
 
 # Results
 
@@ -37,11 +37,11 @@ This study started with the goal of comparing different GAN algorithms on neutra
 Further, the claims of some models outperforming the Original GAN model are not supported by the found empirical evidence. The study concludes that future research in GAN comparison should be done on neutral grounds.
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNjg1Njg3LC01ODk3OTE2NjYsNTMwMD
-c0Njk5LC0xOTk5NzUwODQ1LDE5NzQwMjAxMywtMTEzNTE4MTA3
-NiwxNTk0OTI4NzM0LC0xMDYxNjI2NjQ5LDE3NTg1ODcwLDE0Mj
-k5NDk2NzAsMjExNzAzNjg4OCwtNjI5ODE0MzE3LDE0MzExNzYw
-MzAsMTY3MTMxMzIyNywtNTk2OTY4ODYsLTg0NTc2NzAwOSwtNT
-c4NDc0NTU4LDE5MjIxOTc3MzcsLTgzNDUwNTI2Myw2NzMxNzc1
-NTFdfQ==
+eyJoaXN0b3J5IjpbLTU4OTc5MTY2NiwtNTg5NzkxNjY2LDUzMD
+A3NDY5OSwtMTk5OTc1MDg0NSwxOTc0MDIwMTMsLTExMzUxODEw
+NzYsMTU5NDkyODczNCwtMTA2MTYyNjY0OSwxNzU4NTg3MCwxND
+I5OTQ5NjcwLDIxMTcwMzY4ODgsLTYyOTgxNDMxNywxNDMxMTc2
+MDMwLDE2NzEzMTMyMjcsLTU5Njk2ODg2LC04NDU3NjcwMDksLT
+U3ODQ3NDU1OCwxOTIyMTk3NzM3LC04MzQ1MDUyNjMsNjczMTc3
+NTUxXX0=
 -->

@@ -34,17 +34,17 @@ The study shows the impact of increasing computational budget. With the increase
 Except for LSGAN, all other models were found to be robust to random initialization of weights. 
 
 <b><u>Opinion</u></b>
-
+The 
 # Conclusions
 This study started with the goal of comparing different GAN algorithms on neutral grounds. The paper first introduced the evaluation metric and emperical evidence supporting the choice. In order to make the research feasible, researchers makes pragmatic choices about experimental design and results were obtained. The results shows that there is no model that dominates other models. It was found that by increasing the computation budget(or performing more hyperparameter optimisation) can improve the performance of the model. Conversely, with the low budget it is difficult to make any significant inference of the model's performance.
 Further, the claims of some models outperforming the Original GAN model are not supported by the found empirical evidence. The study concludes that future research in GAN comparison should be done on neutral grounds.
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkwMTAxODM4LDExNDg1OTY0MjksLTY0ND
-cxMTc1OSw1NzY0MDM1OTQsLTIxMzczMTU2NjcsLTU4OTc5MTY2
-NiwtNTg5NzkxNjY2LDUzMDA3NDY5OSwtMTk5OTc1MDg0NSwxOT
-c0MDIwMTMsLTExMzUxODEwNzYsMTU5NDkyODczNCwtMTA2MTYy
-NjY0OSwxNzU4NTg3MCwxNDI5OTQ5NjcwLDIxMTcwMzY4ODgsLT
-YyOTgxNDMxNywxNDMxMTc2MDMwLDE2NzEzMTMyMjcsLTU5Njk2
-ODg2XX0=
+eyJoaXN0b3J5IjpbMjEzMDIwMzQ1NSw2OTAxMDE4MzgsMTE0OD
+U5NjQyOSwtNjQ0NzExNzU5LDU3NjQwMzU5NCwtMjEzNzMxNTY2
+NywtNTg5NzkxNjY2LC01ODk3OTE2NjYsNTMwMDc0Njk5LC0xOT
+k5NzUwODQ1LDE5NzQwMjAxMywtMTEzNTE4MTA3NiwxNTk0OTI4
+NzM0LC0xMDYxNjI2NjQ5LDE3NTg1ODcwLDE0Mjk5NDk2NzAsMj
+ExNzAzNjg4OCwtNjI5ODE0MzE3LDE0MzExNzYwMzAsMTY3MTMx
+MzIyN119
 -->

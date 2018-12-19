@@ -37,7 +37,7 @@ Other design decisions  explained in the study includes the choice of  datasets(
 
 # Results
 
-For wide range setup, high variance in FID metric was found for each model. There was no single model which was found to be significantly stable than others.
+For wide range setup, high variance in FID metric was found for each model. There was no single model which was found to be significantly stable than others. While for narrow range setup, the results shown are quite mixed. There are some models which are found to be more sensitive to hyperparameters
 The study tests the senstivity of the metric, FID, to mode dropping and encoding network used by the model,over four given datasets. The authors divide the dataset into two sets, train and test partitions, and calculate FID score between  test set and sampled train set. The sensitivity to mode dropping is estimated by gradually increasing the number of classes in the test set ranging from 1 to 10.
 
 A number of other experiments were done to evaluate the importance of initial weights in generator and discriminator neural network
@@ -51,11 +51,11 @@ Since this study focus on comparing the overall performance of different GAN alg
  using hyperparameter optimisation (using random search)
         > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5Njk2ODg2LC04NDU3NjcwMDksLTU3OD
-Q3NDU1OCwxOTIyMTk3NzM3LC04MzQ1MDUyNjMsNjczMTc3NTUx
-LC0xMDMyNDc0MzAxLDU4MjUyMTYyNSwzNzg4OTA2MjksNDA4Nz
-MzOTY0LDE0NTE0MTk5OTksMTE3MjIwOTMyMSwxNTk3MTk0NjM0
-LDE3OTg4MjI4MjMsOTgxNzY5ODI3LDg3MTkzODIxOSw3OTI1MD
-E2MTIsMjExNzcyOTA1NCwtMTY5NjcxNTczMiwxNzY4OTgyMjQy
+eyJoaXN0b3J5IjpbLTg0MjA5ODEwNSwtNTk2OTY4ODYsLTg0NT
+c2NzAwOSwtNTc4NDc0NTU4LDE5MjIxOTc3MzcsLTgzNDUwNTI2
+Myw2NzMxNzc1NTEsLTEwMzI0NzQzMDEsNTgyNTIxNjI1LDM3OD
+g5MDYyOSw0MDg3MzM5NjQsMTQ1MTQxOTk5OSwxMTcyMjA5MzIx
+LDE1OTcxOTQ2MzQsMTc5ODgyMjgyMyw5ODE3Njk4MjcsODcxOT
+M4MjE5LDc5MjUwMTYxMiwyMTE3NzI5MDU0LC0xNjk2NzE1NzMy
 XX0=
 -->

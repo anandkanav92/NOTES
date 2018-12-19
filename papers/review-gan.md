@@ -33,7 +33,7 @@ There is no mention of direct hypothesis in this study. It focus more on seeking
 The authors use FID (Fréchet Inception Distance), precision, recall and F1 score to evaluate the models. Metrics like log-likelihood, inception score are discussed but the research claims FID is the best fit and robust to handle the task in hand, supported by empirical evidence.
 The paper approximates the values of precision, recall and F1 score for each model using data manifolds. The study uses an intuitive way to calculate these metric efficiently. A new dataset is created(Toy dataset) with known probability distribution and squared euclidean distance is used to find the resemblance between generated and true samples. If all different types of images are generated, the recall is high. And precision is high when distance between generated images and training images is low. 
 Further, this study evaluate each model using two major experimental setups. The  difference lies in the choice of hyper-parameters. First, referred as wide one-shot setup, identifies 100 samples of hyper-parameters using random search where as the other setup, termed as narrow two shot setups, uses 50 samples of hyperparameter selected manually using the results of wide one shot setup over single Dataset(FASHION-MNIST).    
-Other design decisions  explained in the study includes the choice of datasets
+Other design decisions  explained in the study includes the choice of  datasets(4 datasets , which
 
 The study tests the senstivity of the metric, FID, to mode dropping and encoding network used by the model,over four given datasets. The authors divide the dataset into two sets, train and test partitions, and calculate FID score between  test set and sampled train set. The sensitivity to mode dropping is estimated by gradually increasing the number of classes in the test set ranging from 1 to 10.
 
@@ -48,11 +48,11 @@ Since this study focus on comparing the overall performance of different GAN alg
  using hyperparameter optimisation (using random search)
         > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2ODkzNDIyNCwxOTIyMTk3NzM3LC04Mz
-Q1MDUyNjMsNjczMTc3NTUxLC0xMDMyNDc0MzAxLDU4MjUyMTYy
-NSwzNzg4OTA2MjksNDA4NzMzOTY0LDE0NTE0MTk5OTksMTE3Mj
-IwOTMyMSwxNTk3MTk0NjM0LDE3OTg4MjI4MjMsOTgxNzY5ODI3
-LDg3MTkzODIxOSw3OTI1MDE2MTIsMjExNzcyOTA1NCwtMTY5Nj
-cxNTczMiwxNzY4OTgyMjQyLDIwMDkyMTE2ODIsMTQyOTg2NjI2
-NF19
+eyJoaXN0b3J5IjpbODUzOTg0ODQ2LDE5MjIxOTc3MzcsLTgzND
+UwNTI2Myw2NzMxNzc1NTEsLTEwMzI0NzQzMDEsNTgyNTIxNjI1
+LDM3ODg5MDYyOSw0MDg3MzM5NjQsMTQ1MTQxOTk5OSwxMTcyMj
+A5MzIxLDE1OTcxOTQ2MzQsMTc5ODgyMjgyMyw5ODE3Njk4Mjcs
+ODcxOTM4MjE5LDc5MjUwMTYxMiwyMTE3NzI5MDU0LC0xNjk2Nz
+E1NzMyLDE3Njg5ODIyNDIsMjAwOTIxMTY4MiwxNDI5ODY2MjY0
+XX0=
 -->

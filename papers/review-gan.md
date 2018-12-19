@@ -37,7 +37,7 @@ Other design decisions  explained in the study includes the choice of  datasets(
 
 # Results
 
-
+T
 The study tests the senstivity of the metric, FID, to mode dropping and encoding network used by the model,over four given datasets. The authors divide the dataset into two sets, train and test partitions, and calculate FID score between  test set and sampled train set. The sensitivity to mode dropping is estimated by gradually increasing the number of classes in the test set ranging from 1 to 10.
 
 A number of other experiments were done to evaluate the importance of initial weights in generator and discriminator neural network
@@ -51,11 +51,11 @@ Since this study focus on comparing the overall performance of different GAN alg
  using hyperparameter optimisation (using random search)
         > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NTc2NzAwOSwtNTc4NDc0NTU4LDE5Mj
-IxOTc3MzcsLTgzNDUwNTI2Myw2NzMxNzc1NTEsLTEwMzI0NzQz
-MDEsNTgyNTIxNjI1LDM3ODg5MDYyOSw0MDg3MzM5NjQsMTQ1MT
-QxOTk5OSwxMTcyMjA5MzIxLDE1OTcxOTQ2MzQsMTc5ODgyMjgy
-Myw5ODE3Njk4MjcsODcxOTM4MjE5LDc5MjUwMTYxMiwyMTE3Nz
-I5MDU0LC0xNjk2NzE1NzMyLDE3Njg5ODIyNDIsMjAwOTIxMTY4
+eyJoaXN0b3J5IjpbLTM3NDM3NjI3NSwtODQ1NzY3MDA5LC01Nz
+g0NzQ1NTgsMTkyMjE5NzczNywtODM0NTA1MjYzLDY3MzE3NzU1
+MSwtMTAzMjQ3NDMwMSw1ODI1MjE2MjUsMzc4ODkwNjI5LDQwOD
+czMzk2NCwxNDUxNDE5OTk5LDExNzIyMDkzMjEsMTU5NzE5NDYz
+NCwxNzk4ODIyODIzLDk4MTc2OTgyNyw4NzE5MzgyMTksNzkyNT
+AxNjEyLDIxMTc3MjkwNTQsLTE2OTY3MTU3MzIsMTc2ODk4MjI0
 Ml19
 -->

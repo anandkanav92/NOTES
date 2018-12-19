@@ -38,7 +38,7 @@ Other design decisions  explained in the study includes the choice of  datasets(
 # Results
 
 For wide range setup, high variance in FID metric was found for each model. There was no single model which was found to be significantly stable than others. While for narrow range setup, the results shown are quite mixed. There are some models which are found to be more sensitive to hyperparameters than others. Overall, FID values were reported much lower for wide range hyperparameter search.
-The study shows the 
+The study shows the impact of increasing computational budget. As the budget is increased, all mod
 The study tests the senstivity of the metric, FID, to mode dropping and encoding network used by the model,over four given datasets. The authors divide the dataset into two sets, train and test partitions, and calculate FID score between  test set and sampled train set. The sensitivity to mode dropping is estimated by gradually increasing the number of classes in the test set ranging from 1 to 10.
 
 A number of other experiments were done to evaluate the importance of initial weights in generator and discriminator neural network
@@ -52,11 +52,11 @@ Since this study focus on comparing the overall performance of different GAN alg
  using hyperparameter optimisation (using random search)
         > Written with [StackEdit](https://stackedit.io/). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTQ2ODIxMzIsMTY3MTMxMzIyNywtNT
-k2OTY4ODYsLTg0NTc2NzAwOSwtNTc4NDc0NTU4LDE5MjIxOTc3
-MzcsLTgzNDUwNTI2Myw2NzMxNzc1NTEsLTEwMzI0NzQzMDEsNT
-gyNTIxNjI1LDM3ODg5MDYyOSw0MDg3MzM5NjQsMTQ1MTQxOTk5
-OSwxMTcyMjA5MzIxLDE1OTcxOTQ2MzQsMTc5ODgyMjgyMyw5OD
-E3Njk4MjcsODcxOTM4MjE5LDc5MjUwMTYxMiwyMTE3NzI5MDU0
-XX0=
+eyJoaXN0b3J5IjpbMTQzMTE3NjAzMCwxNjcxMzEzMjI3LC01OT
+Y5Njg4NiwtODQ1NzY3MDA5LC01Nzg0NzQ1NTgsMTkyMjE5Nzcz
+NywtODM0NTA1MjYzLDY3MzE3NzU1MSwtMTAzMjQ3NDMwMSw1OD
+I1MjE2MjUsMzc4ODkwNjI5LDQwODczMzk2NCwxNDUxNDE5OTk5
+LDExNzIyMDkzMjEsMTU5NzE5NDYzNCwxNzk4ODIyODIzLDk4MT
+c2OTgyNyw4NzE5MzgyMTksNzkyNTAxNjEyLDIxMTc3MjkwNTRd
+fQ==
 -->

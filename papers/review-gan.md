@@ -22,7 +22,7 @@ Further, this study evaluate each model using two major experimental setups. The
 Other design decisions  explained in the study includes the choice of  datasets(4 datasets from simple to medium complexity), choice of the architecture( INFO-GAN same for each model), random seed to make the initial weights in architecture random and computational budget. The budget is represented in terms of number of hyperparameters samples available  for the model.
 
 <b><u>Opinion</u></b>
-In this study, a good deal of consideration was given to metrics. First, FDI was formulated and empirically validated for its robustness. And to 
+In this study, a good deal of consideration was given to metrics. First, FDI was formulated and empirically validated for its robustness. 
 The main issue with comparing different gan algorithm is the lack of robust metrics. The paper did identify and solve this issue by introducing FID and empirically validating its robustness. The 
 # Results
 
@@ -36,7 +36,7 @@ This study started with the goal of comparing different GAN algorithms on neutra
 Further, the claims of some models outperforming the Original GAN model are not supported by the found empirical evidence. The study concludes that future research in GAN comparison should be done on neutral grounds.
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzYzOTM3MDMsMTk3NDAyMDEzLC0xMT
+eyJoaXN0b3J5IjpbLTE5OTk3NTA4NDUsMTk3NDAyMDEzLC0xMT
 M1MTgxMDc2LDE1OTQ5Mjg3MzQsLTEwNjE2MjY2NDksMTc1ODU4
 NzAsMTQyOTk0OTY3MCwyMTE3MDM2ODg4LC02Mjk4MTQzMTcsMT
 QzMTE3NjAzMCwxNjcxMzEzMjI3LC01OTY5Njg4NiwtODQ1NzY3

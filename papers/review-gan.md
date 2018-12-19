@@ -3,7 +3,7 @@
   
 # Goals
 
-The main goal of this study to provide a rich comparison of major GAN algorithms and identify which algorithms performs better(or worse)  than others. This study also focuses on presenting a methodology to compare different GAN algorithms fairly a.
+The main goal of this study to provide a rich comparison of major GAN algorithms and identify which algorithms performs better(or worse)  than others. This study also focuses on presenting a methodology to compare different GAN algorithms fairly and without any bias.
 
 # Specific Research Questions
 
@@ -21,6 +21,8 @@ The paper approximates the values of precision, recall and F1 score for each mod
 Further, this study evaluate each model using two major experimental setups. The  difference lies in the choice of hyper-parameters. First, referred as wide one-shot setup, identifies 100 samples of hyper-parameters using random search where as the other setup, termed as narrow two shot setups, uses 50 samples of hyperparameter selected manually using the results of wide one shot setup over single Dataset(FASHION-MNIST).    
 Other design decisions  explained in the study includes the choice of  datasets(4 datasets from simple to medium complexity), choice of the architecture( INFO-GAN same for each model), random seed to make the initial weights in architecture random and computational budget. The budget is represented in terms of number of hyperparameters samples available  for the model.
 
+<u>Opinion</u>
+The main issue with comparing gan is the lack of  
 # Results
 
 For wide range setup, high variance in FID metric was found for each model. There was no single model which was found to be significantly stable than others. While for narrow range setup, the results shown are quite mixed. There are some models which are found to be more sensitive to hyperparameters than others. Overall, FID values were reported much lower for wide range hyperparameter search.
@@ -33,11 +35,11 @@ This study started with the goal of comparing different GAN algorithms on neutra
 Further, the claims of some models outperforming the Original GAN model are not supported by the found empirical evidence. The study concludes that future research in GAN comparison should be done on neutral grounds.
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzA0NjQ3MTgsMTU5NDkyODczNCwtMT
-A2MTYyNjY0OSwxNzU4NTg3MCwxNDI5OTQ5NjcwLDIxMTcwMzY4
-ODgsLTYyOTgxNDMxNywxNDMxMTc2MDMwLDE2NzEzMTMyMjcsLT
-U5Njk2ODg2LC04NDU3NjcwMDksLTU3ODQ3NDU1OCwxOTIyMTk3
-NzM3LC04MzQ1MDUyNjMsNjczMTc3NTUxLC0xMDMyNDc0MzAxLD
-U4MjUyMTYyNSwzNzg4OTA2MjksNDA4NzMzOTY0LDE0NTE0MTk5
-OTldfQ==
+eyJoaXN0b3J5IjpbMTU2ODIxMTI2OCwxNTk0OTI4NzM0LC0xMD
+YxNjI2NjQ5LDE3NTg1ODcwLDE0Mjk5NDk2NzAsMjExNzAzNjg4
+OCwtNjI5ODE0MzE3LDE0MzExNzYwMzAsMTY3MTMxMzIyNywtNT
+k2OTY4ODYsLTg0NTc2NzAwOSwtNTc4NDc0NTU4LDE5MjIxOTc3
+MzcsLTgzNDUwNTI2Myw2NzMxNzc1NTEsLTEwMzI0NzQzMDEsNT
+gyNTIxNjI1LDM3ODg5MDYyOSw0MDg3MzM5NjQsMTQ1MTQxOTk5
+OV19
 -->

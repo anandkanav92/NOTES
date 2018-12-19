@@ -22,7 +22,7 @@ Further, this study evaluate each model using two major experimental setups. The
 Other design decisions  explained in the study includes the choice of  datasets(4 datasets from simple to medium complexity), choice of the architecture( INFO-GAN same for each model), random seed to make the initial weights in architecture random and computational budget. The budget is represented in terms of number of hyperparameters samples available  for the model.
 
 <u>Opinion</u>
-The main issue with comparing different gan algorithm is the lack of robust metrics. The paper did identify and solve this issue by 
+The main issue with comparing different gan algorithm is the lack of robust metrics. The paper did identify and solve this issue by introducing FID and empirically validating its robustness. The 
 # Results
 
 For wide range setup, high variance in FID metric was found for each model. There was no single model which was found to be significantly stable than others. While for narrow range setup, the results shown are quite mixed. There are some models which are found to be more sensitive to hyperparameters than others. Overall, FID values were reported much lower for wide range hyperparameter search.
@@ -35,11 +35,11 @@ This study started with the goal of comparing different GAN algorithms on neutra
 Further, the claims of some models outperforming the Original GAN model are not supported by the found empirical evidence. The study concludes that future research in GAN comparison should be done on neutral grounds.
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNTcxODIwMCwtMTEzNTE4MTA3NiwxNT
-k0OTI4NzM0LC0xMDYxNjI2NjQ5LDE3NTg1ODcwLDE0Mjk5NDk2
-NzAsMjExNzAzNjg4OCwtNjI5ODE0MzE3LDE0MzExNzYwMzAsMT
-Y3MTMxMzIyNywtNTk2OTY4ODYsLTg0NTc2NzAwOSwtNTc4NDc0
-NTU4LDE5MjIxOTc3MzcsLTgzNDUwNTI2Myw2NzMxNzc1NTEsLT
-EwMzI0NzQzMDEsNTgyNTIxNjI1LDM3ODg5MDYyOSw0MDg3MzM5
-NjRdfQ==
+eyJoaXN0b3J5IjpbMTk3NDAyMDEzLC0xMTM1MTgxMDc2LDE1OT
+Q5Mjg3MzQsLTEwNjE2MjY2NDksMTc1ODU4NzAsMTQyOTk0OTY3
+MCwyMTE3MDM2ODg4LC02Mjk4MTQzMTcsMTQzMTE3NjAzMCwxNj
+cxMzEzMjI3LC01OTY5Njg4NiwtODQ1NzY3MDA5LC01Nzg0NzQ1
+NTgsMTkyMjE5NzczNywtODM0NTA1MjYzLDY3MzE3NzU1MSwtMT
+AzMjQ3NDMwMSw1ODI1MjE2MjUsMzc4ODkwNjI5LDQwODczMzk2
+NF19
 -->

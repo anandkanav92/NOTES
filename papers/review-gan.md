@@ -16,15 +16,16 @@ The main goal of this study to provide a rich comparison of major GAN algorithms
 # Hypothesis
 There is no mention of direct hypothesis in this study. It focus more on seeking answers to implicit questions rather than having  preconcieved notions about it.
 # Design
-The authors use FID (Fréchet Inception Distance), precision, recall and F1 score to evaluate the models. Metrics like log-likelihood, inception score are discussed but the research claims FID is the best fit and robust to handle the task in hand, supported by empirical evidence.
-The paper approximates the values of precision, recall and F1 score for each model using data manifolds. The study uses an intuitive way to calculate these metric efficiently. A new dataset is created(Toy dataset) with known probability distribution and squared euclidean distance is used to find the resemblance between generated and true samples. If all different types of images are generated, the recall is high. And precision is high when distance between generated images and training images is low. 
-Further, this study evaluate each model using two major experimental setups. The  difference lies in the choice of hyper-parameters. First, referred as wide one-shot setup, identifies 100 samples of hyper-parameters using random search where as the other setup, termed as narrow two shot setups, uses 50 samples of hyperparameter selected manually using the results of wide one shot setup over single Dataset(FASHION-MNIST).    
-Other design decisions  explained in the study includes the choice of  datasets(4 datasets from simple to medium complexity), choice of the architecture( INFO-GAN same for each model), random seed to make the initial weights in architecture random and computational budget. The budget is represented in terms of number of hyperparameters samples available  for the model.
+
+The authors use FID (Fréchet Inception Distance), precision, recall, and F1 score to evaluate the models. Metrics like log-likelihood, inception score are discussed but the research claims FID is the best fit and robust to handle the task in hand, supported by empirical evidence.
+The paper approximates the values of precision, recall and F1 score for each model using data manifolds. The study uses an intuitive way to calculate these metrics efficiently. A new dataset is created(Toy dataset) with a known probability distribution and squared Euclidean distance is used to find the resemblance between generated and true samples. If all different types of images are generated, the recall is high. And precision is high when the distance between generated images and training images is low. 
+Further, this study evaluates each model using two major experimental setups. The difference lies in the choice of hyper-parameters. First, referred as wide one-shot setup, identifies 100 samples of hyper-parameters using random search whereas the other setup, termed as narrow two shot setups, uses 50 samples of hyperparameter selected manually using the results of wide one-shot setup over single Dataset(FASHION-MNIST).    
+Other design decisions explained in the study include the choice of datasets (4 datasets from simple to medium complexity), choice of the architecture( INFO-GAN same for each model), random seed to make the initial weights in architecture random and computational budget. The budget is represented in terms of hyperparameters samples used to find the best fit for the model.
 
 <b><u>Opinion</u></b>
 The main issue with comparing different gan algorithm is the lack of robust metrics. In this study, a good deal of consideration is given to metrics. The use of these common metrics for each model provided the neutral grounds required for the comparison. 
 The architecture was limited to only INFO GAN for all experiments. However, the choice of architecture does play an important role in deciding the final performance value of the model. \footnote{http://papers.nips.cc/paper/7159-improved-training-of-wasserstein-gans.pdf} 
-The experiments varying computational budget is one of the most important contribution of this study. As it is implicit knowledge that any stable model trained long enough will provide "good" results. But it was never thoroughly validated.
+The experiments varying computational budget is one of the most important contributions of this study. As it is implicit knowledge that any stable model trained long enough will provide "good" results. But it was never thoroughly validated.
 
 # Results
 
@@ -42,11 +43,11 @@ Further, the claims of some models outperforming the Original GAN model are not 
 <b><u>Opinion</u></b>
 This study concludes that majority of recently introduced GAN algorithms are no better than original GAN. It questions the experimental techniques used by some of these papers and show that there is a need to compare GAN algorithms on neutral grounds. These conclusions are bold, however, it is validated empirically by different sets of experiments. The results are based on extensive experimentation covering different dimensions but it can still be improved further by experimenting with different neural architectures and algorithm used to sample hyperparameter space.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0Nzc3NTg2OCwxNTQ3Nzc1ODY4LDE1MT
-cxMDQ0MDAsODM4NTU2MjIxLDExOTIxNTQzNTUsLTE3OTY3NzM4
-OTIsLTE1MjQxNzE4MzIsOTg3ODc2MTcsMjEzMDIwMzQ1NSw2OT
-AxMDE4MzgsMTE0ODU5NjQyOSwtNjQ0NzExNzU5LDU3NjQwMzU5
-NCwtMjEzNzMxNTY2NywtNTg5NzkxNjY2LC01ODk3OTE2NjYsNT
-MwMDc0Njk5LC0xOTk5NzUwODQ1LDE5NzQwMjAxMywtMTEzNTE4
-MTA3Nl19
+eyJoaXN0b3J5IjpbLTI2ODAyMDEyMSwxNTQ3Nzc1ODY4LDE1ND
+c3NzU4NjgsMTUxNzEwNDQwMCw4Mzg1NTYyMjEsMTE5MjE1NDM1
+NSwtMTc5Njc3Mzg5MiwtMTUyNDE3MTgzMiw5ODc4NzYxNywyMT
+MwMjAzNDU1LDY5MDEwMTgzOCwxMTQ4NTk2NDI5LC02NDQ3MTE3
+NTksNTc2NDAzNTk0LC0yMTM3MzE1NjY3LC01ODk3OTE2NjYsLT
+U4OTc5MTY2Niw1MzAwNzQ2OTksLTE5OTk3NTA4NDUsMTk3NDAy
+MDEzXX0=
 -->

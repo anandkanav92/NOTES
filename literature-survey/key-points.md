@@ -9,9 +9,14 @@
 -   Use the bibliographies and references of research studies you find to locate others.
 -   Ask your professor or a scholar in the field if you are missing any key works in the field.
 -   Use  [RefWorks](https://refworks.proquest.com/)  to keep track of your research citations. See the  [RefWorks Tutorial](http://libguides.uwf.edu/refworks)  if you need help.
-# Structure
+# Questions to ask while reviewing paper
+-   What was the research question of the study you are reviewing? What were the authors trying to discover?
+-   Was the research funded by a source that could influence the findings?
+-   What were the research methodologies? Analyze its literature review, the samples and variables used, the results, and the conclusions. Does the research seem to be complete? Could it have been conducted more soundly? What further questions does it raise?
+-   If there are conflicting studies, why do you think that is?
+-   How are the authors viewed in the field? Has this study been cited?; if so, how has it been analyzed?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI5NjEyOTY0LDM3ODQwNTczOSwtODI4Mz
-g2MTcxXX0=
+eyJoaXN0b3J5IjpbMjEzNDUxODQyMCwyMjk2MTI5NjQsMzc4ND
+A1NzM5LC04MjgzODYxNzFdfQ==
 -->

@@ -1,5 +1,5 @@
  # Introduction 
-  There has been an influx of research papers in the fields such as Computer vision, Deep learning and Machine learning in recent years. This is due to the growing interest and popularity of the field. Thus to narrow down my list of topics, I used a few constraints. I focused on deep learning and computer vision papers about evaluating the importance of hyper-parameter optimization. I am trying to evaluate the role of hyper-parameters and how the performance of a model varies when trained by different people from different knowledge backgrounds for my master thesis research project. Other than that, I looked for recently published papers and focusing on one of the widely accepted deep learning algorithms. This paper passes all the constraints and, as a bonus, it is published by Google AI.
+  The purpose of the study was to evaluate different GAN algorithms and determine the possible differences in the overall performance among these algorithms. Various GAN algorithms have been introduced recently \footnote{https://github.com/hindupuravinash/the-gan-zoo}, and a majority of them have managed to achieve notable results. The paper designed the experiments and  metrics to test prominent GAN algorithms on neutral grounds. The results showed that if trained for long enough, all these algorithms achieve similar performance level and no modified GAN algorithms consistently outperform the original GAN 
   
 # Goals
 
@@ -42,11 +42,11 @@ Further, the claims of some models outperforming the Original GAN model are not 
 <b><u>Opinion</u></b>
 This study concludes that majority of recently introduced GAN algorithms are no better than original GAN. It questions the experimental techniques used by some of these papers and show that there is a need to compare GAN algorithms on neutral grounds. These conclusions are bold, however, it is validated empirically by different sets of experiments. The results are based on extensive experimentation covering different dimensions but it can still be improved further by experimenting with different neural architectures and algorithm used to sample hyperparameter space.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjYzODMwNzMsMTU0Nzc3NTg2OCwxNT
-E3MTA0NDAwLDgzODU1NjIyMSwxMTkyMTU0MzU1LC0xNzk2Nzcz
-ODkyLC0xNTI0MTcxODMyLDk4Nzg3NjE3LDIxMzAyMDM0NTUsNj
-kwMTAxODM4LDExNDg1OTY0MjksLTY0NDcxMTc1OSw1NzY0MDM1
-OTQsLTIxMzczMTU2NjcsLTU4OTc5MTY2NiwtNTg5NzkxNjY2LD
-UzMDA3NDY5OSwtMTk5OTc1MDg0NSwxOTc0MDIwMTMsLTExMzUx
-ODEwNzZdfQ==
+eyJoaXN0b3J5IjpbMTU0Nzc3NTg2OCwxNTQ3Nzc1ODY4LDE1MT
+cxMDQ0MDAsODM4NTU2MjIxLDExOTIxNTQzNTUsLTE3OTY3NzM4
+OTIsLTE1MjQxNzE4MzIsOTg3ODc2MTcsMjEzMDIwMzQ1NSw2OT
+AxMDE4MzgsMTE0ODU5NjQyOSwtNjQ0NzExNzU5LDU3NjQwMzU5
+NCwtMjEzNzMxNTY2NywtNTg5NzkxNjY2LC01ODk3OTE2NjYsNT
+MwMDc0Njk5LC0xOTk5NzUwODQ1LDE5NzQwMjAxMywtMTEzNTE4
+MTA3Nl19
 -->

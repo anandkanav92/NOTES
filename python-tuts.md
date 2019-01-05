@@ -16,9 +16,9 @@
 
 `Day 3 - Dictionary, files`
 ---
-- `Dict` are the hashmap of python.
+- `Dict` are the hashmap of python. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjY3NjU4NjYsMTU4MTUzMjYxLDE0Mj
-M2NDk4OTQsMzY5NjM1MjE2LDk0ODQ3MDkzNSw4Mjc2MzY3NzUs
-MTc0ODcyOTE5MCwzMjU4NzUwMDJdfQ==
+eyJoaXN0b3J5IjpbMTU4ODc0MzE5OCwxNTgxNTMyNjEsMTQyMz
+Y0OTg5NCwzNjk2MzUyMTYsOTQ4NDcwOTM1LDgyNzYzNjc3NSwx
+NzQ4NzI5MTkwLDMyNTg3NTAwMl19
 -->

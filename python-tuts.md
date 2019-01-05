@@ -1,8 +1,8 @@
-## Strings
-
-
+` Strings`
+---
+- i
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjQ2NTA0NDhdfQ==
+eyJoaXN0b3J5IjpbLTIwOTg3Mjk2NDldfQ==
 -->

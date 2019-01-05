@@ -12,10 +12,10 @@
 - The `range(n)` function yields the numbers 0, 1, ... n-1, and range(a, b) returns a, a+1, ... b-1 -- up to but not including the last number.
 - `Custom Sorting With key=` The key function takes one value and returns a proxy value. The sorting is based on this proxy value. Example : with a list of strings, specifying key=len (the built in len() function) sorts the strings by length, from shortest to longest
 - `List Comprehensions` squares =  [ n * n for n in nums ] = [1, 4, 9, 16]
-- `
+- `Tuples` are like but immutable. tuple = (1,'x','y') is a tuple and each element can be accesed as tuple[0] #1. But tuple[0]=2 is wrong. To update, we need to reassign the complete tuple i.e (2,'x',y').
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI2ODU5MTUzLDE0MjM2NDk4OTQsMzY5Nj
-M1MjE2LDk0ODQ3MDkzNSw4Mjc2MzY3NzUsMTc0ODcyOTE5MCwz
-MjU4NzUwMDJdfQ==
+eyJoaXN0b3J5IjpbMTk1MDg1OTI0NywxNDIzNjQ5ODk0LDM2OT
+YzNTIxNiw5NDg0NzA5MzUsODI3NjM2Nzc1LDE3NDg3MjkxOTAs
+MzI1ODc1MDAyXX0=
 -->

@@ -9,9 +9,9 @@
 ---
 - The "empty list" is just an empty pair of brackets [ ]. The '+' works to append two lists, so [1, 2] + [3, 4] yields [1, 2, 3, 4] (this is just like + with strings).
 - `=` operator doesn't create two different lists but make a new pointer. Thus any updates are reflected in both variables.
-- 
+- The `range(n)` function yields the numbers 0, 1, ... n-1, and range(a, b) returns a, a+1, ... b-1 -- up to but not including the last number.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ4NDcwOTM1LDgyNzYzNjc3NSwxNzQ4Nz
-I5MTkwLDMyNTg3NTAwMl19
+eyJoaXN0b3J5IjpbMzY5NjM1MjE2LDk0ODQ3MDkzNSw4Mjc2Mz
+Y3NzUsMTc0ODcyOTE5MCwzMjU4NzUwMDJdfQ==
 -->

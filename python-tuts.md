@@ -20,14 +20,17 @@
 	- .keys()
 	- .values()
 	- .items() : returns list of items [{},{},{},{}]
-- ```
+- Di
 ```python
-s = "Python syntax highlighting"
-print s
+hash =  {} 
+hash['word']  =  'garfield' 
+hash['count']  =  42 
+s =  'I want %(count)d copies of %(word)s'  % hash # %d 		    
+for int, %s for string  # 'I want 42 copies of garfield'
 ```
-```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTI0ODg3NTksMTU4ODc0MzE5OCwxNT
-gxNTMyNjEsMTQyMzY0OTg5NCwzNjk2MzUyMTYsOTQ4NDcwOTM1
-LDgyNzYzNjc3NSwxNzQ4NzI5MTkwLDMyNTg3NTAwMl19
+eyJoaXN0b3J5IjpbMTMwMDQ2ODcxNSwxNTg4NzQzMTk4LDE1OD
+E1MzI2MSwxNDIzNjQ5ODk0LDM2OTYzNTIxNiw5NDg0NzA5MzUs
+ODI3NjM2Nzc1LDE3NDg3MjkxOTAsMzI1ODc1MDAyXX0=
 -->

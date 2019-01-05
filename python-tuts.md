@@ -16,9 +16,9 @@
 
 `Day 3 - Dictionary, files`
 ---
-- `Dict` are the hashmap of python. The keys can be of type string, numbers, tuples as they are 
+- `Dict` are the hashmap of python. The keys can be of type string, numbers, tuples as they are immutable. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MjA5NzA4OSwxNTg4NzQzMTk4LDE1OD
+eyJoaXN0b3J5IjpbMjA0MDU0NjU2MSwxNTg4NzQzMTk4LDE1OD
 E1MzI2MSwxNDIzNjQ5ODk0LDM2OTYzNTIxNiw5NDg0NzA5MzUs
 ODI3NjM2Nzc1LDE3NDg3MjkxOTAsMzI1ODc1MDAyXX0=
 -->

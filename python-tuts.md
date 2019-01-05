@@ -15,8 +15,10 @@
 - `Tuples` are like but immutable. tuple = (1,'x','y') is a tuple and each element can be accesed as tuple[0] #1. But tuple[0]=2 is wrong. To update, we need to reassign the complete tuple i.e (2,'x',y').
 
 `Day 3 - Dictionary, files`
+---
+- `Dict` are the hashmap of python.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MDA0NTQwNiwxNTgxNTMyNjEsMTQyMz
-Y0OTg5NCwzNjk2MzUyMTYsOTQ4NDcwOTM1LDgyNzYzNjc3NSwx
-NzQ4NzI5MTkwLDMyNTg3NTAwMl19
+eyJoaXN0b3J5IjpbLTE5NjY3NjU4NjYsMTU4MTUzMjYxLDE0Mj
+M2NDk4OTQsMzY5NjM1MjE2LDk0ODQ3MDkzNSw4Mjc2MzY3NzUs
+MTc0ODcyOTE5MCwzMjU4NzUwMDJdfQ==
 -->

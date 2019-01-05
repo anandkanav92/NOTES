@@ -17,8 +17,17 @@
 `Day 3 - Dictionary, files`
 ---
 - `Dict` are the hashmap of python. The keys can be of type string, numbers, tuples as they are immutable. 
+	- .keys()
+	- .values()
+	- .items() : returns list of items [{},{},{},{}]
+- ```
+```python
+s = "Python syntax highlighting"
+print s
+```
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MDU0NjU2MSwxNTg4NzQzMTk4LDE1OD
-E1MzI2MSwxNDIzNjQ5ODk0LDM2OTYzNTIxNiw5NDg0NzA5MzUs
-ODI3NjM2Nzc1LDE3NDg3MjkxOTAsMzI1ODc1MDAyXX0=
+eyJoaXN0b3J5IjpbLTEwOTI0ODg3NTksMTU4ODc0MzE5OCwxNT
+gxNTMyNjEsMTQyMzY0OTg5NCwzNjk2MzUyMTYsOTQ4NDcwOTM1
+LDgyNzYzNjc3NSwxNzQ4NzI5MTkwLDMyNTg3NTAwMl19
 -->

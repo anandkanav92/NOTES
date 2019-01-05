@@ -8,9 +8,10 @@
 ` List`
 ---
 - The "empty list" is just an empty pair of brackets [ ]. The '+' works to append two lists, so [1, 2] + [3, 4] yields [1, 2, 3, 4] (this is just like + with strings).
+- `=` operator doesn't create two different lists but make a new pointer. Thus any updates are reflected in both variables.
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxODQwODE4Myw4Mjc2MzY3NzUsMTc0OD
-cyOTE5MCwzMjU4NzUwMDJdfQ==
+eyJoaXN0b3J5IjpbOTQ4NDcwOTM1LDgyNzYzNjc3NSwxNzQ4Nz
+I5MTkwLDMyNTg3NTAwMl19
 -->

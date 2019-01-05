@@ -14,8 +14,9 @@
 - `List Comprehensions` squares =  [ n * n for n in nums ] = [1, 4, 9, 16]
 - `Tuples` are like but immutable. tuple = (1,'x','y') is a tuple and each element can be accesed as tuple[0] #1. But tuple[0]=2 is wrong. To update, we need to reassign the complete tuple i.e (2,'x',y').
 
+`Day 3 - Dictionary, files`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MTUzMjYxLDE0MjM2NDk4OTQsMzY5Nj
-M1MjE2LDk0ODQ3MDkzNSw4Mjc2MzY3NzUsMTc0ODcyOTE5MCwz
-MjU4NzUwMDJdfQ==
+eyJoaXN0b3J5IjpbLTQ5MDA0NTQwNiwxNTgxNTMyNjEsMTQyMz
+Y0OTg5NCwzNjk2MzUyMTYsOTQ4NDcwOTM1LDgyNzYzNjc3NSwx
+NzQ4NzI5MTkwLDMyNTg3NTAwMl19
 -->

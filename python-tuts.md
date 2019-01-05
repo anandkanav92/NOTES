@@ -10,10 +10,10 @@
 - The "empty list" is just an empty pair of brackets [ ]. The '+' works to append two lists, so [1, 2] + [3, 4] yields [1, 2, 3, 4] (this is just like + with strings).
 - `=` operator doesn't create two different lists but make a new pointer. Thus any updates are reflected in both variables.
 - The `range(n)` function yields the numbers 0, 1, ... n-1, and range(a, b) returns a, a+1, ... b-1 -- up to but not including the last number.
-- `Custom Sorting With key=` The key function takes one value and returns a proxy value Example : with a list of strings, specifying key=len (the built in len() function) sorts the strings by length, from shortest to longest
+- `Custom Sorting With key=` The key function takes one value and returns a proxy value. The sorting is based on this proxy value. Example : with a list of strings, specifying key=len (the built in len() function) sorts the strings by length, from shortest to longest
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NDM0MjMzOCwzNjk2MzUyMTYsOTQ4ND
+eyJoaXN0b3J5IjpbMTQyMzY0OTg5NCwzNjk2MzUyMTYsOTQ4ND
 cwOTM1LDgyNzYzNjc3NSwxNzQ4NzI5MTkwLDMyNTg3NTAwMl19
 
 -->

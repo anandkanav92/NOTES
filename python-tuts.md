@@ -20,7 +20,7 @@
 	- .keys()
 	- .values()
 	- .items() : returns list of items [{},{},{},{}]
-- Di
+- `Dict formatting`
 ```python
 hash =  {} 
 hash['word']  =  'garfield' 
@@ -28,9 +28,12 @@ hash['count']  =  42
 s =  'I want %(count)d copies of %(word)s'  % hash # %d 		    
 for int, %s for string  # 'I want 42 copies of garfield'
 ```
-
+- `Files` 
+	- fopen returns the handle to the file.
+	- fclose to close the connection
+	- text file can be read using for loop. Good option as not all 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMDQ2ODcxNSwxNTg4NzQzMTk4LDE1OD
+eyJoaXN0b3J5IjpbMTgxMTU1OTAwMSwxNTg4NzQzMTk4LDE1OD
 E1MzI2MSwxNDIzNjQ5ODk0LDM2OTYzNTIxNiw5NDg0NzA5MzUs
 ODI3NjM2Nzc1LDE3NDg3MjkxOTAsMzI1ODc1MDAyXX0=
 -->

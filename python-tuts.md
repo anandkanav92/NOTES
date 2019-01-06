@@ -28,12 +28,14 @@ hash['count']  =  42
 s =  'I want %(count)d copies of %(word)s'  % hash # %d 		    
 for int, %s for string  # 'I want 42 copies of garfield'
 ```
+- `del
 - `Files` 
-	- fopen returns the handle to the file.
-	- fclose to close the connection
-	- text file can be read using for loop. Good option as not all 
+	- open returns the handle to the file.
+	- f.close to close the connection
+	- text file can be read using for loop. Good option as not all the content is loaded into memory.
+	- f.write writes the content to file.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMTU1OTAwMSwxNTg4NzQzMTk4LDE1OD
-E1MzI2MSwxNDIzNjQ5ODk0LDM2OTYzNTIxNiw5NDg0NzA5MzUs
-ODI3NjM2Nzc1LDE3NDg3MjkxOTAsMzI1ODc1MDAyXX0=
+eyJoaXN0b3J5IjpbLTE2MTgxNDUxMzIsMTU4ODc0MzE5OCwxNT
+gxNTMyNjEsMTQyMzY0OTg5NCwzNjk2MzUyMTYsOTQ4NDcwOTM1
+LDgyNzYzNjc3NSwxNzQ4NzI5MTkwLDMyNTg3NTAwMl19
 -->

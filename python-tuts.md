@@ -27,15 +27,17 @@ hash['word']  =  'garfield'
 hash['count']  =  42 
 s =  'I want %(count)d copies of %(word)s'  % hash # %d 		    
 for int, %s for string  # 'I want 42 copies of garfield'
+del var
+del list[0]  ## Delete first element
 ```
-- `del
+- `del` deletes the definition of the variable as if the variable was never defined.
 - `Files` 
 	- open returns the handle to the file.
 	- f.close to close the connection
 	- text file can be read using for loop. Good option as not all the content is loaded into memory.
 	- f.write writes the content to file.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTgxNDUxMzIsMTU4ODc0MzE5OCwxNT
-gxNTMyNjEsMTQyMzY0OTg5NCwzNjk2MzUyMTYsOTQ4NDcwOTM1
-LDgyNzYzNjc3NSwxNzQ4NzI5MTkwLDMyNTg3NTAwMl19
+eyJoaXN0b3J5IjpbNzYzMTQxMDg4LDE1ODg3NDMxOTgsMTU4MT
+UzMjYxLDE0MjM2NDk4OTQsMzY5NjM1MjE2LDk0ODQ3MDkzNSw4
+Mjc2MzY3NzUsMTc0ODcyOTE5MCwzMjU4NzUwMDJdfQ==
 -->

@@ -44,10 +44,14 @@ del list[0]  ## Delete first element
 - Some basic patterns:
 	- `\w` matches `[a-zA-Z0-9_]`
 	- `.` any matches any `single character except \n`
-	-  `\s` matches a single whitespa 
+	-  `\s` matches a single whitespace character `[\n\r\t\f]`
+	- `\t\n\r` matches `tab newline return`
+	- `\d` decimal `[0-9]`
+	- `^=start` and `$=end` of the string
+	-  `\`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc1OTAwMTc5LC05NjIyOTQ4NjEsMzY1OT
-g4NDQzLDc2MzE0MTA4OCwxNTg4NzQzMTk4LDE1ODE1MzI2MSwx
-NDIzNjQ5ODk0LDM2OTYzNTIxNiw5NDg0NzA5MzUsODI3NjM2Nz
-c1LDE3NDg3MjkxOTAsMzI1ODc1MDAyXX0=
+eyJoaXN0b3J5IjpbLTY2Mzk2MzAyOCwtOTYyMjk0ODYxLDM2NT
+k4ODQ0Myw3NjMxNDEwODgsMTU4ODc0MzE5OCwxNTgxNTMyNjEs
+MTQyMzY0OTg5NCwzNjk2MzUyMTYsOTQ4NDcwOTM1LDgyNzYzNj
+c3NSwxNzQ4NzI5MTkwLDMyNTg3NTAwMl19
 -->

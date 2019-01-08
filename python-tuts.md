@@ -62,9 +62,19 @@ del list[0]  ## Delete first element
 	- `.IGNORECASE` ignores case in search string.
 	- `.DOTALL` match all whitespaces including newline.
 	-  `.MULTILINE` allows `^ and $` to match first and last of each line and not just complete string.
-- `GREEDY|!GREEDY` add `?` in frony of repetitive expressions (` 
+- `GREEDY|!GREEDY` add `?` in frony of repetitive expressions (`*+`) to make them non greedy and return first match.
+- find and replace 
+``` python
+  
+
+ str =  'purple alice@google.com, blah monkey bob@abc.com blah dishwasher'  
+ ## re.sub(pat, replacement, str) -- returns new string with all replacements,  
+ ## \1 is group(1), \2 group(2) in the replacement  
+ print re.sub(r'([\w\.-]+)@([\w\.-]+)', r'\1@yo-yo-dyne.com', str)  
+ ## purple alice@yo-yo-dyne.com, blah monkey bob@yo-yo-dyne.com blah dishwasher
+``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3ODM4NzI5NywtOTYyMjk0ODYxLDM2NT
+eyJoaXN0b3J5IjpbMTY3NjE4MzM1MSwtOTYyMjk0ODYxLDM2NT
 k4ODQ0Myw3NjMxNDEwODgsMTU4ODc0MzE5OCwxNTgxNTMyNjEs
 MTQyMzY0OTg5NCwzNjk2MzUyMTYsOTQ4NDcwOTM1LDgyNzYzNj
 c3NSwxNzQ4NzI5MTkwLDMyNTg3NTAwMl19

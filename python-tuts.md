@@ -52,10 +52,11 @@ del list[0]  ## Delete first element
 	- `+` 1 or more occurunces 
 	- `*` 0 or more occurances
 	- `?` 0 or 1 occurance
-- `+ *` are greedy. It matches from the leftmost till the largest. Example,
+- `+ *` are greedy. It matches from the leftmost till the largest. Example, `<b>foo</b> and <i>so on</i>` when matched with `<.*>` returns `<b>foo</b> and <i>so on</i>`.
+- </b> square brackets </b> indicate the se
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzYwNjY1NjksLTk2MjI5NDg2MSwzNj
-U5ODg0NDMsNzYzMTQxMDg4LDE1ODg3NDMxOTgsMTU4MTUzMjYx
-LDE0MjM2NDk4OTQsMzY5NjM1MjE2LDk0ODQ3MDkzNSw4Mjc2Mz
-Y3NzUsMTc0ODcyOTE5MCwzMjU4NzUwMDJdfQ==
+eyJoaXN0b3J5IjpbLTM4OTgxNzc5MSwtOTYyMjk0ODYxLDM2NT
+k4ODQ0Myw3NjMxNDEwODgsMTU4ODc0MzE5OCwxNTgxNTMyNjEs
+MTQyMzY0OTg5NCwzNjk2MzUyMTYsOTQ4NDcwOTM1LDgyNzYzNj
+c3NSwxNzQ4NzI5MTkwLDMyNTg3NTAwMl19
 -->

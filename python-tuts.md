@@ -36,8 +36,13 @@ del list[0]  ## Delete first element
 	- f.close to close the connection
 	- text file can be read using for loop. Good option as not all the content is loaded into memory.
 	- f.write writes the content to file.
+
+`Day 4 - Regular expressions`
+---
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYzMTQxMDg4LDE1ODg3NDMxOTgsMTU4MT
-UzMjYxLDE0MjM2NDk4OTQsMzY5NjM1MjE2LDk0ODQ3MDkzNSw4
-Mjc2MzY3NzUsMTc0ODcyOTE5MCwzMjU4NzUwMDJdfQ==
+eyJoaXN0b3J5IjpbMzY1OTg4NDQzLDc2MzE0MTA4OCwxNTg4Nz
+QzMTk4LDE1ODE1MzI2MSwxNDIzNjQ5ODk0LDM2OTYzNTIxNiw5
+NDg0NzA5MzUsODI3NjM2Nzc1LDE3NDg3MjkxOTAsMzI1ODc1MD
+AyXX0=
 -->

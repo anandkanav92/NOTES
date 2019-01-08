@@ -41,10 +41,13 @@ del list[0]  ## Delete first element
 ---
 - `match = re.search(pat,str)`
 - `match.group()` contains the matched string else `None`
-- `\`
+- Some basic patterns:
+	- `\w` matches `[a-zA-Z0-9_]`
+	- `.` any matches any `single character except \n`
+	-  `\s` matches a single whitespa 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MzczNTcsLTk2MjI5NDg2MSwzNjU5OD
-g0NDMsNzYzMTQxMDg4LDE1ODg3NDMxOTgsMTU4MTUzMjYxLDE0
-MjM2NDk4OTQsMzY5NjM1MjE2LDk0ODQ3MDkzNSw4Mjc2MzY3Nz
-UsMTc0ODcyOTE5MCwzMjU4NzUwMDJdfQ==
+eyJoaXN0b3J5IjpbNjc1OTAwMTc5LC05NjIyOTQ4NjEsMzY1OT
+g4NDQzLDc2MzE0MTA4OCwxNTg4NzQzMTk4LDE1ODE1MzI2MSwx
+NDIzNjQ5ODk0LDM2OTYzNTIxNiw5NDg0NzA5MzUsODI3NjM2Nz
+c1LDE3NDg3MjkxOTAsMzI1ODc1MDAyXX0=
 -->

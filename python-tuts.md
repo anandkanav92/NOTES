@@ -57,10 +57,14 @@ del list[0]  ## Delete first element
 - Group extraction allows you to pick out parts of the matching text.
 	- `re.search(r'([\w.-]+)@([\w.-]+)', str)` specified two groups using parenthesis. 
 	- `group()` returns complete match while `group(1)` returns before @ and `group(2)` after @.
-- findall find all matches and return a list of string containing each match. If groups are mentioned, then it returns
+- findall find all matches and return a list of string containing each match. If groups are mentioned, then it returns a tuple.
+- FLAGS
+	- `.IGNORECASE` ignores case in search string.
+	- `.DOTALL` match all whitespaces including newline.
+	-  `.MULTLINE 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNjYxNTg2LC05NjIyOTQ4NjEsMzY1OT
-g4NDQzLDc2MzE0MTA4OCwxNTg4NzQzMTk4LDE1ODE1MzI2MSwx
-NDIzNjQ5ODk0LDM2OTYzNTIxNiw5NDg0NzA5MzUsODI3NjM2Nz
-c1LDE3NDg3MjkxOTAsMzI1ODc1MDAyXX0=
+eyJoaXN0b3J5IjpbLTk0MDIwOTQyMiwtOTYyMjk0ODYxLDM2NT
+k4ODQ0Myw3NjMxNDEwODgsMTU4ODc0MzE5OCwxNTgxNTMyNjEs
+MTQyMzY0OTg5NCwzNjk2MzUyMTYsOTQ4NDcwOTM1LDgyNzYzNj
+c3NSwxNzQ4NzI5MTkwLDMyNTg3NTAwMl19
 -->

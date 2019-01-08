@@ -53,9 +53,12 @@ del list[0]  ## Delete first element
 	- `*` 0 or more occurances
 	- `?` 0 or 1 occurance
 - `+ *` are greedy. It matches from the leftmost till the largest. Example, `<b>foo</b> and <i>so on</i>` when matched with `<.*>` returns `<b>foo</b> and <i>so on</i>`.
-- </b> square brackets </b> indicate the se
+- </b> square brackets </b> indicate the set or char that can be uses. Like `[abc]` means either `a or b or c`
+- Group extraction allows you to pick out parts of the matching text.
+	- `re.search(r'([\w.-]+)@([\w.-]+)', str)`  
+	- `group()` returns complete match while 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4OTgxNzc5MSwtOTYyMjk0ODYxLDM2NT
+eyJoaXN0b3J5IjpbMTU5NjE5MTAxNywtOTYyMjk0ODYxLDM2NT
 k4ODQ0Myw3NjMxNDEwODgsMTU4ODc0MzE5OCwxNTgxNTMyNjEs
 MTQyMzY0OTg5NCwzNjk2MzUyMTYsOTQ4NDcwOTM1LDgyNzYzNj
 c3NSwxNzQ4NzI5MTkwLDMyNTg3NTAwMl19

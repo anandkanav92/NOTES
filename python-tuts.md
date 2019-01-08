@@ -41,10 +41,10 @@ del list[0]  ## Delete first element
 ---
 - `match = re.search(pat,str)`
 - `match.group()` contains the matched string else `None`
-- 
+- `\`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MjI5NDg2MSwzNjU5ODg0NDMsNzYzMT
-QxMDg4LDE1ODg3NDMxOTgsMTU4MTUzMjYxLDE0MjM2NDk4OTQs
-MzY5NjM1MjE2LDk0ODQ3MDkzNSw4Mjc2MzY3NzUsMTc0ODcyOT
-E5MCwzMjU4NzUwMDJdfQ==
+eyJoaXN0b3J5IjpbLTQ3MzczNTcsLTk2MjI5NDg2MSwzNjU5OD
+g0NDMsNzYzMTQxMDg4LDE1ODg3NDMxOTgsMTU4MTUzMjYxLDE0
+MjM2NDk4OTQsMzY5NjM1MjE2LDk0ODQ3MDkzNSw4Mjc2MzY3Nz
+UsMTc0ODcyOTE5MCwzMjU4NzUwMDJdfQ==
 -->

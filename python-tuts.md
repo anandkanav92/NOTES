@@ -39,10 +39,11 @@ del list[0]  ## Delete first element
 
 `Day 4 - Regular expressions`
 ---
-
+- `match = re.search(pat,str)`
+- `match.group()` contains the matched string else None.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY1OTg4NDQzLDc2MzE0MTA4OCwxNTg4Nz
-QzMTk4LDE1ODE1MzI2MSwxNDIzNjQ5ODk0LDM2OTYzNTIxNiw5
-NDg0NzA5MzUsODI3NjM2Nzc1LDE3NDg3MjkxOTAsMzI1ODc1MD
-AyXX0=
+eyJoaXN0b3J5IjpbMjA0ODU3MDg0NiwzNjU5ODg0NDMsNzYzMT
+QxMDg4LDE1ODg3NDMxOTgsMTU4MTUzMjYxLDE0MjM2NDk4OTQs
+MzY5NjM1MjE2LDk0ODQ3MDkzNSw4Mjc2MzY3NzUsMTc0ODcyOT
+E5MCwzMjU4NzUwMDJdfQ==
 -->

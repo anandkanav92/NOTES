@@ -74,8 +74,10 @@ del list[0]  ## Delete first element
  ## purple alice@yo-yo-dyne.com, blah monkey bob@yo-yo-dyne.com blah dishwasher
 ``` 
 `Miscellenous`
+---
+- python threading_example.py sets `__name__` as main function fpr
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE1MjkxNTY4LDE2NzYxODMzNTEsLTk2Mj
+eyJoaXN0b3J5IjpbMjk0MjMxMjM5LDE2NzYxODMzNTEsLTk2Mj
 I5NDg2MSwzNjU5ODg0NDMsNzYzMTQxMDg4LDE1ODg3NDMxOTgs
 MTU4MTUzMjYxLDE0MjM2NDk4OTQsMzY5NjM1MjE2LDk0ODQ3MD
 kzNSw4Mjc2MzY3NzUsMTc0ODcyOTE5MCwzMjU4NzUwMDJdfQ==

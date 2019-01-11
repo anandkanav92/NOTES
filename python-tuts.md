@@ -75,11 +75,11 @@ del list[0]  ## Delete first element
 ``` 
 `Miscellenous`
 ---
-- python threading_example.py sets `__name__` as main function fpr
+- python threading_example.py sets `__name__` as main function for threading_example.py
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk0MjMxMjM5LDE2NzYxODMzNTEsLTk2Mj
-I5NDg2MSwzNjU5ODg0NDMsNzYzMTQxMDg4LDE1ODg3NDMxOTgs
-MTU4MTUzMjYxLDE0MjM2NDk4OTQsMzY5NjM1MjE2LDk0ODQ3MD
-kzNSw4Mjc2MzY3NzUsMTc0ODcyOTE5MCwzMjU4NzUwMDJdfQ==
+eyJoaXN0b3J5IjpbMjEzNTU4Njc3OCwxNjc2MTgzMzUxLC05Nj
+IyOTQ4NjEsMzY1OTg4NDQzLDc2MzE0MTA4OCwxNTg4NzQzMTk4
+LDE1ODE1MzI2MSwxNDIzNjQ5ODk0LDM2OTYzNTIxNiw5NDg0Nz
+A5MzUsODI3NjM2Nzc1LDE3NDg3MjkxOTAsMzI1ODc1MDAyXX0=
 
 -->

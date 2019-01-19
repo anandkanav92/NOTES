@@ -34,9 +34,10 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 - Training exceeds several hours or even days.
 `How`
 - search for good configurations on smaller subset of data
+- 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjgyNzI1ODMsMTg4MzgzNzk5OSwtND
-E3NTk5NjAsLTM4MTM3NTYyNSw1NDg1OTkzMjksODgyNzU4NTUy
-XX0=
+eyJoaXN0b3J5IjpbODU1NTg2NDg0LC0xOTY4MjcyNTgzLDE4OD
+M4Mzc5OTksLTQxNzU5OTYwLC0zODEzNzU2MjUsNTQ4NTk5MzI5
+LDg4Mjc1ODU1Ml19
 -->

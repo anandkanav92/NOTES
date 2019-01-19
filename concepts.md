@@ -35,11 +35,11 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 `How`
 - search for good configurations on smaller subset of data
 - learning model distribution to predict early stopping: http://aad.informatik.uni-freiburg.de/papers/15-IJCAI-Extrapolation_of_Learning_Curves.pdf
-- 
+- Freeze-thaw Bayesian optimization - optional
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzIzMzc1NDMsLTE5NjgyNzI1ODMsMT
-g4MzgzNzk5OSwtNDE3NTk5NjAsLTM4MTM3NTYyNSw1NDg1OTkz
-MjksODgyNzU4NTUyXX0=
+eyJoaXN0b3J5IjpbOTYwOTc5NywtMTk2ODI3MjU4MywxODgzOD
+M3OTk5LC00MTc1OTk2MCwtMzgxMzc1NjI1LDU0ODU5OTMyOSw4
+ODI3NTg1NTJdfQ==
 -->

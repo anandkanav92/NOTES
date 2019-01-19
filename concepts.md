@@ -29,10 +29,12 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 ![spearsons](images/spearman.png)
 
 # Multi-Fidelity
-- w
+`Why`
+- with the onset of complex algorithms and huge datasets, it has become expensive to compute black box evaluation(since they need to run complete training)
+- Training easily exceed  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjY1MjMxMTYsMTg4MzgzNzk5OSwtND
+eyJoaXN0b3J5IjpbLTE2MzM0MDUzNzYsMTg4MzgzNzk5OSwtND
 E3NTk5NjAsLTM4MTM3NTYyNSw1NDg1OTkzMjksODgyNzU4NTUy
 XX0=
 -->

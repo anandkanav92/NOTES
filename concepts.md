@@ -28,8 +28,11 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 - need to rank the data before calculating.
 ![spearsons](images/spearman.png)
 
+# Multi-Fidelity
+- w
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MzgzNzk5OSwtNDE3NTk5NjAsLTM4MT
-M3NTYyNSw1NDg1OTkzMjksODgyNzU4NTUyXX0=
+eyJoaXN0b3J5IjpbLTIwMjY1MjMxMTYsMTg4MzgzNzk5OSwtND
+E3NTk5NjAsLTM4MTM3NTYyNSw1NDg1OTkzMjksODgyNzU4NTUy
+XX0=
 -->

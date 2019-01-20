@@ -44,13 +44,13 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		-  Thus, this method use learning curve models to predict the performanc of model few iterations and if the predicted performance is smaller than the current best, it stops the evaluation.
 	- `how`
 		- It records the performance of the model at resular intervals $y_1,y_2...y_n$. These points are used to predict the final performance of the model after many intervals. 
-		- It uses set of parametric functions(11) combined linearly to give a single model. Each different model i is associated with a weight $w_i$ and additive gaussian noise $N(0,\sigma^2
-		- 	
+		- It uses set of parametric functions(11) combined linearly to give a single model. Each different model i is associated with a weight $w_i$ and additive gaussian noise $N(0,\sigma^2)$
+		- 	The values are predicted using Mon
 - Freeze-thaw Bayesian optimization - optional
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MzI1MTMyNCwtNTQyNDMwNjk0LC0xMT
+eyJoaXN0b3J5IjpbMTA1NjE2OTA0NCwtNTQyNDMwNjk0LC0xMT
 Y0OTkyMTksMTAyNTA1OTYyOSw5NjA5Nzk3LC0xOTY4MjcyNTgz
 LDE4ODM4Mzc5OTksLTQxNzU5OTYwLC0zODEzNzU2MjUsNTQ4NT
 k5MzI5LDg4Mjc1ODU1Ml19

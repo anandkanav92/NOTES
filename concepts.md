@@ -54,14 +54,15 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 	- from this set, based on the result, throw away the least performing m observations and initialise new random configs instead. repeat.
 	- `cons` makes assumptions about accuracy curve, gaussian (so does everyone else right)
 - `non-stochastic best-arm identification problem` https://arxiv.org/pdf/1502.07943.pdf
-	- `why`
+	- `what is successive halving algorithm`
+		- 
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNjE0NjUyMiwxNDgzODQyMzkyLC0xMj
-I2MjcxNTkwLDc5OTE4ODA3MywxOTUxOTE5OTAsMTY2NTYxNTc4
-MywxODU1NzQyOTE5LC01NDI0MzA2OTQsLTExNjQ5OTIxOSwxMD
-I1MDU5NjI5LDk2MDk3OTcsLTE5NjgyNzI1ODMsMTg4MzgzNzk5
-OSwtNDE3NTk5NjAsLTM4MTM3NTYyNSw1NDg1OTkzMjksODgyNz
-U4NTUyXX0=
+eyJoaXN0b3J5IjpbLTE1MjA0MTY0MzYsLTgwNjE0NjUyMiwxND
+gzODQyMzkyLC0xMjI2MjcxNTkwLDc5OTE4ODA3MywxOTUxOTE5
+OTAsMTY2NTYxNTc4MywxODU1NzQyOTE5LC01NDI0MzA2OTQsLT
+ExNjQ5OTIxOSwxMDI1MDU5NjI5LDk2MDk3OTcsLTE5NjgyNzI1
+ODMsMTg4MzgzNzk5OSwtNDE3NTk5NjAsLTM4MTM3NTYyNSw1ND
+g1OTkzMjksODgyNzU4NTUyXX0=
 -->

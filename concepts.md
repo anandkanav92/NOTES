@@ -48,12 +48,12 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		- 	The values are predicted using Markov Chain Monte Carlo (MCMC) inference. Procedure: keep track of best performance so far(Threshhold). y starts from $-\infinite$ and keep updating after regular intervals. y is the predicted final performance after $e_{max)$. on termination it returns validation error 1-expected accuracy. Else if predicted performance is greater than current best, it keeps on running.
 	-`results`
 		- on cifar 10 fully connected layer, it inmproves the speed by the factor of 2. using bayesian optimisation, SMAC,TPE. total 52 hyperparameters. $10(NHP)+6(Layers)*7(LHP)=52HP$
-		-  
+- another paper with similar concept but using bayesian neural networks instead of these functions as basis.
 - Freeze-thaw Bayesian optimization - optional
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQxNjQ0NzQ3LDE5NTE5MTk5MCwxNjY1Nj
+eyJoaXN0b3J5IjpbNzk5MTg4MDczLDE5NTE5MTk5MCwxNjY1Nj
 E1NzgzLDE4NTU3NDI5MTksLTU0MjQzMDY5NCwtMTE2NDk5MjE5
 LDEwMjUwNTk2MjksOTYwOTc5NywtMTk2ODI3MjU4MywxODgzOD
 M3OTk5LC00MTc1OTk2MCwtMzgxMzc1NjI1LDU0ODU5OTMyOSw4

@@ -55,13 +55,13 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 	- `cons` makes assumptions about accuracy curve, gaussian (so does everyone else right)
 - `non-stochastic best-arm identification problem` https://arxiv.org/pdf/1502.07943.pdf
 	- `what is successive halving algorithm`
-		- add the image
+		- add the algorithm image
 		- it considers the fix size of iterations, and after fixed number of lever pulls it eliminates half of the worst performing ones. 
 		- the number of iterations are based on the initial budget and the size of the inital set of hyperparameters.  ($r = \frac{B}{S*log_2(n)}$) 
-- end output is the best performing configuration set of hyperparameters
+- end output is the best performing configuration singleton set of hyperparameters
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MzY5NDY3OSwtODA2MTQ2NTIyLDE0OD
+eyJoaXN0b3J5IjpbMTY5NjQwMzg1NywtODA2MTQ2NTIyLDE0OD
 M4NDIzOTIsLTEyMjYyNzE1OTAsNzk5MTg4MDczLDE5NTE5MTk5
 MCwxNjY1NjE1NzgzLDE4NTU3NDI5MTksLTU0MjQzMDY5NCwtMT
 E2NDk5MjE5LDEwMjUwNTk2MjksOTYwOTc5NywtMTk2ODI3MjU4

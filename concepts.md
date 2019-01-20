@@ -53,13 +53,13 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 	- Bag of 10 possible hp configs. You run m n iterations and project the results. each projections will have parameters like mean, variance. This is used to refit the gaussian process over the performance function. 
 	- from this set, based on the result, throw away the least performing m observations and initialise new random configs instead. repeat.
 	- `cons` makes assumptions about accuracy curve, gaussian (so does everyone else right)
-	- 
+
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjYyNzE1OTAsNzk5MTg4MDczLDE5NT
-E5MTk5MCwxNjY1NjE1NzgzLDE4NTU3NDI5MTksLTU0MjQzMDY5
-NCwtMTE2NDk5MjE5LDEwMjUwNTk2MjksOTYwOTc5NywtMTk2OD
-I3MjU4MywxODgzODM3OTk5LC00MTc1OTk2MCwtMzgxMzc1NjI1
-LDU0ODU5OTMyOSw4ODI3NTg1NTJdfQ==
+eyJoaXN0b3J5IjpbLTE2MTg3NTY2MzUsLTEyMjYyNzE1OTAsNz
+k5MTg4MDczLDE5NTE5MTk5MCwxNjY1NjE1NzgzLDE4NTU3NDI5
+MTksLTU0MjQzMDY5NCwtMTE2NDk5MjE5LDEwMjUwNTk2MjksOT
+YwOTc5NywtMTk2ODI3MjU4MywxODgzODM3OTk5LC00MTc1OTk2
+MCwtMzgxMzc1NjI1LDU0ODU5OTMyOSw4ODI3NTg1NTJdfQ==
 -->

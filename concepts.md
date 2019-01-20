@@ -47,14 +47,14 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		- It uses set of parametric functions(11) combined linearly to give a single model. Each different model i is associated with a weight $w_i$ and additive gaussian noise $N(0,\sigma^2)$
 		- 	The values are predicted using Markov Chain Monte Carlo (MCMC) inference. Procedure: keep track of best performance so far(Threshhold). y starts from $-\infinite$ and keep updating after regular intervals. y is the predicted final performance after $e_{max)$. on termination it returns validation error 1-expected accuracy. Else if predicted performance is greater than current best, it keeps on running.
 	-`results`
-		- on cifar 10 fully connected layer, it inmproves the speed by the factor of 2. using bayesian optimisation, SMAC,. 
+		- on cifar 10 fully connected layer, it inmproves the speed by the factor of 2. using bayesian optimisation, SMAC,TPE. total 52 hyperparameters. $10(NHP)+6(Layers)*7(LHP)=52 
 - Freeze-thaw Bayesian optimization - optional
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjE2NjU2MzYsMTY2NTYxNTc4MywxOD
-U1NzQyOTE5LC01NDI0MzA2OTQsLTExNjQ5OTIxOSwxMDI1MDU5
-NjI5LDk2MDk3OTcsLTE5NjgyNzI1ODMsMTg4MzgzNzk5OSwtND
-E3NTk5NjAsLTM4MTM3NTYyNSw1NDg1OTkzMjksODgyNzU4NTUy
-XX0=
+eyJoaXN0b3J5IjpbOTYwNDk1MjIyLDE2NjU2MTU3ODMsMTg1NT
+c0MjkxOSwtNTQyNDMwNjk0LC0xMTY0OTkyMTksMTAyNTA1OTYy
+OSw5NjA5Nzk3LC0xOTY4MjcyNTgzLDE4ODM4Mzc5OTksLTQxNz
+U5OTYwLC0zODEzNzU2MjUsNTQ4NTk5MzI5LDg4Mjc1ODU1Ml19
+
 -->

@@ -61,13 +61,16 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		- end output is the best performing configuration singleton set of hyperparameters
 	- `cons`
 		- Major con is the number of configurations vs budget trade off. The user has to decide before hand whether to assign more budget to each configuration or to include many configurations but each with small budget. Assigning small -> premature termination of good configurations and large -> poor configurations running for long time and exploiting resources.
-		-   
+- `Hyperband` - http://www.jmlr.org/papers/volume18/16-558/16-558.pdf
+	- `What?`
+		- doesn't use covariance between HPs and Loss  
+		-  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NDc2MzUzMCwtODA2MTQ2NTIyLDE0OD
-M4NDIzOTIsLTEyMjYyNzE1OTAsNzk5MTg4MDczLDE5NTE5MTk5
-MCwxNjY1NjE1NzgzLDE4NTU3NDI5MTksLTU0MjQzMDY5NCwtMT
-E2NDk5MjE5LDEwMjUwNTk2MjksOTYwOTc5NywtMTk2ODI3MjU4
-MywxODgzODM3OTk5LC00MTc1OTk2MCwtMzgxMzc1NjI1LDU0OD
-U5OTMyOSw4ODI3NTg1NTJdfQ==
+eyJoaXN0b3J5IjpbNzc1ODk1MjUsLTk2NDc2MzUzMCwtODA2MT
+Q2NTIyLDE0ODM4NDIzOTIsLTEyMjYyNzE1OTAsNzk5MTg4MDcz
+LDE5NTE5MTk5MCwxNjY1NjE1NzgzLDE4NTU3NDI5MTksLTU0Mj
+QzMDY5NCwtMTE2NDk5MjE5LDEwMjUwNTk2MjksOTYwOTc5Nywt
+MTk2ODI3MjU4MywxODgzODM3OTk5LC00MTc1OTk2MCwtMzgxMz
+c1NjI1LDU0ODU5OTMyOSw4ODI3NTg1NTJdfQ==
 -->

@@ -50,13 +50,15 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		- on cifar 10 fully connected layer, it inmproves the speed by the factor of 2. using bayesian optimisation, SMAC,TPE. total 52 hyperparameters. $10(NHP)+6(Layers)*7(LHP)=52HP$
 - another paper with similar concept but using bayesian neural networks instead of these functions as basis.
 - Freeze-thaw Bayesian optimization 
-	- Bag of 10 possible hp configs. You run m n iterations and project the results. each projections will have parameters like mean, variance. This is used to refit the 
+	- Bag of 10 possible hp configs. You run m n iterations and project the results. each projections will have parameters like mean, variance. This is used to refit the gaussian process over the performance function. 
+	- from this set, based on the result, throw away the least performing m observations and initialise new random configs instead. repeat.
+	- `cons` 
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI1NzczNzA0LDc5OTE4ODA3MywxOTUxOT
-E5OTAsMTY2NTYxNTc4MywxODU1NzQyOTE5LC01NDI0MzA2OTQs
-LTExNjQ5OTIxOSwxMDI1MDU5NjI5LDk2MDk3OTcsLTE5NjgyNz
-I1ODMsMTg4MzgzNzk5OSwtNDE3NTk5NjAsLTM4MTM3NTYyNSw1
-NDg1OTkzMjksODgyNzU4NTUyXX0=
+eyJoaXN0b3J5IjpbMTIzNzA0MjE3NCw3OTkxODgwNzMsMTk1MT
+kxOTkwLDE2NjU2MTU3ODMsMTg1NTc0MjkxOSwtNTQyNDMwNjk0
+LC0xMTY0OTkyMTksMTAyNTA1OTYyOSw5NjA5Nzk3LC0xOTY4Mj
+cyNTgzLDE4ODM4Mzc5OTksLTQxNzU5OTYwLC0zODEzNzU2MjUs
+NTQ4NTk5MzI5LDg4Mjc1ODU1Ml19
 -->

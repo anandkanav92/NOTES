@@ -38,11 +38,13 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 `How`
 - search for good configurations on smaller subset of data
 - learning model distribution to predict early stopping: http://aad.informatik.uni-freiburg.de/papers/15-IJCAI-Extrapolation_of_Learning_Curves.pdf
+	- `why`
+		-	The bayesian optimization algorithm has been found to work better than human experts but at the cost of more resources. One key reason human
 - Freeze-thaw Bayesian optimization - optional
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNTA1OTYyOSw5NjA5Nzk3LC0xOTY4Mj
-cyNTgzLDE4ODM4Mzc5OTksLTQxNzU5OTYwLC0zODEzNzU2MjUs
-NTQ4NTk5MzI5LDg4Mjc1ODU1Ml19
+eyJoaXN0b3J5IjpbNDg2ODcwMTUyLDEwMjUwNTk2MjksOTYwOT
+c5NywtMTk2ODI3MjU4MywxODgzODM3OTk5LC00MTc1OTk2MCwt
+MzgxMzc1NjI1LDU0ODU5OTMyOSw4ODI3NTg1NTJdfQ==
 -->

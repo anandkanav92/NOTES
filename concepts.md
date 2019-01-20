@@ -52,13 +52,14 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 - Freeze-thaw Bayesian optimization 
 	- Bag of 10 possible hp configs. You run m n iterations and project the results. each projections will have parameters like mean, variance. This is used to refit the gaussian process over the performance function. 
 	- from this set, based on the result, throw away the least performing m observations and initialise new random configs instead. repeat.
-	- `cons` 
+	- `cons` makes assumptions about accuracy curve, gaussian (so does everyone else right)
+	- 
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNzA0MjE3NCw3OTkxODgwNzMsMTk1MT
-kxOTkwLDE2NjU2MTU3ODMsMTg1NTc0MjkxOSwtNTQyNDMwNjk0
-LC0xMTY0OTkyMTksMTAyNTA1OTYyOSw5NjA5Nzk3LC0xOTY4Mj
-cyNTgzLDE4ODM4Mzc5OTksLTQxNzU5OTYwLC0zODEzNzU2MjUs
-NTQ4NTk5MzI5LDg4Mjc1ODU1Ml19
+eyJoaXN0b3J5IjpbLTEyMjYyNzE1OTAsNzk5MTg4MDczLDE5NT
+E5MTk5MCwxNjY1NjE1NzgzLDE4NTU3NDI5MTksLTU0MjQzMDY5
+NCwtMTE2NDk5MjE5LDEwMjUwNTk2MjksOTYwOTc5NywtMTk2OD
+I3MjU4MywxODgzODM3OTk5LC00MTc1OTk2MCwtMzgxMzc1NjI1
+LDU0ODU5OTMyOSw4ODI3NTg1NTJdfQ==
 -->

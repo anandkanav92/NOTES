@@ -58,10 +58,12 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		- add the algorithm image
 		- it considers the fix size of iterations, and after fixed number of lever pulls it eliminates half of the worst performing ones. 
 		- the number of iterations are based on the initial budget and the size of the inital set of hyperparameters.  ($r = \frac{B}{S*log_2(n)}$) 
-- end output is the best performing configuration singleton set of hyperparameters
+		- end output is the best performing configuration singleton set of hyperparameters
+	- `cons`
+		- Major con is the number of configurations that can be run is limited by the budget. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NjQwMzg1NywtODA2MTQ2NTIyLDE0OD
+eyJoaXN0b3J5IjpbMTMwMTEyNTI5OSwtODA2MTQ2NTIyLDE0OD
 M4NDIzOTIsLTEyMjYyNzE1OTAsNzk5MTg4MDczLDE5NTE5MTk5
 MCwxNjY1NjE1NzgzLDE4NTU3NDI5MTksLTU0MjQzMDY5NCwtMT
 E2NDk5MjE5LDEwMjUwNTk2MjksOTYwOTc5NywtMTk2ODI3MjU4

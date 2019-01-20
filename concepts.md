@@ -28,6 +28,9 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 - need to rank the data before calculating.
 ![spearsons](images/spearman.png)
 
+# MLE vs MAP
+`https://wiseodd.github.io/techblog/2017/01/01/mle-vs-map/`
+
 # Multi-Fidelity
 `Why`
 - with the onset of complex algorithms and huge datasets, it has become expensive to compute black box evaluation(since they need to run complete training)
@@ -39,7 +42,7 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYwOTc5NywtMTk2ODI3MjU4MywxODgzOD
-M3OTk5LC00MTc1OTk2MCwtMzgxMzc1NjI1LDU0ODU5OTMyOSw4
-ODI3NTg1NTJdfQ==
+eyJoaXN0b3J5IjpbMTAyNTA1OTYyOSw5NjA5Nzk3LC0xOTY4Mj
+cyNTgzLDE4ODM4Mzc5OTksLTQxNzU5OTYwLC0zODEzNzU2MjUs
+NTQ4NTk5MzI5LDg4Mjc1ODU1Ml19
 -->

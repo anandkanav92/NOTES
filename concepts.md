@@ -56,14 +56,15 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 - `non-stochastic best-arm identification problem` https://arxiv.org/pdf/1502.07943.pdf
 	- `what is successive halving algorithm`
 		- add the image
-		- it 
+		- it considers the fix size of iterations, and after fixed number of lever pulls it eliminates half of the worst performing ones. 
+		- the number of iterations are based on the initial budget and the size of the inital set of hype
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTQxOTQ5NSwtODA2MTQ2NTIyLDE0OD
-M4NDIzOTIsLTEyMjYyNzE1OTAsNzk5MTg4MDczLDE5NTE5MTk5
-MCwxNjY1NjE1NzgzLDE4NTU3NDI5MTksLTU0MjQzMDY5NCwtMT
-E2NDk5MjE5LDEwMjUwNTk2MjksOTYwOTc5NywtMTk2ODI3MjU4
-MywxODgzODM3OTk5LC00MTc1OTk2MCwtMzgxMzc1NjI1LDU0OD
-U5OTMyOSw4ODI3NTg1NTJdfQ==
+eyJoaXN0b3J5IjpbODM3MjQxMTAxLC04MDYxNDY1MjIsMTQ4Mz
+g0MjM5MiwtMTIyNjI3MTU5MCw3OTkxODgwNzMsMTk1MTkxOTkw
+LDE2NjU2MTU3ODMsMTg1NTc0MjkxOSwtNTQyNDMwNjk0LC0xMT
+Y0OTkyMTksMTAyNTA1OTYyOSw5NjA5Nzk3LC0xOTY4MjcyNTgz
+LDE4ODM4Mzc5OTksLTQxNzU5OTYwLC0zODEzNzU2MjUsNTQ4NT
+k5MzI5LDg4Mjc1ODU1Ml19
 -->

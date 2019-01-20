@@ -45,13 +45,13 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 	- `how`
 		- It records the performance of the model at resular intervals $y_1,y_2...y_n$. These points are used to predict the final performance of the model after many intervals. 
 		- It uses set of parametric functions(11) combined linearly to give a single model. Each different model i is associated with a weight $w_i$ and additive gaussian noise $N(0,\sigma^2)$
-		- 	The values are predicted using Markov Chain Monte Carlo (MCMC) inference. 
+		- 	The values are predicted using Markov Chain Monte Carlo (MCMC) inference. Procedure: keep track of best performance so far(Threshhold). y starts from $-\infinite$ and keep updating after regular intervals. y is the predicted final performance after e
 - Freeze-thaw Bayesian optimization - optional
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NzUwNzA2MywxODU1NzQyOTE5LC01ND
-I0MzA2OTQsLTExNjQ5OTIxOSwxMDI1MDU5NjI5LDk2MDk3OTcs
-LTE5NjgyNzI1ODMsMTg4MzgzNzk5OSwtNDE3NTk5NjAsLTM4MT
-M3NTYyNSw1NDg1OTkzMjksODgyNzU4NTUyXX0=
+eyJoaXN0b3J5IjpbLTEyMjcxOTg2MjIsMTg1NTc0MjkxOSwtNT
+QyNDMwNjk0LC0xMTY0OTkyMTksMTAyNTA1OTYyOSw5NjA5Nzk3
+LC0xOTY4MjcyNTgzLDE4ODM4Mzc5OTksLTQxNzU5OTYwLC0zOD
+EzNzU2MjUsNTQ4NTk5MzI5LDg4Mjc1ODU1Ml19
 -->

@@ -60,10 +60,10 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		- the number of iterations are based on the initial budget and the size of the inital set of hyperparameters.  ($r = \frac{B}{S*log_2(n)}$) 
 		- end output is the best performing configuration singleton set of hyperparameters
 	- `cons`
-		- Major con is the number of configurations that can be run is limited by the budget. 
+		- Major con is the number of configurations vs budget trade off. The user has to decide before hand whether to assign more budget to each configuration or to include many configurations but each with small budget.  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMTEyNTI5OSwtODA2MTQ2NTIyLDE0OD
+eyJoaXN0b3J5IjpbMTAwMDgzOTA5NCwtODA2MTQ2NTIyLDE0OD
 M4NDIzOTIsLTEyMjYyNzE1OTAsNzk5MTg4MDczLDE5NTE5MTk5
 MCwxNjY1NjE1NzgzLDE4NTU3NDI5MTksLTU0MjQzMDY5NCwtMT
 E2NDk5MjE5LDEwMjUwNTk2MjksOTYwOTc5NywtMTk2ODI3MjU4

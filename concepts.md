@@ -39,12 +39,12 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 - search for good configurations on smaller subset of data
 - learning model distribution to predict early stopping: http://aad.informatik.uni-freiburg.de/papers/15-IJCAI-Extrapolation_of_Learning_Curves.pdf
 	- `why`
-		-	The bayesian optimization algorithm has been found to work better than human experts but at the cost of more resources. One key reason is human can detect if the model will perform poorly after gew SGD steps and thus terminate it before complete evaluation. 
+		-	The bayesian optimization algorithm has been found to work better than human experts but at the cost of more resources. One key reason is human can detect if the model will perform poorly after gew SGD steps and thus terminate it before complete evaluation. Thus, this method use learning curve models to predict the performanc of model few iterations and if the predicted performance is smaller than the current best, it stops h
 - Freeze-thaw Bayesian optimization - optional
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1ODQ0OTcxNSwxMDI1MDU5NjI5LDk2MD
+eyJoaXN0b3J5IjpbMjA2MDAzNjE1OCwxMDI1MDU5NjI5LDk2MD
 k3OTcsLTE5NjgyNzI1ODMsMTg4MzgzNzk5OSwtNDE3NTk5NjAs
 LTM4MTM3NTYyNSw1NDg1OTkzMjksODgyNzU4NTUyXX0=
 -->

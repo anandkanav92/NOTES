@@ -49,13 +49,13 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 	-`results`
 		- on cifar 10 fully connected layer, it inmproves the speed by the factor of 2. using bayesian optimisation, SMAC,TPE. total 52 hyperparameters. $10(NHP)+6(Layers)*7(LHP)=52HP$
 - another paper with similar concept but using bayesian neural networks instead of these functions as basis.
-- Freeze-thaw Bayesian optimization - optional
+- Freeze-thaw Bayesian optimization - 
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk5MTg4MDczLDE5NTE5MTk5MCwxNjY1Nj
-E1NzgzLDE4NTU3NDI5MTksLTU0MjQzMDY5NCwtMTE2NDk5MjE5
-LDEwMjUwNTk2MjksOTYwOTc5NywtMTk2ODI3MjU4MywxODgzOD
-M3OTk5LC00MTc1OTk2MCwtMzgxMzc1NjI1LDU0ODU5OTMyOSw4
-ODI3NTg1NTJdfQ==
+eyJoaXN0b3J5IjpbNjc2MDY4Mjk3LDc5OTE4ODA3MywxOTUxOT
+E5OTAsMTY2NTYxNTc4MywxODU1NzQyOTE5LC01NDI0MzA2OTQs
+LTExNjQ5OTIxOSwxMDI1MDU5NjI5LDk2MDk3OTcsLTE5NjgyNz
+I1ODMsMTg4MzgzNzk5OSwtNDE3NTk5NjAsLTM4MTM3NTYyNSw1
+NDg1OTkzMjksODgyNzU4NTUyXX0=
 -->

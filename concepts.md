@@ -50,7 +50,7 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		- on cifar 10 fully connected layer, it inmproves the speed by the factor of 2. using bayesian optimisation, SMAC,TPE. total 52 hyperparameters. $10(NHP)+6(Layers)*7(LHP)=52HP$
 - another paper with similar concept but using bayesian neural networks instead of these functions as basis.
 - Freeze-thaw Bayesian optimization 
-	- Bag of 10 possible hp configs. You run m n iterations and project the results. each projections will have parameters like mean, variance. This is used to refit the gaussian process over the performance function. 
+	- Bag of 10 possible hp configs. You run m iterations and project the results. each projections will have parameters like mean, variance. This is used to refit the gaussian process over the performance function. 
 	- from this set, based on the result, throw away the least performing m observations and initialise new random configs instead. repeat.
 	- `cons` makes assumptions about accuracy curve, gaussian (so does everyone else right)
 - `non-stochastic best-arm identification problem` https://arxiv.org/pdf/1502.07943.pdf
@@ -58,9 +58,10 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4Mzg0MjM5MiwtMTIyNjI3MTU5MCw3OT
-kxODgwNzMsMTk1MTkxOTkwLDE2NjU2MTU3ODMsMTg1NTc0Mjkx
-OSwtNTQyNDMwNjk0LC0xMTY0OTkyMTksMTAyNTA1OTYyOSw5Nj
-A5Nzk3LC0xOTY4MjcyNTgzLDE4ODM4Mzc5OTksLTQxNzU5OTYw
-LC0zODEzNzU2MjUsNTQ4NTk5MzI5LDg4Mjc1ODU1Ml19
+eyJoaXN0b3J5IjpbLTgwNjE0NjUyMiwxNDgzODQyMzkyLC0xMj
+I2MjcxNTkwLDc5OTE4ODA3MywxOTUxOTE5OTAsMTY2NTYxNTc4
+MywxODU1NzQyOTE5LC01NDI0MzA2OTQsLTExNjQ5OTIxOSwxMD
+I1MDU5NjI5LDk2MDk3OTcsLTE5NjgyNzI1ODMsMTg4MzgzNzk5
+OSwtNDE3NTk5NjAsLTM4MTM3NTYyNSw1NDg1OTkzMjksODgyNz
+U4NTUyXX0=
 -->

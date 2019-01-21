@@ -71,14 +71,17 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		- Shown to improve over random search and black box bayesian optimisations and takes only a constant time more when compared to vanilla random configuration over deep neural networks.
 		- doesn't use covariance between HPs and Loss function. 
 	 - `cons` It uses random search and thus can be further improved using existing knowledge to select new configurations. There comes BOHB. 
- - 
+ - BOHB https://arxiv.org/pdf/1807.01774.pdf
+	 - use it for writing the introduction too
+	 - `why`
+		 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIyODc2MzM0LC0zMTkzMTQzNDUsLTIwMz
-c2NDY2MiwxNTg3MTYwOTAwLC02NjQwMDg3NDEsNzc1ODk1MjUs
-LTk2NDc2MzUzMCwtODA2MTQ2NTIyLDE0ODM4NDIzOTIsLTEyMj
-YyNzE1OTAsNzk5MTg4MDczLDE5NTE5MTk5MCwxNjY1NjE1Nzgz
-LDE4NTU3NDI5MTksLTU0MjQzMDY5NCwtMTE2NDk5MjE5LDEwMj
-UwNTk2MjksOTYwOTc5NywtMTk2ODI3MjU4MywxODgzODM3OTk5
+eyJoaXN0b3J5IjpbMTE2ODM1NzE3Niw3MjI4NzYzMzQsLTMxOT
+MxNDM0NSwtMjAzNzY0NjYyLDE1ODcxNjA5MDAsLTY2NDAwODc0
+MSw3NzU4OTUyNSwtOTY0NzYzNTMwLC04MDYxNDY1MjIsMTQ4Mz
+g0MjM5MiwtMTIyNjI3MTU5MCw3OTkxODgwNzMsMTk1MTkxOTkw
+LDE2NjU2MTU3ODMsMTg1NTc0MjkxOSwtNTQyNDMwNjk0LC0xMT
+Y0OTkyMTksMTAyNTA1OTYyOSw5NjA5Nzk3LC0xOTY4MjcyNTgz
 XX0=
 -->

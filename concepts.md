@@ -69,15 +69,19 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		- It selects configurations at random and use successive halving algorithm for early stopping of these algorithms that do not show any promise. 
 		- It solved the problem of specifying configurations vs budget algorithm by dividing the problem into several combinations of successive halving.
 		- Shown to improve over random search and black box bayesian optimisations and takes only a constant time more when compared to vanilla random configuration over deep neural networks.
+		- shows
 		- doesn't use covariance between HPs and Loss function. 
 	 - `cons` It uses random search and thus can be further improved using existing knowledge to select new configurations. There comes BOHB. 
  - BOHB https://arxiv.org/pdf/1807.01774.pdf
 	 - use it for writing the introduction too
 	 - `why`
-		 - It extends the work of Hyperband by eliminating the need to perform random search while generating new confiurations to evaluate, instead implement a bayesian model to use the collected dataset and predict a distribution over function using i
+		 - Hyperband 
+	 - `what`
+		 - It extends the work of Hyperband by eliminating the need to perform random search while generating new confiurations to evaluate, instead implement a bayesian model to use the collected dataset and predict a distribution over function using configuration data to predict loss. 
+		 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNjQ4ODc2MiwxMTY4MzU3MTc2LDcyMj
+eyJoaXN0b3J5IjpbMTIxMzkyMzMyOSwxMTY4MzU3MTc2LDcyMj
 g3NjMzNCwtMzE5MzE0MzQ1LC0yMDM3NjQ2NjIsMTU4NzE2MDkw
 MCwtNjY0MDA4NzQxLDc3NTg5NTI1LC05NjQ3NjM1MzAsLTgwNj
 E0NjUyMiwxNDgzODQyMzkyLC0xMjI2MjcxNTkwLDc5OTE4ODA3

@@ -63,17 +63,17 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		- Major con is the number of configurations vs budget trade off. The user has to decide before hand whether to assign more budget to each configuration or to include many configurations but each with small budget. Assigning small -> premature termination of good configurations and large -> poor configurations running for long time and exploiting resources.
 - `Hyperband` - http://www.jmlr.org/papers/volume18/16-558/16-558.pdf
 	- `why`
-		- number of configuration vs budget trade off. Also, bayesian optimis 
+		- number of configuration vs budget trade off. Also, bayesian optimization seems to surpass random search but by a small margin.   
 	- `What?`
 		- doesn't use covariance between HPs and Loss function. 
 		-  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjM1Mzk4LC02NjQwMDg3NDEsNzc1OD
-k1MjUsLTk2NDc2MzUzMCwtODA2MTQ2NTIyLDE0ODM4NDIzOTIs
-LTEyMjYyNzE1OTAsNzk5MTg4MDczLDE5NTE5MTk5MCwxNjY1Nj
-E1NzgzLDE4NTU3NDI5MTksLTU0MjQzMDY5NCwtMTE2NDk5MjE5
-LDEwMjUwNTk2MjksOTYwOTc5NywtMTk2ODI3MjU4MywxODgzOD
-M3OTk5LC00MTc1OTk2MCwtMzgxMzc1NjI1LDU0ODU5OTMyOV19
-
+eyJoaXN0b3J5IjpbMTU4NzE2MDkwMCwtNjY0MDA4NzQxLDc3NT
+g5NTI1LC05NjQ3NjM1MzAsLTgwNjE0NjUyMiwxNDgzODQyMzky
+LC0xMjI2MjcxNTkwLDc5OTE4ODA3MywxOTUxOTE5OTAsMTY2NT
+YxNTc4MywxODU1NzQyOTE5LC01NDI0MzA2OTQsLTExNjQ5OTIx
+OSwxMDI1MDU5NjI5LDk2MDk3OTcsLTE5NjgyNzI1ODMsMTg4Mz
+gzNzk5OSwtNDE3NTk5NjAsLTM4MTM3NTYyNSw1NDg1OTkzMjld
+fQ==
 -->

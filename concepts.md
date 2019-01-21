@@ -79,14 +79,15 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 	 - `what`
 		 - It extends the work of Hyperband by eliminating the need to perform random search while generating new confiurations to evaluate, instead implement a bayesian model to use the collected dataset and predict a distribution over function using configuration data to predict loss. 
 		 - It takes a similar approach to TPE but instead of using mulltiple one dimensional KDE arranged hierarchichally, it used a single multidimensional KDE.  To fit this kernel, min of D+1 evaluations are required where D number of hyperparameters.
+		 - It enforces explorations by randomly sampling $\rho$ fraction of total configurations instead of using the model.
 		 - It outperforms all the state-of-the-art HPO methods for the tasks like SVM classification, NNs and reinforcement learning. 		 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc0MzE2NzM3LC0zMzk4Nzg0NTksMTE2OD
-M1NzE3Niw3MjI4NzYzMzQsLTMxOTMxNDM0NSwtMjAzNzY0NjYy
-LDE1ODcxNjA5MDAsLTY2NDAwODc0MSw3NzU4OTUyNSwtOTY0Nz
-YzNTMwLC04MDYxNDY1MjIsMTQ4Mzg0MjM5MiwtMTIyNjI3MTU5
-MCw3OTkxODgwNzMsMTk1MTkxOTkwLDE2NjU2MTU3ODMsMTg1NT
-c0MjkxOSwtNTQyNDMwNjk0LC0xMTY0OTkyMTksMTAyNTA1OTYy
-OV19
+eyJoaXN0b3J5IjpbLTE5Mjk5NzI4OTgsMzc0MzE2NzM3LC0zMz
+k4Nzg0NTksMTE2ODM1NzE3Niw3MjI4NzYzMzQsLTMxOTMxNDM0
+NSwtMjAzNzY0NjYyLDE1ODcxNjA5MDAsLTY2NDAwODc0MSw3Nz
+U4OTUyNSwtOTY0NzYzNTMwLC04MDYxNDY1MjIsMTQ4Mzg0MjM5
+MiwtMTIyNjI3MTU5MCw3OTkxODgwNzMsMTk1MTkxOTkwLDE2Nj
+U2MTU3ODMsMTg1NTc0MjkxOSwtNTQyNDMwNjk0LC0xMTY0OTky
+MTldfQ==
 -->

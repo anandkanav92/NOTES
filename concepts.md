@@ -65,12 +65,13 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 	- `why`
 		- number of configuration vs budget trade off. Also, bayesian optimization seems to surpass random search but by a small margin.   
 	- `What?`
-		- Rather than treating the given HPO problem as co
+		- Rather than treating the given HPO problem as configuration selection, it treats it as configuration evaluation problem. 
+		- It selects configurations at random and use successive halving algorithm for early stopping of these algorithms that do n
 		- doesn't use covariance between HPs and Loss function. 
 		-  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NTg1OTc0MiwxNTg3MTYwOTAwLC02Nj
+eyJoaXN0b3J5IjpbMTYzMTY2Mzc5MSwxNTg3MTYwOTAwLC02Nj
 QwMDg3NDEsNzc1ODk1MjUsLTk2NDc2MzUzMCwtODA2MTQ2NTIy
 LDE0ODM4NDIzOTIsLTEyMjYyNzE1OTAsNzk5MTg4MDczLDE5NT
 E5MTk5MCwxNjY1NjE1NzgzLDE4NTU3NDI5MTksLTU0MjQzMDY5

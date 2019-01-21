@@ -78,11 +78,12 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		 - Hyperband's con 
 	 - `what`
 		 - It extends the work of Hyperband by eliminating the need to perform random search while generating new confiurations to evaluate, instead implement a bayesian model to use the collected dataset and predict a distribution over function using configuration data to predict loss. 
-		 - It takes a similar approach to TPE but instead of using mulltiple one dimensional KDE arranged hierarchichally, it used a single multidimensional KDE.  To fit this kernel, min of D+1 evaluations are required where D number of hyperparameters. 
+		 - It takes a similar approach to TPE but instead of using mulltiple one dimensional KDE arranged hierarchichally, it used a single multidimensional KDE.  To fit this kernel, min of D+1 evaluations are required where D number of hyperparameters.
+		 - It outperforms all the state-of-the-art HPO methods for the tasks like SVM 
 		 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MjgyMTI3NSwtMzM5ODc4NDU5LDExNj
+eyJoaXN0b3J5IjpbMjAyNDc3Nzg5MiwtMzM5ODc4NDU5LDExNj
 gzNTcxNzYsNzIyODc2MzM0LC0zMTkzMTQzNDUsLTIwMzc2NDY2
 MiwxNTg3MTYwOTAwLC02NjQwMDg3NDEsNzc1ODk1MjUsLTk2ND
 c2MzUzMCwtODA2MTQ2NTIyLDE0ODM4NDIzOTIsLTEyMjYyNzE1

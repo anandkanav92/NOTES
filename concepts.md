@@ -75,18 +75,18 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
  - BOHB https://arxiv.org/pdf/1807.01774.pdf
 	 - use it for writing the introduction too
 	 - `why`
-		 - Hyperband 
+		 - Hyperband's con 
 	 - `what`
 		 - It extends the work of Hyperband by eliminating the need to perform random search while generating new confiurations to evaluate, instead implement a bayesian model to use the collected dataset and predict a distribution over function using configuration data to predict loss. 
-		 - It takes a similar approach to TPE, but instead of using miltiple one dimensional KDE arranged hierarchichally. 
+		 - It takes a similar approach to TPE but instead of using mulltiple one dimensional KDE arranged hierarchichally, it used a single multidimensional KDE.  To fit this k 
 		 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzOTg3ODQ1OSwxMTY4MzU3MTc2LDcyMj
-g3NjMzNCwtMzE5MzE0MzQ1LC0yMDM3NjQ2NjIsMTU4NzE2MDkw
-MCwtNjY0MDA4NzQxLDc3NTg5NTI1LC05NjQ3NjM1MzAsLTgwNj
-E0NjUyMiwxNDgzODQyMzkyLC0xMjI2MjcxNTkwLDc5OTE4ODA3
-MywxOTUxOTE5OTAsMTY2NTYxNTc4MywxODU1NzQyOTE5LC01ND
-I0MzA2OTQsLTExNjQ5OTIxOSwxMDI1MDU5NjI5LDk2MDk3OTdd
-fQ==
+eyJoaXN0b3J5IjpbNTEzNDk4NjA3LC0zMzk4Nzg0NTksMTE2OD
+M1NzE3Niw3MjI4NzYzMzQsLTMxOTMxNDM0NSwtMjAzNzY0NjYy
+LDE1ODcxNjA5MDAsLTY2NDAwODc0MSw3NzU4OTUyNSwtOTY0Nz
+YzNTMwLC04MDYxNDY1MjIsMTQ4Mzg0MjM5MiwtMTIyNjI3MTU5
+MCw3OTkxODgwNzMsMTk1MTkxOTkwLDE2NjU2MTU3ODMsMTg1NT
+c0MjkxOSwtNTQyNDMwNjk0LC0xMTY0OTkyMTksMTAyNTA1OTYy
+OV19
 -->

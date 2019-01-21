@@ -65,15 +65,16 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 	- `why`
 		- number of configuration vs budget trade off. Also, bayesian optimization seems to surpass random search but by a small margin.   
 	- `What?`
+		- Rather than treating the given HPO problem as co
 		- doesn't use covariance between HPs and Loss function. 
 		-  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NzE2MDkwMCwtNjY0MDA4NzQxLDc3NT
-g5NTI1LC05NjQ3NjM1MzAsLTgwNjE0NjUyMiwxNDgzODQyMzky
-LC0xMjI2MjcxNTkwLDc5OTE4ODA3MywxOTUxOTE5OTAsMTY2NT
-YxNTc4MywxODU1NzQyOTE5LC01NDI0MzA2OTQsLTExNjQ5OTIx
-OSwxMDI1MDU5NjI5LDk2MDk3OTcsLTE5NjgyNzI1ODMsMTg4Mz
-gzNzk5OSwtNDE3NTk5NjAsLTM4MTM3NTYyNSw1NDg1OTkzMjld
-fQ==
+eyJoaXN0b3J5IjpbMTM3NTg1OTc0MiwxNTg3MTYwOTAwLC02Nj
+QwMDg3NDEsNzc1ODk1MjUsLTk2NDc2MzUzMCwtODA2MTQ2NTIy
+LDE0ODM4NDIzOTIsLTEyMjYyNzE1OTAsNzk5MTg4MDczLDE5NT
+E5MTk5MCwxNjY1NjE1NzgzLDE4NTU3NDI5MTksLTU0MjQzMDY5
+NCwtMTE2NDk5MjE5LDEwMjUwNTk2MjksOTYwOTc5NywtMTk2OD
+I3MjU4MywxODgzODM3OTk5LC00MTc1OTk2MCwtMzgxMzc1NjI1
+XX0=
 -->

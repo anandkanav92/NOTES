@@ -81,13 +81,17 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		 - It takes a similar approach to TPE but instead of using mulltiple one dimensional KDE arranged hierarchichally, it used a single multidimensional KDE.  To fit this kernel, min of D+1 evaluations are required where D number of hyperparameters.
 		 - It enforces explorations by randomly sampling $\rho$ fraction of total configurations instead of using the model.
 		 - It outperforms all the state-of-the-art HPO methods for the tasks like SVM classification, NNs and reinforcement learning. 		 -  COCO PLATFORM - provides benchmarks and analysis ools for continous optimization.
+
+# Bayesian optimization
+
+-
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTQwMTYxNDQsLTE5Mjk5NzI4OTgsMz
-c0MzE2NzM3LC0zMzk4Nzg0NTksMTE2ODM1NzE3Niw3MjI4NzYz
-MzQsLTMxOTMxNDM0NSwtMjAzNzY0NjYyLDE1ODcxNjA5MDAsLT
-Y2NDAwODc0MSw3NzU4OTUyNSwtOTY0NzYzNTMwLC04MDYxNDY1
-MjIsMTQ4Mzg0MjM5MiwtMTIyNjI3MTU5MCw3OTkxODgwNzMsMT
-k1MTkxOTkwLDE2NjU2MTU3ODMsMTg1NTc0MjkxOSwtNTQyNDMw
-Njk0XX0=
+eyJoaXN0b3J5IjpbMzQ2OTMyOTMzLC0xMjE0MDE2MTQ0LC0xOT
+I5OTcyODk4LDM3NDMxNjczNywtMzM5ODc4NDU5LDExNjgzNTcx
+NzYsNzIyODc2MzM0LC0zMTkzMTQzNDUsLTIwMzc2NDY2MiwxNT
+g3MTYwOTAwLC02NjQwMDg3NDEsNzc1ODk1MjUsLTk2NDc2MzUz
+MCwtODA2MTQ2NTIyLDE0ODM4NDIzOTIsLTEyMjYyNzE1OTAsNz
+k5MTg4MDczLDE5NTE5MTk5MCwxNjY1NjE1NzgzLDE4NTU3NDI5
+MTldfQ==
 -->

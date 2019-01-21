@@ -68,16 +68,17 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		- Rather than treating the given HPO problem as configuration selection, it treats it as configuration evaluation problem. 
 		- It selects configurations at random and use successive halving algorithm for early stopping of these algorithms that do not show any promise. 
 		- It solved the problem of specifying configurations vs budget algorithm by dividing the problem into several combinations of successive halving.
-		- Shown to improve over random search and black box bayesian optimisations and takes only a constant time more when compared to vanilla random configuration o.
+		- Shown to improve over random search and black box bayesian optimisations and takes only a constant time more when compared to vanilla random configuration over deep neural networks.
 		- doesn't use covariance between HPs and Loss function. 
- - `cons` It uses random search and thus can be further improved using existing knowledge to select new configurations. There comes BOHB. 
+	 - `cons` It uses random search and thus can be further improved using existing knowledge to select new configurations. There comes BOHB. 
+ - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzgxNzAyMDIsLTMxOTMxNDM0NSwtMj
-AzNzY0NjYyLDE1ODcxNjA5MDAsLTY2NDAwODc0MSw3NzU4OTUy
-NSwtOTY0NzYzNTMwLC04MDYxNDY1MjIsMTQ4Mzg0MjM5MiwtMT
-IyNjI3MTU5MCw3OTkxODgwNzMsMTk1MTkxOTkwLDE2NjU2MTU3
-ODMsMTg1NTc0MjkxOSwtNTQyNDMwNjk0LC0xMTY0OTkyMTksMT
-AyNTA1OTYyOSw5NjA5Nzk3LC0xOTY4MjcyNTgzLDE4ODM4Mzc5
-OTldfQ==
+eyJoaXN0b3J5IjpbNzIyODc2MzM0LC0zMTkzMTQzNDUsLTIwMz
+c2NDY2MiwxNTg3MTYwOTAwLC02NjQwMDg3NDEsNzc1ODk1MjUs
+LTk2NDc2MzUzMCwtODA2MTQ2NTIyLDE0ODM4NDIzOTIsLTEyMj
+YyNzE1OTAsNzk5MTg4MDczLDE5NTE5MTk5MCwxNjY1NjE1Nzgz
+LDE4NTU3NDI5MTksLTU0MjQzMDY5NCwtMTE2NDk5MjE5LDEwMj
+UwNTk2MjksOTYwOTc5NywtMTk2ODI3MjU4MywxODgzODM3OTk5
+XX0=
 -->

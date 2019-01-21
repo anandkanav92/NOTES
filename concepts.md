@@ -74,14 +74,14 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
  - BOHB https://arxiv.org/pdf/1807.01774.pdf
 	 - use it for writing the introduction too
 	 - `why`
-		 - It extends the work of Hyperband by eliminating the need to perform 
+		 - It extends the work of Hyperband by eliminating the need to perform random search while generating new confiurations to evaluate, instead implement a bayesian model to use the collected dataset and predict a distribution over function using i
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NzgwNTg1LDExNjgzNTcxNzYsNzIyOD
-c2MzM0LC0zMTkzMTQzNDUsLTIwMzc2NDY2MiwxNTg3MTYwOTAw
-LC02NjQwMDg3NDEsNzc1ODk1MjUsLTk2NDc2MzUzMCwtODA2MT
-Q2NTIyLDE0ODM4NDIzOTIsLTEyMjYyNzE1OTAsNzk5MTg4MDcz
-LDE5NTE5MTk5MCwxNjY1NjE1NzgzLDE4NTU3NDI5MTksLTU0Mj
-QzMDY5NCwtMTE2NDk5MjE5LDEwMjUwNTk2MjksOTYwOTc5N119
-
+eyJoaXN0b3J5IjpbMTIzNjQ4ODc2MiwxMTY4MzU3MTc2LDcyMj
+g3NjMzNCwtMzE5MzE0MzQ1LC0yMDM3NjQ2NjIsMTU4NzE2MDkw
+MCwtNjY0MDA4NzQxLDc3NTg5NTI1LC05NjQ3NjM1MzAsLTgwNj
+E0NjUyMiwxNDgzODQyMzkyLC0xMjI2MjcxNTkwLDc5OTE4ODA3
+MywxOTUxOTE5OTAsMTY2NTYxNTc4MywxODU1NzQyOTE5LC01ND
+I0MzA2OTQsLTExNjQ5OTIxOSwxMDI1MDU5NjI5LDk2MDk3OTdd
+fQ==
 -->

@@ -70,10 +70,10 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		- It solved the problem of specifying configurations vs budget algorithm by dividing the problem into several combinations of successive halving.
 		- Shown to improve over random search and black box bayesian optimisations and takes only a constant time more when compared to vanilla random configuration.
 		- doesn't use covariance between HPs and Loss function. 
-		-  
+ - `cons` It uses random search and thus can be further improved using existing knowledge to select new configurations. There comes BOHB. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MDc5OTA0MSwtMjAzNzY0NjYyLDE1OD
+eyJoaXN0b3J5IjpbLTMxOTMxNDM0NSwtMjAzNzY0NjYyLDE1OD
 cxNjA5MDAsLTY2NDAwODc0MSw3NzU4OTUyNSwtOTY0NzYzNTMw
 LC04MDYxNDY1MjIsMTQ4Mzg0MjM5MiwtMTIyNjI3MTU5MCw3OT
 kxODgwNzMsMTk1MTkxOTkwLDE2NjU2MTU3ODMsMTg1NTc0Mjkx

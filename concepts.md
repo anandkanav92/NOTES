@@ -74,14 +74,14 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
  - BOHB https://arxiv.org/pdf/1807.01774.pdf
 	 - use it for writing the introduction too
 	 - `why`
-		 - 
+		 - It extends the work of Hyperband by eliminating the need to perform 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2ODM1NzE3Niw3MjI4NzYzMzQsLTMxOT
-MxNDM0NSwtMjAzNzY0NjYyLDE1ODcxNjA5MDAsLTY2NDAwODc0
-MSw3NzU4OTUyNSwtOTY0NzYzNTMwLC04MDYxNDY1MjIsMTQ4Mz
-g0MjM5MiwtMTIyNjI3MTU5MCw3OTkxODgwNzMsMTk1MTkxOTkw
-LDE2NjU2MTU3ODMsMTg1NTc0MjkxOSwtNTQyNDMwNjk0LC0xMT
-Y0OTkyMTksMTAyNTA1OTYyOSw5NjA5Nzk3LC0xOTY4MjcyNTgz
-XX0=
+eyJoaXN0b3J5IjpbMTM3NzgwNTg1LDExNjgzNTcxNzYsNzIyOD
+c2MzM0LC0zMTkzMTQzNDUsLTIwMzc2NDY2MiwxNTg3MTYwOTAw
+LC02NjQwMDg3NDEsNzc1ODk1MjUsLTk2NDc2MzUzMCwtODA2MT
+Q2NTIyLDE0ODM4NDIzOTIsLTEyMjYyNzE1OTAsNzk5MTg4MDcz
+LDE5NTE5MTk5MCwxNjY1NjE1NzgzLDE4NTU3NDI5MTksLTU0Mj
+QzMDY5NCwtMTE2NDk5MjE5LDEwMjUwNTk2MjksOTYwOTc5N119
+
 -->

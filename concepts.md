@@ -78,15 +78,15 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		 - Hyperband 
 	 - `what`
 		 - It extends the work of Hyperband by eliminating the need to perform random search while generating new confiurations to evaluate, instead implement a bayesian model to use the collected dataset and predict a distribution over function using configuration data to predict loss. 
-		 - It c
+		 - It takes a similar approach to TPE, but instead of using miltiple one dimensional KDE arranged hierarchally 
 		 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTcwNDg1NzMsMTE2ODM1NzE3Niw3Mj
-I4NzYzMzQsLTMxOTMxNDM0NSwtMjAzNzY0NjYyLDE1ODcxNjA5
-MDAsLTY2NDAwODc0MSw3NzU4OTUyNSwtOTY0NzYzNTMwLC04MD
-YxNDY1MjIsMTQ4Mzg0MjM5MiwtMTIyNjI3MTU5MCw3OTkxODgw
-NzMsMTk1MTkxOTkwLDE2NjU2MTU3ODMsMTg1NTc0MjkxOSwtNT
-QyNDMwNjk0LC0xMTY0OTkyMTksMTAyNTA1OTYyOSw5NjA5Nzk3
-XX0=
+eyJoaXN0b3J5IjpbMTkxNTAxODAzNywxMTY4MzU3MTc2LDcyMj
+g3NjMzNCwtMzE5MzE0MzQ1LC0yMDM3NjQ2NjIsMTU4NzE2MDkw
+MCwtNjY0MDA4NzQxLDc3NTg5NTI1LC05NjQ3NjM1MzAsLTgwNj
+E0NjUyMiwxNDgzODQyMzkyLC0xMjI2MjcxNTkwLDc5OTE4ODA3
+MywxOTUxOTE5OTAsMTY2NTYxNTc4MywxODU1NzQyOTE5LC01ND
+I0MzA2OTQsLTExNjQ5OTIxOSwxMDI1MDU5NjI5LDk2MDk3OTdd
+fQ==
 -->

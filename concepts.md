@@ -84,14 +84,15 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 
 # Bayesian optimization
 
-- Bayesian optimization  
+- Bayesian optimization i
+- wide applicability (DNNs for image classification, speech recognition and neural language modelling) 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMjY2MjY4MiwtMTY2MjU4ODQ5NCwzND
-Y5MzI5MzMsLTEyMTQwMTYxNDQsLTE5Mjk5NzI4OTgsMzc0MzE2
-NzM3LC0zMzk4Nzg0NTksMTE2ODM1NzE3Niw3MjI4NzYzMzQsLT
-MxOTMxNDM0NSwtMjAzNzY0NjYyLDE1ODcxNjA5MDAsLTY2NDAw
-ODc0MSw3NzU4OTUyNSwtOTY0NzYzNTMwLC04MDYxNDY1MjIsMT
-Q4Mzg0MjM5MiwtMTIyNjI3MTU5MCw3OTkxODgwNzMsMTk1MTkx
-OTkwXX0=
+eyJoaXN0b3J5IjpbMTUyOTU1MjIwNiwtNTEyNjYyNjgyLC0xNj
+YyNTg4NDk0LDM0NjkzMjkzMywtMTIxNDAxNjE0NCwtMTkyOTk3
+Mjg5OCwzNzQzMTY3MzcsLTMzOTg3ODQ1OSwxMTY4MzU3MTc2LD
+cyMjg3NjMzNCwtMzE5MzE0MzQ1LC0yMDM3NjQ2NjIsMTU4NzE2
+MDkwMCwtNjY0MDA4NzQxLDc3NTg5NTI1LC05NjQ3NjM1MzAsLT
+gwNjE0NjUyMiwxNDgzODQyMzkyLC0xMjI2MjcxNTkwLDc5OTE4
+ODA3M119
 -->

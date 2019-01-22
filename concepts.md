@@ -89,14 +89,14 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		- The guassian process provides the strong prior over functions and has been widely used for because of their capabilities to provide smooth and well caliberated uncertainity estimates of the learning model distribution. \ref{https://arxiv.org/pdf/1807.01774.pdf} 
 		- Initial prior is assumed to be random as their is no data but this is where expert knowledge can be used by pulggin the prior knowledge of the learning model distribution.
 		- A gaussian process prior is described using mean and a covariance function. Mostly, mean is assumed to be constant or centered around 0 and thus the quality of a gaussian process is largely dependent the choice of covariance function.
-		- Usual choice of Kernel function is squared exponential kernel. But this choice of kernel give very smooth distributions that are not applicable to many practical problems. Another good choice of covariance function/Kernel is 
+		- Usual choice of Kernel function is squared exponential kernel. But this choice of kernel give very smooth distributions that are not applicable to many practical problems. Another good choice of covariance function/Kernel is Matern 5/2 kernel. \ref{https://papers.nips.cc/paper/4522-practical-bayesian-optimization-of-machine-learning-algorithms.pdf} 
 	- `Random forests`
 	- `TPE` 
 - wide applicability (DNNs for image classification, speech recognition and neural language modelling) \ref https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MTExNzczLDE0MjQ3Mjg0NzYsMTA0OD
+eyJoaXN0b3J5IjpbODI2NzA3Nzk0LDE0MjQ3Mjg0NzYsMTA0OD
 IxNTc1OSw0Nzk4NTE4NjcsMTIzMTk5NDQyNiwxMjYzNDk0NDQ4
 LC0xNzA5OTI3MTgyLC05NzMwOTYwMiwxMzk4MTM5MzEsLTU0OD
 cxMjY2OSwxNTI5NTUyMjA2LC01MTI2NjI2ODIsLTE2NjI1ODg0

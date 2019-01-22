@@ -86,14 +86,14 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 
 - Bayesian optimization is an iterative algorithm that predicts the distribution of the performance of the learning model with respect to the hyperparamaeters. It is comprised of two major components : a surrogate model and an acquisition function. Using the results obtained from the different evaluations, surrogate model is fitted to a distribution. The acquisition function uses this model to determine the next values of hyperparameters to evaluate. The acquisition function is designed to tradeoff between exploration and exploitation, that is, find an optimal balance between finding the candidate sets from the high certainity regions while exploring unknown regions at the same time. The acquisition functions are cheap to evaluate and thus comparitively easy to optmize. There has been many different models published based on the choice of surrogate models and acquisation functions used, below few of the most prominent ones are explained.
 	-  `Guassian process priors`
-		- The guassian process provides the strong prior over functions which 
+		- The guassian process provides the strong prior over functions which is used to calculate the 
 	- `Random forests`
 	- `TPE` 
 - wide applicability (DNNs for image classification, speech recognition and neural language modelling) \ref https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzOTYxNzE3MSwxMDQ4MjE1NzU5LDQ3OT
+eyJoaXN0b3J5IjpbMTQyNDcyODQ3NiwxMDQ4MjE1NzU5LDQ3OT
 g1MTg2NywxMjMxOTk0NDI2LDEyNjM0OTQ0NDgsLTE3MDk5Mjcx
 ODIsLTk3MzA5NjAyLDEzOTgxMzkzMSwtNTQ4NzEyNjY5LDE1Mj
 k1NTIyMDYsLTUxMjY2MjY4MiwtMTY2MjU4ODQ5NCwzNDY5MzI5

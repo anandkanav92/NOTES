@@ -84,12 +84,12 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 
 # Bayesian optimization
 
-- Bayesian optimization is an iterative algorithm that predicts the distribution of the performance of the learning model with respect to the hyperparamaeters. It is comprised of two major components : a surrogate model and an acquisition function. Using the results obtained from the different evaluations, surrogate model is fitted to a distribution. The acquisition function uses this model to determine the next values of hyperparameters to evaluate. The acquisition function is designed to   
+- Bayesian optimization is an iterative algorithm that predicts the distribution of the performance of the learning model with respect to the hyperparamaeters. It is comprised of two major components : a surrogate model and an acquisition function. Using the results obtained from the different evaluations, surrogate model is fitted to a distribution. The acquisition function uses this model to determine the next values of hyperparameters to evaluate. The acquisition function is designed to tradeoff between exploration and exploitation, that is, f  
 - wide applicability (DNNs for image classification, speech recognition and neural language modelling) \ref https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTY4NTAwNiwxMzk4MTM5MzEsLTU0OD
+eyJoaXN0b3J5IjpbLTkzMjgxNzM3NCwxMzk4MTM5MzEsLTU0OD
 cxMjY2OSwxNTI5NTUyMjA2LC01MTI2NjI2ODIsLTE2NjI1ODg0
 OTQsMzQ2OTMyOTMzLC0xMjE0MDE2MTQ0LC0xOTI5OTcyODk4LD
 M3NDMxNjczNywtMzM5ODc4NDU5LDExNjgzNTcxNzYsNzIyODc2

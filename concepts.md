@@ -88,18 +88,18 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 	-  `Guassian process priors`
 		- The guassian process provides the strong prior over functions and has been widely used for because of their capabilities to provide smooth and well caliberated uncertainity estimates of the learning model distribution. \ref{https://arxiv.org/pdf/1807.01774.pdf} 
 		- Initial prior is assumed to be random as their is no data but this is where expert knowledge can be used by pulggin the prior knowledge of the learning model distribution.
-		- A gaussian process prior is described using mean and a covariance function. Mostly, mean is assumed to be constant or centered around 0 and thus the performance of a gaussian process is largely dependent the choice of covariance function.
+		- A gaussian process prior is described using mean and a covariance function. Mostly, mean is assumed to be constant or centered around 0 and thus the quality of a gaussian process is largely dependent the choice of covariance function.
 	- `Random forests`
 	- `TPE` 
 - wide applicability (DNNs for image classification, speech recognition and neural language modelling) \ref https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMjQwMDE4OCwxNDI0NzI4NDc2LDEwND
-gyMTU3NTksNDc5ODUxODY3LDEyMzE5OTQ0MjYsMTI2MzQ5NDQ0
-OCwtMTcwOTkyNzE4MiwtOTczMDk2MDIsMTM5ODEzOTMxLC01ND
-g3MTI2NjksMTUyOTU1MjIwNiwtNTEyNjYyNjgyLC0xNjYyNTg4
-NDk0LDM0NjkzMjkzMywtMTIxNDAxNjE0NCwtMTkyOTk3Mjg5OC
-wzNzQzMTY3MzcsLTMzOTg3ODQ1OSwxMTY4MzU3MTc2LDcyMjg3
-NjMzNF19
+eyJoaXN0b3J5IjpbLTEzNTc2Mzc0OTMsMTQyNDcyODQ3NiwxMD
+Q4MjE1NzU5LDQ3OTg1MTg2NywxMjMxOTk0NDI2LDEyNjM0OTQ0
+NDgsLTE3MDk5MjcxODIsLTk3MzA5NjAyLDEzOTgxMzkzMSwtNT
+Q4NzEyNjY5LDE1Mjk1NTIyMDYsLTUxMjY2MjY4MiwtMTY2MjU4
+ODQ5NCwzNDY5MzI5MzMsLTEyMTQwMTYxNDQsLTE5Mjk5NzI4OT
+gsMzc0MzE2NzM3LC0zMzk4Nzg0NTksMTE2ODM1NzE3Niw3MjI4
+NzYzMzRdfQ==
 -->

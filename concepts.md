@@ -84,16 +84,16 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 
 # Bayesian optimization
 
-- Bayesian optimization is an iterative algorithm that predicts the distribution of the performance of the learning model with respect to the hyperparamaeters. It is comprised of two major components : a surrogate model and an acquisition function. Using the results obtained from the different evaluations, surrogate model is fitted to a distribution. The acquisition function uses this model to determine the next values of hyperparameters to evaluate. The acquisition function is designed to tradeoff between exploration and exploitation, that is, balance between finding the candidate sets  from the high certainity regions while exploring unknown regions at the same time. It 
+- Bayesian optimization is an iterative algorithm that predicts the distribution of the performance of the learning model with respect to the hyperparamaeters. It is comprised of two major components : a surrogate model and an acquisition function. Using the results obtained from the different evaluations, surrogate model is fitted to a distribution. The acquisition function uses this model to determine the next values of hyperparameters to evaluate. The acquisition function is designed to tradeoff between exploration and exploitation, that is, balance between finding the candidate sets  from the high certainity regions while exploring unknown regions at the same time. It prevent the th e
 - wide applicability (DNNs for image classification, speech recognition and neural language modelling) \ref https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwODQ4OTQ4NiwxMzk4MTM5MzEsLTU0OD
-cxMjY2OSwxNTI5NTUyMjA2LC01MTI2NjI2ODIsLTE2NjI1ODg0
-OTQsMzQ2OTMyOTMzLC0xMjE0MDE2MTQ0LC0xOTI5OTcyODk4LD
-M3NDMxNjczNywtMzM5ODc4NDU5LDExNjgzNTcxNzYsNzIyODc2
-MzM0LC0zMTkzMTQzNDUsLTIwMzc2NDY2MiwxNTg3MTYwOTAwLC
-02NjQwMDg3NDEsNzc1ODk1MjUsLTk2NDc2MzUzMCwtODA2MTQ2
-NTIyXX0=
+eyJoaXN0b3J5IjpbLTk3MzA5NjAyLDEzOTgxMzkzMSwtNTQ4Nz
+EyNjY5LDE1Mjk1NTIyMDYsLTUxMjY2MjY4MiwtMTY2MjU4ODQ5
+NCwzNDY5MzI5MzMsLTEyMTQwMTYxNDQsLTE5Mjk5NzI4OTgsMz
+c0MzE2NzM3LC0zMzk4Nzg0NTksMTE2ODM1NzE3Niw3MjI4NzYz
+MzQsLTMxOTMxNDM0NSwtMjAzNzY0NjYyLDE1ODcxNjA5MDAsLT
+Y2NDAwODc0MSw3NzU4OTUyNSwtOTY0NzYzNTMwLC04MDYxNDY1
+MjJdfQ==
 -->

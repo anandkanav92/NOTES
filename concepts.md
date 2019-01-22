@@ -87,18 +87,19 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 - Bayesian optimization is an iterative algorithm that predicts the distribution of the performance of the learning model with respect to the hyperparamaeters. It is comprised of two major components : a surrogate model and an acquisition function. Using the results obtained from the different evaluations, surrogate model is fitted to a distribution. The acquisition function uses this model to determine the next values of hyperparameters to evaluate. The acquisition function is designed to tradeoff between exploration and exploitation, that is, find an optimal balance between finding the candidate sets from the high certainity regions while exploring unknown regions at the same time. The acquisition functions are cheap to evaluate and thus comparitively easy to optmize. There has been many different models published based on the choice of surrogate models and acquisation functions used, below few of the most prominent ones are explained.
 	-  `Guassian process priors`
 		- The guassian process provides the strong prior over functions and has been widely used for because of their capabilities to provide smooth and well caliberated uncertainity estimates of the learning model distribution. \ref{https://arxiv.org/pdf/1807.01774.pdf} 
-		- A gaussian process prior is described using mean and a covariance functio
+		- Initial prior is assumed to be random as their is no data but this is where expert knowledge can be used by pulggin the prior knowledge of the model  di
+		- A gaussian process prior is described using mean and a covariance function.
 	- `Random forests`
 	- `TPE` 
 - wide applicability (DNNs for image classification, speech recognition and neural language modelling) \ref https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3Njk5NzM4MiwxNDI0NzI4NDc2LDEwND
-gyMTU3NTksNDc5ODUxODY3LDEyMzE5OTQ0MjYsMTI2MzQ5NDQ0
-OCwtMTcwOTkyNzE4MiwtOTczMDk2MDIsMTM5ODEzOTMxLC01ND
-g3MTI2NjksMTUyOTU1MjIwNiwtNTEyNjYyNjgyLC0xNjYyNTg4
-NDk0LDM0NjkzMjkzMywtMTIxNDAxNjE0NCwtMTkyOTk3Mjg5OC
-wzNzQzMTY3MzcsLTMzOTg3ODQ1OSwxMTY4MzU3MTc2LDcyMjg3
-NjMzNF19
+eyJoaXN0b3J5IjpbLTE2MDc1MzA4NDEsMTQyNDcyODQ3NiwxMD
+Q4MjE1NzU5LDQ3OTg1MTg2NywxMjMxOTk0NDI2LDEyNjM0OTQ0
+NDgsLTE3MDk5MjcxODIsLTk3MzA5NjAyLDEzOTgxMzkzMSwtNT
+Q4NzEyNjY5LDE1Mjk1NTIyMDYsLTUxMjY2MjY4MiwtMTY2MjU4
+ODQ5NCwzNDY5MzI5MzMsLTEyMTQwMTYxNDQsLTE5Mjk5NzI4OT
+gsMzc0MzE2NzM3LC0zMzk4Nzg0NTksMTE2ODM1NzE3Niw3MjI4
+NzYzMzRdfQ==
 -->

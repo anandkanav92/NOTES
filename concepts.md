@@ -96,18 +96,19 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 			- `cons` The calculation of covariance function scale cubically with the number of data points, thus it limits the number of configurations that can be evaluated. There has been many approaches to avoid this scaling by using scalable approximate guassian process approximations.
 				- Other cons observed is standard kernel do not scale well in higher dimensions. to overcome this many new extensions have been suggested, like, random embeddings, GP on part of configuration space, cylindrical and additive kernels. \ref{https://arxiv.org/pdf/1807.01774.pdf page 9}
 	- `Random forests`
-		- Random forests are generally used for regression and classification tasks, highly suited for categorical data. \ref{[24] L. Breiman. Random forests. Machine Learning, 45(1):5–32, 2001.}
+		- Random forests are generally used for regression and classification tasks, highly suited for categorical data. \ref{[24] L. Breiman. Random forests. Machine Learning, 45(1):5–32, 2001}
+		- 
 		- 
 	- `TPE` 
 - wide applicability (DNNs for image classification, speech recognition and neural language modelling) \ref https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NTU4Njk3OCwtNjA1MzIwNzgzLC0yMD
-A3MzkxMzYsLTE3NDE4NDk4NTgsNTc3MDUzMTk5LC05MjY1NTg3
-MzgsMTQyNDcyODQ3NiwxMDQ4MjE1NzU5LDQ3OTg1MTg2NywxMj
-MxOTk0NDI2LDEyNjM0OTQ0NDgsLTE3MDk5MjcxODIsLTk3MzA5
-NjAyLDEzOTgxMzkzMSwtNTQ4NzEyNjY5LDE1Mjk1NTIyMDYsLT
-UxMjY2MjY4MiwtMTY2MjU4ODQ5NCwzNDY5MzI5MzMsLTEyMTQw
-MTYxNDRdfQ==
+eyJoaXN0b3J5IjpbNTgzNDI0ODEzLC02MDUzMjA3ODMsLTIwMD
+czOTEzNiwtMTc0MTg0OTg1OCw1NzcwNTMxOTksLTkyNjU1ODcz
+OCwxNDI0NzI4NDc2LDEwNDgyMTU3NTksNDc5ODUxODY3LDEyMz
+E5OTQ0MjYsMTI2MzQ5NDQ0OCwtMTcwOTkyNzE4MiwtOTczMDk2
+MDIsMTM5ODEzOTMxLC01NDg3MTI2NjksMTUyOTU1MjIwNiwtNT
+EyNjYyNjgyLC0xNjYyNTg4NDk0LDM0NjkzMjkzMywtMTIxNDAx
+NjE0NF19
 -->

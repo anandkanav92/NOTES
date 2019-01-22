@@ -91,7 +91,7 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		- A gaussian process prior is described using mean and a covariance function. Mostly, mean is assumed to be constant or centered around 0 and thus the quality of a gaussian process is largely dependent the choice of covariance function.
 		- Usual choice of Kernel function is squared exponential kernel. But this choice of kernel give very smooth distributions that are not applicable to many practical problems. Another good choice of covariance function/Kernel is Matern 5/2 kernel. \ref{https://papers.nips.cc/paper/4522-practical-bayesian-optimization-of-machine-learning-algorithms.pdf} 
 		- `parallelize` Since our model learn its parameters from results obtained by evaluating different HP points, how do we parallelize bayesian optimization?
-			- simple Batch parallelism. But it lose the 
+			- simple Batch parallelism. But it lose the information gain of the current batch.
 			- Monte Carlo helps deciding what points to be evaluated next
 	- `Random forests`
 	- `TPE` 
@@ -99,11 +99,11 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMjc5OTQwLDU3NzA1MzE5OSwtOTI2NT
-U4NzM4LDE0MjQ3Mjg0NzYsMTA0ODIxNTc1OSw0Nzk4NTE4Njcs
-MTIzMTk5NDQyNiwxMjYzNDk0NDQ4LC0xNzA5OTI3MTgyLC05Nz
-MwOTYwMiwxMzk4MTM5MzEsLTU0ODcxMjY2OSwxNTI5NTUyMjA2
-LC01MTI2NjI2ODIsLTE2NjI1ODg0OTQsMzQ2OTMyOTMzLC0xMj
-E0MDE2MTQ0LC0xOTI5OTcyODk4LDM3NDMxNjczNywtMzM5ODc4
-NDU5XX0=
+eyJoaXN0b3J5IjpbLTkxMjgyODQxOCw1NzcwNTMxOTksLTkyNj
+U1ODczOCwxNDI0NzI4NDc2LDEwNDgyMTU3NTksNDc5ODUxODY3
+LDEyMzE5OTQ0MjYsMTI2MzQ5NDQ0OCwtMTcwOTkyNzE4MiwtOT
+czMDk2MDIsMTM5ODEzOTMxLC01NDg3MTI2NjksMTUyOTU1MjIw
+NiwtNTEyNjYyNjgyLC0xNjYyNTg4NDk0LDM0NjkzMjkzMywtMT
+IxNDAxNjE0NCwtMTkyOTk3Mjg5OCwzNzQzMTY3MzcsLTMzOTg3
+ODQ1OV19
 -->

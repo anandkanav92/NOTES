@@ -90,18 +90,19 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		- Initial prior is assumed to be random as their is no data but this is where expert knowledge can be used by pulggin the prior knowledge of the learning model distribution.
 		- A gaussian process prior is described using mean and a covariance function. Mostly, mean is assumed to be constant or centered around 0 and thus the quality of a gaussian process is largely dependent the choice of covariance function.
 		- Usual choice of Kernel function is squared exponential kernel. But this choice of kernel give very smooth distributions that are not applicable to many practical problems. Another good choice of covariance function/Kernel is Matern 5/2 kernel. \ref{https://papers.nips.cc/paper/4522-practical-bayesian-optimization-of-machine-learning-algorithms.pdf} 
-		- `parallelize` Since our model learn its parameters from
+		- `parallelize` Since our model learn its parameters from results obtained by evaluating different HP points, how do we parallelize bayesian optimization?
+			- Monte Carlo helps deciding what points to be evaluated next
 	- `Random forests`
 	- `TPE` 
 - wide applicability (DNNs for image classification, speech recognition and neural language modelling) \ref https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc3MDUzMTk5LC05MjY1NTg3MzgsMTQyND
-cyODQ3NiwxMDQ4MjE1NzU5LDQ3OTg1MTg2NywxMjMxOTk0NDI2
-LDEyNjM0OTQ0NDgsLTE3MDk5MjcxODIsLTk3MzA5NjAyLDEzOT
-gxMzkzMSwtNTQ4NzEyNjY5LDE1Mjk1NTIyMDYsLTUxMjY2MjY4
-MiwtMTY2MjU4ODQ5NCwzNDY5MzI5MzMsLTEyMTQwMTYxNDQsLT
-E5Mjk5NzI4OTgsMzc0MzE2NzM3LC0zMzk4Nzg0NTksMTE2ODM1
-NzE3Nl19
+eyJoaXN0b3J5IjpbLTEyMDc5MzI0NjUsNTc3MDUzMTk5LC05Mj
+Y1NTg3MzgsMTQyNDcyODQ3NiwxMDQ4MjE1NzU5LDQ3OTg1MTg2
+NywxMjMxOTk0NDI2LDEyNjM0OTQ0NDgsLTE3MDk5MjcxODIsLT
+k3MzA5NjAyLDEzOTgxMzkzMSwtNTQ4NzEyNjY5LDE1Mjk1NTIy
+MDYsLTUxMjY2MjY4MiwtMTY2MjU4ODQ5NCwzNDY5MzI5MzMsLT
+EyMTQwMTYxNDQsLTE5Mjk5NzI4OTgsMzc0MzE2NzM3LC0zMzk4
+Nzg0NTldfQ==
 -->

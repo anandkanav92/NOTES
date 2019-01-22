@@ -86,18 +86,18 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 
 - Bayesian optimization is an iterative algorithm that predicts the distribution of the performance of the learning model with respect to the hyperparamaeters. It is comprised of two major components : a surrogate model and an acquisition function. Using the results obtained from the different evaluations, surrogate model is fitted to a distribution. The acquisition function uses this model to determine the next values of hyperparameters to evaluate. The acquisition function is designed to tradeoff between exploration and exploitation, that is, find an optimal balance between finding the candidate sets from the high certainity regions while exploring unknown regions at the same time. The acquisition functions are cheap to evaluate and thus comparitively easy to optmize. There has been many different models published based on the choice of surrogate models and acquisation functions used, below few of the most prominent ones are explained.
 	-  `Guassian process priors`
-		- The guassian process provides the strong prior over functions which is used to calculate the 
+		- The guassian process provides the strong prior over functions which is used to calculate the pos
 	- `Random forests`
 	- `TPE` 
 - wide applicability (DNNs for image classification, speech recognition and neural language modelling) \ref https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNDcyODQ3NiwxMDQ4MjE1NzU5LDQ3OT
-g1MTg2NywxMjMxOTk0NDI2LDEyNjM0OTQ0NDgsLTE3MDk5Mjcx
-ODIsLTk3MzA5NjAyLDEzOTgxMzkzMSwtNTQ4NzEyNjY5LDE1Mj
-k1NTIyMDYsLTUxMjY2MjY4MiwtMTY2MjU4ODQ5NCwzNDY5MzI5
-MzMsLTEyMTQwMTYxNDQsLTE5Mjk5NzI4OTgsMzc0MzE2NzM3LC
-0zMzk4Nzg0NTksMTE2ODM1NzE3Niw3MjI4NzYzMzQsLTMxOTMx
-NDM0NV19
+eyJoaXN0b3J5IjpbLTEwMTY2MzM0MDgsMTQyNDcyODQ3NiwxMD
+Q4MjE1NzU5LDQ3OTg1MTg2NywxMjMxOTk0NDI2LDEyNjM0OTQ0
+NDgsLTE3MDk5MjcxODIsLTk3MzA5NjAyLDEzOTgxMzkzMSwtNT
+Q4NzEyNjY5LDE1Mjk1NTIyMDYsLTUxMjY2MjY4MiwtMTY2MjU4
+ODQ5NCwzNDY5MzI5MzMsLTEyMTQwMTYxNDQsLTE5Mjk5NzI4OT
+gsMzc0MzE2NzM3LC0zMzk4Nzg0NTksMTE2ODM1NzE3Niw3MjI4
+NzYzMzRdfQ==
 -->

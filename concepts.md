@@ -84,17 +84,18 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 
 # Bayesian optimization
 
-- Bayesian optimization is an iterative algorithm that predicts the distribution of the performance of the learning model with respect to the hyperparamaeters. It is comprised of two major components : a surrogate model and an acquisition function. Using the results obtained from the different evaluations, surrogate model is fitted to a distribution. The acquisition function uses this model to determine the next values of hyperparameters to evaluate. The acquisition function is designed to tradeoff between exploration and exploitation, that is, find an optimal balance between finding the candidate sets from the high certainity regions while exploring unknown regions at the same time. The acquisition functions are cheap to evaluate and thus comparitively easy to optmize. There has been many different models published, below few of the most prominent models are explained.
-	- 
+- Bayesian optimization is an iterative algorithm that predicts the distribution of the performance of the learning model with respect to the hyperparamaeters. It is comprised of two major components : a surrogate model and an acquisition function. Using the results obtained from the different evaluations, surrogate model is fitted to a distribution. The acquisition function uses this model to determine the next values of hyperparameters to evaluate. The acquisition function is designed to tradeoff between exploration and exploitation, that is, find an optimal balance between finding the candidate sets from the high certainity regions while exploring unknown regions at the same time. The acquisition functions are cheap to evaluate and thus comparitively easy to optmize. There has been many different models published based on the choice of surrogate models and acquisation functions used, below few of the most prominent ones are explained.
+	-  `Guassian process priors`
+		- 
 - wide applicability (DNNs for image classification, speech recognition and neural language modelling) \ref https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDk5MjcxODIsLTk3MzA5NjAyLDEzOT
-gxMzkzMSwtNTQ4NzEyNjY5LDE1Mjk1NTIyMDYsLTUxMjY2MjY4
-MiwtMTY2MjU4ODQ5NCwzNDY5MzI5MzMsLTEyMTQwMTYxNDQsLT
-E5Mjk5NzI4OTgsMzc0MzE2NzM3LC0zMzk4Nzg0NTksMTE2ODM1
-NzE3Niw3MjI4NzYzMzQsLTMxOTMxNDM0NSwtMjAzNzY0NjYyLD
-E1ODcxNjA5MDAsLTY2NDAwODc0MSw3NzU4OTUyNSwtOTY0NzYz
-NTMwXX0=
+eyJoaXN0b3J5IjpbMTI2MzQ5NDQ0OCwtMTcwOTkyNzE4MiwtOT
+czMDk2MDIsMTM5ODEzOTMxLC01NDg3MTI2NjksMTUyOTU1MjIw
+NiwtNTEyNjYyNjgyLC0xNjYyNTg4NDk0LDM0NjkzMjkzMywtMT
+IxNDAxNjE0NCwtMTkyOTk3Mjg5OCwzNzQzMTY3MzcsLTMzOTg3
+ODQ1OSwxMTY4MzU3MTc2LDcyMjg3NjMzNCwtMzE5MzE0MzQ1LC
+0yMDM3NjQ2NjIsMTU4NzE2MDkwMCwtNjY0MDA4NzQxLDc3NTg5
+NTI1XX0=
 -->

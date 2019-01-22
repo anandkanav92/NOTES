@@ -93,7 +93,7 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		- `parallelize` Since our model learn its parameters from results obtained by evaluating different HP points, how do we parallelize bayesian optimization?
 			- simple Batch parallelism. But it lose the information gain of the current batch.
 			- Markov chain Monte Carlo(MCMC) estimates of the acquisition functions are used to generate samples using already evaluated data and distributions of data under execution. \ref{https://papers.nips.cc/paper/4522-practical-bayesian-optimization-of-machine-learning-algorithms.pdf}
-			- `cons` The calculation of covariance function scale cubically with the number of data points, thus it limits the number of configurations that can be evaluated. There has been many approaches to avoid this scaling by using scalable approx
+			- `cons` The calculation of covariance function scale cubically with the number of data points, thus it limits the number of configurations that can be evaluated. There has been many approaches to avoid this scaling by using scalable approximate guassian process approximations.
 	- `Random forests`
 		- 
 	- `TPE` 
@@ -101,7 +101,7 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMjc4MzA3MywtMjAwNzM5MTM2LC0xNz
+eyJoaXN0b3J5IjpbLTU0MDUwMTU3OSwtMjAwNzM5MTM2LC0xNz
 QxODQ5ODU4LDU3NzA1MzE5OSwtOTI2NTU4NzM4LDE0MjQ3Mjg0
 NzYsMTA0ODIxNTc1OSw0Nzk4NTE4NjcsMTIzMTk5NDQyNiwxMj
 YzNDk0NDQ4LC0xNzA5OTI3MTgyLC05NzMwOTYwMiwxMzk4MTM5

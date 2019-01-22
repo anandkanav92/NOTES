@@ -92,18 +92,18 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		- Usual choice of Kernel function is squared exponential kernel. But this choice of kernel give very smooth distributions that are not applicable to many practical problems. Another good choice of covariance function/Kernel is Matern 5/2 kernel. \ref{https://papers.nips.cc/paper/4522-practical-bayesian-optimization-of-machine-learning-algorithms.pdf} 
 		- `parallelize` Since our model learn its parameters from results obtained by evaluating different HP points, how do we parallelize bayesian optimization?
 			- simple Batch parallelism. But it lose the information gain of the current batch.
-			- Monte Carlo helps deciding what points to be evaluated next
+			- Monte Carlo estimates of the acquisition function
 	- `Random forests`
 	- `TPE` 
 - wide applicability (DNNs for image classification, speech recognition and neural language modelling) \ref https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjgyODQxOCw1NzcwNTMxOTksLTkyNj
-U1ODczOCwxNDI0NzI4NDc2LDEwNDgyMTU3NTksNDc5ODUxODY3
-LDEyMzE5OTQ0MjYsMTI2MzQ5NDQ0OCwtMTcwOTkyNzE4MiwtOT
-czMDk2MDIsMTM5ODEzOTMxLC01NDg3MTI2NjksMTUyOTU1MjIw
-NiwtNTEyNjYyNjgyLC0xNjYyNTg4NDk0LDM0NjkzMjkzMywtMT
-IxNDAxNjE0NCwtMTkyOTk3Mjg5OCwzNzQzMTY3MzcsLTMzOTg3
-ODQ1OV19
+eyJoaXN0b3J5IjpbLTE3NDE4NDk4NTgsNTc3MDUzMTk5LC05Mj
+Y1NTg3MzgsMTQyNDcyODQ3NiwxMDQ4MjE1NzU5LDQ3OTg1MTg2
+NywxMjMxOTk0NDI2LDEyNjM0OTQ0NDgsLTE3MDk5MjcxODIsLT
+k3MzA5NjAyLDEzOTgxMzkzMSwtNTQ4NzEyNjY5LDE1Mjk1NTIy
+MDYsLTUxMjY2MjY4MiwtMTY2MjU4ODQ5NCwzNDY5MzI5MzMsLT
+EyMTQwMTYxNDQsLTE5Mjk5NzI4OTgsMzc0MzE2NzM3LC0zMzk4
+Nzg0NTldfQ==
 -->

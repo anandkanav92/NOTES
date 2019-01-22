@@ -92,19 +92,20 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		- Usual choice of Kernel function is squared exponential kernel. But this choice of kernel give very smooth distributions that are not applicable to many practical problems. Another good choice of covariance function/Kernel is Matern 5/2 kernel. \ref{https://papers.nips.cc/paper/4522-practical-bayesian-optimization-of-machine-learning-algorithms.pdf} 
 		- `parallelize` Since our model learn its parameters from results obtained by evaluating different HP points, how do we parallelize bayesian optimization?
 			- simple Batch parallelism. But it lose the information gain of the current batch.
-			- Markov chain Monte Carlo(MCMC) estimates of the acquisition functions are used to generate samples using already evaluated data and distributions of data under execution.
-			- 
+			- Markov chain Monte Carlo(MCMC) estimates of the acquisition functions are used to generate samples using already evaluated data and distributions of data under execution. \ref{https://papers.nips.cc/paper/4522-practical-bayesian-optimization-of-machine-learning-algorithms.pdf}
+			- `cons` 
 	- `Random forests`
+		- 
 	- `TPE` 
 - wide applicability (DNNs for image classification, speech recognition and neural language modelling) \ref https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDczOTEzNiwtMTc0MTg0OTg1OCw1Nz
-cwNTMxOTksLTkyNjU1ODczOCwxNDI0NzI4NDc2LDEwNDgyMTU3
-NTksNDc5ODUxODY3LDEyMzE5OTQ0MjYsMTI2MzQ5NDQ0OCwtMT
-cwOTkyNzE4MiwtOTczMDk2MDIsMTM5ODEzOTMxLC01NDg3MTI2
-NjksMTUyOTU1MjIwNiwtNTEyNjYyNjgyLC0xNjYyNTg4NDk0LD
-M0NjkzMjkzMywtMTIxNDAxNjE0NCwtMTkyOTk3Mjg5OCwzNzQz
-MTY3MzddfQ==
+eyJoaXN0b3J5IjpbLTIwNjQyNDMxMDUsLTIwMDczOTEzNiwtMT
+c0MTg0OTg1OCw1NzcwNTMxOTksLTkyNjU1ODczOCwxNDI0NzI4
+NDc2LDEwNDgyMTU3NTksNDc5ODUxODY3LDEyMzE5OTQ0MjYsMT
+I2MzQ5NDQ0OCwtMTcwOTkyNzE4MiwtOTczMDk2MDIsMTM5ODEz
+OTMxLC01NDg3MTI2NjksMTUyOTU1MjIwNiwtNTEyNjYyNjgyLC
+0xNjYyNTg4NDk0LDM0NjkzMjkzMywtMTIxNDAxNjE0NCwtMTky
+OTk3Mjg5OF19
 -->

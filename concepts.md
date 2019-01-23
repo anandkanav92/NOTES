@@ -126,15 +126,17 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 Our search space consists of convolutional architectures, with rectified linear units as non-linearities (Nair & Hinton, 2010), batch normalization (Ioffe & Szegedy, 2015) and skip connections between layers (Section 3.3). For every convolutional layer, the controller RNN has to select a filter height in [1, 3, 5, 7], a filter width in [1, 3, 5, 7], and a number of filters in [24, 36, 48, Under review as a conference paper at ICLR 2017 64]. For strides, we perform two sets of experiments, one where we fix the strides to be 1, and one where we allow the controller to predict the strides in [1, 2, 3]. 
 ### Training details:
 The controller RNN is a two-layer LSTM with 35 hidden units on each layer. It is trained with the ADAM optimizer (Kingma & Ba, 2015) with a learning rate of 0.0006. The weights of the controller are initialized uniformly between -0.08 and 0.08. For the distributed training, we set the number of parameter server shards S to 20, the number of controller replicas K to 100 and the number of child replicas m to 8, which means there are 800 networks being trained on 800 GPUs concurrently at any time.
+	- 12,800 architectures are trained :O
+	- 
 
 - computationally very extensive
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5Mjg5MzYzLC0xNDgxOTA3NjAyLC0xMz
-c0MDYzNDkzLDE2MTQ5MDM0NzEsMTIxNzc0MDQzOCwtMTQxMTE3
-MzYyNiwtMTI1Njg4ODU3MSwtNjEyNzI3Njc2LC0xOTUzNzc0OD
-UzLC05MTMxNzE0OTUsLTE0MjgwNTc1MzEsMTM5NzY5NTE5OCwt
-MTIyNDk5NDA5NywtOTYxMjYzNzgyLDE1NjEzMTMzNDMsMTI2Mj
-I0MzExMSwtMTg3MTExOTEyNiwxNzcxNjU5MjQ3LDM4NjEwMzcz
-NywyMDcxMzU2Mjg1XX0=
+eyJoaXN0b3J5IjpbLTIwOTU5NDIyNTQsLTE0ODE5MDc2MDIsLT
+EzNzQwNjM0OTMsMTYxNDkwMzQ3MSwxMjE3NzQwNDM4LC0xNDEx
+MTczNjI2LC0xMjU2ODg4NTcxLC02MTI3Mjc2NzYsLTE5NTM3Nz
+Q4NTMsLTkxMzE3MTQ5NSwtMTQyODA1NzUzMSwxMzk3Njk1MTk4
+LC0xMjI0OTk0MDk3LC05NjEyNjM3ODIsMTU2MTMxMzM0MywxMj
+YyMjQzMTExLC0xODcxMTE5MTI2LDE3NzE2NTkyNDcsMzg2MTAz
+NzM3LDIwNzEzNTYyODVdfQ==
 -->

@@ -120,15 +120,15 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 	- Parameter server that shares parameters with controllers.
 	- Controllers have sampled child architectures amd after training and based on results obtained, parameters are updated using gradient and updated for every controller.
 - possible to add skip connections, branching layers.
-	- By enabling anchor points, at layer N a probability is generated for a connection between each of the previous layer. specified as $P(layer j is an input to i) = sigmoid(v^T tanh(W_{prev}*h_j + W_{curr}*h_i))$ 
+	- By enabling anchor points, at layer N a probability is generated for a connection between each of the previous layer. specified as $P(layer j is an input to i) = sigmoid(v^T tanh(W_{prev}*h_j + W_{curr}*h_i))$ Using 
 - computationally very extensive
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzQwNjM0OTMsMTYxNDkwMzQ3MSwxMj
-E3NzQwNDM4LC0xNDExMTczNjI2LC0xMjU2ODg4NTcxLC02MTI3
-Mjc2NzYsLTE5NTM3NzQ4NTMsLTkxMzE3MTQ5NSwtMTQyODA1Nz
-UzMSwxMzk3Njk1MTk4LC0xMjI0OTk0MDk3LC05NjEyNjM3ODIs
-MTU2MTMxMzM0MywxMjYyMjQzMTExLC0xODcxMTE5MTI2LDE3Nz
-E2NTkyNDcsMzg2MTAzNzM3LDIwNzEzNTYyODUsMTE4MzYwNDE4
-OCwxMjExMDYwMzk4XX0=
+eyJoaXN0b3J5IjpbMTA4NTY4NTQzOSwtMTM3NDA2MzQ5MywxNj
+E0OTAzNDcxLDEyMTc3NDA0MzgsLTE0MTExNzM2MjYsLTEyNTY4
+ODg1NzEsLTYxMjcyNzY3NiwtMTk1Mzc3NDg1MywtOTEzMTcxND
+k1LC0xNDI4MDU3NTMxLDEzOTc2OTUxOTgsLTEyMjQ5OTQwOTcs
+LTk2MTI2Mzc4MiwxNTYxMzEzMzQzLDEyNjIyNDMxMTEsLTE4Nz
+ExMTkxMjYsMTc3MTY1OTI0NywzODYxMDM3MzcsMjA3MTM1NjI4
+NSwxMTgzNjA0MTg4XX0=
 -->

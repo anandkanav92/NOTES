@@ -111,14 +111,15 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		- The $y^*$ is chosen to be some quantile of the observed model performance metric. 
 		- The observed densitites are used to maximise the expected improvement to find new candidate points. It is dependent on the ratio $\frac{g(X)}{l(X)}$. This means for maximum improvement it is ideal to draw points from l(x) and evaluate them using the $\frac{g(x)}{l(x)}$. The candidate with highest EI is returned on every iteration.
 - wide applicability (DNNs for image classification, speech recognition and neural language modelling) \ref https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306
-- 
+
+# NAS using RL
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjgwNTc1MzEsMTM5NzY5NTE5OCwtMT
-IyNDk5NDA5NywtOTYxMjYzNzgyLDE1NjEzMTMzNDMsMTI2MjI0
-MzExMSwtMTg3MTExOTEyNiwxNzcxNjU5MjQ3LDM4NjEwMzczNy
-wyMDcxMzU2Mjg1LDExODM2MDQxODgsMTIxMTA2MDM5OCw1ODM0
-MjQ4MTMsLTYwNTMyMDc4MywtMjAwNzM5MTM2LC0xNzQxODQ5OD
-U4LDU3NzA1MzE5OSwtOTI2NTU4NzM4LDE0MjQ3Mjg0NzYsMTA0
-ODIxNTc1OV19
+eyJoaXN0b3J5IjpbNzAwNzczNjgzLC0xNDI4MDU3NTMxLDEzOT
+c2OTUxOTgsLTEyMjQ5OTQwOTcsLTk2MTI2Mzc4MiwxNTYxMzEz
+MzQzLDEyNjIyNDMxMTEsLTE4NzExMTkxMjYsMTc3MTY1OTI0Ny
+wzODYxMDM3MzcsMjA3MTM1NjI4NSwxMTgzNjA0MTg4LDEyMTEw
+NjAzOTgsNTgzNDI0ODEzLC02MDUzMjA3ODMsLTIwMDczOTEzNi
+wtMTc0MTg0OTg1OCw1NzcwNTMxOTksLTkyNjU1ODczOCwxNDI0
+NzI4NDc2XX0=
 -->

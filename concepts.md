@@ -118,15 +118,16 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 - The choices are made to maximise the reward.
 - parrallelism is achieved by sample different architectures and training them in parallel.
 	- Parameter server that shares parameters with controllers.
-	- Controllers have sampled child architectures 
+	- Controllers have sampled child architectures amd after training and based on results obtained, parameters are updated using gradient and updated for every controller.
+- possible to add skip connections, branching layers. 
 - computationally very extensive
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTA1NDUzMzUsMTIxNzc0MDQzOCwtMT
-QxMTE3MzYyNiwtMTI1Njg4ODU3MSwtNjEyNzI3Njc2LC0xOTUz
-Nzc0ODUzLC05MTMxNzE0OTUsLTE0MjgwNTc1MzEsMTM5NzY5NT
-E5OCwtMTIyNDk5NDA5NywtOTYxMjYzNzgyLDE1NjEzMTMzNDMs
-MTI2MjI0MzExMSwtMTg3MTExOTEyNiwxNzcxNjU5MjQ3LDM4Nj
-EwMzczNywyMDcxMzU2Mjg1LDExODM2MDQxODgsMTIxMTA2MDM5
-OCw1ODM0MjQ4MTNdfQ==
+eyJoaXN0b3J5IjpbMTYxNDkwMzQ3MSwxMjE3NzQwNDM4LC0xND
+ExMTczNjI2LC0xMjU2ODg4NTcxLC02MTI3Mjc2NzYsLTE5NTM3
+NzQ4NTMsLTkxMzE3MTQ5NSwtMTQyODA1NzUzMSwxMzk3Njk1MT
+k4LC0xMjI0OTk0MDk3LC05NjEyNjM3ODIsMTU2MTMxMzM0Mywx
+MjYyMjQzMTExLC0xODcxMTE5MTI2LDE3NzE2NTkyNDcsMzg2MT
+AzNzM3LDIwNzEzNTYyODUsMTE4MzYwNDE4OCwxMjExMDYwMzk4
+LDU4MzQyNDgxM119
 -->

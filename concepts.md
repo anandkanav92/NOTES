@@ -84,6 +84,7 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 
 # Bayesian optimization
 
+- 
 - Bayesian optimization is an iterative algorithm that predicts the distribution of the performance of the learning model with respect to the hyperparamaeters. It is comprised of two major components : a surrogate model and an acquisition function. Using the results obtained from the different evaluations, surrogate model is fitted to a distribution. The acquisition function uses this model to determine the next values of hyperparameters to evaluate. The acquisition function is designed to tradeoff between exploration and exploitation, that is, find an optimal balance between finding the candidate sets from the high certainity regions while exploring unknown regions at the same time. The acquisition functions are cheap to evaluate and thus comparitively easy to optmize. There has been many different models published based on the choice of surrogate models and acquisation functions used, below few of the most prominent ones are explained.
 	-  `Guassian process priors`
 		- The guassian process provides the strong prior over functions and has been widely used for because of their capabilities to provide smooth and well caliberated uncertainity estimates of the learning model distribution. \ref{https://arxiv.org/pdf/1807.01774.pdf} 
@@ -113,11 +114,11 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NzY5NTE5OCwtMTIyNDk5NDA5NywtOT
-YxMjYzNzgyLDE1NjEzMTMzNDMsMTI2MjI0MzExMSwtMTg3MTEx
-OTEyNiwxNzcxNjU5MjQ3LDM4NjEwMzczNywyMDcxMzU2Mjg1LD
-ExODM2MDQxODgsMTIxMTA2MDM5OCw1ODM0MjQ4MTMsLTYwNTMy
-MDc4MywtMjAwNzM5MTM2LC0xNzQxODQ5ODU4LDU3NzA1MzE5OS
-wtOTI2NTU4NzM4LDE0MjQ3Mjg0NzYsMTA0ODIxNTc1OSw0Nzk4
-NTE4NjddfQ==
+eyJoaXN0b3J5IjpbNzI4NDc2ODg5LDEzOTc2OTUxOTgsLTEyMj
+Q5OTQwOTcsLTk2MTI2Mzc4MiwxNTYxMzEzMzQzLDEyNjIyNDMx
+MTEsLTE4NzExMTkxMjYsMTc3MTY1OTI0NywzODYxMDM3MzcsMj
+A3MTM1NjI4NSwxMTgzNjA0MTg4LDEyMTEwNjAzOTgsNTgzNDI0
+ODEzLC02MDUzMjA3ODMsLTIwMDczOTEzNiwtMTc0MTg0OTg1OC
+w1NzcwNTMxOTksLTkyNjU1ODczOCwxNDI0NzI4NDc2LDEwNDgy
+MTU3NTldfQ==
 -->

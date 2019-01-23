@@ -113,15 +113,15 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 - wide applicability (DNNs for image classification, speech recognition and neural language modelling) \ref https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306
 
 # NAS using RL
-- NAS finds a good ar
+- Designing a complete architecture requires expertise and time. Thus, NAS finds a good architecture 
 - computationally very extensive
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMjcyNzY3NiwtMTk1Mzc3NDg1MywtOT
-EzMTcxNDk1LC0xNDI4MDU3NTMxLDEzOTc2OTUxOTgsLTEyMjQ5
-OTQwOTcsLTk2MTI2Mzc4MiwxNTYxMzEzMzQzLDEyNjIyNDMxMT
-EsLTE4NzExMTkxMjYsMTc3MTY1OTI0NywzODYxMDM3MzcsMjA3
-MTM1NjI4NSwxMTgzNjA0MTg4LDEyMTEwNjAzOTgsNTgzNDI0OD
-EzLC02MDUzMjA3ODMsLTIwMDczOTEzNiwtMTc0MTg0OTg1OCw1
-NzcwNTMxOTldfQ==
+eyJoaXN0b3J5IjpbNzA2MjU0MDA2LC02MTI3Mjc2NzYsLTE5NT
+M3NzQ4NTMsLTkxMzE3MTQ5NSwtMTQyODA1NzUzMSwxMzk3Njk1
+MTk4LC0xMjI0OTk0MDk3LC05NjEyNjM3ODIsMTU2MTMxMzM0My
+wxMjYyMjQzMTExLC0xODcxMTE5MTI2LDE3NzE2NTkyNDcsMzg2
+MTAzNzM3LDIwNzEzNTYyODUsMTE4MzYwNDE4OCwxMjExMDYwMz
+k4LDU4MzQyNDgxMywtNjA1MzIwNzgzLC0yMDA3MzkxMzYsLTE3
+NDE4NDk4NThdfQ==
 -->

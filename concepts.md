@@ -98,18 +98,18 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 	- `Random forests`
 		- Random forests are generally used for regression and classification tasks, highly suited for categorical data. \ref{[24] L. Breiman. Random forests. Machine Learning, 45(1):5–32, 2001}
 		- They are considered ensemble of regression trees where each leaf contains the learning algorithm performnace values. 
-		- the procedure is like: first randomly sample N points from the conf
+		- the procedure is like: first randomly sample N points from the configuration space/domain values of hyperparameters. Then the model is evaluated for these hyperparameter sampled values
 		- 
 	- `TPE` 
 - wide applicability (DNNs for image classification, speech recognition and neural language modelling) \ref https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDYxOTE5ODIsMTE4MzYwNDE4OCwxMj
-ExMDYwMzk4LDU4MzQyNDgxMywtNjA1MzIwNzgzLC0yMDA3Mzkx
-MzYsLTE3NDE4NDk4NTgsNTc3MDUzMTk5LC05MjY1NTg3MzgsMT
-QyNDcyODQ3NiwxMDQ4MjE1NzU5LDQ3OTg1MTg2NywxMjMxOTk0
-NDI2LDEyNjM0OTQ0NDgsLTE3MDk5MjcxODIsLTk3MzA5NjAyLD
-EzOTgxMzkzMSwtNTQ4NzEyNjY5LDE1Mjk1NTIyMDYsLTUxMjY2
-MjY4Ml19
+eyJoaXN0b3J5IjpbMjA3MTM1NjI4NSwxMTgzNjA0MTg4LDEyMT
+EwNjAzOTgsNTgzNDI0ODEzLC02MDUzMjA3ODMsLTIwMDczOTEz
+NiwtMTc0MTg0OTg1OCw1NzcwNTMxOTksLTkyNjU1ODczOCwxND
+I0NzI4NDc2LDEwNDgyMTU3NTksNDc5ODUxODY3LDEyMzE5OTQ0
+MjYsMTI2MzQ5NDQ0OCwtMTcwOTkyNzE4MiwtOTczMDk2MDIsMT
+M5ODEzOTMxLC01NDg3MTI2NjksMTUyOTU1MjIwNiwtNTEyNjYy
+NjgyXX0=
 -->

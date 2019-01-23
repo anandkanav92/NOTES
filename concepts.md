@@ -100,18 +100,18 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		- They are considered ensemble of regression trees where each leaf contains the learning algorithm performnace values. 
 		- the procedure is like: first randomly sample N points from the configuration space/domain values of hyperparameters. Then the model is evaluated for these hyperparameter sampled values. Using these evaluations a random forest is generated and the number of parameters considered before splitting into different nodes is specified by split ratio(default 5/6). other parameter is $n_{min}$ that defines the min number of datapoints required for splitting. RD predictive mean is calculated using individual tree parameters.
 		-`pros` high parallelism, very good for high dimensions and categorical hyperparameters when GP doesn't work well. \ref{HPO,12}  
-			-	
+			-	scaling for fitting and predicting variance - O(n logn) and O(log n) compared to GPs O($n^2$) and O($n^3$)
 		- 
 	- `TPE` 
 - wide applicability (DNNs for image classification, speech recognition and neural language modelling) \ref https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTEwMTIwMTEsMzg2MTAzNzM3LDIwNz
-EzNTYyODUsMTE4MzYwNDE4OCwxMjExMDYwMzk4LDU4MzQyNDgx
-MywtNjA1MzIwNzgzLC0yMDA3MzkxMzYsLTE3NDE4NDk4NTgsNT
-c3MDUzMTk5LC05MjY1NTg3MzgsMTQyNDcyODQ3NiwxMDQ4MjE1
-NzU5LDQ3OTg1MTg2NywxMjMxOTk0NDI2LDEyNjM0OTQ0NDgsLT
-E3MDk5MjcxODIsLTk3MzA5NjAyLDEzOTgxMzkzMSwtNTQ4NzEy
-NjY5XX0=
+eyJoaXN0b3J5IjpbMTc3MTY1OTI0NywzODYxMDM3MzcsMjA3MT
+M1NjI4NSwxMTgzNjA0MTg4LDEyMTEwNjAzOTgsNTgzNDI0ODEz
+LC02MDUzMjA3ODMsLTIwMDczOTEzNiwtMTc0MTg0OTg1OCw1Nz
+cwNTMxOTksLTkyNjU1ODczOCwxNDI0NzI4NDc2LDEwNDgyMTU3
+NTksNDc5ODUxODY3LDEyMzE5OTQ0MjYsMTI2MzQ5NDQ0OCwtMT
+cwOTkyNzE4MiwtOTczMDk2MDIsMTM5ODEzOTMxLC01NDg3MTI2
+NjldfQ==
 -->

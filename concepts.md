@@ -121,10 +121,11 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 	- Controllers have sampled child architectures amd after training and based on results obtained, parameters are updated using gradient and updated for every controller.
 - possible to add skip connections, branching layers.
 	- By enabling anchor points, at layer N a probability is generated for a connection between each of the previous layer. specified as $P(layer j is an input to i) = sigmoid(v^T tanh(W_{prev}*h_j + W_{curr}*h_i))$ Using these sigmoid layers we sample what layers to use as input. Skip connections can cause problems with layer as no input or no output. Thus, no input is resolved by adding image as input and no output by connecting it to final layer. if input layer dimensions doesn't match, pad it with 0s. 
+	- possible to predict pooling, local contrast. no prediction for learning rate.
 - computationally very extensive
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MDg5NTg3NiwtMTQ4MTkwNzYwMiwtMT
+eyJoaXN0b3J5IjpbMTUyNDk2NzczMiwtMTQ4MTkwNzYwMiwtMT
 M3NDA2MzQ5MywxNjE0OTAzNDcxLDEyMTc3NDA0MzgsLTE0MTEx
 NzM2MjYsLTEyNTY4ODg1NzEsLTYxMjcyNzY3NiwtMTk1Mzc3ND
 g1MywtOTEzMTcxNDk1LC0xNDI4MDU3NTMxLDEzOTc2OTUxOTgs

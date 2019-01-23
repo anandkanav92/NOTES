@@ -113,15 +113,15 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 - wide applicability (DNNs for image classification, speech recognition and neural language modelling) \ref https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306
 
 # NAS using RL
--	
+- 
 - computationally very extensive
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTM3NzQ4NTMsLTkxMzE3MTQ5NSwtMT
-QyODA1NzUzMSwxMzk3Njk1MTk4LC0xMjI0OTk0MDk3LC05NjEy
-NjM3ODIsMTU2MTMxMzM0MywxMjYyMjQzMTExLC0xODcxMTE5MT
-I2LDE3NzE2NTkyNDcsMzg2MTAzNzM3LDIwNzEzNTYyODUsMTE4
-MzYwNDE4OCwxMjExMDYwMzk4LDU4MzQyNDgxMywtNjA1MzIwNz
-gzLC0yMDA3MzkxMzYsLTE3NDE4NDk4NTgsNTc3MDUzMTk5LC05
-MjY1NTg3MzhdfQ==
+eyJoaXN0b3J5IjpbMTM4OTU4MzQ5MSwtMTk1Mzc3NDg1MywtOT
+EzMTcxNDk1LC0xNDI4MDU3NTMxLDEzOTc2OTUxOTgsLTEyMjQ5
+OTQwOTcsLTk2MTI2Mzc4MiwxNTYxMzEzMzQzLDEyNjIyNDMxMT
+EsLTE4NzExMTkxMjYsMTc3MTY1OTI0NywzODYxMDM3MzcsMjA3
+MTM1NjI4NSwxMTgzNjA0MTg4LDEyMTEwNjAzOTgsNTgzNDI0OD
+EzLC02MDUzMjA3ODMsLTIwMDczOTEzNiwtMTc0MTg0OTg1OCw1
+NzcwNTMxOTldfQ==
 -->

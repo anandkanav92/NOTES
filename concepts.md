@@ -99,18 +99,19 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		- Random forests are generally used for regression and classification tasks, highly suited for categorical data. \ref{[24] L. Breiman. Random forests. Machine Learning, 45(1):5–32, 2001}
 		- They are considered ensemble of regression trees where each leaf contains the learning algorithm performnace values. 
 		- the procedure is like: first randomly sample N points from the configuration space/domain values of hyperparameters. Then the model is evaluated for these hyperparameter sampled values. Using these evaluations a random forest is generated and the number of parameters considered before splitting into different nodes is specified by split ratio(default 5/6). other parameter is $n_{min}$ that defines the min number of datapoints required for splitting. RD predictive mean is calculated using individual tree parameters.
-		-`pros` high parallelism, very good for high dimensions and categorical hyperparameters  
+		-`pros` high parallelism, very good for high dimensions and categorical hyperparameters when GP doesn't work well. \ref{HPO,12}  
+			-	
 		- 
 	- `TPE` 
 - wide applicability (DNNs for image classification, speech recognition and neural language modelling) \ref https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg2MTAzNzM3LDIwNzEzNTYyODUsMTE4Mz
-YwNDE4OCwxMjExMDYwMzk4LDU4MzQyNDgxMywtNjA1MzIwNzgz
-LC0yMDA3MzkxMzYsLTE3NDE4NDk4NTgsNTc3MDUzMTk5LC05Mj
-Y1NTg3MzgsMTQyNDcyODQ3NiwxMDQ4MjE1NzU5LDQ3OTg1MTg2
-NywxMjMxOTk0NDI2LDEyNjM0OTQ0NDgsLTE3MDk5MjcxODIsLT
-k3MzA5NjAyLDEzOTgxMzkzMSwtNTQ4NzEyNjY5LDE1Mjk1NTIy
-MDZdfQ==
+eyJoaXN0b3J5IjpbLTE5OTEwMTIwMTEsMzg2MTAzNzM3LDIwNz
+EzNTYyODUsMTE4MzYwNDE4OCwxMjExMDYwMzk4LDU4MzQyNDgx
+MywtNjA1MzIwNzgzLC0yMDA3MzkxMzYsLTE3NDE4NDk4NTgsNT
+c3MDUzMTk5LC05MjY1NTg3MzgsMTQyNDcyODQ3NiwxMDQ4MjE1
+NzU5LDQ3OTg1MTg2NywxMjMxOTk0NDI2LDEyNjM0OTQ0NDgsLT
+E3MDk5MjcxODIsLTk3MzA5NjAyLDEzOTgxMzkzMSwtNTQ4NzEy
+NjY5XX0=
 -->

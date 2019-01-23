@@ -114,15 +114,16 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 
 # NAS using RL
 - Designing a complete architecture requires expertise and time. Thus, NAS finds a good architecture using gradient based optimisation and using the architecture performance metric on the validation set. The performance metric is used as a reward signal to update the controller and the architecture choices.
-- It uses a controller (RNN) to generate architecture hyperparameters of the network. The choices are conditional, that is, based on the choice of network specific hyperparameters are generated. It a
+- It uses a controller (RNN) to generate architecture hyperparameters of the network. The choices are conditional, that is, based on the choice of network specific hyperparameters are generated. 
+- The choices are made to maximise the reward.
 - computationally very extensive
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE3NzczMzcwLC0xNDExMTczNjI2LC0xMj
-U2ODg4NTcxLC02MTI3Mjc2NzYsLTE5NTM3NzQ4NTMsLTkxMzE3
-MTQ5NSwtMTQyODA1NzUzMSwxMzk3Njk1MTk4LC0xMjI0OTk0MD
-k3LC05NjEyNjM3ODIsMTU2MTMxMzM0MywxMjYyMjQzMTExLC0x
-ODcxMTE5MTI2LDE3NzE2NTkyNDcsMzg2MTAzNzM3LDIwNzEzNT
-YyODUsMTE4MzYwNDE4OCwxMjExMDYwMzk4LDU4MzQyNDgxMywt
-NjA1MzIwNzgzXX0=
+eyJoaXN0b3J5IjpbLTExMTQ0MDY4MjEsLTE0MTExNzM2MjYsLT
+EyNTY4ODg1NzEsLTYxMjcyNzY3NiwtMTk1Mzc3NDg1MywtOTEz
+MTcxNDk1LC0xNDI4MDU3NTMxLDEzOTc2OTUxOTgsLTEyMjQ5OT
+QwOTcsLTk2MTI2Mzc4MiwxNTYxMzEzMzQzLDEyNjIyNDMxMTEs
+LTE4NzExMTkxMjYsMTc3MTY1OTI0NywzODYxMDM3MzcsMjA3MT
+M1NjI4NSwxMTgzNjA0MTg4LDEyMTEwNjAzOTgsNTgzNDI0ODEz
+LC02MDUzMjA3ODNdfQ==
 -->

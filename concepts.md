@@ -127,16 +127,17 @@ Our search space consists of convolutional architectures, with rectified linear 
 ### Training details:
 The controller RNN is a two-layer LSTM with 35 hidden units on each layer. It is trained with the ADAM optimizer (Kingma & Ba, 2015) with a learning rate of 0.0006. The weights of the controller are initialized uniformly between -0.08 and 0.08. For the distributed training, we set the number of parameter server shards S to 20, the number of controller replicas K to 100 and the number of child replicas m to 8, which means there are 800 networks being trained on 800 GPUs concurrently at any time.
 	- 12,800 architectures are trained :O
-	- 
+### Results
+Our CIFAR-10 model achieves a test error rate of 3.65, which is 0.09 percent better and 1.05x faster than the previous state-of-the-art model that used a similar architectural scheme. On the Penn Treebank dataset, our model can compose a novel recurrent cell that outperforms the widely-used LSTM cell, and other state-of-the-art baselines. Our cell achieves a test set perplexity of 62.4 on the Penn Treebank, which is 3.6 perplexity better than the previous state-of-the-art model.
 
 - computationally very extensive
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTU5NDIyNTQsLTE0ODE5MDc2MDIsLT
-EzNzQwNjM0OTMsMTYxNDkwMzQ3MSwxMjE3NzQwNDM4LC0xNDEx
-MTczNjI2LC0xMjU2ODg4NTcxLC02MTI3Mjc2NzYsLTE5NTM3Nz
-Q4NTMsLTkxMzE3MTQ5NSwtMTQyODA1NzUzMSwxMzk3Njk1MTk4
-LC0xMjI0OTk0MDk3LC05NjEyNjM3ODIsMTU2MTMxMzM0MywxMj
-YyMjQzMTExLC0xODcxMTE5MTI2LDE3NzE2NTkyNDcsMzg2MTAz
-NzM3LDIwNzEzNTYyODVdfQ==
+eyJoaXN0b3J5IjpbMTkwNTMxMTQ2MywtMTQ4MTkwNzYwMiwtMT
+M3NDA2MzQ5MywxNjE0OTAzNDcxLDEyMTc3NDA0MzgsLTE0MTEx
+NzM2MjYsLTEyNTY4ODg1NzEsLTYxMjcyNzY3NiwtMTk1Mzc3ND
+g1MywtOTEzMTcxNDk1LC0xNDI4MDU3NTMxLDEzOTc2OTUxOTgs
+LTEyMjQ5OTQwOTcsLTk2MTI2Mzc4MiwxNTYxMzEzMzQzLDEyNj
+IyNDMxMTEsLTE4NzExMTkxMjYsMTc3MTY1OTI0NywzODYxMDM3
+MzcsMjA3MTM1NjI4NV19
 -->

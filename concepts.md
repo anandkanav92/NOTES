@@ -104,16 +104,16 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 			-	used in AUTOML frameworks, auto-weka, auto-sklearn and ANOVA framework. \ref{HPO,12}{http://proceedings.mlr.press/v32/hutter14-supp.pdf#page=9}
 		- 
 	- `TPE` 
-		- TPE is 
+		- Contrary to Guassian process, where the learning model distribution was modelled using $p(y/x)$, 
 - wide applicability (DNNs for image classification, speech recognition and neural language modelling) \ref https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTg1NDkxMzIsMTU2MTMxMzM0MywxMj
-YyMjQzMTExLC0xODcxMTE5MTI2LDE3NzE2NTkyNDcsMzg2MTAz
-NzM3LDIwNzEzNTYyODUsMTE4MzYwNDE4OCwxMjExMDYwMzk4LD
-U4MzQyNDgxMywtNjA1MzIwNzgzLC0yMDA3MzkxMzYsLTE3NDE4
-NDk4NTgsNTc3MDUzMTk5LC05MjY1NTg3MzgsMTQyNDcyODQ3Ni
-wxMDQ4MjE1NzU5LDQ3OTg1MTg2NywxMjMxOTk0NDI2LDEyNjM0
-OTQ0NDhdfQ==
+eyJoaXN0b3J5IjpbLTI4Nzg0Nzg1LDE1NjEzMTMzNDMsMTI2Mj
+I0MzExMSwtMTg3MTExOTEyNiwxNzcxNjU5MjQ3LDM4NjEwMzcz
+NywyMDcxMzU2Mjg1LDExODM2MDQxODgsMTIxMTA2MDM5OCw1OD
+M0MjQ4MTMsLTYwNTMyMDc4MywtMjAwNzM5MTM2LC0xNzQxODQ5
+ODU4LDU3NzA1MzE5OSwtOTI2NTU4NzM4LDE0MjQ3Mjg0NzYsMT
+A0ODIxNTc1OSw0Nzk4NTE4NjcsMTIzMTk5NDQyNiwxMjYzNDk0
+NDQ4XX0=
 -->

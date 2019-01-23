@@ -97,18 +97,18 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 				- Other cons observed is standard kernel do not scale well in higher dimensions. to overcome this many new extensions have been suggested, like, random embeddings, GP on part of configuration space, cylindrical and additive kernels. \ref{https://arxiv.org/pdf/1807.01774.pdf page 9}
 	- `Random forests`
 		- Random forests are generally used for regression and classification tasks, highly suited for categorical data. \ref{[24] L. Breiman. Random forests. Machine Learning, 45(1):5–32, 2001}
-		- Guassian process is replaced by collection of regression trees where each leaf contains the learning algorithm performnace values.
+		- They are considered ensemble of regression trees where each leaf contains the learning algorithm performnace values.
 		- 
 	- `TPE` 
 - wide applicability (DNNs for image classification, speech recognition and neural language modelling) \ref https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMTA2MDM5OCw1ODM0MjQ4MTMsLTYwNT
-MyMDc4MywtMjAwNzM5MTM2LC0xNzQxODQ5ODU4LDU3NzA1MzE5
-OSwtOTI2NTU4NzM4LDE0MjQ3Mjg0NzYsMTA0ODIxNTc1OSw0Nz
-k4NTE4NjcsMTIzMTk5NDQyNiwxMjYzNDk0NDQ4LC0xNzA5OTI3
-MTgyLC05NzMwOTYwMiwxMzk4MTM5MzEsLTU0ODcxMjY2OSwxNT
-I5NTUyMjA2LC01MTI2NjI2ODIsLTE2NjI1ODg0OTQsMzQ2OTMy
-OTMzXX0=
+eyJoaXN0b3J5IjpbMTE4MzYwNDE4OCwxMjExMDYwMzk4LDU4Mz
+QyNDgxMywtNjA1MzIwNzgzLC0yMDA3MzkxMzYsLTE3NDE4NDk4
+NTgsNTc3MDUzMTk5LC05MjY1NTg3MzgsMTQyNDcyODQ3NiwxMD
+Q4MjE1NzU5LDQ3OTg1MTg2NywxMjMxOTk0NDI2LDEyNjM0OTQ0
+NDgsLTE3MDk5MjcxODIsLTk3MzA5NjAyLDEzOTgxMzkzMSwtNT
+Q4NzEyNjY5LDE1Mjk1NTIyMDYsLTUxMjY2MjY4MiwtMTY2MjU4
+ODQ5NF19
 -->

@@ -104,12 +104,12 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 			-	used in AUTOML frameworks, auto-weka, auto-sklearn and ANOVA framework. \ref{HPO,12}{http://proceedings.mlr.press/v32/hutter14-supp.pdf#page=9}
 		- 
 	- `TPE` 
-		- T
+		- TPE is 
 - wide applicability (DNNs for image classification, speech recognition and neural language modelling) \ref https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTA4MzczMzUsMTU2MTMxMzM0MywxMj
+eyJoaXN0b3J5IjpbLTE0MTg1NDkxMzIsMTU2MTMxMzM0MywxMj
 YyMjQzMTExLC0xODcxMTE5MTI2LDE3NzE2NTkyNDcsMzg2MTAz
 NzM3LDIwNzEzNTYyODUsMTE4MzYwNDE4OCwxMjExMDYwMzk4LD
 U4MzQyNDgxMywtNjA1MzIwNzgzLC0yMDA3MzkxMzYsLTE3NDE4

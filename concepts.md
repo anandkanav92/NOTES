@@ -113,15 +113,16 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 - wide applicability (DNNs for image classification, speech recognition and neural language modelling) \ref https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306
 
 # NAS using RL
-- Designing a complete architecture requires expertise and time. Thus, NAS finds a good architecture using gradient based optimisation and using the architecture performance metric on the validation set. The performance metric is used as a reward signal used to updat
+- Designing a complete architecture requires expertise and time. Thus, NAS finds a good architecture using gradient based optimisation and using the architecture performance metric on the validation set. The performance metric is used as a reward signal to update the controller and the architecture choices.
+- It uses a controller (RNN) to generatet
 - computationally very extensive
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0ODA3MjYwNSwtMTI1Njg4ODU3MSwtNj
-EyNzI3Njc2LC0xOTUzNzc0ODUzLC05MTMxNzE0OTUsLTE0Mjgw
-NTc1MzEsMTM5NzY5NTE5OCwtMTIyNDk5NDA5NywtOTYxMjYzNz
-gyLDE1NjEzMTMzNDMsMTI2MjI0MzExMSwtMTg3MTExOTEyNiwx
-NzcxNjU5MjQ3LDM4NjEwMzczNywyMDcxMzU2Mjg1LDExODM2MD
-QxODgsMTIxMTA2MDM5OCw1ODM0MjQ4MTMsLTYwNTMyMDc4Mywt
-MjAwNzM5MTM2XX0=
+eyJoaXN0b3J5IjpbMzU3MDk5NTI5LC0xMjU2ODg4NTcxLC02MT
+I3Mjc2NzYsLTE5NTM3NzQ4NTMsLTkxMzE3MTQ5NSwtMTQyODA1
+NzUzMSwxMzk3Njk1MTk4LC0xMjI0OTk0MDk3LC05NjEyNjM3OD
+IsMTU2MTMxMzM0MywxMjYyMjQzMTExLC0xODcxMTE5MTI2LDE3
+NzE2NTkyNDcsMzg2MTAzNzM3LDIwNzEzNTYyODUsMTE4MzYwND
+E4OCwxMjExMDYwMzk4LDU4MzQyNDgxMywtNjA1MzIwNzgzLC0y
+MDA3MzkxMzZdfQ==
 -->

@@ -107,16 +107,16 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		- Contrary to Guassian process, where the learning model distribution was modelled using $p(y/x)$, TPE use the evaluations to model $p(x/y)$ and p(y). It replaces the prior distribution with non parametric densitites, that is, l(x) and g(x). \ref{http://papers.nips.cc/paper/4443-algorithms-for-hyper-parameter-optimization.pdf} 
 		- l(x) represents the density of the points for which the corresponding model performance was less than $y^*$.
 		- g(x) represents the density of the points for which the corresponding model performance was greater than $y^*$.
-		- 
+		- The $y^*$ is chosen to be some quantile of the observed model
 - wide applicability (DNNs for image classification, speech recognition and neural language modelling) \ref https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2ODM4OTY3NiwtMTIyNDk5NDA5NywtOT
-YxMjYzNzgyLDE1NjEzMTMzNDMsMTI2MjI0MzExMSwtMTg3MTEx
-OTEyNiwxNzcxNjU5MjQ3LDM4NjEwMzczNywyMDcxMzU2Mjg1LD
-ExODM2MDQxODgsMTIxMTA2MDM5OCw1ODM0MjQ4MTMsLTYwNTMy
-MDc4MywtMjAwNzM5MTM2LC0xNzQxODQ5ODU4LDU3NzA1MzE5OS
-wtOTI2NTU4NzM4LDE0MjQ3Mjg0NzYsMTA0ODIxNTc1OSw0Nzk4
-NTE4NjddfQ==
+eyJoaXN0b3J5IjpbLTE3MjE1MjI5ODQsLTEyMjQ5OTQwOTcsLT
+k2MTI2Mzc4MiwxNTYxMzEzMzQzLDEyNjIyNDMxMTEsLTE4NzEx
+MTkxMjYsMTc3MTY1OTI0NywzODYxMDM3MzcsMjA3MTM1NjI4NS
+wxMTgzNjA0MTg4LDEyMTEwNjAzOTgsNTgzNDI0ODEzLC02MDUz
+MjA3ODMsLTIwMDczOTEzNiwtMTc0MTg0OTg1OCw1NzcwNTMxOT
+ksLTkyNjU1ODczOCwxNDI0NzI4NDc2LDEwNDgyMTU3NTksNDc5
+ODUxODY3XX0=
 -->

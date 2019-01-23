@@ -98,18 +98,18 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 	- `Random forests`
 		- Random forests are generally used for regression and classification tasks, highly suited for categorical data. \ref{[24] L. Breiman. Random forests. Machine Learning, 45(1):5–32, 2001}
 		- They are considered ensemble of regression trees where each leaf contains the learning algorithm performnace values. 
-		- the procedure is like: first randomly sample N points from the configuration space/domain values of hyperparameters. Then the model is evaluated for these hyperparameter sampled values. Using these evaluations a random forest is generated and the number of parameters considered 
+		- the procedure is like: first randomly sample N points from the configuration space/domain values of hyperparameters. Then the model is evaluated for these hyperparameter sampled values. Using these evaluations a random forest is generated and the number of parameters considered before splitting into different nodes is specified by split ratio(default 5/6). other parameter is $n_{min}$ that defines the min number of datapoints required for splitting.
 		- 
 	- `TPE` 
 - wide applicability (DNNs for image classification, speech recognition and neural language modelling) \ref https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NTIzNTg5NSwyMDcxMzU2Mjg1LDExOD
-M2MDQxODgsMTIxMTA2MDM5OCw1ODM0MjQ4MTMsLTYwNTMyMDc4
-MywtMjAwNzM5MTM2LC0xNzQxODQ5ODU4LDU3NzA1MzE5OSwtOT
-I2NTU4NzM4LDE0MjQ3Mjg0NzYsMTA0ODIxNTc1OSw0Nzk4NTE4
-NjcsMTIzMTk5NDQyNiwxMjYzNDk0NDQ4LC0xNzA5OTI3MTgyLC
-05NzMwOTYwMiwxMzk4MTM5MzEsLTU0ODcxMjY2OSwxNTI5NTUy
-MjA2XX0=
+eyJoaXN0b3J5IjpbLTE2Nzk2MjMzNjksMjA3MTM1NjI4NSwxMT
+gzNjA0MTg4LDEyMTEwNjAzOTgsNTgzNDI0ODEzLC02MDUzMjA3
+ODMsLTIwMDczOTEzNiwtMTc0MTg0OTg1OCw1NzcwNTMxOTksLT
+kyNjU1ODczOCwxNDI0NzI4NDc2LDEwNDgyMTU3NTksNDc5ODUx
+ODY3LDEyMzE5OTQ0MjYsMTI2MzQ5NDQ0OCwtMTcwOTkyNzE4Mi
+wtOTczMDk2MDIsMTM5ODEzOTMxLC01NDg3MTI2NjksMTUyOTU1
+MjIwNl19
 -->

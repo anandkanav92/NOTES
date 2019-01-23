@@ -101,18 +101,18 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 		- the procedure is like: first randomly sample N points from the configuration space/domain values of hyperparameters. Then the model is evaluated for these hyperparameter sampled values. Using these evaluations a random forest is generated and the number of parameters considered before splitting into different nodes is specified by split ratio(default 5/6). other parameter is $n_{min}$ that defines the min number of datapoints required for splitting. RD predictive mean is calculated using individual tree parameters.
 		-`pros` high parallelism, very good for high dimensions and categorical hyperparameters when GP doesn't work well. \ref{HPO,12}  
 			-	scaling for fitting and predicting variance - O(n logn) and O(log n) compared to GPs O($n^2$) and O($n^3$)
-			-	used in AUTOML frameworks, auto-weka, auto-sklearn and ANOVA framework. \ref{HPO}
+			-	used in AUTOML frameworks, auto-weka, auto-sklearn and ANOVA framework. \ref{HPO,12}{http://proceedings.mlr.press/v32/hutter14-supp.pdf#page=9}
 		- 
 	- `TPE` 
 - wide applicability (DNNs for image classification, speech recognition and neural language modelling) \ref https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7352306
 - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNTc4NzUxMywxNzcxNjU5MjQ3LDM4Nj
-EwMzczNywyMDcxMzU2Mjg1LDExODM2MDQxODgsMTIxMTA2MDM5
-OCw1ODM0MjQ4MTMsLTYwNTMyMDc4MywtMjAwNzM5MTM2LC0xNz
-QxODQ5ODU4LDU3NzA1MzE5OSwtOTI2NTU4NzM4LDE0MjQ3Mjg0
-NzYsMTA0ODIxNTc1OSw0Nzk4NTE4NjcsMTIzMTk5NDQyNiwxMj
-YzNDk0NDQ4LC0xNzA5OTI3MTgyLC05NzMwOTYwMiwxMzk4MTM5
-MzFdfQ==
+eyJoaXN0b3J5IjpbLTE4NzExMTkxMjYsMTc3MTY1OTI0NywzOD
+YxMDM3MzcsMjA3MTM1NjI4NSwxMTgzNjA0MTg4LDEyMTEwNjAz
+OTgsNTgzNDI0ODEzLC02MDUzMjA3ODMsLTIwMDczOTEzNiwtMT
+c0MTg0OTg1OCw1NzcwNTMxOTksLTkyNjU1ODczOCwxNDI0NzI4
+NDc2LDEwNDgyMTU3NTksNDc5ODUxODY3LDEyMzE5OTQ0MjYsMT
+I2MzQ5NDQ0OCwtMTcwOTkyNzE4MiwtOTczMDk2MDIsMTM5ODEz
+OTMxXX0=
 -->

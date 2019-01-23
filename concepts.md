@@ -116,11 +116,13 @@ where, SSB = sum of squares difference between the groups and SSW = sum of squar
 - Designing a complete architecture requires expertise and time. Thus, NAS finds a good architecture using gradient based optimisation and using the architecture performance metric on the validation set. The performance metric is used as a reward signal to update the controller and the architecture choices.
 - It uses a controller (RNN) to generate architecture hyperparameters of the network. The choices are conditional, that is, based on the choice of network specific hyperparameters are generated. 
 - The choices are made to maximise the reward.
-- parral
+- parrallelism is achieved by sample different architectures and training them in parallel.
+	- Parameter server that shares parameters with controllers.
+	- Controllers have sampled child architectures 
 - computationally very extensive
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODc0NDE2NzAsMTIxNzc0MDQzOCwtMT
+eyJoaXN0b3J5IjpbLTE0OTA1NDUzMzUsMTIxNzc0MDQzOCwtMT
 QxMTE3MzYyNiwtMTI1Njg4ODU3MSwtNjEyNzI3Njc2LC0xOTUz
 Nzc0ODUzLC05MTMxNzE0OTUsLTE0MjgwNTc1MzEsMTM5NzY5NT
 E5OCwtMTIyNDk5NDA5NywtOTYxMjYzNzgyLDE1NjEzMTMzNDMs

@@ -135,14 +135,15 @@ Our CIFAR-10 model achieves a test error rate of 3.65, which is 0.09 percent bet
 ### NAS survey
 - considered to be a subpart of AutoML(HPO). 
 - It has 3 common components.
-	- Search space : This refers to the architectures that c		
+	- Search space : This refers to the architectures that can be used or created(RNN,CNN etc). It can use prior knowledge about the task or dataset but that introduces human bias. 		
+	- 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDA3NTYzNDIsMTkwNTMxMTQ2MywtMT
-Q4MTkwNzYwMiwtMTM3NDA2MzQ5MywxNjE0OTAzNDcxLDEyMTc3
-NDA0MzgsLTE0MTExNzM2MjYsLTEyNTY4ODg1NzEsLTYxMjcyNz
-Y3NiwtMTk1Mzc3NDg1MywtOTEzMTcxNDk1LC0xNDI4MDU3NTMx
-LDEzOTc2OTUxOTgsLTEyMjQ5OTQwOTcsLTk2MTI2Mzc4MiwxNT
-YxMzEzMzQzLDEyNjIyNDMxMTEsLTE4NzExMTkxMjYsMTc3MTY1
-OTI0NywzODYxMDM3MzddfQ==
+eyJoaXN0b3J5IjpbMTQ0NjAxMjgyMSwxOTA1MzExNDYzLC0xND
+gxOTA3NjAyLC0xMzc0MDYzNDkzLDE2MTQ5MDM0NzEsMTIxNzc0
+MDQzOCwtMTQxMTE3MzYyNiwtMTI1Njg4ODU3MSwtNjEyNzI3Nj
+c2LC0xOTUzNzc0ODUzLC05MTMxNzE0OTUsLTE0MjgwNTc1MzEs
+MTM5NzY5NTE5OCwtMTIyNDk5NDA5NywtOTYxMjYzNzgyLDE1Nj
+EzMTMzNDMsMTI2MjI0MzExMSwtMTg3MTExOTEyNiwxNzcxNjU5
+MjQ3LDM4NjEwMzczN119
 -->

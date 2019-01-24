@@ -136,14 +136,15 @@ Our CIFAR-10 model achieves a test error rate of 3.65, which is 0.09 percent bet
 - considered to be a subpart of AutoML(HPO). 
 - It has 3 common components.
 	- <b>Search space</b> : This refers to the architectures that can be used or created(RNN,CNN etc). It can use prior knowledge about the task or dataset but that introduces human bias. 		
-	- <b>Search strategy</b> : How to explore the space above? 
+	- <b>Search strategy</b> : How to explore the space above? It posses a similar classic tradeoff of exploration and exploitation. Should converge quickly but needs to avoid conveergence to sub optimal regions.
+	- <b>Performance estimation strategy </b>
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NTA1MjkwMSwxOTA1MzExNDYzLC0xND
-gxOTA3NjAyLC0xMzc0MDYzNDkzLDE2MTQ5MDM0NzEsMTIxNzc0
-MDQzOCwtMTQxMTE3MzYyNiwtMTI1Njg4ODU3MSwtNjEyNzI3Nj
-c2LC0xOTUzNzc0ODUzLC05MTMxNzE0OTUsLTE0MjgwNTc1MzEs
-MTM5NzY5NTE5OCwtMTIyNDk5NDA5NywtOTYxMjYzNzgyLDE1Nj
-EzMTMzNDMsMTI2MjI0MzExMSwtMTg3MTExOTEyNiwxNzcxNjU5
-MjQ3LDM4NjEwMzczN119
+eyJoaXN0b3J5IjpbMzQxMzk0MTU3LDE5MDUzMTE0NjMsLTE0OD
+E5MDc2MDIsLTEzNzQwNjM0OTMsMTYxNDkwMzQ3MSwxMjE3NzQw
+NDM4LC0xNDExMTczNjI2LC0xMjU2ODg4NTcxLC02MTI3Mjc2Nz
+YsLTE5NTM3NzQ4NTMsLTkxMzE3MTQ5NSwtMTQyODA1NzUzMSwx
+Mzk3Njk1MTk4LC0xMjI0OTk0MDk3LC05NjEyNjM3ODIsMTU2MT
+MxMzM0MywxMjYyMjQzMTExLC0xODcxMTE5MTI2LDE3NzE2NTky
+NDcsMzg2MTAzNzM3XX0=
 -->

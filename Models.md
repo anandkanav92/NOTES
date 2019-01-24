@@ -66,11 +66,14 @@ We now know  pr  and  pg  are disjoint in a high dimensional space and it causes
 
 The loss function of the vanilla GAN measures the JS divergence between the distributions of  pr  and  pg. This metric fails to provide a meaningful value when two distributions are disjoint
 
+
+## RNN
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4MjU5OSwtMTM5MDI0MDMxMiwxMjA1NT
-U2NTAxLDI3NjMyNDY5OCwyMjUwOTY4NCwtMTg2MTkzMzM5OCw4
-OTMzODU5MDcsLTExODM1Mzg3ODUsLTIwMzYzNDI1MTEsMTk0MD
-E5OTA2MiwxMDEyMDY1MjcyLC0xMzYyNjA1OTE5LDIxMjIyMDkz
-MjIsLTE0OTY5ODQ3MzUsMjEzNjczODU1XX0=
+eyJoaXN0b3J5IjpbLTEzMDIwNTQ5NzcsLTEzOTAyNDAzMTIsMT
+IwNTU1NjUwMSwyNzYzMjQ2OTgsMjI1MDk2ODQsLTE4NjE5MzMz
+OTgsODkzMzg1OTA3LC0xMTgzNTM4Nzg1LC0yMDM2MzQyNTExLD
+E5NDAxOTkwNjIsMTAxMjA2NTI3MiwtMTM2MjYwNTkxOSwyMTIy
+MjA5MzIyLC0xNDk2OTg0NzM1LDIxMzY3Mzg1NV19
 -->

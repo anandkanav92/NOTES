@@ -131,13 +131,18 @@ The controller RNN is a two-layer LSTM with 35 hidden units on each layer. It is
 Our CIFAR-10 model achieves a test error rate of 3.65, which is 0.09 percent better and 1.05x faster than the previous state-of-the-art model that used a similar architectural scheme. On the Penn Treebank dataset, our model can compose a novel recurrent cell that outperforms the widely-used LSTM cell, and other state-of-the-art baselines. Our cell achieves a test set perplexity of 62.4 on the Penn Treebank, which is 3.6 perplexity better than the previous state-of-the-art model.
 
 - computationally very extensive
+
+### NAS survey
+- considered to be a subpart of AutoML(HPO). 
+- It has 3 common components.
+	- Search space : This refers to the architectures that c		
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNTMxMTQ2MywtMTQ4MTkwNzYwMiwtMT
-M3NDA2MzQ5MywxNjE0OTAzNDcxLDEyMTc3NDA0MzgsLTE0MTEx
-NzM2MjYsLTEyNTY4ODg1NzEsLTYxMjcyNzY3NiwtMTk1Mzc3ND
-g1MywtOTEzMTcxNDk1LC0xNDI4MDU3NTMxLDEzOTc2OTUxOTgs
-LTEyMjQ5OTQwOTcsLTk2MTI2Mzc4MiwxNTYxMzEzMzQzLDEyNj
-IyNDMxMTEsLTE4NzExMTkxMjYsMTc3MTY1OTI0NywzODYxMDM3
-MzcsMjA3MTM1NjI4NV19
+eyJoaXN0b3J5IjpbLTE5NDA3NTYzNDIsMTkwNTMxMTQ2MywtMT
+Q4MTkwNzYwMiwtMTM3NDA2MzQ5MywxNjE0OTAzNDcxLDEyMTc3
+NDA0MzgsLTE0MTExNzM2MjYsLTEyNTY4ODg1NzEsLTYxMjcyNz
+Y3NiwtMTk1Mzc3NDg1MywtOTEzMTcxNDk1LC0xNDI4MDU3NTMx
+LDEzOTc2OTUxOTgsLTEyMjQ5OTQwOTcsLTk2MTI2Mzc4MiwxNT
+YxMzEzMzQzLDEyNjIyNDMxMTEsLTE4NzExMTkxMjYsMTc3MTY1
+OTI0NywzODYxMDM3MzddfQ==
 -->

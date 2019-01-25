@@ -70,14 +70,14 @@ The loss function of the vanilla GAN measures the JS divergence between the dist
 ## RNN
 `why`
  
-- cnn 	
+- CNN or NN use fixed vector size as input and output. 	
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU5NTQ2OTQxLC0xNDc2NzgyMzA2LC0xMz
-AyMDU0OTc3LC0xMzkwMjQwMzEyLDEyMDU1NTY1MDEsMjc2MzI0
-Njk4LDIyNTA5Njg0LC0xODYxOTMzMzk4LDg5MzM4NTkwNywtMT
-E4MzUzODc4NSwtMjAzNjM0MjUxMSwxOTQwMTk5MDYyLDEwMTIw
-NjUyNzIsLTEzNjI2MDU5MTksMjEyMjIwOTMyMiwtMTQ5Njk4ND
-czNSwyMTM2NzM4NTVdfQ==
+eyJoaXN0b3J5IjpbLTE3MjI3OTQ0MjcsLTE0NzY3ODIzMDYsLT
+EzMDIwNTQ5NzcsLTEzOTAyNDAzMTIsMTIwNTU1NjUwMSwyNzYz
+MjQ2OTgsMjI1MDk2ODQsLTE4NjE5MzMzOTgsODkzMzg1OTA3LC
+0xMTgzNTM4Nzg1LC0yMDM2MzQyNTExLDE5NDAxOTkwNjIsMTAx
+MjA2NTI3MiwtMTM2MjYwNTkxOSwyMTIyMjA5MzIyLC0xNDk2OT
+g0NzM1LDIxMzY3Mzg1NV19
 -->

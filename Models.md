@@ -70,14 +70,14 @@ The loss function of the vanilla GAN measures the JS divergence between the dist
 ## RNN
 `why`
  
--  	
+- cnn 	
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzY3ODIzMDYsLTEzMDIwNTQ5NzcsLT
-EzOTAyNDAzMTIsMTIwNTU1NjUwMSwyNzYzMjQ2OTgsMjI1MDk2
-ODQsLTE4NjE5MzMzOTgsODkzMzg1OTA3LC0xMTgzNTM4Nzg1LC
-0yMDM2MzQyNTExLDE5NDAxOTkwNjIsMTAxMjA2NTI3MiwtMTM2
-MjYwNTkxOSwyMTIyMjA5MzIyLC0xNDk2OTg0NzM1LDIxMzY3Mz
-g1NV19
+eyJoaXN0b3J5IjpbNDU5NTQ2OTQxLC0xNDc2NzgyMzA2LC0xMz
+AyMDU0OTc3LC0xMzkwMjQwMzEyLDEyMDU1NTY1MDEsMjc2MzI0
+Njk4LDIyNTA5Njg0LC0xODYxOTMzMzk4LDg5MzM4NTkwNywtMT
+E4MzUzODc4NSwtMjAzNjM0MjUxMSwxOTQwMTk5MDYyLDEwMTIw
+NjUyNzIsLTEzNjI2MDU5MTksMjEyMjIwOTMyMiwtMTQ5Njk4ND
+czNSwyMTM2NzM4NTVdfQ==
 -->

@@ -7,8 +7,9 @@
 	- Experts notice features and meaningful patterns of info that are not noticed by novices.
 		- thinking aloud experiment.
 		- chess experiment, master recalls patterns better only if its meaningful. Children with chess experience recall better than adults w/o chess exp. BUT when made to recall random numbers children were bad.
-	- 
+	- Experts tend to organize their 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyOTUzMDY3NiwtMTI5MDEzMjIzN119
+eyJoaXN0b3J5IjpbMTA3Njc1Mjk5MiwtNjI5NTMwNjc2LC0xMj
+kwMTMyMjM3XX0=
 -->

@@ -8,9 +8,9 @@
 		- thinking aloud experiment.
 		- chess experiment, master recalls patterns better only if its meaningful. Children with chess experience recall better than adults w/o chess exp. BUT when made to recall random numbers children were bad.
 	- Experts tend to organize their knowledge much better than novices. Ot shows their deep undertanding of the topic.
-	- 
+	- Experts are better at retrieving the knowledge.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA0MDIwOTMsLTYyOTUzMDY3NiwtMTI5MD
-EzMjIzN119
+eyJoaXN0b3J5IjpbNzc1NTA3NjQxLDcwNDAyMDkzLC02Mjk1Mz
+A2NzYsLTEyOTAxMzIyMzddfQ==
 -->

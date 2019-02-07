@@ -6,7 +6,8 @@
 - `key points or learning` 
 	- Experts notice features and meaningful patterns of info that are not noticed by novices.
 		- thinking aloud experiment.
+		- 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTAxMzIyMzddfQ==
+eyJoaXN0b3J5IjpbLTQ5MDg0NDQ4MiwtMTI5MDEzMjIzN119
 -->

@@ -6,8 +6,10 @@
 - `key points or learning` 
 	- Experts notice features and meaningful patterns of info that are not noticed by novices.
 		- thinking aloud experiment.
+		- chess experiment, master recalls patterns better only if its meaningful. Children with chess experience recall better than adults w/o chess exp. BUT when made to recall random numbers children were bad.
 		- 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MDg0NDQ4MiwtMTI5MDEzMjIzN119
+eyJoaXN0b3J5IjpbLTE5NDY0MjA0OTIsLTEyOTAxMzIyMzddfQ
+==
 -->

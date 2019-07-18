@@ -15,12 +15,12 @@ Sort Colors
             current = nums[k]
             nums[k] = 2 #blue
             if v < 2:
-                nums[j] = 1 #white
-                j += 1
+                nums[white] = 1 #white
+                white += 1
             if v == 0:
-                nums[i] = 0
-                i += 1
+                nums[red] = 0 #red
+                red += 1
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNTQ1NzI2NSwyMDQwMjk3NjIyXX0=
+eyJoaXN0b3J5IjpbLTI1MTk4MzA0NywyMDQwMjk3NjIyXX0=
 -->

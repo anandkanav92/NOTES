@@ -5,6 +5,11 @@ Algorithms
 	3. Ask if runtime complexity is okay?
 	4. Code as modular as possible.
 	5. Dry run on complicated example.
+	6. Understand where the bug is coming from and then fix it properly.
+	7. Do one more dry run.
+	8. Test your code by adding edge cases.
+	9. Elgantly fix your bug.
+	10. 
 ---
 `Sort Colors`
 
@@ -39,6 +44,6 @@ Simplify Path
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTQ3OTEzNCwtNjY2MzA2NzU2LC0yNT
-E5ODMwNDcsMjA0MDI5NzYyMl19
+eyJoaXN0b3J5IjpbNzI5MTU5NjA1LC0xNDk0NzkxMzQsLTY2Nj
+MwNjc1NiwtMjUxOTgzMDQ3LDIwNDAyOTc2MjJdfQ==
 -->

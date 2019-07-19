@@ -1,4 +1,10 @@
-
+Algorithms
+- `tips`
+	1. Ask questions.
+	2. Provide high level approach
+	3. Ask if runtime complexity is okay?
+	4. Code as modular as possible.
+	5. Dry run on complicated example.
 ---
 `Sort Colors`
 
@@ -33,6 +39,6 @@ Simplify Path
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNzk1NDgxOCwtNjY2MzA2NzU2LC0yNT
+eyJoaXN0b3J5IjpbLTE0OTQ3OTEzNCwtNjY2MzA2NzU2LC0yNT
 E5ODMwNDcsMjA0MDI5NzYyMl19
 -->

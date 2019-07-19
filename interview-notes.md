@@ -1,5 +1,6 @@
-Algorithms
-- `tips`
+# Algorithms
+ `tips`
+ ---
 	1. Ask questions.
 	2. Provide high level approach
 	3. Ask if runtime complexity is okay?
@@ -32,9 +33,9 @@ Algorithms
                 nums[red] = 0 #red
                 red += 1
   ```
- 
-Simplify Path
----
+ ---
+`Simplify Path`
+
 
 > Given an **absolute path** for a file (Unix-style), simplify it. Or in other words, convert it to the **canonical path**.
 
@@ -44,6 +45,6 @@ Simplify Path
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzOTM1NzYzLC0xNDk0NzkxMzQsLTY2Nj
-MwNjc1NiwtMjUxOTgzMDQ3LDIwNDAyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbLTExMTQ1OTA4OTgsLTE0OTQ3OTEzNCwtNj
+Y2MzA2NzU2LC0yNTE5ODMwNDcsMjA0MDI5NzYyMl19
 -->

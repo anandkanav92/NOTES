@@ -9,7 +9,7 @@ Algorithms
 	7. Do one more dry run.
 	8. Test your code by adding edge cases.
 	9. Elgantly fix your bug.
-	10. 
+	10. Comment on run and space complexity.
 ---
 `Sort Colors`
 
@@ -44,6 +44,6 @@ Simplify Path
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI5MTU5NjA1LC0xNDk0NzkxMzQsLTY2Nj
+eyJoaXN0b3J5IjpbLTMzOTM1NzYzLC0xNDk0NzkxMzQsLTY2Nj
 MwNjc1NiwtMjUxOTgzMDQ3LDIwNDAyOTc2MjJdfQ==
 -->

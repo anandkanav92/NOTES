@@ -1,7 +1,7 @@
 
-
-Sort Colors
 ---
+`Sort Colors`
+
 
 > Given an array with _n_ objects colored red, white or blue, sort them **[in-place](https://en.wikipedia.org/wiki/In-place_algorithm)** so that objects of the same color are adjacent, with the colors in the order red, white and blue.
 
@@ -33,6 +33,6 @@ Simplify Path
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NjMwNjc1NiwtMjUxOTgzMDQ3LDIwND
-AyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbMjAyNzk1NDgxOCwtNjY2MzA2NzU2LC0yNT
+E5ODMwNDcsMjA0MDI5NzYyMl19
 -->

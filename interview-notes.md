@@ -43,8 +43,12 @@
 2. If `..` found pop the directory from stack.
 3. Ignore everything else.
  
+---
+`Subsets`
+> Find all the **distinctive** subsets of the given array.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTQ1OTA4OTgsLTE0OTQ3OTEzNCwtNj
-Y2MzA2NzU2LC0yNTE5ODMwNDcsMjA0MDI5NzYyMl19
+eyJoaXN0b3J5IjpbLTM2MDkwNTY4MCwtMTExNDU5MDg5OCwtMT
+Q5NDc5MTM0LC02NjYzMDY3NTYsLTI1MTk4MzA0NywyMDQwMjk3
+NjIyXX0=
 -->

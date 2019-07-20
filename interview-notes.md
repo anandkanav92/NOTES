@@ -46,9 +46,20 @@
 ---
 `Subsets`
 > Find all the **distinctive** subsets of the given array.
-
+```python
+if nums is None: 
+	return None
+subsets = [[]] 
+next = [] 
+for n in nums:
+	for s in subsets:
+		next.append(s + [n])
+	subsets += next
+	next = []
+return subsets
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MDkwNTY4MCwtMTExNDU5MDg5OCwtMT
-Q5NDc5MTM0LC02NjYzMDY3NTYsLTI1MTk4MzA0NywyMDQwMjk3
-NjIyXX0=
+eyJoaXN0b3J5IjpbLTE0MDc0MjAxMjgsLTExMTQ1OTA4OTgsLT
+E0OTQ3OTEzNCwtNjY2MzA2NzU2LC0yNTE5ODMwNDcsMjA0MDI5
+NzYyMl19
 -->

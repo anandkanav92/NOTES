@@ -47,7 +47,8 @@
 `Subsets`
 > Find all the **distinctive** subsets of the given array.
 1. Start with empty set.
-2. For each element in array, form a set with already existing subsets
+2. For each element in array, form a subset with already existing subsets.
+3. Append it to subset list.
 
 ```python
 if nums is None: 
@@ -62,7 +63,7 @@ for n in nums:
 return subsets
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMTYwNDQ2OSwtMTQwNzQyMDEyOCwtMT
-ExNDU5MDg5OCwtMTQ5NDc5MTM0LC02NjYzMDY3NTYsLTI1MTk4
-MzA0NywyMDQwMjk3NjIyXX0=
+eyJoaXN0b3J5IjpbMTgwNTYyMTMzMCwyMDMxNjA0NDY5LC0xND
+A3NDIwMTI4LC0xMTE0NTkwODk4LC0xNDk0NzkxMzQsLTY2NjMw
+Njc1NiwtMjUxOTgzMDQ3LDIwNDAyOTc2MjJdfQ==
 -->

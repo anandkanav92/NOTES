@@ -39,13 +39,16 @@
 
 > Given an **absolute path** for a file (Unix-style), simplify it. Or in other words, convert it to the **canonical path**.
 
-1. Use stack to store the directories.
-2. If `..` found pop the directory from stack.
-3. Ignore everything else.
+ 1. Use stack to store the directories.
+ 2. If `..` found pop the directory from stack.
+ 3. Ignore everything else.
  
 ---
 `Subsets`
 > Find all the **distinctive** subsets of the given array.
+1. Start with empty set.
+2. For each element in array, form a set with already existing subsets
+
 ```python
 if nums is None: 
 	return None
@@ -59,7 +62,7 @@ for n in nums:
 return subsets
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDc0MjAxMjgsLTExMTQ1OTA4OTgsLT
-E0OTQ3OTEzNCwtNjY2MzA2NzU2LC0yNTE5ODMwNDcsMjA0MDI5
-NzYyMl19
+eyJoaXN0b3J5IjpbMjAzMTYwNDQ2OSwtMTQwNzQyMDEyOCwtMT
+ExNDU5MDg5OCwtMTQ5NDc5MTM0LC02NjYzMDY3NTYsLTI1MTk4
+MzA0NywyMDQwMjk3NjIyXX0=
 -->

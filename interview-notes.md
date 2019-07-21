@@ -62,8 +62,15 @@ for n in nums:
 	next = []
 return subsets
 ```
+
+---
+`python is pass by object reference`
+```python
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNTYyMTMzMCwyMDMxNjA0NDY5LC0xND
-A3NDIwMTI4LC0xMTE0NTkwODk4LC0xNDk0NzkxMzQsLTY2NjMw
-Njc1NiwtMjUxOTgzMDQ3LDIwNDAyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbLTg4OTE2OTI2OSwxODA1NjIxMzMwLDIwMz
+E2MDQ0NjksLTE0MDc0MjAxMjgsLTExMTQ1OTA4OTgsLTE0OTQ3
+OTEzNCwtNjY2MzA2NzU2LC0yNTE5ODMwNDcsMjA0MDI5NzYyMl
+19
 -->

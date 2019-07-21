@@ -119,10 +119,10 @@ return False
 3. If there is a match move ahead and update the path with '-1' to prevent matching same char again.
 4. Return true if complete word is matched.
 5. python being `call by object reference value` makes it difficult to manage the state of last visited variables. That's why update after every move the original values. (Cover your tracks)
-6. RUNTIME: O(n*m*4^K) where n is row size, m is column size and K is word size.
+6. RUNTIME: $$O(N*M*4^K)$$ where n is row size, m is column size and K is word size.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2OTkwNTg0MywtMzk3OTM1Mjc5LC0xOT
+eyJoaXN0b3J5IjpbMTc2OTkyMTkzMywtMzk3OTM1Mjc5LC0xOT
 Q5MjM2Mzg1LC0yMTA3MTU4MzY4LDE4MDU2MjEzMzAsMjAzMTYw
 NDQ2OSwtMTQwNzQyMDEyOCwtMTExNDU5MDg5OCwtMTQ5NDc5MT
 M0LC02NjYzMDY3NTYsLTI1MTk4MzA0NywyMDQwMjk3NjIyXX0=

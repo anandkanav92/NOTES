@@ -70,11 +70,12 @@ a = [] #a is not empty list
 #a is the variable referring to empty list
 ```
 1. Python passes a reference as value. So if a is passed to a function, it will create a new reference and pass it. 
-2. If there are update changes made in the function, it will be shown in the orif
+2. If there are update changes made in the function, it will be shown in the original variable.
+3. If the variable is assigned with new values, it detaches from initial object and the changes are no longer replicated to original variable.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI4MDg2NDU2LC0xOTQ5MjM2Mzg1LC0yMT
-A3MTU4MzY4LDE4MDU2MjEzMzAsMjAzMTYwNDQ2OSwtMTQwNzQy
-MDEyOCwtMTExNDU5MDg5OCwtMTQ5NDc5MTM0LC02NjYzMDY3NT
-YsLTI1MTk4MzA0NywyMDQwMjk3NjIyXX0=
+eyJoaXN0b3J5IjpbLTM5NzkzNTI3OSwtMTk0OTIzNjM4NSwtMj
+EwNzE1ODM2OCwxODA1NjIxMzMwLDIwMzE2MDQ0NjksLTE0MDc0
+MjAxMjgsLTExMTQ1OTA4OTgsLTE0OTQ3OTEzNCwtNjY2MzA2Nz
+U2LC0yNTE5ODMwNDcsMjA0MDI5NzYyMl19
 -->

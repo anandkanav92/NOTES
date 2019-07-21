@@ -72,10 +72,52 @@ a = [] #a is not empty list
 1. Python passes a reference as value. So if a is passed to a function, it will create a new reference and pass it. 
 2. If there are update changes made in the function, it will be shown in the original variable.
 3. If the variable is assigned with new values, it detaches from initial object and the changes are no longer replicated to original variable.
+---
+`Word Search`
+>
+```python
+
+def check_match(hor,ver,word,x,y,current,state):
+    if hor>=x:
+        return False
+    if ver>=y:
+        return False
+    if hor<0 or ver<0:
+        return False
+    # print("{} board {} word {}".format(state,state[hor][ver],word[current]))
+
+    if state[hor][ver]==word[current]:
+        state[hor][ver] = '-1'
+        if len(word) == current+1:
+            return True
+        else:
+            
+            if check_match(hor+1,ver,word,x,y,current+1,state):
+                return True
+            if check_match(hor,ver+1,word,x,y,current+1,state):
+                return True
+            if check_match(hor,ver-1,word,x,y,current+1,state):
+                return True
+            if check_match(hor-1,ver,word,x,y,current+1,state):
+                return True 
+        
+        state[hor][ver] = word[current]
+        return False
+#main function
+x = len(board)
+for i in range(0,x):
+    y = len(board[i])
+    for j in range(0,len(board[i])):
+        if check_match(i,j,word,x,y,0,board):
+            return True
+return False
+        
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NzkzNTI3OSwtMTk0OTIzNjM4NSwtMj
-EwNzE1ODM2OCwxODA1NjIxMzMwLDIwMzE2MDQ0NjksLTE0MDc0
-MjAxMjgsLTExMTQ1OTA4OTgsLTE0OTQ3OTEzNCwtNjY2MzA2Nz
-U2LC0yNTE5ODMwNDcsMjA0MDI5NzYyMl19
+eyJoaXN0b3J5IjpbLTYyODM1MzQxNiwtMzk3OTM1Mjc5LC0xOT
+Q5MjM2Mzg1LC0yMTA3MTU4MzY4LDE4MDU2MjEzMzAsMjAzMTYw
+NDQ2OSwtMTQwNzQyMDEyOCwtMTExNDU5MDg5OCwtMTQ5NDc5MT
+M0LC02NjYzMDY3NTYsLTI1MTk4MzA0NywyMDQwMjk3NjIyXX0=
+
 -->

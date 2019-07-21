@@ -69,11 +69,12 @@ return subsets
 a = [] #a is not empty list
 #a is the variable referring to empty list
 ```
-1. 
+1. Python passes a reference as value. So if a is passed to a function, it will create a new reference and pass it. 
+2. If there are update changes made in the function, it will be shown in the orif
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDkyMzYzODUsLTIxMDcxNTgzNjgsMT
-gwNTYyMTMzMCwyMDMxNjA0NDY5LC0xNDA3NDIwMTI4LC0xMTE0
-NTkwODk4LC0xNDk0NzkxMzQsLTY2NjMwNjc1NiwtMjUxOTgzMD
-Q3LDIwNDAyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbODI4MDg2NDU2LC0xOTQ5MjM2Mzg1LC0yMT
+A3MTU4MzY4LDE4MDU2MjEzMzAsMjAzMTYwNDQ2OSwtMTQwNzQy
+MDEyOCwtMTExNDU5MDg5OCwtMTQ5NDc5MTM0LC02NjYzMDY3NT
+YsLTI1MTk4MzA0NywyMDQwMjk3NjIyXX0=
 -->

@@ -69,10 +69,11 @@ return subsets
 a = [] #a is not empty list
 #a is the variable referring to empty list
 ```
+1. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDcxNTgzNjgsMTgwNTYyMTMzMCwyMD
-MxNjA0NDY5LC0xNDA3NDIwMTI4LC0xMTE0NTkwODk4LC0xNDk0
-NzkxMzQsLTY2NjMwNjc1NiwtMjUxOTgzMDQ3LDIwNDAyOTc2Mj
-JdfQ==
+eyJoaXN0b3J5IjpbLTE5NDkyMzYzODUsLTIxMDcxNTgzNjgsMT
+gwNTYyMTMzMCwyMDMxNjA0NDY5LC0xNDA3NDIwMTI4LC0xMTE0
+NTkwODk4LC0xNDk0NzkxMzQsLTY2NjMwNjc1NiwtMjUxOTgzMD
+Q3LDIwNDAyOTc2MjJdfQ==
 -->

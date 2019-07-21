@@ -73,7 +73,7 @@ a = [] #a is not empty list
 2. If there are update changes made in the function, it will be shown in the original variable.
 3. If the variable is assigned with new values, it detaches from initial object and the changes are no longer replicated to original variable.
 ---
-`Word Search`
+`Word Search [DFS]`
 > Given a 2D board and a word, find if the word exists in the grid. Use one letter only once.
 
 ```python
@@ -121,8 +121,10 @@ return False
 5. python being `call by object reference value` makes it difficult to manage the state of last visited variables. That's why update after every move the original values. (Cover your tracks)
 6. RUNTIME: $$O(N*M*4^K)$$ where n is row size, m is column size and K is word size.
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2OTkyMTkzMywtMzk3OTM1Mjc5LC0xOT
+eyJoaXN0b3J5IjpbMTg1MzcwMTczMCwtMzk3OTM1Mjc5LC0xOT
 Q5MjM2Mzg1LC0yMTA3MTU4MzY4LDE4MDU2MjEzMzAsMjAzMTYw
 NDQ2OSwtMTQwNzQyMDEyOCwtMTExNDU5MDg5OCwtMTQ5NDc5MT
 M0LC02NjYzMDY3NTYsLTI1MTk4MzA0NywyMDQwMjk3NjIyXX0=

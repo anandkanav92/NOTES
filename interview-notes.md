@@ -66,11 +66,13 @@ return subsets
 ---
 `python is pass by object reference`
 ```python
-
+a = [] #a is not empty list
+#a is the variable referring to empty list
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4OTE2OTI2OSwxODA1NjIxMzMwLDIwMz
-E2MDQ0NjksLTE0MDc0MjAxMjgsLTExMTQ1OTA4OTgsLTE0OTQ3
-OTEzNCwtNjY2MzA2NzU2LC0yNTE5ODMwNDcsMjA0MDI5NzYyMl
-19
+eyJoaXN0b3J5IjpbLTIxMDcxNTgzNjgsMTgwNTYyMTMzMCwyMD
+MxNjA0NDY5LC0xNDA3NDIwMTI4LC0xMTE0NTkwODk4LC0xNDk0
+NzkxMzQsLTY2NjMwNjc1NiwtMjUxOTgzMDQ3LDIwNDAyOTc2Mj
+JdfQ==
 -->

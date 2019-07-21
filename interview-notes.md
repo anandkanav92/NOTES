@@ -74,9 +74,10 @@ a = [] #a is not empty list
 3. If the variable is assigned with new values, it detaches from initial object and the changes are no longer replicated to original variable.
 ---
 `Word Search`
->
-```python
+> Given a 2D board and a word, find if the word exists in the grid. Use one letter only once.
 
+```python
+#recursive function for each char
 def check_match(hor,ver,word,x,y,current,state):
     if hor>=x:
         return False
@@ -113,11 +114,11 @@ for i in range(0,x):
 return False
         
 ```
-
+1. python being `call by object reference value` makes it difficult to manage the state of last visited variables. That
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyODM1MzQxNiwtMzk3OTM1Mjc5LC0xOT
-Q5MjM2Mzg1LC0yMTA3MTU4MzY4LDE4MDU2MjEzMzAsMjAzMTYw
-NDQ2OSwtMTQwNzQyMDEyOCwtMTExNDU5MDg5OCwtMTQ5NDc5MT
-M0LC02NjYzMDY3NTYsLTI1MTk4MzA0NywyMDQwMjk3NjIyXX0=
+eyJoaXN0b3J5IjpbLTE3MTMzNzkxNzcsLTM5NzkzNTI3OSwtMT
+k0OTIzNjM4NSwtMjEwNzE1ODM2OCwxODA1NjIxMzMwLDIwMzE2
+MDQ0NjksLTE0MDc0MjAxMjgsLTExMTQ1OTA4OTgsLTE0OTQ3OT
+EzNCwtNjY2MzA2NzU2LC0yNTE5ODMwNDcsMjA0MDI5NzYyMl19
 
 -->

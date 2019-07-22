@@ -178,12 +178,27 @@ return current
  1. check length of the array and return if less than 3.
  2. use two pointer approach. stop incrementing start after two duplicates of same variable. return the counter in the end.
 
-
+---
+`merge sorted arrays`
+> Given two sorted arrays, merge them.
+```python
+m, n = m-1, n-1
+while m >= 0 and n >= 0:
+    if nums1[m] > nums2[n]:
+        nums1[m+n+1] = nums1[m]
+        m -= 1
+    else:
+        nums1[m+n+1] = nums2[n]
+        n -= 1
+if n != -1: # nums2 is still left
+    nums1[:n+1] = nums2[:n+1]
+```
+ 1. Start from last element of both arrays. Put the biggest element in the end and decrement count from the array with the biggest number.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MjczMTk2NywxNjQ3Mzc4MzA2LDUyMj
-I5MTUxLDEwNjg2MzQ1NzMsMTg1MzcwMTczMCwtMzk3OTM1Mjc5
-LC0xOTQ5MjM2Mzg1LC0yMTA3MTU4MzY4LDE4MDU2MjEzMzAsMj
-AzMTYwNDQ2OSwtMTQwNzQyMDEyOCwtMTExNDU5MDg5OCwtMTQ5
-NDc5MTM0LC02NjYzMDY3NTYsLTI1MTk4MzA0NywyMDQwMjk3Nj
-IyXX0=
+eyJoaXN0b3J5IjpbOTE1NzAzMDc1LDEyNTI3MzE5NjcsMTY0Nz
+M3ODMwNiw1MjIyOTE1MSwxMDY4NjM0NTczLDE4NTM3MDE3MzAs
+LTM5NzkzNTI3OSwtMTk0OTIzNjM4NSwtMjEwNzE1ODM2OCwxOD
+A1NjIxMzMwLDIwMzE2MDQ0NjksLTE0MDc0MjAxMjgsLTExMTQ1
+OTA4OTgsLTE0OTQ3OTEzNCwtNjY2MzA2NzU2LC0yNTE5ODMwND
+csMjA0MDI5NzYyMl19
 -->

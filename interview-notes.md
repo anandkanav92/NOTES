@@ -150,13 +150,15 @@ return False
 	2. Compare start and end time.
 	3. if start is smaller than end, increment start and the number of person required at that moment.
 	4.  if start is greater, that means new range is starting. Thus, increment end and decrement the count. Keep a record of max count globally.
-
+---
+`Remove Duplicates from Sorted Array II`
+>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIyMjkxNTEsMTA2ODYzNDU3MywxODUzNz
-AxNzMwLC0zOTc5MzUyNzksLTE5NDkyMzYzODUsLTIxMDcxNTgz
-NjgsMTgwNTYyMTMzMCwyMDMxNjA0NDY5LC0xNDA3NDIwMTI4LC
-0xMTE0NTkwODk4LC0xNDk0NzkxMzQsLTY2NjMwNjc1NiwtMjUx
-OTgzMDQ3LDIwNDAyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbMTY0NzM3ODMwNiw1MjIyOTE1MSwxMDY4Nj
+M0NTczLDE4NTM3MDE3MzAsLTM5NzkzNTI3OSwtMTk0OTIzNjM4
+NSwtMjEwNzE1ODM2OCwxODA1NjIxMzMwLDIwMzE2MDQ0NjksLT
+E0MDc0MjAxMjgsLTExMTQ1OTA4OTgsLTE0OTQ3OTEzNCwtNjY2
+MzA2NzU2LC0yNTE5ODMwNDcsMjA0MDI5NzYyMl19
 -->

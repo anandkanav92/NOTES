@@ -140,11 +140,12 @@ return False
 2. Start with inf as first and second element in the list.
 3. Add the first min as first and second min as second.
 4. return true if found an element greater than both.
-5. `Gist`: We only replace second element as when there is a smaller second min element available. When we replace first, the order breaks. But if the new element is bigger 
+5. `Gist`: We only replace second element as when there is a smaller second min element available. When we replace first, the order breaks. But if the new element is bigger than the second min element, it is greater than the previous first element for sure. Thus, return true.
+6. If we want to keep track of triplets, store the last first min when replacing the first min and breaking the order. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NzcxNjkwNCwxODUzNzAxNzMwLC0zOT
+eyJoaXN0b3J5IjpbMTA2ODYzNDU3MywxODUzNzAxNzMwLC0zOT
 c5MzUyNzksLTE5NDkyMzYzODUsLTIxMDcxNTgzNjgsMTgwNTYy
 MTMzMCwyMDMxNjA0NDY5LC0xNDA3NDIwMTI4LC0xMTE0NTkwOD
 k4LC0xNDk0NzkxMzQsLTY2NjMwNjc1NiwtMjUxOTgzMDQ3LDIw

@@ -121,12 +121,29 @@ return False
 5. python being `call by object reference value` makes it difficult to manage the state of last visited variables. That's why update after every move the original values. (Cover your tracks)
 6. RUNTIME: $$O(N*M*4^K)$$ where n is row size, m is column size and K is word size.
 
+---
+`Increasing Triplets`
+> Given an unsorted array return whether an increasing subsequence of length 3 exists or not in the array.
+
+```python
+first = second = float('inf')
+for n in nums:
+    if n<=first:
+        first = n
+    elif n<=second:
+        second = n
+    else:
+        return True
+return False
+```
+1. MindBoggling :O
+2. Start with
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MzcwMTczMCwtMzk3OTM1Mjc5LC0xOT
-Q5MjM2Mzg1LC0yMTA3MTU4MzY4LDE4MDU2MjEzMzAsMjAzMTYw
-NDQ2OSwtMTQwNzQyMDEyOCwtMTExNDU5MDg5OCwtMTQ5NDc5MT
-M0LC02NjYzMDY3NTYsLTI1MTk4MzA0NywyMDQwMjk3NjIyXX0=
-
+eyJoaXN0b3J5IjpbLTY2ODYzNTExOCwxODUzNzAxNzMwLC0zOT
+c5MzUyNzksLTE5NDkyMzYzODUsLTIxMDcxNTgzNjgsMTgwNTYy
+MTMzMCwyMDMxNjA0NDY5LC0xNDA3NDIwMTI4LC0xMTE0NTkwOD
+k4LC0xNDk0NzkxMzQsLTY2NjMwNjc1NiwtMjUxOTgzMDQ3LDIw
+NDAyOTc2MjJdfQ==
 -->

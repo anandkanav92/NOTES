@@ -140,11 +140,11 @@ return False
 2. Start with inf as first and second element in the list.
 3. Add the first min as first and second min as second.
 4. return true if found an element greater than both.
-5. 
+5. `Gist`: We only replace second element as when there is a smaller second min element available. When we replace first, the order breaks. But if the new element is bigger 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NDI1NzU4MSwxODUzNzAxNzMwLC0zOT
+eyJoaXN0b3J5IjpbMTc0NzcxNjkwNCwxODUzNzAxNzMwLC0zOT
 c5MzUyNzksLTE5NDkyMzYzODUsLTIxMDcxNTgzNjgsMTgwNTYy
 MTMzMCwyMDMxNjA0NDY5LC0xNDA3NDIwMTI4LC0xMTE0NTkwOD
 k4LC0xNDk0NzkxMzQsLTY2NjMwNjc1NiwtMjUxOTgzMDQ3LDIw

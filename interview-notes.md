@@ -174,10 +174,12 @@ while index<n:
    index+=1
 return current
 ```
+ 1. check length of the array and return if less than 3.
+ 2. use two pointer approach. stop incrementing start after two duplicates of same variable. return the counter in the end.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MzQzNjc4OCwxNjQ3Mzc4MzA2LDUyMj
+eyJoaXN0b3J5IjpbMTI5NDc0NDA0NSwxNjQ3Mzc4MzA2LDUyMj
 I5MTUxLDEwNjg2MzQ1NzMsMTg1MzcwMTczMCwtMzk3OTM1Mjc5
 LC0xOTQ5MjM2Mzg1LC0yMTA3MTU4MzY4LDE4MDU2MjEzMzAsMj
 AzMTYwNDQ2OSwtMTQwNzQyMDEyOCwtMTExNDU5MDg5OCwtMTQ5

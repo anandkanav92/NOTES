@@ -194,11 +194,13 @@ if n != -1: # nums2 is still left
     nums1[:n+1] = nums2[:n+1]
 ```
  1. Start from last element of both arrays. Put the biggest element in the end and decrement count from the array with the biggest number.
+ 2. Repeat until the counter goes below 0.
+ 3. Push all the elements from num2 array to num1 in case there are still remaining.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE1NzAzMDc1LDEyNTI3MzE5NjcsMTY0Nz
-M3ODMwNiw1MjIyOTE1MSwxMDY4NjM0NTczLDE4NTM3MDE3MzAs
-LTM5NzkzNTI3OSwtMTk0OTIzNjM4NSwtMjEwNzE1ODM2OCwxOD
-A1NjIxMzMwLDIwMzE2MDQ0NjksLTE0MDc0MjAxMjgsLTExMTQ1
-OTA4OTgsLTE0OTQ3OTEzNCwtNjY2MzA2NzU2LC0yNTE5ODMwND
-csMjA0MDI5NzYyMl19
+eyJoaXN0b3J5IjpbLTE2NDIzOTM5MTgsMTI1MjczMTk2NywxNj
+Q3Mzc4MzA2LDUyMjI5MTUxLDEwNjg2MzQ1NzMsMTg1MzcwMTcz
+MCwtMzk3OTM1Mjc5LC0xOTQ5MjM2Mzg1LC0yMTA3MTU4MzY4LD
+E4MDU2MjEzMzAsMjAzMTYwNDQ2OSwtMTQwNzQyMDEyOCwtMTEx
+NDU5MDg5OCwtMTQ5NDc5MTM0LC02NjYzMDY3NTYsLTI1MTk4Mz
+A0NywyMDQwMjk3NjIyXX0=
 -->

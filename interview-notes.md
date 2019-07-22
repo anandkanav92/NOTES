@@ -146,14 +146,16 @@ return False
 ---
 `Max agents required`
 > We have x number of agents attending to calls. Given a 2-d list with start and end times of calls, find how many more hiring is required #booking
-1. Sort the start and end time seperately.
-2. Compare start 
+	1. Sort the start and end time seperately.
+	2. Compare start and end time.
+	3. if start is smaller than end, increment start and the number of person required at that moment.
+	4.  if start is greater, that means new range is starting. Thus, increment end and decrement the count. Keep a record of max cou
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQ4ODAwMjksMTA2ODYzNDU3MywxOD
-UzNzAxNzMwLC0zOTc5MzUyNzksLTE5NDkyMzYzODUsLTIxMDcx
-NTgzNjgsMTgwNTYyMTMzMCwyMDMxNjA0NDY5LC0xNDA3NDIwMT
-I4LC0xMTE0NTkwODk4LC0xNDk0NzkxMzQsLTY2NjMwNjc1Niwt
-MjUxOTgzMDQ3LDIwNDAyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbMTEyODc1OTMxNywxMDY4NjM0NTczLDE4NT
+M3MDE3MzAsLTM5NzkzNTI3OSwtMTk0OTIzNjM4NSwtMjEwNzE1
+ODM2OCwxODA1NjIxMzMwLDIwMzE2MDQ0NjksLTE0MDc0MjAxMj
+gsLTExMTQ1OTA4OTgsLTE0OTQ3OTEzNCwtNjY2MzA2NzU2LC0y
+NTE5ODMwNDcsMjA0MDI5NzYyMl19
 -->

@@ -143,11 +143,17 @@ return False
 5. `Gist`: We only replace second element as when there is a smaller second min element available. When we replace first, the order breaks. But if the new element is bigger than the second min element, it is greater than the previous first element for sure. Thus, return true.
 6. If we want to keep track of triplets, store the last first min when replacing the first min and breaking the order. 
 
+---
+`Max agents required`
+> We have x number of agents attending to calls. Given a 2-d list with start and end times of calls, find how many more hiring is required #booking
+1. Sort the start and end time seperately.
+2. Compare start 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2ODYzNDU3MywxODUzNzAxNzMwLC0zOT
-c5MzUyNzksLTE5NDkyMzYzODUsLTIxMDcxNTgzNjgsMTgwNTYy
-MTMzMCwyMDMxNjA0NDY5LC0xNDA3NDIwMTI4LC0xMTE0NTkwOD
-k4LC0xNDk0NzkxMzQsLTY2NjMwNjc1NiwtMjUxOTgzMDQ3LDIw
-NDAyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbLTE2MjQ4ODAwMjksMTA2ODYzNDU3MywxOD
+UzNzAxNzMwLC0zOTc5MzUyNzksLTE5NDkyMzYzODUsLTIxMDcx
+NTgzNjgsMTgwNTYyMTMzMCwyMDMxNjA0NDY5LC0xNDA3NDIwMT
+I4LC0xMTE0NTkwODk4LC0xNDk0NzkxMzQsLTY2NjMwNjc1Niwt
+MjUxOTgzMDQ3LDIwNDAyOTc2MjJdfQ==
 -->

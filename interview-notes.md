@@ -146,6 +146,7 @@ return False
 ---
 `Max agents required`
 > We have x number of agents attending to calls. Given a 2-d list with start and end times of calls, find how many more hiring is required #booking
+
 	1. Sort the start and end time seperately.
 	2. Compare start and end time.
 	3. if start is smaller than end, increment start and the number of person required at that moment.
@@ -179,7 +180,7 @@ return current
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NDc0NDA0NSwxNjQ3Mzc4MzA2LDUyMj
+eyJoaXN0b3J5IjpbMTI1MjczMTk2NywxNjQ3Mzc4MzA2LDUyMj
 I5MTUxLDEwNjg2MzQ1NzMsMTg1MzcwMTczMCwtMzk3OTM1Mjc5
 LC0xOTQ5MjM2Mzg1LC0yMTA3MTU4MzY4LDE4MDU2MjEzMzAsMj
 AzMTYwNDQ2OSwtMTQwNzQyMDEyOCwtMTExNDU5MDg5OCwtMTQ5

@@ -152,13 +152,35 @@ return False
 	4.  if start is greater, that means new range is starting. Thus, increment end and decrement the count. Keep a record of max count globally.
 ---
 `Remove Duplicates from Sorted Array II`
->
+>Given a sorted array  _nums_, remove the duplicates  **in-place** such that duplicates appeared at most _twice_  and return the new length.
+```python
+if nums is None:
+   return None
+n = len(nums)
+if n<3:
+   return n
+index, current, start,second = 1,1,nums[0],0
+while index<n:
+   if start != nums[index]:
+       start = nums[index]
+       nums[current] = nums[index]
+       current += 1
+       second = 0
+   else:
+       if second == 0:
+           second=1
+           nums[current] = nums[index]
+           current+=1
+   index+=1
+return current
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NzM3ODMwNiw1MjIyOTE1MSwxMDY4Nj
-M0NTczLDE4NTM3MDE3MzAsLTM5NzkzNTI3OSwtMTk0OTIzNjM4
-NSwtMjEwNzE1ODM2OCwxODA1NjIxMzMwLDIwMzE2MDQ0NjksLT
-E0MDc0MjAxMjgsLTExMTQ1OTA4OTgsLTE0OTQ3OTEzNCwtNjY2
-MzA2NzU2LC0yNTE5ODMwNDcsMjA0MDI5NzYyMl19
+eyJoaXN0b3J5IjpbMTI1MzQzNjc4OCwxNjQ3Mzc4MzA2LDUyMj
+I5MTUxLDEwNjg2MzQ1NzMsMTg1MzcwMTczMCwtMzk3OTM1Mjc5
+LC0xOTQ5MjM2Mzg1LC0yMTA3MTU4MzY4LDE4MDU2MjEzMzAsMj
+AzMTYwNDQ2OSwtMTQwNzQyMDEyOCwtMTExNDU5MDg5OCwtMTQ5
+NDc5MTM0LC02NjYzMDY3NTYsLTI1MTk4MzA0NywyMDQwMjk3Nj
+IyXX0=
 -->

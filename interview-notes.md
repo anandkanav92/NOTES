@@ -204,14 +204,15 @@ if n != -1: # nums2 is still left
 1. Node with no children -> Leaves.
 2. Nodes with same parents -> Siblings.
 3. Number of edges from root to node -> Depth of node.
+4. Height of the node = number of edges from node to deepest leaf
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIxNTQ0MjksLTQxMDQ1MTIwNiwtMTY0Mj
-M5MzkxOCwxMjUyNzMxOTY3LDE2NDczNzgzMDYsNTIyMjkxNTEs
-MTA2ODYzNDU3MywxODUzNzAxNzMwLC0zOTc5MzUyNzksLTE5ND
-kyMzYzODUsLTIxMDcxNTgzNjgsMTgwNTYyMTMzMCwyMDMxNjA0
-NDY5LC0xNDA3NDIwMTI4LC0xMTE0NTkwODk4LC0xNDk0NzkxMz
-QsLTY2NjMwNjc1NiwtMjUxOTgzMDQ3LDIwNDAyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbMTQ5ODI2MDYyMiwtNDEwNDUxMjA2LC0xNj
+QyMzkzOTE4LDEyNTI3MzE5NjcsMTY0NzM3ODMwNiw1MjIyOTE1
+MSwxMDY4NjM0NTczLDE4NTM3MDE3MzAsLTM5NzkzNTI3OSwtMT
+k0OTIzNjM4NSwtMjEwNzE1ODM2OCwxODA1NjIxMzMwLDIwMzE2
+MDQ0NjksLTE0MDc0MjAxMjgsLTExMTQ1OTA4OTgsLTE0OTQ3OT
+EzNCwtNjY2MzA2NzU2LC0yNTE5ODMwNDcsMjA0MDI5NzYyMl19
 
 -->

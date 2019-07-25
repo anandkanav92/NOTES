@@ -197,12 +197,21 @@ if n != -1: # nums2 is still left
  2. Repeat until the counter goes below 0.
  3. Push all the elements from num2 array to num1 in case there are still remaining.
 
-``
+---
+`TREES`
+
+```
+1. Node with no children -> Leaves.
+2. Nodes with same parents -> Siblings.
+3. Number of edges from root to node -> Depth of node.
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDQ1MTIwNiwtMTY0MjM5MzkxOCwxMj
-UyNzMxOTY3LDE2NDczNzgzMDYsNTIyMjkxNTEsMTA2ODYzNDU3
-MywxODUzNzAxNzMwLC0zOTc5MzUyNzksLTE5NDkyMzYzODUsLT
-IxMDcxNTgzNjgsMTgwNTYyMTMzMCwyMDMxNjA0NDY5LC0xNDA3
-NDIwMTI4LC0xMTE0NTkwODk4LC0xNDk0NzkxMzQsLTY2NjMwNj
-c1NiwtMjUxOTgzMDQ3LDIwNDAyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbOTIxNTQ0MjksLTQxMDQ1MTIwNiwtMTY0Mj
+M5MzkxOCwxMjUyNzMxOTY3LDE2NDczNzgzMDYsNTIyMjkxNTEs
+MTA2ODYzNDU3MywxODUzNzAxNzMwLC0zOTc5MzUyNzksLTE5ND
+kyMzYzODUsLTIxMDcxNTgzNjgsMTgwNTYyMTMzMCwyMDMxNjA0
+NDY5LC0xNDA3NDIwMTI4LC0xMTE0NTkwODk4LC0xNDk0NzkxMz
+QsLTY2NjMwNjc1NiwtMjUxOTgzMDQ3LDIwNDAyOTc2MjJdfQ==
+
 -->

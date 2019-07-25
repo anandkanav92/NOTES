@@ -204,15 +204,31 @@ if n != -1: # nums2 is still left
 1. Node with no children -> Leaves.
 2. Nodes with same parents -> Siblings.
 3. Number of edges from root to node -> Depth of node.
-4. Height of the node = number of edges from node to deepest leaf
+4. Height of the node = number of edges from node to deepest leaf.
+5. Height of tree = Height of root.
+```
+
+`General trees - used for file system`
+```java
+public** **class  TNode  {**
+
+**private  Object data;**
+
+**private  MyLinkedList  siblings;**
+
+**private  TNode  myLeftChild;**
+
+**public  TNode(Object n){data=n; siblings=NULL;myLeftChild=NULL;}**
+
+**}**
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5ODI2MDYyMiwtNDEwNDUxMjA2LC0xNj
-QyMzkzOTE4LDEyNTI3MzE5NjcsMTY0NzM3ODMwNiw1MjIyOTE1
-MSwxMDY4NjM0NTczLDE4NTM3MDE3MzAsLTM5NzkzNTI3OSwtMT
-k0OTIzNjM4NSwtMjEwNzE1ODM2OCwxODA1NjIxMzMwLDIwMzE2
-MDQ0NjksLTE0MDc0MjAxMjgsLTExMTQ1OTA4OTgsLTE0OTQ3OT
-EzNCwtNjY2MzA2NzU2LC0yNTE5ODMwNDcsMjA0MDI5NzYyMl19
+eyJoaXN0b3J5IjpbMzk4OTQ5NzE5LC00MTA0NTEyMDYsLTE2ND
+IzOTM5MTgsMTI1MjczMTk2NywxNjQ3Mzc4MzA2LDUyMjI5MTUx
+LDEwNjg2MzQ1NzMsMTg1MzcwMTczMCwtMzk3OTM1Mjc5LC0xOT
+Q5MjM2Mzg1LC0yMTA3MTU4MzY4LDE4MDU2MjEzMzAsMjAzMTYw
+NDQ2OSwtMTQwNzQyMDEyOCwtMTExNDU5MDg5OCwtMTQ5NDc5MT
+M0LC02NjYzMDY3NTYsLTI1MTk4MzA0NywyMDQwMjk3NjIyXX0=
 
 -->

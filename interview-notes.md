@@ -175,9 +175,9 @@ while index<n:
    index+=1
 return current
 ```
+
  1. check length of the array and return if less than 3.
  2. use two pointer approach. stop incrementing start after two duplicates of same variable. return the counter in the end.
-
 ---
 `merge sorted arrays`
 > Given two sorted arrays, merge them.
@@ -196,11 +196,13 @@ if n != -1: # nums2 is still left
  1. Start from last element of both arrays. Put the biggest element in the end and decrement count from the array with the biggest number.
  2. Repeat until the counter goes below 0.
  3. Push all the elements from num2 array to num1 in case there are still remaining.
+
+``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDIzOTM5MTgsMTI1MjczMTk2NywxNj
-Q3Mzc4MzA2LDUyMjI5MTUxLDEwNjg2MzQ1NzMsMTg1MzcwMTcz
-MCwtMzk3OTM1Mjc5LC0xOTQ5MjM2Mzg1LC0yMTA3MTU4MzY4LD
-E4MDU2MjEzMzAsMjAzMTYwNDQ2OSwtMTQwNzQyMDEyOCwtMTEx
-NDU5MDg5OCwtMTQ5NDc5MTM0LC02NjYzMDY3NTYsLTI1MTk4Mz
-A0NywyMDQwMjk3NjIyXX0=
+eyJoaXN0b3J5IjpbLTQxMDQ1MTIwNiwtMTY0MjM5MzkxOCwxMj
+UyNzMxOTY3LDE2NDczNzgzMDYsNTIyMjkxNTEsMTA2ODYzNDU3
+MywxODUzNzAxNzMwLC0zOTc5MzUyNzksLTE5NDkyMzYzODUsLT
+IxMDcxNTgzNjgsMTgwNTYyMTMzMCwyMDMxNjA0NDY5LC0xNDA3
+NDIwMTI4LC0xMTE0NTkwODk4LC0xNDk0NzkxMzQsLTY2NjMwNj
+c1NiwtMjUxOTgzMDQ3LDIwNDAyOTc2MjJdfQ==
 -->

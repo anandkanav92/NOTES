@@ -255,7 +255,7 @@ public class BNode
 
 }
 ```
-`1. Full binary tree = All nodes have exactly 0 or 2 child.
+1. Full binary tree = All nodes have exactly 0 or 2 child.
 2. Complete tree = **A complete binary tree** is a tree, which is completely filled, with the possible exception of the bottom level, which is filled from left to right. A complete binary tree of the height h has between 2h and 2(h+1)-1 nodes.
 
 `BST - Binary search trees`
@@ -267,11 +267,11 @@ public class BNode
 4. **Duplicate** keys are not allowed.
 5. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNzA3NDE0MSwtMTAzODQ1OTY1MCwtND
-EwNDUxMjA2LC0xNjQyMzkzOTE4LDEyNTI3MzE5NjcsMTY0NzM3
-ODMwNiw1MjIyOTE1MSwxMDY4NjM0NTczLDE4NTM3MDE3MzAsLT
-M5NzkzNTI3OSwtMTk0OTIzNjM4NSwtMjEwNzE1ODM2OCwxODA1
-NjIxMzMwLDIwMzE2MDQ0NjksLTE0MDc0MjAxMjgsLTExMTQ1OT
-A4OTgsLTE0OTQ3OTEzNCwtNjY2MzA2NzU2LC0yNTE5ODMwNDcs
-MjA0MDI5NzYyMl19
+eyJoaXN0b3J5IjpbMTM3Mzc1NDI3LC0xMDM4NDU5NjUwLC00MT
+A0NTEyMDYsLTE2NDIzOTM5MTgsMTI1MjczMTk2NywxNjQ3Mzc4
+MzA2LDUyMjI5MTUxLDEwNjg2MzQ1NzMsMTg1MzcwMTczMCwtMz
+k3OTM1Mjc5LC0xOTQ5MjM2Mzg1LC0yMTA3MTU4MzY4LDE4MDU2
+MjEzMzAsMjAzMTYwNDQ2OSwtMTQwNzQyMDEyOCwtMTExNDU5MD
+g5OCwtMTQ5NDc5MTM0LC02NjYzMDY3NTYsLTI1MTk4MzA0Nywy
+MDQwMjk3NjIyXX0=
 -->

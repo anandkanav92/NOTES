@@ -261,13 +261,14 @@ public class BNode
 `BST - Binary search trees`
 
 > A binary search tree (BST) is a tree, where inorder traversal is an ordered sequence.
-> 
+1. BSTs are used in cases where data needs to be retrieved often and in a sorted sequence.
+2. Duplicate keys are not allowe
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAzNzAzMjQyLC0xMDM4NDU5NjUwLC00MT
-A0NTEyMDYsLTE2NDIzOTM5MTgsMTI1MjczMTk2NywxNjQ3Mzc4
-MzA2LDUyMjI5MTUxLDEwNjg2MzQ1NzMsMTg1MzcwMTczMCwtMz
-k3OTM1Mjc5LC0xOTQ5MjM2Mzg1LC0yMTA3MTU4MzY4LDE4MDU2
-MjEzMzAsMjAzMTYwNDQ2OSwtMTQwNzQyMDEyOCwtMTExNDU5MD
-g5OCwtMTQ5NDc5MTM0LC02NjYzMDY3NTYsLTI1MTk4MzA0Nywy
-MDQwMjk3NjIyXX0=
+eyJoaXN0b3J5IjpbMTM3ODM2OTI5OSwtMTAzODQ1OTY1MCwtND
+EwNDUxMjA2LC0xNjQyMzkzOTE4LDEyNTI3MzE5NjcsMTY0NzM3
+ODMwNiw1MjIyOTE1MSwxMDY4NjM0NTczLDE4NTM3MDE3MzAsLT
+M5NzkzNTI3OSwtMTk0OTIzNjM4NSwtMjEwNzE1ODM2OCwxODA1
+NjIxMzMwLDIwMzE2MDQ0NjksLTE0MDc0MjAxMjgsLTExMTQ1OT
+A4OTgsLTE0OTQ3OTEzNCwtNjY2MzA2NzU2LC0yNTE5ODMwNDcs
+MjA0MDI5NzYyMl19
 -->

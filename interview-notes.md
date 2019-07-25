@@ -210,25 +210,28 @@ if n != -1: # nums2 is still left
 
 `General trees - used for file system`
 ```java
-public** **class  TNode  {**
+public class  TNode  {
 
-**private  Object data;**
+	private  Object data;
 
-**private  MyLinkedList  siblings;**
+	private  MyLinkedList  siblings;
 
-**private  TNode  myLeftChild;**
-
-**public  TNode(Object n){data=n; siblings=NULL;myLeftChild=NULL;}**
-
-**}**
+	private  TNode  myLeftChild;
+	
+	public  TNode(Object n){
+		data=n; 			 	
+		siblings=NULL;
+		myLeftChild=NULL;
+	}
+}
 ```
-
+`Binary 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk4OTQ5NzE5LC00MTA0NTEyMDYsLTE2ND
-IzOTM5MTgsMTI1MjczMTk2NywxNjQ3Mzc4MzA2LDUyMjI5MTUx
-LDEwNjg2MzQ1NzMsMTg1MzcwMTczMCwtMzk3OTM1Mjc5LC0xOT
-Q5MjM2Mzg1LC0yMTA3MTU4MzY4LDE4MDU2MjEzMzAsMjAzMTYw
-NDQ2OSwtMTQwNzQyMDEyOCwtMTExNDU5MDg5OCwtMTQ5NDc5MT
-M0LC02NjYzMDY3NTYsLTI1MTk4MzA0NywyMDQwMjk3NjIyXX0=
-
+eyJoaXN0b3J5IjpbLTEzMjE5NjAwNzIsLTQxMDQ1MTIwNiwtMT
+Y0MjM5MzkxOCwxMjUyNzMxOTY3LDE2NDczNzgzMDYsNTIyMjkx
+NTEsMTA2ODYzNDU3MywxODUzNzAxNzMwLC0zOTc5MzUyNzksLT
+E5NDkyMzYzODUsLTIxMDcxNTgzNjgsMTgwNTYyMTMzMCwyMDMx
+NjA0NDY5LC0xNDA3NDIwMTI4LC0xMTE0NTkwODk4LC0xNDk0Nz
+kxMzQsLTY2NjMwNjc1NiwtMjUxOTgzMDQ3LDIwNDAyOTc2MjJd
+fQ==
 -->

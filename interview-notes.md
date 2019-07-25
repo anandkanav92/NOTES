@@ -262,9 +262,12 @@ public class BNode
 
 > A binary search tree (BST) is a tree, where inorder traversal is an ordered sequence.
 1. BSTs are used in cases where data needs to be retrieved often and in a sorted sequence.
-2. Duplicate keys are not allowe
+2. The **left** subtree has all the values **less** than the key.
+3. The **right** subtree has all the values **greater** than the key.
+4. **Duplicate** keys are not allowed.
+5. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3ODM2OTI5OSwtMTAzODQ1OTY1MCwtND
+eyJoaXN0b3J5IjpbLTkzNzA3NDE0MSwtMTAzODQ1OTY1MCwtND
 EwNDUxMjA2LC0xNjQyMzkzOTE4LDEyNTI3MzE5NjcsMTY0NzM3
 ODMwNiw1MjIyOTE1MSwxMDY4NjM0NTczLDE4NTM3MDE3MzAsLT
 M5NzkzNTI3OSwtMTk0OTIzNjM4NSwtMjEwNzE1ODM2OCwxODA1

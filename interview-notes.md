@@ -267,14 +267,14 @@ public class BNode
 4. **Duplicate** keys are not allowed.
 
 `BFS`
-> Breadth first search also known as level first search uses queues. Add a vertex to queue. Next, add all the children to queue. Repeat. If it is a graph, check for visited flag.
+> Breadth first search also known as level first search uses queues. Add a vertex to queue. Next, add all the children to queue. Repeat. If it is a graph, check for visited flag.y
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MTA4NzkxNSwxMzczNzU0MjcsLTEwMz
-g0NTk2NTAsLTQxMDQ1MTIwNiwtMTY0MjM5MzkxOCwxMjUyNzMx
-OTY3LDE2NDczNzgzMDYsNTIyMjkxNTEsMTA2ODYzNDU3MywxOD
-UzNzAxNzMwLC0zOTc5MzUyNzksLTE5NDkyMzYzODUsLTIxMDcx
-NTgzNjgsMTgwNTYyMTMzMCwyMDMxNjA0NDY5LC0xNDA3NDIwMT
-I4LC0xMTE0NTkwODk4LC0xNDk0NzkxMzQsLTY2NjMwNjc1Niwt
-MjUxOTgzMDQ3XX0=
+eyJoaXN0b3J5IjpbLTIwNTA2MjcxODgsMTc1MTA4NzkxNSwxMz
+czNzU0MjcsLTEwMzg0NTk2NTAsLTQxMDQ1MTIwNiwtMTY0MjM5
+MzkxOCwxMjUyNzMxOTY3LDE2NDczNzgzMDYsNTIyMjkxNTEsMT
+A2ODYzNDU3MywxODUzNzAxNzMwLC0zOTc5MzUyNzksLTE5NDky
+MzYzODUsLTIxMDcxNTgzNjgsMTgwNTYyMTMzMCwyMDMxNjA0ND
+Y5LC0xNDA3NDIwMTI4LC0xMTE0NTkwODk4LC0xNDk0NzkxMzQs
+LTY2NjMwNjc1Nl19
 -->

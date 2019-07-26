@@ -265,13 +265,16 @@ public class BNode
 2. The **left** subtree has all the values **less** than the key.
 3. The **right** subtree has all the values **greater** than the key.
 4. **Duplicate** keys are not allowed.
-5. 
+
+`BFS`
+> Breadth first search also known as level first search uses queues. Add a vertex to queue. Next, add all the children to queue. Repeat. If it is a graph, check for visited flag.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3Mzc1NDI3LC0xMDM4NDU5NjUwLC00MT
-A0NTEyMDYsLTE2NDIzOTM5MTgsMTI1MjczMTk2NywxNjQ3Mzc4
-MzA2LDUyMjI5MTUxLDEwNjg2MzQ1NzMsMTg1MzcwMTczMCwtMz
-k3OTM1Mjc5LC0xOTQ5MjM2Mzg1LC0yMTA3MTU4MzY4LDE4MDU2
-MjEzMzAsMjAzMTYwNDQ2OSwtMTQwNzQyMDEyOCwtMTExNDU5MD
-g5OCwtMTQ5NDc5MTM0LC02NjYzMDY3NTYsLTI1MTk4MzA0Nywy
-MDQwMjk3NjIyXX0=
+eyJoaXN0b3J5IjpbMTc1MTA4NzkxNSwxMzczNzU0MjcsLTEwMz
+g0NTk2NTAsLTQxMDQ1MTIwNiwtMTY0MjM5MzkxOCwxMjUyNzMx
+OTY3LDE2NDczNzgzMDYsNTIyMjkxNTEsMTA2ODYzNDU3MywxOD
+UzNzAxNzMwLC0zOTc5MzUyNzksLTE5NDkyMzYzODUsLTIxMDcx
+NTgzNjgsMTgwNTYyMTMzMCwyMDMxNjA0NDY5LC0xNDA3NDIwMT
+I4LC0xMTE0NTkwODk4LC0xNDk0NzkxMzQsLTY2NjMwNjc1Niwt
+MjUxOTgzMDQ3XX0=
 -->

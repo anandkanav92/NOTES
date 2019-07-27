@@ -273,16 +273,18 @@ public class BNode
 `AVL trees`
 >BST is highly used for search. They provide logn(n) search time but only if balanced. In order to keep it balanced, we follow AVL algorithm.
 ```
-1. A tree is said to be unbalanced if any node has (left subtree height - 
+1. A tree is said to be unbalanced if any node has (left subtree height - right subtree height) not belnoging to the set {-1,0,1}.
 2. If the unbalance is caused due to an addition of node on left and left subtree, it is called `l-l balance` and it is rebalanced using ll rotation.
+3. If the unbalance is caused due to an addition of node on left and right subtree, it is called `l-R balance` and it is rebalanced using LR rotation.
+4. LR rotation 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NTY1MjE1OCwtMjA1MDYyNzE4OCwxNz
-UxMDg3OTE1LDEzNzM3NTQyNywtMTAzODQ1OTY1MCwtNDEwNDUx
-MjA2LC0xNjQyMzkzOTE4LDEyNTI3MzE5NjcsMTY0NzM3ODMwNi
-w1MjIyOTE1MSwxMDY4NjM0NTczLDE4NTM3MDE3MzAsLTM5Nzkz
-NTI3OSwtMTk0OTIzNjM4NSwtMjEwNzE1ODM2OCwxODA1NjIxMz
-MwLDIwMzE2MDQ0NjksLTE0MDc0MjAxMjgsLTExMTQ1OTA4OTgs
-LTE0OTQ3OTEzNF19
+eyJoaXN0b3J5IjpbLTEyMTQzOTc5NDIsLTIwNTA2MjcxODgsMT
+c1MTA4NzkxNSwxMzczNzU0MjcsLTEwMzg0NTk2NTAsLTQxMDQ1
+MTIwNiwtMTY0MjM5MzkxOCwxMjUyNzMxOTY3LDE2NDczNzgzMD
+YsNTIyMjkxNTEsMTA2ODYzNDU3MywxODUzNzAxNzMwLC0zOTc5
+MzUyNzksLTE5NDkyMzYzODUsLTIxMDcxNTgzNjgsMTgwNTYyMT
+MzMCwyMDMxNjA0NDY5LC0xNDA3NDIwMTI4LC0xMTE0NTkwODk4
+LC0xNDk0NzkxMzRdfQ==
 -->

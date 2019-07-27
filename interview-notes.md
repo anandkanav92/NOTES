@@ -276,15 +276,15 @@ public class BNode
 1. A tree is said to be unbalanced if any node has (left subtree height - right subtree height) not belnoging to the set {-1,0,1}.
 2. If the unbalance is caused due to an addition of node on left and left subtree, it is called `l-l balance` and it is rebalanced using ll rotation.
 3. If the unbalance is caused due to an addition of node on left and right subtree, it is called `l-R balance` and it is rebalanced using LR rotation.
-4. LR rotation is a double rotation. That means there are two steps
+4. LR rotation is a double rotation. That means there are two steps involved - one to left and then to the right. Any rotation involved just involves 3 nodes at a time.
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAzMjkxODYwLC0xMjE0Mzk3OTQyLC0yMD
-UwNjI3MTg4LDE3NTEwODc5MTUsMTM3Mzc1NDI3LC0xMDM4NDU5
-NjUwLC00MTA0NTEyMDYsLTE2NDIzOTM5MTgsMTI1MjczMTk2Ny
-wxNjQ3Mzc4MzA2LDUyMjI5MTUxLDEwNjg2MzQ1NzMsMTg1Mzcw
-MTczMCwtMzk3OTM1Mjc5LC0xOTQ5MjM2Mzg1LC0yMTA3MTU4Mz
-Y4LDE4MDU2MjEzMzAsMjAzMTYwNDQ2OSwtMTQwNzQyMDEyOCwt
-MTExNDU5MDg5OF19
+eyJoaXN0b3J5IjpbLTEwNDkwOTgyMjgsLTEyMTQzOTc5NDIsLT
+IwNTA2MjcxODgsMTc1MTA4NzkxNSwxMzczNzU0MjcsLTEwMzg0
+NTk2NTAsLTQxMDQ1MTIwNiwtMTY0MjM5MzkxOCwxMjUyNzMxOT
+Y3LDE2NDczNzgzMDYsNTIyMjkxNTEsMTA2ODYzNDU3MywxODUz
+NzAxNzMwLC0zOTc5MzUyNzksLTE5NDkyMzYzODUsLTIxMDcxNT
+gzNjgsMTgwNTYyMTMzMCwyMDMxNjA0NDY5LC0xNDA3NDIwMTI4
+LC0xMTE0NTkwODk4XX0=
 -->

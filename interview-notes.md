@@ -271,14 +271,17 @@ public class BNode
 
 
 `AVL trees`
->BST is highly used for search. They provide logn(n) searc
+>BST is highly used for search. They provide logn(n) search time but only if balanced. In order to keep it balanced, we follow AVL algorithm.
+```
+1. 
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MDY3ODgyNywtMjA1MDYyNzE4OCwxNz
-UxMDg3OTE1LDEzNzM3NTQyNywtMTAzODQ1OTY1MCwtNDEwNDUx
-MjA2LC0xNjQyMzkzOTE4LDEyNTI3MzE5NjcsMTY0NzM3ODMwNi
-w1MjIyOTE1MSwxMDY4NjM0NTczLDE4NTM3MDE3MzAsLTM5Nzkz
-NTI3OSwtMTk0OTIzNjM4NSwtMjEwNzE1ODM2OCwxODA1NjIxMz
-MwLDIwMzE2MDQ0NjksLTE0MDc0MjAxMjgsLTExMTQ1OTA4OTgs
-LTE0OTQ3OTEzNF19
+eyJoaXN0b3J5IjpbMTQzOTUyNjcyLC0yMDUwNjI3MTg4LDE3NT
+EwODc5MTUsMTM3Mzc1NDI3LC0xMDM4NDU5NjUwLC00MTA0NTEy
+MDYsLTE2NDIzOTM5MTgsMTI1MjczMTk2NywxNjQ3Mzc4MzA2LD
+UyMjI5MTUxLDEwNjg2MzQ1NzMsMTg1MzcwMTczMCwtMzk3OTM1
+Mjc5LC0xOTQ5MjM2Mzg1LC0yMTA3MTU4MzY4LDE4MDU2MjEzMz
+AsMjAzMTYwNDQ2OSwtMTQwNzQyMDEyOCwtMTExNDU5MDg5OCwt
+MTQ5NDc5MTM0XX0=
 -->

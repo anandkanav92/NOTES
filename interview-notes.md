@@ -344,6 +344,9 @@ public class BNode
 4. LR rotation is a double rotation. That means there are two steps involved - one to left and then to the right. Any rotation involved just involves 3 nodes at a time.
 ```
 ---
+`Course Schedule II`
+
+---
 `Lowest Common Ancestor of a Binary Tree`
 
 >  Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
@@ -352,11 +355,11 @@ public class BNode
 3.  If either of the left or the right branch returns  `True`, this means one of the two nodes was found below.
 4.  If at any point in the traversal, any two of the three flags  `left`,  `right`  or  `mid`  become  `True`, this means we have found the lowest common ancestor for the nodes  `p`  and  `q`. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MDM0Nzg0Niw3MTkzNzE1NDgsNjE2Nj
-E0MDg0LDE2NzkwMzIxNTksLTEwNDkwOTgyMjgsLTEyMTQzOTc5
-NDIsLTIwNTA2MjcxODgsMTc1MTA4NzkxNSwxMzczNzU0MjcsLT
-EwMzg0NTk2NTAsLTQxMDQ1MTIwNiwtMTY0MjM5MzkxOCwxMjUy
-NzMxOTY3LDE2NDczNzgzMDYsNTIyMjkxNTEsMTA2ODYzNDU3My
-wxODUzNzAxNzMwLC0zOTc5MzUyNzksLTE5NDkyMzYzODUsLTIx
-MDcxNTgzNjhdfQ==
+eyJoaXN0b3J5IjpbLTI0NDg1MzQxMSwtOTUwMzQ3ODQ2LDcxOT
+M3MTU0OCw2MTY2MTQwODQsMTY3OTAzMjE1OSwtMTA0OTA5ODIy
+OCwtMTIxNDM5Nzk0MiwtMjA1MDYyNzE4OCwxNzUxMDg3OTE1LD
+EzNzM3NTQyNywtMTAzODQ1OTY1MCwtNDEwNDUxMjA2LC0xNjQy
+MzkzOTE4LDEyNTI3MzE5NjcsMTY0NzM3ODMwNiw1MjIyOTE1MS
+wxMDY4NjM0NTczLDE4NTM3MDE3MzAsLTM5NzkzNTI3OSwtMTk0
+OTIzNjM4NV19
 -->

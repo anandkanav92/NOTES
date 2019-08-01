@@ -202,7 +202,11 @@ if n != -1: # nums2 is still left
 > Given a 2D board and a list of words from the dictionary, find all words in the board.
 
 1. Create a trie data structure to store the list of words so that similar prefix are not checked multiple times.
-2. Starting with the root node. For 
+2. Starting with the root node. 
+	- For each children, call DFS.
+	- If there is a match, go deeper.
+	- check for word end, and if there is a word end add it to result list. 
+	- Four directions to explore, and update the root position with  
 
 ---
 `TREES`
@@ -287,11 +291,11 @@ public class BNode
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjM1NjAyOTcsMTY3OTAzMjE1OSwtMT
-A0OTA5ODIyOCwtMTIxNDM5Nzk0MiwtMjA1MDYyNzE4OCwxNzUx
-MDg3OTE1LDEzNzM3NTQyNywtMTAzODQ1OTY1MCwtNDEwNDUxMj
-A2LC0xNjQyMzkzOTE4LDEyNTI3MzE5NjcsMTY0NzM3ODMwNiw1
-MjIyOTE1MSwxMDY4NjM0NTczLDE4NTM3MDE3MzAsLTM5NzkzNT
-I3OSwtMTk0OTIzNjM4NSwtMjEwNzE1ODM2OCwxODA1NjIxMzMw
-LDIwMzE2MDQ0NjldfQ==
+eyJoaXN0b3J5IjpbMTMzODk5NTQ0MiwxNjc5MDMyMTU5LC0xMD
+Q5MDk4MjI4LC0xMjE0Mzk3OTQyLC0yMDUwNjI3MTg4LDE3NTEw
+ODc5MTUsMTM3Mzc1NDI3LC0xMDM4NDU5NjUwLC00MTA0NTEyMD
+YsLTE2NDIzOTM5MTgsMTI1MjczMTk2NywxNjQ3Mzc4MzA2LDUy
+MjI5MTUxLDEwNjg2MzQ1NzMsMTg1MzcwMTczMCwtMzk3OTM1Mj
+c5LC0xOTQ5MjM2Mzg1LC0yMTA3MTU4MzY4LDE4MDU2MjEzMzAs
+MjAzMTYwNDQ2OV19
 -->

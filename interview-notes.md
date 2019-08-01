@@ -198,6 +198,10 @@ if n != -1: # nums2 is still left
  3. Push all the elements from num2 array to num1 in case there are still remaining.
 
 ---
+`Word Search`
+>
+
+---
 `TREES`
 
 ```
@@ -280,11 +284,11 @@ public class BNode
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDkwOTgyMjgsLTEyMTQzOTc5NDIsLT
-IwNTA2MjcxODgsMTc1MTA4NzkxNSwxMzczNzU0MjcsLTEwMzg0
-NTk2NTAsLTQxMDQ1MTIwNiwtMTY0MjM5MzkxOCwxMjUyNzMxOT
-Y3LDE2NDczNzgzMDYsNTIyMjkxNTEsMTA2ODYzNDU3MywxODUz
-NzAxNzMwLC0zOTc5MzUyNzksLTE5NDkyMzYzODUsLTIxMDcxNT
-gzNjgsMTgwNTYyMTMzMCwyMDMxNjA0NDY5LC0xNDA3NDIwMTI4
-LC0xMTE0NTkwODk4XX0=
+eyJoaXN0b3J5IjpbMTY3OTAzMjE1OSwtMTA0OTA5ODIyOCwtMT
+IxNDM5Nzk0MiwtMjA1MDYyNzE4OCwxNzUxMDg3OTE1LDEzNzM3
+NTQyNywtMTAzODQ1OTY1MCwtNDEwNDUxMjA2LC0xNjQyMzkzOT
+E4LDEyNTI3MzE5NjcsMTY0NzM3ODMwNiw1MjIyOTE1MSwxMDY4
+NjM0NTczLDE4NTM3MDE3MzAsLTM5NzkzNTI3OSwtMTk0OTIzNj
+M4NSwtMjEwNzE1ODM2OCwxODA1NjIxMzMwLDIwMzE2MDQ0Njks
+LTE0MDc0MjAxMjhdfQ==
 -->

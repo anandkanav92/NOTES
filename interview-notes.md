@@ -207,7 +207,61 @@ if n != -1: # nums2 is still left
 	- If there is a match, go deeper.
 	- check for word end, and if there is a word end add it to result list. 
 	- Four directions to explore, and update the root position with '#' to prevent reusing characters twice.
-3. Repeat for each ch   
+3. Repeat for each character in the 2-d board.
+```python
+```
+class TrieNode():
+    def __init__(self):
+        self.children = collections.defaultdict(TrieNode)
+        self.isWord = False
+    
+class Trie():
+    def __init__(self):
+        self.root = TrieNode()
+    
+    def insert(self, word):
+        node = self.root
+        for w in word:
+            node = node.children[w]
+        node.isWord = True
+    
+    def search(self, word):
+        node = self.root
+        for w in word:
+            node = node.children.get(w)
+            if not node:
+                return False
+        return node.isWord
+    
+class Solution(object):
+    def findWords(self, board, words):
+        res = []
+        trie = Trie()
+        node = trie.root
+        for w in words:
+            trie.insert(w)
+        for i in xrange(len(board)):
+            for j in xrange(len(board[0])):
+                self.dfs(board, node, i, j, "", res)
+        return res
+    
+    def dfs(self, board, node, i, j, path, res):
+        if node.isWord:
+            res.append(path)
+            node.isWord = False
+        if i < 0 or i >= len(board) or j < 0 or j >= len(board[0]):
+            return 
+        tmp = board[i][j]
+        node = node.children.get(tmp)
+        if not node:
+            return 
+        board[i][j] = "#"
+        self.dfs(board, node, i+1, j, path+tmp, res)
+        self.dfs(board, node, i-1, j, path+tmp, res)
+        self.dfs(board, node, i, j-1, path+tmp, res)
+        self.dfs(board, node, i, j+1, path+tmp, res)
+        board[i][j] = tmp
+```   
 
 ---
 `TREES`
@@ -292,11 +346,11 @@ public class BNode
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE2NjE0MDg0LDE2NzkwMzIxNTksLTEwND
-kwOTgyMjgsLTEyMTQzOTc5NDIsLTIwNTA2MjcxODgsMTc1MTA4
-NzkxNSwxMzczNzU0MjcsLTEwMzg0NTk2NTAsLTQxMDQ1MTIwNi
-wtMTY0MjM5MzkxOCwxMjUyNzMxOTY3LDE2NDczNzgzMDYsNTIy
-MjkxNTEsMTA2ODYzNDU3MywxODUzNzAxNzMwLC0zOTc5MzUyNz
-ksLTE5NDkyMzYzODUsLTIxMDcxNTgzNjgsMTgwNTYyMTMzMCwy
-MDMxNjA0NDY5XX0=
+eyJoaXN0b3J5IjpbNTYwMDIxMTMyLDYxNjYxNDA4NCwxNjc5MD
+MyMTU5LC0xMDQ5MDk4MjI4LC0xMjE0Mzk3OTQyLC0yMDUwNjI3
+MTg4LDE3NTEwODc5MTUsMTM3Mzc1NDI3LC0xMDM4NDU5NjUwLC
+00MTA0NTEyMDYsLTE2NDIzOTM5MTgsMTI1MjczMTk2NywxNjQ3
+Mzc4MzA2LDUyMjI5MTUxLDEwNjg2MzQ1NzMsMTg1MzcwMTczMC
+wtMzk3OTM1Mjc5LC0xOTQ5MjM2Mzg1LC0yMTA3MTU4MzY4LDE4
+MDU2MjEzMzBdfQ==
 -->

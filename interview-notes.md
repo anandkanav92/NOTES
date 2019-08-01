@@ -206,7 +206,8 @@ if n != -1: # nums2 is still left
 	- For each children, call DFS.
 	- If there is a match, go deeper.
 	- check for word end, and if there is a word end add it to result list. 
-	- Four directions to explore, and update the root position with  
+	- Four directions to explore, and update the root position with '#' to prevent reusing characters twice.
+3. Repeat for each ch   
 
 ---
 `TREES`
@@ -291,11 +292,11 @@ public class BNode
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzODk5NTQ0MiwxNjc5MDMyMTU5LC0xMD
-Q5MDk4MjI4LC0xMjE0Mzk3OTQyLC0yMDUwNjI3MTg4LDE3NTEw
-ODc5MTUsMTM3Mzc1NDI3LC0xMDM4NDU5NjUwLC00MTA0NTEyMD
-YsLTE2NDIzOTM5MTgsMTI1MjczMTk2NywxNjQ3Mzc4MzA2LDUy
-MjI5MTUxLDEwNjg2MzQ1NzMsMTg1MzcwMTczMCwtMzk3OTM1Mj
-c5LC0xOTQ5MjM2Mzg1LC0yMTA3MTU4MzY4LDE4MDU2MjEzMzAs
-MjAzMTYwNDQ2OV19
+eyJoaXN0b3J5IjpbNjE2NjE0MDg0LDE2NzkwMzIxNTksLTEwND
+kwOTgyMjgsLTEyMTQzOTc5NDIsLTIwNTA2MjcxODgsMTc1MTA4
+NzkxNSwxMzczNzU0MjcsLTEwMzg0NTk2NTAsLTQxMDQ1MTIwNi
+wtMTY0MjM5MzkxOCwxMjUyNzMxOTY3LDE2NDczNzgzMDYsNTIy
+MjkxNTEsMTA2ODYzNDU3MywxODUzNzAxNzMwLC0zOTc5MzUyNz
+ksLTE5NDkyMzYzODUsLTIxMDcxNTgzNjgsMTgwNTYyMTMzMCwy
+MDMxNjA0NDY5XX0=
 -->

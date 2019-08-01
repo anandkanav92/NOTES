@@ -345,6 +345,10 @@ public class BNode
 ```
 ---
 `Course Schedule II`
+>There are a total of  _n_  courses you have to take, labeled from  `0`  to  `n-1`.
+Some courses may have prerequisites, for example to take course 0 you have to first take course 1, which is expressed as a pair:  `[0,1]`
+
+Given the total number of courses and a list of prerequisite  **pairs**, return the ordering of courses you should take to finish all courses.
 
 ---
 `Lowest Common Ancestor of a Binary Tree`
@@ -355,7 +359,7 @@ public class BNode
 3.  If either of the left or the right branch returns  `True`, this means one of the two nodes was found below.
 4.  If at any point in the traversal, any two of the three flags  `left`,  `right`  or  `mid`  become  `True`, this means we have found the lowest common ancestor for the nodes  `p`  and  `q`. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NDg1MzQxMSwtOTUwMzQ3ODQ2LDcxOT
+eyJoaXN0b3J5IjpbMTA0MjM4Nzk2MSwtOTUwMzQ3ODQ2LDcxOT
 M3MTU0OCw2MTY2MTQwODQsMTY3OTAzMjE1OSwtMTA0OTA5ODIy
 OCwtMTIxNDM5Nzk0MiwtMjA1MDYyNzE4OCwxNzUxMDg3OTE1LD
 EzNzM3NTQyNywtMTAzODQ1OTY1MCwtNDEwNDUxMjA2LC0xNjQy

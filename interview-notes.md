@@ -198,7 +198,7 @@ if n != -1: # nums2 is still left
  3. Push all the elements from num2 array to num1 in case there are still remaining.
 
 ---
-`Word Search`
+**`Word Search`**
 > Given a 2D board and a list of words from the dictionary, find all words in the board.
 
 1. Create a trie data structure to store the list of words so that similar prefix are not checked multiple times.
@@ -209,7 +209,6 @@ if n != -1: # nums2 is still left
 	- Four directions to explore, and update the root position with '#' to prevent reusing characters twice.
 3. Repeat for each character in the 2-d board.
 ```python
-```
 class TrieNode():
     def __init__(self):
         self.children = collections.defaultdict(TrieNode)
@@ -346,7 +345,7 @@ public class BNode
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYwMDIxMTMyLDYxNjYxNDA4NCwxNjc5MD
+eyJoaXN0b3J5IjpbNzE5MzcxNTQ4LDYxNjYxNDA4NCwxNjc5MD
 MyMTU5LC0xMDQ5MDk4MjI4LC0xMjE0Mzk3OTQyLC0yMDUwNjI3
 MTg4LDE3NTEwODc5MTUsMTM3Mzc1NDI3LC0xMDM4NDU5NjUwLC
 00MTA0NTEyMDYsLTE2NDIzOTM5MTgsMTI1MjczMTk2NywxNjQ3

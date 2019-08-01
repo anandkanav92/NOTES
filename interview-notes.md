@@ -347,10 +347,12 @@ public class BNode
 `Lowest Common Ancestor of a Binary Tree`
 
 >  Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
- 1. Two ways : recursive or iterative. Recursive very clean.
- 2.  
+1.  Start traversing the tree from the root node.
+2.  If the current node itself is one of  `p`  or  `q`, we would mark a variable  `mid`  as  `True`  and continue the search for the other node in the left and right branches.
+3.  If either of the left or the right branch returns  `True`, this means one of the two nodes was found below.
+4.  If at any point in the traversal, any two of the three flags  `left`,  `right`  or  `mid`  become  `True`, this means we have found the lowest common ancestor for the nodes  `p`  and  `q`. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMzE1MTc4MSw3MTkzNzE1NDgsNjE2Nj
+eyJoaXN0b3J5IjpbLTk1MDM0Nzg0Niw3MTkzNzE1NDgsNjE2Nj
 E0MDg0LDE2NzkwMzIxNTksLTEwNDkwOTgyMjgsLTEyMTQzOTc5
 NDIsLTIwNTA2MjcxODgsMTc1MTA4NzkxNSwxMzczNzU0MjcsLT
 EwMzg0NTk2NTAsLTQxMDQ1MTIwNiwtMTY0MjM5MzkxOCwxMjUy

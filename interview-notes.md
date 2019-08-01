@@ -343,13 +343,16 @@ public class BNode
 3. If the unbalance is caused due to an addition of node on left and right subtree, it is called `l-R balance` and it is rebalanced using LR rotation.
 4. LR rotation is a double rotation. That means there are two steps involved - one to left and then to the right. Any rotation involved just involves 3 nodes at a time.
 ```
+---
+`Lowest Common Ancestor of a Binary Tree`
 
+> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE5MzcxNTQ4LDYxNjYxNDA4NCwxNjc5MD
-MyMTU5LC0xMDQ5MDk4MjI4LC0xMjE0Mzk3OTQyLC0yMDUwNjI3
-MTg4LDE3NTEwODc5MTUsMTM3Mzc1NDI3LC0xMDM4NDU5NjUwLC
-00MTA0NTEyMDYsLTE2NDIzOTM5MTgsMTI1MjczMTk2NywxNjQ3
-Mzc4MzA2LDUyMjI5MTUxLDEwNjg2MzQ1NzMsMTg1MzcwMTczMC
-wtMzk3OTM1Mjc5LC0xOTQ5MjM2Mzg1LC0yMTA3MTU4MzY4LDE4
-MDU2MjEzMzBdfQ==
+eyJoaXN0b3J5IjpbLTE0NTU5MDg4LDcxOTM3MTU0OCw2MTY2MT
+QwODQsMTY3OTAzMjE1OSwtMTA0OTA5ODIyOCwtMTIxNDM5Nzk0
+MiwtMjA1MDYyNzE4OCwxNzUxMDg3OTE1LDEzNzM3NTQyNywtMT
+AzODQ1OTY1MCwtNDEwNDUxMjA2LC0xNjQyMzkzOTE4LDEyNTI3
+MzE5NjcsMTY0NzM3ODMwNiw1MjIyOTE1MSwxMDY4NjM0NTczLD
+E4NTM3MDE3MzAsLTM5NzkzNTI3OSwtMTk0OTIzNjM4NSwtMjEw
+NzE1ODM2OF19
 -->

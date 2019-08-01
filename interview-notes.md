@@ -346,13 +346,15 @@ public class BNode
 ---
 `Lowest Common Ancestor of a Binary Tree`
 
-> 
+>  Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
+ 1. Two ways : recursive or iterative. Recursive very clean.
+ 2.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTU5MDg4LDcxOTM3MTU0OCw2MTY2MT
-QwODQsMTY3OTAzMjE1OSwtMTA0OTA5ODIyOCwtMTIxNDM5Nzk0
-MiwtMjA1MDYyNzE4OCwxNzUxMDg3OTE1LDEzNzM3NTQyNywtMT
-AzODQ1OTY1MCwtNDEwNDUxMjA2LC0xNjQyMzkzOTE4LDEyNTI3
-MzE5NjcsMTY0NzM3ODMwNiw1MjIyOTE1MSwxMDY4NjM0NTczLD
-E4NTM3MDE3MzAsLTM5NzkzNTI3OSwtMTk0OTIzNjM4NSwtMjEw
-NzE1ODM2OF19
+eyJoaXN0b3J5IjpbLTQyMzE1MTc4MSw3MTkzNzE1NDgsNjE2Nj
+E0MDg0LDE2NzkwMzIxNTksLTEwNDkwOTgyMjgsLTEyMTQzOTc5
+NDIsLTIwNTA2MjcxODgsMTc1MTA4NzkxNSwxMzczNzU0MjcsLT
+EwMzg0NTk2NTAsLTQxMDQ1MTIwNiwtMTY0MjM5MzkxOCwxMjUy
+NzMxOTY3LDE2NDczNzgzMDYsNTIyMjkxNTEsMTA2ODYzNDU3My
+wxODUzNzAxNzMwLC0zOTc5MzUyNzksLTE5NDkyMzYzODUsLTIx
+MDcxNTgzNjhdfQ==
 -->

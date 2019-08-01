@@ -344,26 +344,79 @@ public class BNode
 4. LR rotation is a double rotation. That means there are two steps involved - one to left and then to the right. Any rotation involved just involves 3 nodes at a time.
 ```
 ---
-`Course Schedule II`
+`Course Schedule II` **`TOPOLOGICAL SORT`**
 >There are a total of  _n_  courses you have to take, labeled from  `0`  to  `n-1`.
 Some courses may have prerequisites, for example to take course 0 you have to first take course 1, which is expressed as a pair:  `[0,1]`
-
 Given the total number of courses and a list of prerequisite  **pairs**, return the ordering of courses you should take to finish all courses.
+5.  For each of the nodes in our graph, we will run a depth first search in case that node was not already visited in some other node's DFS traversal.
+6.  Suppose we are executing the depth first search for a node  `N`. We will recursively traverse all of the neighbors of node  `N`  which have not been processed before.
+7.  Once the processing of all the neighbors is done, we will add the node  `N`  to the stack. We are making use of a stack to simulate the ordering we need. When we add the node  `N`  to the stack, all the nodes that require the node  `N`  as a prerequisites (among others) will already be in the stack.
+8.  Once all the nodes have been processed, we will simply return the nodes as they are present in the stack from top to bottom.
+```python
+from collections import defaultdict
+class trie:
+    def __init__(self):
+        self.child = []
+        self.visited = False
+class Solution:
+    
+            
+    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
+        
+        def sortData(data_store,current,result,cycle):
+            if cycle[0] == True:
+                return
+            data_store[current].visited = True
+            for element in  data_store[current].child:
+                if data_store[element].visited == False:
+                    sortData(data_store,element,result,cycle)
+                else:
+                    cycle[0] = True
+                    return
+            # print(cycle)
+            data_store[current].visited = False
+            if current not in result:
+                result.append(current)
+            return
+                
+            
+        
+        
+        if numCourses<=1:
+            return [0]
+        
+        
+        data_store = defaultdict(trie)
+        for element in prerequisites:            
+            data_store[element[1]].child.append(element[0])
+        result = []
+        cycle = [False]
+        print(data_store)
 
+        for index in range(numCourses):
+            if index not in result:
+                sortData(data_store,index,result,cycle)
+                
+        print(result)
+        if cycle[0]==True:
+            return []
+        return result[::-1]
+        
+```
 ---
 `Lowest Common Ancestor of a Binary Tree`
 
 >  Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
-1.  Start traversing the tree from the root node.
-2.  If the current node itself is one of  `p`  or  `q`, we would mark a variable  `mid`  as  `True`  and continue the search for the other node in the left and right branches.
-3.  If either of the left or the right branch returns  `True`, this means one of the two nodes was found below.
-4.  If at any point in the traversal, any two of the three flags  `left`,  `right`  or  `mid`  become  `True`, this means we have found the lowest common ancestor for the nodes  `p`  and  `q`. 
+10.  Start traversing the tree from the root node.
+11.  If the current node itself is one of  `p`  or  `q`, we would mark a variable  `mid`  as  `True`  and continue the search for the other node in the left and right branches.
+12.  If either of the left or the right branch returns  `True`, this means one of the two nodes was found below.
+13.  If at any point in the traversal, any two of the three flags  `left`,  `right`  or  `mid`  become  `True`, this means we have found the lowest common ancestor for the nodes  `p`  and  `q`. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MjM4Nzk2MSwtOTUwMzQ3ODQ2LDcxOT
-M3MTU0OCw2MTY2MTQwODQsMTY3OTAzMjE1OSwtMTA0OTA5ODIy
-OCwtMTIxNDM5Nzk0MiwtMjA1MDYyNzE4OCwxNzUxMDg3OTE1LD
-EzNzM3NTQyNywtMTAzODQ1OTY1MCwtNDEwNDUxMjA2LC0xNjQy
-MzkzOTE4LDEyNTI3MzE5NjcsMTY0NzM3ODMwNiw1MjIyOTE1MS
-wxMDY4NjM0NTczLDE4NTM3MDE3MzAsLTM5NzkzNTI3OSwtMTk0
-OTIzNjM4NV19
+eyJoaXN0b3J5IjpbLTEwNDE0MTQ0NzAsLTk1MDM0Nzg0Niw3MT
+kzNzE1NDgsNjE2NjE0MDg0LDE2NzkwMzIxNTksLTEwNDkwOTgy
+MjgsLTEyMTQzOTc5NDIsLTIwNTA2MjcxODgsMTc1MTA4NzkxNS
+wxMzczNzU0MjcsLTEwMzg0NTk2NTAsLTQxMDQ1MTIwNiwtMTY0
+MjM5MzkxOCwxMjUyNzMxOTY3LDE2NDczNzgzMDYsNTIyMjkxNT
+EsMTA2ODYzNDU3MywxODUzNzAxNzMwLC0zOTc5MzUyNzksLTE5
+NDkyMzYzODVdfQ==
 -->

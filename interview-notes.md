@@ -201,7 +201,8 @@ if n != -1: # nums2 is still left
 `Word Search`
 > Given a 2D board and a list of words from the dictionary, find all words in the board.
 
-1. 
+1. Create a trie data structure to store the list of words so that similar prefix are not checked multiple times.
+2. Starting with the root node. For 
 
 ---
 `TREES`
@@ -286,7 +287,7 @@ public class BNode
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTY3ODQ0NTYsMTY3OTAzMjE1OSwtMT
+eyJoaXN0b3J5IjpbLTE5NjM1NjAyOTcsMTY3OTAzMjE1OSwtMT
 A0OTA5ODIyOCwtMTIxNDM5Nzk0MiwtMjA1MDYyNzE4OCwxNzUx
 MDg3OTE1LDEzNzM3NTQyNywtMTAzODQ1OTY1MCwtNDEwNDUxMj
 A2LC0xNjQyMzkzOTE4LDEyNTI3MzE5NjcsMTY0NzM3ODMwNiw1

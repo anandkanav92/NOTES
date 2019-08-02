@@ -407,16 +407,30 @@ class Solution:
 `Lowest Common Ancestor of a Binary Tree`
 
 >  Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
-10.  Start traversing the tree from the root node.
-11.  If the current node itself is one of  `p`  or  `q`, we would mark a variable  `mid`  as  `True`  and continue the search for the other node in the left and right branches.
-12.  If either of the left or the right branch returns  `True`, this means one of the two nodes was found below.
-13.  If at any point in the traversal, any two of the three flags  `left`,  `right`  or  `mid`  become  `True`, this means we have found the lowest common ancestor for the nodes  `p`  and  `q`. 
+ 1.  Start traversing the tree from the root node.
+ 2.  If the current node itself is one of  `p`  or  `q`, we would mark a variable  `mid`  as  `True`  and continue the search for the other node in the left and right branches.
+3.  If either of the left or the right branch returns  `True`, this means one of the two nodes was found below.
+4.  If at any point in the traversal, any two of the three flags  `left`,  `right`  or  `mid`  become  `True`, this means we have found the lowest common ancestor for the nodes  `p`  and  `q`. 
+
+```python
+def local(root,p, q):
+           if root is not None:
+               mid = (root.val == p.val or root.val == q.val)
+               if mid==True:
+                   self.ans = root
+                   return mid
+               left = local(root.left,p,q)
+               right = local(root.right,p,q)
+               if (mid and right) or (mid and left) or (left and right):
+                   self.ans = root
+               return (left or mid or right)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDE0MTQ0NzAsLTk1MDM0Nzg0Niw3MT
-kzNzE1NDgsNjE2NjE0MDg0LDE2NzkwMzIxNTksLTEwNDkwOTgy
-MjgsLTEyMTQzOTc5NDIsLTIwNTA2MjcxODgsMTc1MTA4NzkxNS
-wxMzczNzU0MjcsLTEwMzg0NTk2NTAsLTQxMDQ1MTIwNiwtMTY0
-MjM5MzkxOCwxMjUyNzMxOTY3LDE2NDczNzgzMDYsNTIyMjkxNT
-EsMTA2ODYzNDU3MywxODUzNzAxNzMwLC0zOTc5MzUyNzksLTE5
-NDkyMzYzODVdfQ==
+eyJoaXN0b3J5IjpbLTYyNDI5MjUxOCwtMTA0MTQxNDQ3MCwtOT
+UwMzQ3ODQ2LDcxOTM3MTU0OCw2MTY2MTQwODQsMTY3OTAzMjE1
+OSwtMTA0OTA5ODIyOCwtMTIxNDM5Nzk0MiwtMjA1MDYyNzE4OC
+wxNzUxMDg3OTE1LDEzNzM3NTQyNywtMTAzODQ1OTY1MCwtNDEw
+NDUxMjA2LC0xNjQyMzkzOTE4LDEyNTI3MzE5NjcsMTY0NzM3OD
+MwNiw1MjIyOTE1MSwxMDY4NjM0NTczLDE4NTM3MDE3MzAsLTM5
+NzkzNTI3OV19
 -->

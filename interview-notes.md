@@ -414,19 +414,19 @@ class Solution:
 
 ```python
 def local(root,p, q):
-           if root is not None:
-               mid = (root.val == p.val or root.val == q.val)
-               if mid==True:
-                   self.ans = root
-                   return mid
-               left = local(root.left,p,q)
-               right = local(root.right,p,q)
-               if (mid and right) or (mid and left) or (left and right):
-                   self.ans = root
-               return (left or mid or right)
+   if root is not None:
+       mid = (root.val == p.val or root.val == q.val)
+       if mid==True:
+           self.ans = root
+           return mid
+       left = local(root.left,p,q)
+       right = local(root.right,p,q)
+       if (mid and right) or (mid and left) or (left and right):
+           self.ans = root
+       return (left or mid or right)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNDI5MjUxOCwtMTA0MTQxNDQ3MCwtOT
+eyJoaXN0b3J5IjpbLTgzNjc1NDA4NiwtMTA0MTQxNDQ3MCwtOT
 UwMzQ3ODQ2LDcxOTM3MTU0OCw2MTY2MTQwODQsMTY3OTAzMjE1
 OSwtMTA0OTA5ODIyOCwtMTIxNDM5Nzk0MiwtMjA1MDYyNzE4OC
 wxNzUxMDg3OTE1LDEzNzM3NTQyNywtMTAzODQ1OTY1MCwtNDEw

@@ -425,12 +425,18 @@ def local(root,p, q):
            self.ans = root
        return (left or mid or right)
 ```
+---
+**`Find all ANAGRAMS`** 
+> Given a string  **s**  and a  **non-empty**  string  **p**, find all the start indices of  **p**'s anagrams in  **s**.
+ 1. Use sliding window method.
+ 2. Two maps, one for count of pattern and o 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNjc1NDA4NiwtMTA0MTQxNDQ3MCwtOT
-UwMzQ3ODQ2LDcxOTM3MTU0OCw2MTY2MTQwODQsMTY3OTAzMjE1
-OSwtMTA0OTA5ODIyOCwtMTIxNDM5Nzk0MiwtMjA1MDYyNzE4OC
-wxNzUxMDg3OTE1LDEzNzM3NTQyNywtMTAzODQ1OTY1MCwtNDEw
-NDUxMjA2LC0xNjQyMzkzOTE4LDEyNTI3MzE5NjcsMTY0NzM3OD
-MwNiw1MjIyOTE1MSwxMDY4NjM0NTczLDE4NTM3MDE3MzAsLTM5
-NzkzNTI3OV19
+eyJoaXN0b3J5IjpbLTE2Njk0Mzc3ODUsLTgzNjc1NDA4NiwtMT
+A0MTQxNDQ3MCwtOTUwMzQ3ODQ2LDcxOTM3MTU0OCw2MTY2MTQw
+ODQsMTY3OTAzMjE1OSwtMTA0OTA5ODIyOCwtMTIxNDM5Nzk0Mi
+wtMjA1MDYyNzE4OCwxNzUxMDg3OTE1LDEzNzM3NTQyNywtMTAz
+ODQ1OTY1MCwtNDEwNDUxMjA2LC0xNjQyMzkzOTE4LDEyNTI3Mz
+E5NjcsMTY0NzM3ODMwNiw1MjIyOTE1MSwxMDY4NjM0NTczLDE4
+NTM3MDE3MzBdfQ==
 -->

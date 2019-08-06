@@ -429,14 +429,18 @@ def local(root,p, q):
 **`Find all ANAGRAMS`** 
 > Given a string  **s**  and a  **non-empty**  string  **p**, find all the start indices of  **p**'s anagrams in  **s**.
  1. Use sliding window method.
- 2. Two maps, one for count of pattern and o 
+ 2. Two maps, one for count of pattern and one for sliding window of size p.
+ 3. After each iteration, include the end and remove the start variable to slide the window.
+ 4. O(K * 26) [as fixed size of characters]  
+ 
+ ```pyth
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njk0Mzc3ODUsLTgzNjc1NDA4NiwtMT
-A0MTQxNDQ3MCwtOTUwMzQ3ODQ2LDcxOTM3MTU0OCw2MTY2MTQw
-ODQsMTY3OTAzMjE1OSwtMTA0OTA5ODIyOCwtMTIxNDM5Nzk0Mi
-wtMjA1MDYyNzE4OCwxNzUxMDg3OTE1LDEzNzM3NTQyNywtMTAz
-ODQ1OTY1MCwtNDEwNDUxMjA2LC0xNjQyMzkzOTE4LDEyNTI3Mz
-E5NjcsMTY0NzM3ODMwNiw1MjIyOTE1MSwxMDY4NjM0NTczLDE4
-NTM3MDE3MzBdfQ==
+eyJoaXN0b3J5IjpbMTAzODcyNDcyNSwtODM2NzU0MDg2LC0xMD
+QxNDE0NDcwLC05NTAzNDc4NDYsNzE5MzcxNTQ4LDYxNjYxNDA4
+NCwxNjc5MDMyMTU5LC0xMDQ5MDk4MjI4LC0xMjE0Mzk3OTQyLC
+0yMDUwNjI3MTg4LDE3NTEwODc5MTUsMTM3Mzc1NDI3LC0xMDM4
+NDU5NjUwLC00MTA0NTEyMDYsLTE2NDIzOTM5MTgsMTI1MjczMT
+k2NywxNjQ3Mzc4MzA2LDUyMjI5MTUxLDEwNjg2MzQ1NzMsMTg1
+MzcwMTczMF19
 -->

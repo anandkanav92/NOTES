@@ -433,10 +433,19 @@ def local(root,p, q):
  3. After each iteration, include the end and remove the start variable to slide the window.
  4. O(K * 26) [as fixed size of characters]  
  
- ```pyth
+ ```python
+ while end < len(s):
+	if is_anagram(pattern,window):
+	     result.append(start)
+	window[s[start]] = window[s[start]] - 1
+	start = start+1
+	end = end+1
+	if end<len(s):
+	    window[s[end]] = window[s[end]] + 1
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzODcyNDcyNSwtODM2NzU0MDg2LC0xMD
+eyJoaXN0b3J5IjpbMTY0ODMyMTgxNCwtODM2NzU0MDg2LC0xMD
 QxNDE0NDcwLC05NTAzNDc4NDYsNzE5MzcxNTQ4LDYxNjYxNDA4
 NCwxNjc5MDMyMTU5LC0xMDQ5MDk4MjI4LC0xMjE0Mzk3OTQyLC
 0yMDUwNjI3MTg4LDE3NTEwODc5MTUsMTM3Mzc1NDI3LC0xMDM4

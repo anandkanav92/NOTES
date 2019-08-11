@@ -11,6 +11,7 @@
 	8. Test your code by adding edge cases.
 	9. Elgantly fix your bug.
 	10. Comment on run and space complexity.
+	11. The time complexity of any recursive solution is always dependent upon what variables define its state and if that state is cached or not and also the computation taking place per recursive call.
 ---
 `Sort Colors`
 
@@ -445,11 +446,11 @@ def local(root,p, q):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0ODMyMTgxNCwtODM2NzU0MDg2LC0xMD
-QxNDE0NDcwLC05NTAzNDc4NDYsNzE5MzcxNTQ4LDYxNjYxNDA4
-NCwxNjc5MDMyMTU5LC0xMDQ5MDk4MjI4LC0xMjE0Mzk3OTQyLC
-0yMDUwNjI3MTg4LDE3NTEwODc5MTUsMTM3Mzc1NDI3LC0xMDM4
-NDU5NjUwLC00MTA0NTEyMDYsLTE2NDIzOTM5MTgsMTI1MjczMT
-k2NywxNjQ3Mzc4MzA2LDUyMjI5MTUxLDEwNjg2MzQ1NzMsMTg1
-MzcwMTczMF19
+eyJoaXN0b3J5IjpbMjI2NDc0Njg3LDE2NDgzMjE4MTQsLTgzNj
+c1NDA4NiwtMTA0MTQxNDQ3MCwtOTUwMzQ3ODQ2LDcxOTM3MTU0
+OCw2MTY2MTQwODQsMTY3OTAzMjE1OSwtMTA0OTA5ODIyOCwtMT
+IxNDM5Nzk0MiwtMjA1MDYyNzE4OCwxNzUxMDg3OTE1LDEzNzM3
+NTQyNywtMTAzODQ1OTY1MCwtNDEwNDUxMjA2LC0xNjQyMzkzOT
+E4LDEyNTI3MzE5NjcsMTY0NzM3ODMwNiw1MjIyOTE1MSwxMDY4
+NjM0NTczXX0=
 -->

@@ -9,7 +9,7 @@
 	6. Understand where the bug is coming from and then fix it properly.
 	7. Do one more dry run.
 	8. Test your code by adding edge cases.
-	9. Elgantly fix your bug.
+	9. Elegantly fix your bug.
 	10. Comment on run and space complexity.
 	11. The time complexity of any recursive solution is always dependent upon what variables define its state and if that state is cached or not and also the computation taking place per recursive call.
 ---
@@ -446,11 +446,11 @@ def local(root,p, q):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI2NDc0Njg3LDE2NDgzMjE4MTQsLTgzNj
-c1NDA4NiwtMTA0MTQxNDQ3MCwtOTUwMzQ3ODQ2LDcxOTM3MTU0
-OCw2MTY2MTQwODQsMTY3OTAzMjE1OSwtMTA0OTA5ODIyOCwtMT
-IxNDM5Nzk0MiwtMjA1MDYyNzE4OCwxNzUxMDg3OTE1LDEzNzM3
-NTQyNywtMTAzODQ1OTY1MCwtNDEwNDUxMjA2LC0xNjQyMzkzOT
-E4LDEyNTI3MzE5NjcsMTY0NzM3ODMwNiw1MjIyOTE1MSwxMDY4
-NjM0NTczXX0=
+eyJoaXN0b3J5IjpbMjEzMjM2MjQ2NiwyMjY0NzQ2ODcsMTY0OD
+MyMTgxNCwtODM2NzU0MDg2LC0xMDQxNDE0NDcwLC05NTAzNDc4
+NDYsNzE5MzcxNTQ4LDYxNjYxNDA4NCwxNjc5MDMyMTU5LC0xMD
+Q5MDk4MjI4LC0xMjE0Mzk3OTQyLC0yMDUwNjI3MTg4LDE3NTEw
+ODc5MTUsMTM3Mzc1NDI3LC0xMDM4NDU5NjUwLC00MTA0NTEyMD
+YsLTE2NDIzOTM5MTgsMTI1MjczMTk2NywxNjQ3Mzc4MzA2LDUy
+MjI5MTUxXX0=
 -->

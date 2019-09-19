@@ -13,7 +13,11 @@ When batching you are averaging over more images the intend is not only to speed
 
 If your GPU have enough memory you can reduce the subdivision to load more images into the gpu to process at the same time.
 
+`Precision`
+-
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MjQ3NDU0NiwtMjAwNDQxMzgxNiw5NT
-Q4NDcwMjVdfQ==
+eyJoaXN0b3J5IjpbLTgwMjc5NTkwNSwtMjQyNDc0NTQ2LC0yMD
+A0NDEzODE2LDk1NDg0NzAyNV19
 -->

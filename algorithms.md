@@ -16,8 +16,8 @@ If your GPU have enough memory you can reduce the subdivision to load more image
 `Precision`
 -
 
-
+Precision is how correctly your model predicts a class. Recall is how correctl
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMjc5NTkwNSwtMjQyNDc0NTQ2LC0yMD
-A0NDEzODE2LDk1NDg0NzAyNV19
+eyJoaXN0b3J5IjpbLTE4MDAxNzM5OCwtODAyNzk1OTA1LC0yND
+I0NzQ1NDYsLTIwMDQ0MTM4MTYsOTU0ODQ3MDI1XX0=
 -->

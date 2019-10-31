@@ -453,4 +453,28 @@ def local(root,p, q):
 
  1. Find the decreasing element in the list from right to left.
  2. Replace the decreasing element with the number just greater to the element going left to right.
- 3  Reverse the list starting from the decreased element.
+ 3.  Reverse the list starting from the decreased element.
+ ```python
+    n = len(nums)
+    left,right = n-2,n-1
+    while left>=0:
+        if nums[left]<nums[right]:
+            break
+        else:
+            left = left-1
+            right = right-1
+    if left<0:
+        reverse(nums,0,n-1)
+        return nums
+    decreasing = left
+    diff = nums[decreasing+1]-nums[decreasing]
+    diff_index = decreasing+1
+    for index in range(decreasing+2,n):
+        local_diff = nums[index]-nums[decreasing]
+        if local_diff<=diff and local_diff>0:
+            diff = local_diff
+            diff_index = index
+    nums[decreasing],nums[diff_index] = nums[diff_index],nums[decreasing]
+    reverse(nums,decreasing+1,n-1)
+    return nums
+ ```

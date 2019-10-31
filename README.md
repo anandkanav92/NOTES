@@ -1,6 +1,7 @@
 # NOTES REPOSITORY
 
-### As the name suggests, it has notes for anything and everything :trident:
+`Index`
+---
 
 - Python tuts [here](python-tuts.md)
 - DSA problem/interview notes [here](interview-notes.md)

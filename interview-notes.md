@@ -445,12 +445,12 @@ def local(root,p, q):
 	    window[s[end]] = window[s[end]] + 1
 ```
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMjM2MjQ2NiwyMjY0NzQ2ODcsMTY0OD
-MyMTgxNCwtODM2NzU0MDg2LC0xMDQxNDE0NDcwLC05NTAzNDc4
-NDYsNzE5MzcxNTQ4LDYxNjYxNDA4NCwxNjc5MDMyMTU5LC0xMD
-Q5MDk4MjI4LC0xMjE0Mzk3OTQyLC0yMDUwNjI3MTg4LDE3NTEw
-ODc5MTUsMTM3Mzc1NDI3LC0xMDM4NDU5NjUwLC00MTA0NTEyMD
-YsLTE2NDIzOTM5MTgsMTI1MjczMTk2NywxNjQ3Mzc4MzA2LDUy
-MjI5MTUxXX0=
--->
+---
+**`Next Permutation`**
+> Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers. If such arrangement is not possible, it must rearrange it as the lowest possible order (ie, sorted in ascending order).
+ 
+ ![](resource/next_permutation.gif)
+
+ 1. Find the decreasing element in the list from right to left.
+ 2. Replace the decreasing element with the number just greater to the element going left to right.
+ 3  Reverse the list starting from the decreased element.

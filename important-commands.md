@@ -1,6 +1,6 @@
 # Commands for life
 
-`Screen`
+`Screen` 💻
 ---
 - `screen -S session_name` to start a new session
 - `Ctrl+a c` Create a new window (with shell)
@@ -17,3 +17,5 @@
 - `Ctrl+a X` Close the current region
 
 [source](https://linuxize.com/post/how-to-use-linux-screen/)
+
+

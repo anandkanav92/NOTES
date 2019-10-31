@@ -78,11 +78,3 @@ del list[0]  ## Delete first element
 - python threading_example.py sets `__name__` as main function for threading_example.py
 -  Arguments while declaring a Class is same as extending the class.
 
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NzAxNDk0NywyMTM1NTg2Nzc4LDE2Nz
-YxODMzNTEsLTk2MjI5NDg2MSwzNjU5ODg0NDMsNzYzMTQxMDg4
-LDE1ODg3NDMxOTgsMTU4MTUzMjYxLDE0MjM2NDk4OTQsMzY5Nj
-M1MjE2LDk0ODQ3MDkzNSw4Mjc2MzY3NzUsMTc0ODcyOTE5MCwz
-MjU4NzUwMDJdfQ==
--->

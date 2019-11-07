@@ -21,7 +21,7 @@
  1. store count for each color and ezpz
  2. tricky is to do in one pass with no extra space
  `Awesome Solution below`
- ```python
+```python
  def sortColors(self, nums):
         red = white = 0
         for k in range(0,len(nums)):
@@ -33,7 +33,7 @@
             if v == 0:
                 nums[red] = 0 #red
                 red += 1
-  ```
+```
  ---
 `Simplify Path`
 
@@ -454,6 +454,7 @@ def local(root,p, q):
  1. Find the decreasing element in the list from right to left.
  2. Replace the decreasing element with the number just greater to the element going left to right.
  3.  Reverse the list starting from the decreased element.
+
  ```python
     n = len(nums)
     left,right = n-2,n-1
@@ -478,3 +479,41 @@ def local(root,p, q):
     reverse(nums,decreasing+1,n-1)
     return nums
  ```
+
+
+ ---
+ **`Reverse Nodes in k-Group (HARD)`**
+>Given a linked list, reverse the nodes of a linked list k at a time and return its modified list. k is a positive integer and is less than or equal to the length of the linked list. If the number of nodes is not a multiple of k then left-out nodes in the end should remain as it is.
+
+1. there are 3 main parts to this problem
+  - validate if we need to reverse by checking if the remaining nodes are greater than k
+  - reverse the given k nodes as a group using the code.
+    ```python
+      def reverse(prev,curr, k):
+            last_head = curr
+            while  k:
+                temp = curr.next
+                curr.next = prev
+                prev = curr 
+                curr = temp
+                k -=1 
+            return last_head, curr,prev
+    ```
+  - update the pointers correctly.
+    
+    ```python
+      #original ll : 1->2->3->4->5 and k=2
+      new_tail,now,prev = reverse(None, now, k)
+      #prev is always none. So each group returns 2->1->NONE
+      new_tail.next = now    
+      #new tail is the tail of reversed group and it should point to the head of next group
+      prev_tail.next =  prev
+      #prev tail earlier was pointing to head( now tail). so it is updated to point at new head
+      prev_tail = new_tail
+      #new tail becomes previous so that the connection is updated for the next group as new tail right now points at 3 where as it should be updated to point at 4 after reversing
+      
+    ``` 
+
+
+
+

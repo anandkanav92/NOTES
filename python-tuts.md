@@ -1,6 +1,6 @@
 `key concepts (summary)`
 ---
-- `pass by object reference` 😪
+- `pass by object reference` 😪 
 	+ the reference is passed but using pass by value. A copy of referencing variable is made and passed. Unless a variable is reassigned, the changes are reflected in both the variables.
 	```python
 		listA = [0]

@@ -482,12 +482,12 @@ def local(root,p, q):
 
 
  ---
- **`Reverse Nodes in k-Group (HARD)`**
+ **`Reverse Nodes in k-Group (HARD)`** 🙀
 >Given a linked list, reverse the nodes of a linked list k at a time and return its modified list. k is a positive integer and is less than or equal to the length of the linked list. If the number of nodes is not a multiple of k then left-out nodes in the end should remain as it is.
 
-1. there are 3 main parts to this problem
-  - validate if we need to reverse by checking if the remaining nodes are greater than k
-  - reverse the given k nodes as a group using the code.
+1. there are 3 main parts to this problem 3️⃣
+  - validate if we need to reverse by checking if the remaining nodes are greater than k 1️⃣
+  - reverse the given k nodes as a group using the code. 2️⃣
     ```python
       def reverse(prev,curr, k):
             last_head = curr
@@ -499,7 +499,7 @@ def local(root,p, q):
                 k -=1 
             return last_head, curr,prev
     ```
-  - update the pointers correctly.
+  - update the pointers correctly. 3️⃣
     
     ```python
       #original ll : 1->2->3->4->5 and k=2

@@ -1,3 +1,22 @@
+`key concepts (summary)`
+---
+- `pass by object reference`
+	+ the reference is passed but using pass by value. A copy of referencing variable is made and passed. Unless a variable is reassigned, the changes are reflected in both the variables.
+	```python
+		listA = [0]
+		listB = listA
+		listB.append(1)
+		print listA # [0,1]
+
+		#BUT
+		listA = [0]
+		listB = listA
+		listB = [5,6]
+		print listA # [0]
+	```
+
+	  
+
 `Day 1 - strings`
 ---
 - immutable - once created cannot be changes

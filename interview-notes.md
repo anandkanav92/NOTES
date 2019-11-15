@@ -511,8 +511,61 @@ def local(root,p, q):
       #prev tail earlier was pointing to head( now tail). so it is updated to point at new head
       prev_tail = new_tail
       #new tail becomes previous so that the connection is updated for the next group as new tail right now points at 3 where as it should be updated to point at 4 after reversing
+    ```
       
-    ``` 
+
+---
+ **`search in rotated sorted array`** ♻️
+> Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand. (i.e., [0,1,2,4,5,6,7] might become [4,5,6,7,0,1,2]). You are given a target value to search. If found in the array return its index, otherwise return -1
+
+- use modified binary approach.
+  + use l,m,h to store low, medium and high.
+    + return m if `target==m` 
+    + if `l < m`, that means its only increasing without dip. So if a target is not in between `l and m` then forget this prt of array.
+    + similar check for `m and h` as this checking order matter before moving on to new condition.
+    + if `l>m`, then there is a dip in this part of array and it needs to be checked. As the dip can be only in one part of array and we have checked both part every time for increasing sequence, we can be sure either the element is here or it is not in the array itself.
+    + similar condition for `m<h`.
+    + if it doesn't go in any loop, `return -1`
+
+`Code`
+```python
+while l<=h:
+            # print("{} {} {}".format(l,m,h))
+  if nums[m] == target:
+      return m
+  
+  if l==h and l != target:
+      return -1
+  
+  if nums[l] < nums[m] and target <= nums[m] and target >= nums[l]:
+      l = l
+      h = m - 1
+      m = (l + h)//2
+      continue
+  
+  if nums[m] < nums[h] and target <= nums[h] and target >= nums[m]:
+      h = h
+      l = m + 1
+      m = (l + h)//2
+      continue
+  
+  if nums[l] > nums[m]:
+      l = l
+      h = m -1
+      m = (l + h)//2
+      continue
+  
+  if nums[m] > nums[h]:
+      l = m + 1
+      h = h
+      m = (l + h)//2
+      continue
+  
+  return -1
+                        
+return -1
+```
+
 
 
 

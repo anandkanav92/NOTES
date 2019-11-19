@@ -566,7 +566,70 @@ while l<=h:
 return -1
 ```
 
+---
+ **`validate the sudoko or how to iterate a 2-d matrix in 3v3 grid`** 💮
+ > given a 2-d matrix, validate the sudoko. That is, if rows columns and 3v3  grid contain unique elements between 1-9.
+ 
+ - iterate over 3v3:
+   + outer loop with steps of 3 in both x and y direction
+   + inner loop starting at x, with steps of 1 and ending after 3 iterations in both x and y directions.
 
+```python
+  #loop in 3v3 grid
+  for x in range(0,9,3):
+    for y in range(0,9,3):
+      storage = clearDict(storage)
+      for i in range(x,x+3):
+        for j in range(y,y+3):
+          print("{} {} ".format(i,j))
+          if board[i][j] == ".":
+            continue
+          if storage[int(board[i][j])] == 0:
+            storage[int(board[i][j])] = 1
+          else:
+            print("{} {} {} {} ".format(i,j,board[i][j],storage))
+            return False
+```
+
+---
+ **`combination sum`** 📡
+ > Given a set of candidate numbers (candidates) (without duplicates) and a target number (target), find all unique combinations in candidates where the candidate numbers sums to target.
+
+- two major functions required to solve the problem
+  + sorting the array lets us go in one direction without worrying about combinations with previous elements
+  + next we loop over every element and every possible combination with forward elements. If target == 0, then add to `result`otherwise, target > 0, try with same element and the next possible elements.
+
+```python
+def storeResults(candidates,target,index,current,result):
+  # print("target {} index {}".format(target,index))
+
+  target = target - candidates[index]
+  if target == 0:
+      current.append(candidates[index])
+      result.append(current)
+      print("{}".format(result))
+      return
+  
+  if target < 0:
+      return
+  current = current + [candidates[index]]
+  for index in range(index,len(candidates)):
+      storeResults(candidates,target,index,current,result)
+  # if index < len(candidates)-1:
+  #     storeResults(candidates,target,index+1,current,result)
+  # current = []
+  # print("current {} final return {}".format(current,result))
+  return result
+
+result = []
+current = []
+index = 0
+candidates = sorted(candidates)
+for index in range(0,len(candidates)):
+  final = storeResults(candidates,target,index,current,result)
+return result
+
+```
 
 
 

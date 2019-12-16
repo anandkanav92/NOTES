@@ -1,6 +1,5 @@
 
 # Udemy machine learning [course](https://www.udemy.com/course/machinelearning/learn/lecture/6682576#overview)
----
 
 ### Section data Pre-processing [link](https://www.udemy.com/course/machinelearning/learn/lecture/6682576#overview)
 ---
@@ -33,6 +32,18 @@
     ```
     - Two imp ques: context dependent to feature scale categorical variables.
     - But feature scale on y only if its regression and not classification.
-5. $p(x) = \prod_{i=1}^{n^2} p(x_i | x_1, .. x_{i-1})$ 
-      
+
+### Section ML Models
+---
+1. `Linear regression model`
+    - $y = b_0 + b_1 * x$    
+2. `Multiple linear regression model`
+    - $y = b_0 + b_1 * x_1 + b_2 * x_2 + b_3 * x_3 $    
+3. `Polynomial regression`
+4. `Support vector regression`
+5. `Decision tree regression`
+6. `Random Forest regression`
+7. `Evaluating regression models performance`
+8. `Regularization methods`
+
 

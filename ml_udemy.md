@@ -1,13 +1,16 @@
 
 # Udemy machine learning [course](https://www.udemy.com/course/machinelearning/learn/lecture/6682576#overview)
 
-### Section ML Models
+### Section Image Processing concepts
+---
+1. 
+
+### Section Stats concepts
 ---
 1. `p-value` We reject our null hypothesis is p-value is small. ❌
     - The p-value is NOT the probability the null hypothesis is true. #nots
     - The p-value is NOT the probability the claim is true. #nots
     - The p-value is actually the probability of getting a sample like ours, or more extreme than ours IF the null hypothesis is true. So, we assume the null hypothesis is true and then determine how “strange” our sample really is. If it is not that strange (a large p-value) then we don’t change our mind about the null hypothesis. As the p-value gets smaller, we start wondering if the null really is true and well maybe we should change our minds (and reject the null hypothesis).
-    - 
 
 ### Section data Pre-processing [link](https://www.udemy.com/course/machinelearning/learn/lecture/6682576#overview)
 ---

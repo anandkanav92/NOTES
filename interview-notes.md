@@ -1,3 +1,50 @@
+# System Design
+`Steps to approach system design problem`
+---
+1. `feature extraction (2mins)`:
+  -   It is extremely important hence to get a very clear understanding of whats the requirement for the question.
+2. `Estimations ( 2-5 mins )`:
+  - Next step is usually to estimate the scale required for the system. The goal of this step is to understand the level of sharding required ( if any ) and to zero down on the design goals for the system. 
+  - For example, if the total data required for the system fits on a single machine, we might not need to go into sharding and the complications that go with a distributed system design. 
+  - OR if the most frequently used data fits on a single machine, in which case caching could be done on a single machine.
+3. `Design Goals ( 1 mins )`
+  - Figure out what are the most important goals for the system. It is possible that there are systems which are latency systems in which case a solution that does not account for it, might lead to bad design. 
+4. `Skeleton of the design ( 4 - 5 mins )`
+  - A good strategy is to discuss a very high level with the interviewer and go into a deep dive of components as enquired by the interviewer. 
+5. `Deep dive ( 20-30 mins )`
+
+`Key outcomes of a good system design`
+---
+1. Resilient : shouldn't lose data, no single point of failure.
+2. more inter process communincation and less over the network.
+3. Consistency. The data should be consistent. Atomic operations help in rebuilding the data.
+4. should scale well, horizontal scaling.
+
+ 
+     
+`scalability talk for websites` [link](https://www.youtube.com/watch?v=-W9F__D3oY4&list=PLmhRNZyYVpDmLpaVQm3mK5PY5KB_4hLjE&index=10)
+---
+1. cores are like multiple brain inside single chip. Quad core means, computer can perform 4 operations at once in parallel without considering context switching schduling algorithms.
+2. Load balancers helps distribute the load on your website to different servers. DNS can have only one IP and other server IP would be private and that makes it a bit secure. 
+3. Load balancer can work on multiple heuristics or just simple round robin.
+
+`gaurav sen sharding`
+---
+1. sharding is dividing your databases over multiple servers based on a certain condition(like userid, or location).
+2. problems : 
+  - Join over network between servers 
+  - consistency
+3. use master slave architecture where master is for write operations and slave can be used to handle read requests
+4. go for indexing -> nosql and then sharding as it is very complex
+
+`Bloomfilter`
+---
+1. it is used to check if an item definitely does not exist or may be exists.
+2. k hash functions (murmur and not crypto), m bits to represent data and n items already inserted determine the false positive that an item might exist. 
+3. Bigger the bloom filter size(m), lower the false positive. 
+4. Higher the cache functions, lower false positive but more time.
+5. used by: google big table to check if a data exists before disk lookup.** 
+
 # Algorithms
  `tips`
  ---

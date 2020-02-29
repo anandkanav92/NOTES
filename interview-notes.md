@@ -763,5 +763,48 @@ class Solution:
 - o(n) and o(n) space
 
 ---
+**`Generate Paranthesis`** 🍢
+>Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+
+- key is to always first generate open bracket and then closed ones.
+- add proper conditions
+
+```python
+def local(results,op,cl,n,current,para_open,para_close):
+            # print("current {}".format(current))
+            if cl==n:
+                results.append(current)
+            if op < n:
+                op+=1
+                current+=para_open
+                local(results,op,cl,n,current+para_open,para_open,para_close)
+            if cl < op:
+                cl+=1
+                current+=para_close
+                local(results,op,cl,n,current,para_open,para_close)
+```
+**`24. Swap Nodes in Pairs`** 💦
+>Given a linked list, swap every two adjacent nodes and return its head.
+
+```python
+def swapPairs(self, head: ListNode) -> ListNode:
+        
+        if not head or not head.next:
+            return head
+        dummy = ListNode(0)
+        dummy.next = head
+        prev = dummy
+        while head is not None and head.next is not None:
+            new_head = head.next
+            prev.next = new_head
+            temp = new_head.next
+            new_head.next = head
+            head.next = None
+            prev = head
+            head = temp
+        if head is not None:
+            prev.next = head
+        return dummy.next
+```
 
 

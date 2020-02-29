@@ -677,6 +677,9 @@ for index in range(0,len(candidates)):
 return result
 
 ```
+---
+>**UBER**
+---
 
 ---
  **`Generate all combinations`** 📡
@@ -744,5 +747,21 @@ class Solution:
             ans[tuple(count)].append(s)
         return ans.values()
 ```
+---
+ **`Group Shifted strings`** 📡
+ > Given a string, we can “shift” each of its letter to its successive letter, for example: "abc" -> "bcd". We can keep “shifting” which forms the sequence:
+
+- Generate a diff os consecutive strings i.e "abc" => "11".
+- Use this diff as key and group every string.
+- o(nk) and space o(nk)
+
+---
+**`Two Sum`** 🌄
+>Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+
+- use hashtable. Store the current number and check if the complement exists already.
+- o(n) and o(n) space
+
+---
 
 

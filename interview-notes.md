@@ -839,3 +839,110 @@ def threeSum(self, nums: List[int]) -> List[List[int]]:
         return res
 ```
 
+**`23. Merge k Sorted Lists`** 🚴
+>Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
+
+- Use priority queue which uses min heap to keeo the data in sorted way. o(nlogn)
+- other possible way is to merge two arrays at once and combine them. o(logn) times o(n) for merging two arrays into one.
+
+
+```python
+from Queue import PriorityQueue
+
+class Solution(object):
+    def mergeKLists(self, lists):
+        """
+        :type lists: List[ListNode]
+        :rtype: ListNode
+        """
+        head = point = ListNode(0)
+        q = PriorityQueue()
+        for l in lists:
+            if l:
+                q.put((l.val, l))
+        while not q.empty():
+            val, node = q.get()
+            point.next = ListNode(val)
+            point = point.next
+            node = node.next
+            if node:
+                q.put((node.val, node))
+        return head.next
+```
+**`23. Merge intervals`** 🚹
+>Given a collection of intervals, merge all overlapping intervals.
+
+
+- Sort the starting time and append to the result. For every next item, check if there is a disjoint set or if it overlaps
+
+
+```python
+def merge(self, intervals: List[List[int]]) -> List[List[int]]:
+        if not intervals:
+            return None
+        sorted_intervals = sorted(intervals,key=lambda l:(l[0],l[1]))
+        print(sorted_intervals)
+        start = sorted_intervals[0][0]
+        end = sorted_intervals[0][1]
+        time = end-start
+        max_start = start
+        max_end = end
+        result = []
+        for index in range(1,len(sorted_intervals)):
+            if sorted_intervals[index][0] <= end:
+                if end<sorted_intervals[index][1]:
+                    end = sorted_intervals[index][1]
+                continue
+            else:
+                result.append([start,end])
+                start = sorted_intervals[index][0]
+                end = sorted_intervals[index][1]
+                continue
+        result.append([start,end])
+        return result
+```
+
+**`54. Spiral Matrix`** 🚹
+>Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in spiral order.
+
+
+- Use the distance concept. Start with 0 and then increase one by one.
+
+
+```python
+if not matrix:
+            return None
+        dist = 0
+        row,col = 0,0
+        m,n = len(matrix),len(matrix[0])
+        
+        condition = min(m,n)
+        if condition%2!=0:
+            condition = condition+1
+        result = []
+        while dist<condition//2:
+            
+            for ri in range(dist,n-dist):
+                result.append(matrix[dist][ri])
+            print("result row{}".format(result))
+            row +=1            
+            for ci in range(row,m-row+1):
+                result.append(matrix[ci][n-dist-1])
+            col+=1
+            print("result col{}".format(result))
+            
+            if m-dist-1 != dist:
+                for ri in range(n-dist-2,dist-1,-1):
+                    result.append(matrix[m-dist-1][ri])
+                print("result row back{}".format(result))
+            if dist != n-dist-1:
+                for ci in range(m-row-1,row-1,-1):
+                    result.append(matrix[ci][dist])
+            dist+=1
+            print("result row fwd{}".format(result))
+     
+        return result
+
+
+
+

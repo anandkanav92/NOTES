@@ -305,39 +305,138 @@ def numDecodings(self, s: str) -> int:
         return count
 ```
 ---
-**`29. Decode ways`** 🚹
->A message containing letters from A-Z is being encoded to numbers using the following mapping:
 
-- DP problem. Similar to stair problem where you can take either 1 or more steps, or game problem where you play with other person.
-- For every step, you can pick one or two strings and validate if it could be mapped to our criteria. If it reaches end, that means all the below ones had valid combinations.
-- In DP, you have runtime = number of unique states/parameter X time taken for each state. In this case, each state is O(1) and unique states are n, so O(n) with O(n) space.
+**`104. Maximum Depth of Binary Tree`** 🌲
+>The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+
+- do a post traversal and for each level do a +1. If root is none, return -1, as we did a +1 for every level first even when the level doesn't exist.
+
+```python
+def maxDepth(self, root: TreeNode) -> int:
+        if not root:
+            return 0
+        def getDepth(root):
+            if root:
+                ldepth = 1+getDepth(root.left)
+                # print("ldepth {}".format(ldepth))
+                rdepth = 1+getDepth(root.right)
+                # print("rdepth {}".format(rdepth))
+
+                return max(ldepth,rdepth)
+            else:
+                return 0
+        
+        return getDepth(root)+1
+```
+---
+**`133. Clone Graph`** 🉐
+>Given a reference of a node in a connected undirected graph. Return a deep copy (clone) of the graph.
+
+- question is asking to do a dfs of a graph, and make a copy of the current graph and return.
+- create a dict with key as val and containing list to neighbors.
+- start with 1 and do dfs and keep creating new node when encountered for the first time, otherwise ad neighbors. simple code below.
+
+```python
+def cloneGraph(self, node: 'Node') -> 'Node':
+    if not node:
+        return node
+    root = Node(node.val)
+    stack = [node]
+    visit = {}
+    visit[node.val] = root
+    while stack:
+        top = stack.pop()
+
+        for n in top.neighbors:
+            if n.val not in visit:
+                stack.append(n)
+                visit[n.val] = Node(n.val)
+            visit[top.val].neighbors.append(visit[n.val])
+
+    return root
+```
+
+---
+**`122. Best Time to Buy and Sell Stock II`** 💰
+>Say you have an array for which the ith element is the price of a given stock on day i. Design an algorithm to find the maximum profit. You may complete as many transactions as you like (i.e., buy one and sell one share of the stock multiple times).
+
+- trick is, we check the difference between consecutive elements to get profit.
+
+```python
+def cloneGraph(self, node: 'Node') -> 'Node':
+    if not node:
+        return node
+    root = Node(node.val)
+    stack = [node]
+    visit = {}
+    visit[node.val] = root
+    while stack:
+        top = stack.pop()
+
+        for n in top.neighbors:
+            if n.val not in visit:
+                stack.append(n)
+                visit[n.val] = Node(n.val)
+            visit[top.val].neighbors.append(visit[n.val])
+
+    return root
+```
+---
+**`138. Copy List with Random Pointer`** 🍴
+>A linked list is given such that each node contains an additional random pointer which could point to any node in the list or null.
+
+- Similar to clone graph. make a dict looking out for any future declaration of nodes in next and random pointer. Important twist is to make a dict on full node rather than just value asvalue will be repeated. 
 
 
 ```python
-def numDecodings(self, s: str) -> int:
-        if not s:
-            return None
-        if int(s[0])==0:
-            return 0
-        dp = [-1] * len(s)
-        def recursive(s):
-            if not s:
-                return 1
-           
-            if dp[len(s)-1]>-1:
-                return dp[len(s)-1]
+    def copyRandomList(self, head: 'Node') -> 'Node':
+        visited = {
             
-            count = 0
-            if 0<int(s[0])<10:
-                count = count + recursive(s[1:])
-            
-            if len(s)>=2:
-                if 0<int(s[0]+s[1])<27 and int(s[0])!=0:
-                    count = count + recursive(s[2:])
-            dp[len(s)-1] = count        
-            return dp[len(s)-1] 
+        }
         
-        count = 0
-        return recursive(s)
-        return count
+        if not head:
+            return head
+        root = Node(head.val)
+        ramba = head
+        
+        while head:
+            if head not in visited:
+                visited[head] = Node(head.val)
+            if head.next and head.next not in visited:
+                
+                visited[head.next] = Node(head.next.val)
+            
+            if head.next:
+                visited[head].next = visited[head.next]
+            else:
+                visited[head].next = None
+                
+            if head.random and head.random not in visited:
+                visited[head.random] = Node(head.random.val)
+                
+            if head.random:
+                visited[head].random = visited[head.random]
+            else:
+                visited[head].random = None
+            head = head.next
+        return visited[ramba]
 ```
+---
+**`Min value in a stack`** 📭
+>getMin() -- Retrieve the minimum element in the stack.
+
+- Very good technique is to store a tuple in the stack, storing the minimum value at that point inside the stack. update everytime you enter the new value in stack.
+
+
+```python
+    def push(self, x):
+        """
+        :type x: int
+        :rtype: nothing
+        """
+        if not self.stack:
+            self.stack.append((x,x)) 
+        else:
+            self.stack.append((x,min(x,self.stack[-1][1])))
+```
+

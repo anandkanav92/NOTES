@@ -1,7 +1,7 @@
 ---
->**UBER**
+**UBER** 🚗
 ---
- **`Generate all combinations`** 📡
+**`Generate all combinations`** 🈺
  > Given a string containing digits from 2-9 inclusive, return all possible letter combinations that the number could represent. A mapping of digit to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.
 
 - Create a mapping from number to set of letters.
@@ -45,7 +45,7 @@ class Solution:
 ```
 
 ---
- **`Group Anagrams`** 📡
+ **`Group Anagrams`** 🍌
  > Given an array of strings, group anagrams together. Input: ["eat", "tea","tan", "ate", "nat", "bat"], Output:
 [
   ["ate","eat","tea"],

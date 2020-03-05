@@ -439,4 +439,324 @@ def cloneGraph(self, node: 'Node') -> 'Node':
         else:
             self.stack.append((x,min(x,self.stack[-1][1])))
 ```
+---
+**`K Closest Points to Origin`**
+>We have a list of points on the plane.  Find the K closest points to the origin (0, 0).(Here, the distance between two points on a plane is the Euclidean distance.)
 
+- Generalised concept: there is a metric for each datapoint, need to sort on the fly. 
+- priority queue will do the sort in o(n log(n)), then retrieve the top K elements from the queue. 
+
+
+```python
+def kClosest(self, points: List[List[int]], K: int) -> List[List[int]]:
+        def calc(point):
+            return math.sqrt(point[0]*point[0]+point[1]*point[1])
+        if not points:
+            return []
+        
+        queue = PriorityQueue()
+        
+        for index in range(len(points)):
+            dist = calc(points[index])
+            queue.put((dist,points[index]))
+        
+        results = [
+            
+        ]
+        for index in range(0,K):
+            # print(queue.get())
+            ramu = queue.get()
+            results.append(ramu[1])
+        return results
+```
+---
+**`Word Break`** 1️⃣
+>Given a non-empty string s and a dictionary wordDict containing a list of non-empty words, determine if s can be segmented into a space-separated sequence of one or more dictionary words.
+
+- think with recursion and then build up to DP.
+- store value at every break point, so that itcould be used in the future. 
+- at every point if the current word is in dict, break it. if all the following breakpoints in the word are true, then return true else false.
+
+
+```python
+def wordBreak(self, s: str, wordDict: List[str]) -> bool:
+        if not s:
+            return s
+        
+        n=len(s)
+        memo = [-1]*n
+        
+        def local(s,worDict,index,n):
+            if index>=n:
+                return True
+            
+            if memo[index] != -1:
+                return memo[index]
+            
+            for count in range(index,len(s)):
+                if s[index:count+1] in worDict:
+                    if local(s,wordDict,count+1,n):
+                        memo[index]= True
+                        return memo[index]
+            memo[index]= False
+            return memo[index]
+        return local(s,wordDict,0,n)
+```
+---
+**`Word Break 2`** 2️⃣
+>Given a non-empty string s and a dictionary wordDict containing a list of non-empty words, determine if s can be segmented into a space-separated sequence of one or more dictionary words.
+
+- Very Important trick! instead of starting with string, start with words in dict. As the string should start or match atleast one word, if s doesn't start with word, continue.
+- if there is a match : 
+    + if len(s) == word that means no other word exist. so just append the word and continue. This is the base case that makes sure the string is added only if there is a positive end.
+    + if there is more string left, recurse to the new substring and add every new result with a space.
+    
+
+```python
+def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:
+        if not s:
+            return s
+        
+        n = len(s)
+        memo = {}
+        def helper(s,wordDict,memo):
+            if s in memo: return memo[s]
+            if not s: return []
+
+            res = []
+            for word in wordDict:
+                if not s.startswith(word):
+                    continue
+                if len(word) == len(s):
+                    res.append(word)
+                else:
+                    resultOfTheRest = helper(s[len(word):], wordDict, memo)
+                    for item in resultOfTheRest:
+                        item = word + ' ' + item
+                        res.append(item)
+            memo[s] = res
+            return res
+        
+        return helper(s,wordDict,memo)
+```
+---
+`** Reverse Words in a String II**` 🔁
+> Given an input string, reverse the string word by word. A word is defined as a sequence of non-space characters. For example, Given s = "the sky is blue",
+return "blue is sky the".
+
+- key is first reverse every word seperately. Then reverse the whole string.
+
+---
+**`72. Edit Distance`**🎲
+>Given two words word1 and word2, find the minimum number of operations required to convert word1 to word2.You have the following 3 operations permitted on a word:
+Insert a character
+Delete a character
+Replace a character
+
+- at every step, we have 3 options. 
+    + Delete a character from host string <==> Inserting a character in other string.
+    + Replace a charcter in the host string.
+    + insert a character in the host string <==> Delete a character from host string.
+- If two character indexes are equal, we move both indexes forward.
+
+```python
+def minDistance(self, word1: str, word2: str) -> int:
+        
+        n = len(word1)
+        m = len(word2)
+        memo = {}
+        def local(word1,word2,m_index,n_index,n,m):
+            if m_index>=m:
+                return max(n-n_index,0)
+            elif n_index>=n:
+                # print(m-m_index)
+                return max(m-m_index,0)
+            if (n_index,m_index) in memo:
+                return memo[(n_index,m_index)]
+            if word1[n_index] == word2[m_index]:
+                memo[(n_index,m_index)] = local(word1,word2,m_index+1,n_index+1,n,m)
+                return memo[(n_index,m_index)] 
+            
+            memo[(n_index,m_index)] =   min(
+                      1+local(word1,word2,m_index,n_index+1,n,m),
+                      1+local(word1,word2,m_index+1,n_index,n,m),
+                      1+local(word1,word2,m_index+1,n_index+1,n,m)
+            )
+            return memo[(n_index,m_index)] 
+        
+        return local(word1,word2,0,0,n,m)
+```
+---
+**`Reverse Linked List II`**🔗
+>Reverse a linked list from position m to n. Do it in one-pass.
+
+- loop over until m is reached.
+- take three pointer approach. prev=m-1, curr = m, third=m+1
+- keep track of tail global node, and the node that would be new head of the reversed list i.e current.
+
+```python
+def reverseBetween(self, head: ListNode, m: int, n: int) -> ListNode:
+        if not head:
+            return None
+
+        # Move the two pointers until they reach the proper starting point
+        # in the list.
+        cur, prev = head, None
+        while m > 1:
+            prev = cur
+            cur = cur.next
+            m, n = m - 1, n - 1
+
+        # The two pointers that will fix the final connections.
+        tail, con = cur, prev
+
+        # Iteratively reverse the nodes until n becomes 0.
+        while n:
+            third = cur.next
+            cur.next = prev
+            prev = cur
+            cur = third
+            n -= 1
+
+        # Adjust the final connections as explained in the algorithm
+        if con:
+            con.next = prev
+        else:
+            head = prev
+        tail.next = cur
+        return head
+```
+---
+**`230. Kth Smallest Element in a BST`**
+>Given a binary search tree, write a function kthSmallest to find the kth smallest element in it.
+
+- if doing via recursion, store the value in thelist and get kth index.
+
+```python
+    def kthSmallest(self, root, k):
+        """
+        :type root: TreeNode
+        :type k: int
+        :rtype: int
+        """
+        stack = []
+        
+        while True:
+            while root:
+                stack.append(root)
+                root = root.left
+            root = stack.pop()
+            k -= 1
+            if not k:
+                return root.val
+            root = root.right
+```
+---
+**`106. Construct Binary Tree from Inorder and Postorder Traversal`**🌴
+
+- Very simple recursive solution! The last value in postorder is the root. And then next value is right root, and go on.
+- So for every value in postorder we would divide the tree to root.right and root.left. See below!
+
+```python
+def buildTree(self, inorder: List[int], postorder: List[int]) -> TreeNode:
+    if inorder:
+        val = postorder.pop()
+        index = inorder.index(val)
+        root = TreeNode(val)
+        root.right = self.buildTree(inorder[index+1:], postorder)
+        root.left = self.buildTree(inorder[0:index], postorder)
+        return root
+```
+---
+**`Group shifted strings`**🚢
+>Given an array of strings (all lowercase letters), the task is to group them in such a way that all strings in a group are shifted versions of each other.
+- store each string in hashmap using key as (len,consecutive_difference)
+- if key exists, append to list.
+---
+```python
+def group_shifted(n):
+    store = {}
+
+    for word in n:
+        tup = cal_dist(word)
+        if tup in store:
+            store[tup].append(word)
+        else:
+            store[tup] = [word]
+
+    print(store)
+    return store
+```
+---
+**`Word Pattern II`**
+>Given a pattern and a string str, find if str follows the same pattern.
+
+```python
+def match(self, pattern, str, r1, r2):
+        if not (pattern or str):
+            return True
+
+        if not pattern and str or pattern and not str:
+            return False
+
+        char = pattern[0]
+        for j in xrange(len(str)):
+            substr = str[:j + 1]
+            if char not in r1 and substr not in r2:
+                r1[char] = substr
+                r2[substr] = char
+
+                if self.match(pattern[1:], str[j + 1:], r1, r2):
+                    return True
+
+                del r1[char]
+                del r2[substr]
+
+            elif (char in r1 and r1[char] == substr and
+                    self.match(pattern[1:], str[j + 1:], r1, r2)):
+                return True
+
+        return False
+
+def wordPatternMatch(self, pattern, str):
+    r1, r2 = {}, {}
+    return self.match(pattern, str, r1, r2)
+```
+---
+**`Serialize deserialize tree`**
+>Serialize and deserialize methods for tree.
+
+```python
+def serialize(self, root):
+        if not root: return 'x'
+        return root.val, self.serialize(root.left), self.serialize(root.right)
+        # return (1, (2, 'x', 'x'), (3, (4, 'x', 'x'), (5, 'x', 'x')))
+
+def deserialize(self, data):
+    if data[0] == 'x': return None
+    node = TreeNode(data[0])
+    node.left = self.deserialize(data[1])
+    node.right = self.deserialize(data[2])
+    return node
+```
+---
+**`House robbery DP`**
+>You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed. All houses at this place are arranged in a circle. That means the first house is the neighbor of the last one. Meanwhile, adjacent houses have security system connected and it will automatically contact the police if two adjacent houses were broken into on the same night.
+- similar structure to coin problem, stair problem etc
+
+
+```python
+def get_max(nums):
+            if len(nums)<=2:
+                return max(nums)
+        
+            dp = [0]*len(nums)
+            dp[0] = nums[0]
+            dp[1] = max(nums[0], nums[1])
+            for i in range(1, len(nums)):
+                dp[i] = max(nums[i] + dp[i-2], dp[i-1])
+            # print(nums, dp)
+            return max(dp)
+        
+        return max(get_max(nums[:-1]), get_max(nums[1:]))
+```

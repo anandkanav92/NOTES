@@ -760,3 +760,77 @@ def get_max(nums):
         
         return max(get_max(nums[:-1]), get_max(nums[1:]))
 ```
+
+---
+**`Diameter of a binary tree`**
+>Given a binary tree, you need to compute the length of the diameter of the tree. The diameter of a binary tree is the length of the longest path between any two nodes in a tree. This path may or may not pass through the root.
+- the longest might or might not go through the root.
+- so the longest path is max(lheight+rheight+1,max(diameter(ltree),diameter(rtree)))
+
+
+```python
+def height(node): 
+      
+            # Base Case : Tree is empty 
+            if node is None: 
+                return 0 ; 
+
+            # If tree is not empty then height = 1 + max of left  
+            # height and right heights  
+            return 1 + max(height(node.left) ,height(node.right)) 
+
+        # Function to get the diamtere of a binary tree 
+        def diameter(root): 
+
+            # Base Case when tree is empty  
+            if root is None: 
+                return 0; 
+
+            # Get the height of left and right sub-trees 
+            lheight = height(root.left) 
+            rheight = height(root.right) 
+
+            # Get the diameter of left and irgh sub-trees 
+            ldiameter = diameter(root.left) 
+            rdiameter = diameter(root.right) 
+
+            # Return max of the following tree: 
+            # 1) Diameter of left subtree 
+            # 2) Diameter of right subtree 
+            # 3) Height of left subtree + height of right subtree +1  
+            return max(lheight + rheight + 1, max(ldiameter, rdiameter)) 
+        
+        return diameter(root)-1
+```
+---
+**`Product of Array Except Self`**
+>Given an array nums of n integers where n > 1,  return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].
+- division not allowed else ezpz.
+- keep two array left and right and output[i] = left[i]*right[i]
+- 🔰 just keep left and do two iterations. One from l to r storing left product values. then do r to l updating final output on the fly.
+
+
+```python
+def productExceptSelf(self, nums: List[int]) -> List[int]:
+    n = len(nums)
+    outputs = [-1]*n
+    left = [1]*n
+    right = [1]*n
+
+    for index in range(1,n):
+        left[index] = left[index-1]*nums[index-1]
+    outputs[n-1] = left[n-1]
+    left[n-1] = 1
+    # print(left)
+    # print(outputs)
+
+    for index in range(n-2,-1,-1):
+        # print("{} {}".format(left[index],nums[index+1]))
+        temp = left[index]
+        left[index] = nums[index+1]*left[index+1]
+        # print(left)
+        outputs[index] = left[index]*temp
+    # print(outputs)
+
+    return outputs
+```

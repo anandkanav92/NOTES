@@ -834,3 +834,24 @@ def productExceptSelf(self, nums: List[int]) -> List[int]:
 
     return outputs
 ```
+---
+**`Valid Parenthesis String`**
+>Given a string containing only three types of characters: '(', ')' and '*', write a function to check whether this string is valid. We define the validity of a string by these rules.
+- two pointers hi and lo. hi will assume `*` as `(` and increment the `(` count. While lo will assume `*` as `)` and decrement the count.
+- Any moment hi goes below 0 that means it cannot be balanced and break.
+- if low is <=0 -> return True 
+
+
+```python
+lo = hi = 0
+for c in s:
+    lo += 1 if c == '(' else -1
+    hi += 1 if c != ')' else -1
+    if hi < 0: break
+    lo = max(lo, 0)
+
+return lo == 0
+```
+---
+
+
